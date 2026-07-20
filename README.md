@@ -15,11 +15,15 @@ Only experiment identifiers, aggregate percentages, evidence level, and target s
 
 ## Leading full-denominator real-hardware result
 
-| Version | X error | Z error | Pooled baseline | Pooled candidate | Improvement | Relative reduction | Coverage | Evidence |
-|---|---:|---:|---:|---:|---:|---:|---:|---|
-| V12 | 38.42284% (baseline 39.21682%) | 26.25077% (baseline 28.14275%) | 33.67978% | 32.33681% | 1.34298 pp | 3.9875% | 100% (259,200 shots) | Repeated real-hardware evaluation |
+| Version | X error | Z error | Pooled baseline | Pooled candidate | Improvement | Relative reduction | Coverage | LER/cycle | Evidence |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| V12 | 38.42284% (baseline 39.21682%) | 26.25077% (baseline 28.14275%) | 33.67978% | 32.33681% | 1.34298 pp | 3.9875% | 100% (259,200 shots) | Not validated | Repeated real-hardware evaluation |
 
 The X and Z columns each contain 129,600 scored shots from the same three blocks. V12 improved X by 0.79398 percentage points and Z by 1.89198 points. The below-1% full-denominator target has not been achieved.
+
+`LER/cycle` remains `Not validated` because these aggregate failure percentages cannot be divided by round count. A publishable per-cycle metric requires a stable fit across matched circuit cohorts and round counts.
+
+Using the published log-fidelity slope method on the available 3-, 5-, and 7-round records, all 14 Z fits passed the declared quality gate but none of the 14 X fits passed. A combined two-basis per-cycle number is therefore not reported.
 
 ## Conditional real-hardware result requiring separate interpretation
 
@@ -31,11 +35,11 @@ This row is not ranked against the full-denominator table.
 
 ## Confirmed and repeated historical improvements
 
-| Version | Baseline error | Candidate error | Absolute improvement | Relative reduction | Evidence |
-|---|---:|---:|---:|---:|---|
-| V12 | 33.67978% | 32.33681% | 1.34298 percentage points | 3.9875% | Repeated across 259,200 untouched evaluation shots |
-| V38 | 35.7153% | 34.4201% | 1.29514 percentage points | 3.6265% | Independent 86,400-shot evaluation block |
-| V39 | 46.512731% | 45.708333% | 0.804398 percentage points | 1.7294% | Independent 86,400-shot evaluation block |
+| Version | Baseline error | Candidate error | Absolute improvement | Relative reduction | LER/cycle | Evidence |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| V12 | 33.67978% | 32.33681% | 1.34298 percentage points | 3.9875% | Not validated | Repeated across 259,200 untouched evaluation shots |
+| V38 | 35.7153% | 34.4201% | 1.29514 percentage points | 3.6265% | Not validated | Independent 86,400-shot evaluation block |
+| V39 | 46.512731% | 45.708333% | 0.804398 percentage points | 1.7294% | Not validated | Independent 86,400-shot evaluation block |
 
 Results use different datasets and comparators and must not be added together.
 
