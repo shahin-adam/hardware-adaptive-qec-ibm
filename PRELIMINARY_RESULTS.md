@@ -2,9 +2,9 @@
 
 Updated 20 July 2026.
 
-Project team: Dr Weisheng Si, Principal Investigator and academic supervisor; Shahin Adam, lead student researcher and technical implementer. Western Sydney University.
+Project team: Dr Weisheng, academic supervisor; Shahin Adam, lead student researcher and technical implementer. Western Sydney University.
 
-This page supplies sanitized preliminary evidence for the proposed IBM Quantum Credits Program application. The application and all IBM terms remain subject to Dr Si's personal review and acceptance.
+This page supplies sanitized preliminary evidence from a study of reducing logical quantum-error-correction error rates across two complementary bases. Aggregate percentages remain subject to academic review.
 
 This public page intentionally contains only experiment identifiers, aggregate percentage fields, sanitized status, evidence level, and target status. Private methods and current research ideas are excluded.
 
@@ -15,51 +15,51 @@ This public page intentionally contains only experiment identifiers, aggregate p
 | V81 | X | 3.545% | 1.980% | 44.15% | Synthetic development; confirmation running |
 | V81 | Z | 3.805% | 2.760% | 27.46% | Synthetic development; confirmation running |
 
-The below-1% two-basis target has not yet been achieved. V81 has not been confirmed on IBM hardware.
+The below-1% two-basis target has not yet been achieved. V81 has not been confirmed on hardware.
 
 ## Complete audited ledger index
 
 | Ledger ID | Version | Baseline % | Candidate % | Change (pp) | Public status |
 |---|---|---:|---:|---:|---|
-| E01 | - | 46.4615 | 46.4231 | 0.0384 | development |
-| E02 | - | 46.4231 | 45.2051 | 1.2180 | development |
-| E03 | - | 44.9292 | 44.0908 | 0.8383 | passed / confirmed as labelled |
-| E04 | - | 44.0908 | 42.6442 | 1.4466 | documented |
-| E05 | - | 45.8205 | 45.3237 | 0.4968 | development |
-| E06 | - | - | 44.1282 | - | development |
-| E07 | - | - | 45.4199 | - | development |
-| E08 | - | 42.2532 | 42.1987 | 0.0545 | development |
-| E09 | - | 42.2532 | 42.2596 | -0.0064 | failed / sealed |
-| E10 | - | 44.1282 | 42.7404 | 1.3878 | development |
-| E11 | - | 42.2532 | 42.7404 | -0.4872 | failed / sealed |
-| E12 | - | 42.2532 | 42.8173 | -0.5641 | failed / sealed |
-| E13 | - | 42.2532 | 42.2340 | 0.0192 | development |
-| E14 | - | 43.3650 | 42.3680 | 0.9970 | passed / confirmed as labelled |
-| E15 | - | 42.3680 | 34.2720 | 8.0960 | passed / confirmed as labelled |
-| E16 | - | 33.6630 | 33.0140 | 0.6490 | passed / confirmed as labelled |
-| E17 | - | 36.2850 | 36.1600 | 0.1240 | passed / confirmed as labelled |
-| E18 | - | 36.4470 | 36.1600 | 0.2860 | passed / confirmed as labelled |
+| E01 | — | 46.4615 | 46.4231 | 0.0384 | development |
+| E02 | — | 46.4231 | 45.2051 | 1.2180 | development |
+| E03 | — | 44.9292 | 44.0908 | 0.8383 | passed / confirmed as labelled |
+| E04 | — | 44.0908 | 42.6442 | 1.4466 | documented |
+| E05 | — | 45.8205 | 45.3237 | 0.4968 | development |
+| E06 | — | — | 44.1282 | — | development |
+| E07 | — | — | 45.4199 | — | development |
+| E08 | — | 42.2532 | 42.1987 | 0.0545 | development |
+| E09 | — | 42.2532 | 42.2596 | -0.0064 | failed / sealed |
+| E10 | — | 44.1282 | 42.7404 | 1.3878 | development |
+| E11 | — | 42.2532 | 42.7404 | -0.4872 | failed / sealed |
+| E12 | — | 42.2532 | 42.8173 | -0.5641 | failed / sealed |
+| E13 | — | 42.2532 | 42.2340 | 0.0192 | development |
+| E14 | — | 43.3650 | 42.3680 | 0.9970 | passed / confirmed as labelled |
+| E15 | — | 42.3680 | 34.2720 | 8.0960 | passed / confirmed as labelled |
+| E16 | — | 33.6630 | 33.0140 | 0.6490 | passed / confirmed as labelled |
+| E17 | — | 36.2850 | 36.1600 | 0.1240 | passed / confirmed as labelled |
+| E18 | — | 36.4470 | 36.1600 | 0.2860 | passed / confirmed as labelled |
 | E19 | V2 | 36.0292 | 35.5542 | 0.4750 | development |
 | E20 | V2 | 36.3823 | 36.5354 | -0.1531 | passed / confirmed as labelled |
-| E21 | V3 | NA | NA | 1.4583 | development |
-| E22 | V3 | NA | NA | 1.4974 | failed / sealed |
+| E21 | V3 | — | — | 1.4583 | development |
+| E22 | V3 | — | — | 1.4974 | failed / sealed |
 | E23 | V3 | 38.4271 | 38.0990 | 0.3281 | passed / confirmed as labelled |
 | E24 | V3 | 31.7938 | 29.8250 | 1.9688 | passed / confirmed as labelled |
 | E25 | V4 | 38.4271 | 38.0125 | 0.4146 | documented |
 | E26 | V4 | 37.9109 | 37.2604 | 0.6505 | passed / confirmed as labelled |
 | E27 | V4 | 41.6528 | 37.7500 | 3.9028 | passed / confirmed as labelled |
-| E28 | - | 37.9918 | 38.3158 | -0.3241 | failed / sealed |
-| E29 | - | 27.4130 | 26.3870 | 1.0260 | passed / confirmed as labelled |
-| E30 | - | 15.8260 | 17.5620 | -1.7360 | passed / confirmed as labelled |
-| E31 | - | NA | NA | 0.1333 | development |
-| E32 | - | NA | NA | 0.0000 | passed / confirmed as labelled |
-| E33 | - | 45.2051 | 45.1058 | 0.0994 | development |
-| E34 | - | 45.2051 | 44.9647 | 0.2404 | development |
-| E35 | - | 45.2051 | 45.9006 | -0.6955 | failed / sealed |
-| E36 | - | 44.7949 | 44.4744 | 0.3205 | development |
-| E37 | - | 36.0375 | 34.7406 | 1.2969 | development |
-| E38 | - | 36.0375 | 35.0380 | 0.9995 | development |
-| E39 | - | 36.0375 | 34.5208 | 1.5167 | development |
+| E28 | — | 37.9918 | 38.3158 | -0.3241 | failed / sealed |
+| E29 | — | 27.4130 | 26.3870 | 1.0260 | passed / confirmed as labelled |
+| E30 | — | 15.8260 | 17.5620 | -1.7360 | passed / confirmed as labelled |
+| E31 | — | — | — | 0.1333 | development |
+| E32 | — | — | — | 0.0000 | passed / confirmed as labelled |
+| E33 | — | 45.2051 | 45.1058 | 0.0994 | development |
+| E34 | — | 45.2051 | 44.9647 | 0.2404 | development |
+| E35 | — | 45.2051 | 45.9006 | -0.6955 | failed / sealed |
+| E36 | — | 44.7949 | 44.4744 | 0.3205 | development |
+| E37 | — | 36.0375 | 34.7406 | 1.2969 | development |
+| E38 | — | 36.0375 | 35.0380 | 0.9995 | development |
+| E39 | — | 36.0375 | 34.5208 | 1.5167 | development |
 | E40 | V5 | 33.5498 | 33.5498 | 0.0000 | passed / confirmed as labelled |
 | E41 | V6 | 36.0375 | 34.4469 | 1.5906 | development |
 | E42 | V7 | 36.0375 | 34.3063 | 1.7313 | development |
@@ -68,10 +68,10 @@ The below-1% two-basis target has not yet been achieved. V81 has not been confir
 | E45 | V9 | 32.6400 | 33.2894 | -0.6493 | passed / confirmed as labelled |
 | E46 | V10 | 33.0949 | 32.1088 | 0.9861 | development |
 | E47 | V10 | 35.0035 | 33.6435 | 1.3600 | passed / confirmed as labelled |
-| E48 | V11 | NA | NA | 1.0081 | failed / sealed |
-| E49 | V11 | NA | NA | 1.1979 | failed / sealed |
-| E50 | - | NA | NA | 0.5012 | failed / sealed |
-| E51 | V11 | NA | NA | 1.0918 | failed / sealed |
+| E48 | V11 | — | — | 1.0081 | failed / sealed |
+| E49 | V11 | — | — | 1.1979 | failed / sealed |
+| E50 | — | — | — | 0.5012 | failed / sealed |
+| E51 | V11 | — | — | 1.0918 | failed / sealed |
 | E52 | V12 | 35.0035 | 33.7790 | 1.2245 | development |
 | E53 | V10, V12 | 33.7311 | 32.3553 | 1.3758 | development |
 | E54 | V12 | 36.4120 | 35.5301 | 0.8819 | passed / confirmed as labelled |
@@ -98,32 +98,32 @@ The below-1% two-basis target has not yet been achieved. V81 has not been confir
 | E75 | V19 | 35.5301 | 35.5023 | 0.0278 | documented |
 | E76 | V19 | 40.1274 | 39.4904 | 0.6370 | failed / sealed |
 | E77 | V19 | 40.1274 | 39.4904 | 0.6370 | documented |
-| E78 | V19 | - | - | - | documented |
+| E78 | V19 | — | — | — | documented |
 | E79 | V20 | 35.5301 | 35.4977 | 0.0324 | development |
 | E80 | V20 | 35.5301 | 35.4988 | 0.0313 | development |
 | E81 | V20 | 35.5301 | 35.4618 | 0.0683 | development |
 | E82 | V20 | 33.6435 | 33.5498 | 0.0938 | development |
 | E83 | V20 | 35.5301 | 35.4456 | 0.0845 | development |
 | E84 | V20 | 66.0111 | 92.4408 | 26.4297 | documented |
-| E85 | V19 | - | - | - | passed / confirmed as labelled |
+| E85 | V19 | — | — | — | passed / confirmed as labelled |
 | E86 | V20 | 33.3947 | 33.3438 | 0.0509 | passed / confirmed as labelled |
 | E87 | V20 | 34.5845 | 33.3438 | 1.2407 | passed / confirmed as labelled |
 | E88 | V12, V20 | 34.5845 | 33.3947 | 1.1898 | passed / confirmed as labelled |
-| E89 | V21 | - | - | 6.6636 | development |
+| E89 | V21 | — | — | 6.6636 | development |
 | E90 | V21 | 33.1493 | 33.1458 | 0.0035 | null result |
 | E91 | V21 | 34.6771 | 33.1458 | 1.5313 | passed / confirmed as labelled |
 | E92 | V12, V21 | 34.6771 | 33.1493 | 1.5278 | passed / confirmed as labelled |
 | E93 | V12 | 34.6308 | 33.2720 | 1.3588 | passed / confirmed as labelled |
 | E94 | V22 | 33.7667 | 36.4500 | -2.6833 | development |
 | E95 | V22 | 33.7667 | 36.5000 | -2.7333 | development |
-| E96 | V22 | - | 0.5671 | - | development |
-| E97 | V22 | 30.4664 | 0.1620 | - | passed / confirmed as labelled |
+| E96 | V22 | — | 0.5671 | — | development |
+| E97 | V22 | 30.4664 | 0.1620 | — | passed / confirmed as labelled |
 | E98 | V12, V22 | 31.7778 | 30.4664 | 1.3113 | passed / confirmed as labelled |
 | E99 | V12 | 33.6798 | 32.3368 | 1.3430 | passed / confirmed as labelled |
-| E100 | V37 | - | - | 0.4272 | development |
-| E101 | - | 34.5845 | 34.1227 | 0.4618 | development |
-| E102 | V38 | - | - | 0.1238 | development |
-| E103 | - | 35.7153 | 35.0035 | 0.7118 | passed / confirmed as labelled |
+| E100 | V37 | — | — | 0.4272 | development |
+| E101 | — | 34.5845 | 34.1227 | 0.4618 | development |
+| E102 | V38 | — | — | 0.1238 | development |
+| E103 | — | 35.7153 | 35.0035 | 0.7118 | passed / confirmed as labelled |
 | E104 | V12, V38 | 35.7153 | 34.5926 | 1.1227 | passed / confirmed as labelled |
 | E105 | V12, V38 | 35.7153 | 34.4201 | 1.2951 | passed / confirmed as labelled |
 | E106 | V12, V38 | 34.5926 | 34.4201 | 0.1725 | passed / confirmed as labelled |
@@ -134,57 +134,59 @@ The below-1% two-basis target has not yet been achieved. V81 has not been confir
 | E111 | V40 | 33.5498 | 32.3264 | 1.2234 | development |
 | E112 | V40 | 32.6400 | 31.6169 | 1.0231 | development |
 | E113 | V40 | 35.0035 | 34.0845 | 0.9190 | development |
-| E114 | V54 | - | - | 0.7002-1.2326 | development |
-| E115 | V56 | - | - | 0.4421-1.5324 | development |
-| E116 | V59 | - | - | 0.5903-1.5231 | development |
-| E117 | V60 | - | - | - | development |
+| E114 | V54 | — | — | — | development |
+| E115 | V56 | — | — | — | development |
+| E116 | V59 | — | — | — | development |
+| E117 | V60 | — | — | — | development |
 | E118 | V61 | 42.7276 | 41.7512 | 0.9765 | development |
 | E119 | V61 | 45.5370 | 45.4896 | 0.0475 | null result |
-| E120 | V62 | - | - | 0.0845-1.5405 | development |
+| E120 | V62 | — | — | — | development |
 | E121 | V63 | 43.4300 | 43.0289 | 0.4010 | development |
-| E122 | V12, V64 | - | - | - | development |
-| E123 | V67 | - | - | 0.0949-0.1794 | development |
-| E124 | V68 | - | - | 0.1065-0.2037 | development |
+| E122 | V12, V64 | — | — | — | development |
+| E123 | V67 | — | — | — | development |
+| E124 | V68 | — | — | — | development |
 | E125 | V12, V68 | 32.7581 | 31.2303 | 1.5278 | passed / confirmed as labelled |
 | E126 | V68 | 31.2303 | 31.2072 | 0.0231 | null result |
 | E127 | V12, V68 | 32.7581 | 31.2072 | 1.5509 | passed / confirmed as labelled |
-| E128 | - | 37.0000 | 34.0000 | 3.0000 | development |
+| E128 | — | 37.0000 | 34.0000 | 3.0000 | development |
 | E129 | V69 | 32.4000 | 31.8000 | 0.6000 | development |
 | E130 | V69 | 35.3000 | 34.4000 | 0.9000 | development |
-| E131 | V70 | - | - | - | development |
-| E132 | V70 | - | - | 0.0868-0.1134 | failed / sealed |
-| E133 | V70 | - | - | 0.0000-0.0046 | failed / sealed |
-| E134 | V71 | - | - | X: 3.955 to 2.588; Z: 4.701 to 3.980 | failed / sealed |
-| E135 | V72 | - | - | d7 worst basis 3.569; d9 X 4.253 Z 1.981 | failed / sealed |
-| E136 | V73 | - | - | - | development |
-| E137 | V74 | - | - | - | documented |
-| E138 | V75 | - | - | - | failed / sealed |
-| E139 | V76 | - | - | - | failed / sealed |
-| E140 | V77 | - | - | - | failed / sealed |
-| E141 | V78 | - | - | - | failed / sealed |
-| E142 | V80 | - | - | - | documented |
-| E143 | V82 | - | - | - | failed / sealed |
-| E144 | V83 | - | - | - | failed / sealed |
-| E145 | V84 | 2]] located-erasure skeleton | Exact MILP plus connected unused operational routing gate | - | documented |
-| E146 | V85 | - | - | - | failed / sealed |
-| E147 | V86 | - | - | - | failed / sealed |
-| E148 | V87 | - | - | - | failed / sealed |
-| E149 | V88 | - | - | - | failed / sealed |
-| E150 | - | - | - | - | failed / sealed |
-| E151 | V89 | - | - | - | failed / sealed |
-| E152 | V90 | - | - | - | failed / sealed |
-| E153 | V91 | - | - | - | failed / sealed |
-| E154 | V92 | - | - | - | passed / confirmed as labelled |
-| E155 | V93 | - | - | - | passed / confirmed as labelled |
-| E156 | V94 | - | - | - | passed / confirmed as labelled |
-| E157 | V95 | - | - | - | passed / confirmed as labelled |
-| E158 | V96 | 4.2830 | 5.7955 | - | failed / sealed |
-| E159 | V98 | - | - | - | passed / confirmed as labelled |
-| E160 | V99 | - | - | - | passed / confirmed as labelled |
-| E161 | V100 | - | - | - | passed / confirmed as labelled |
-| E162 | V101 | - | - | - | failed / sealed |
-| E163 | V97 | - | - | - | failed / sealed |
-| E164 | V102 | - | - | - | failed / sealed |
-| E165 | V103 | - | - | - | failed / sealed |
+| E131 | V70 | — | — | — | development |
+| E132 | V70 | — | — | — | failed / sealed |
+| E133 | V70 | — | — | — | failed / sealed |
+| E134 | V71 | — | — | — | failed / sealed |
+| E135 | V72 | — | — | — | failed / sealed |
+| E136 | V73 | — | — | — | development |
+| E137 | V74 | — | — | — | documented |
+| E138 | V75 | — | — | — | failed / sealed |
+| E139 | V76 | — | — | — | failed / sealed |
+| E140 | V77 | — | — | — | failed / sealed |
+| E141 | V78 | — | — | — | failed / sealed |
+| E142 | V80 | — | — | — | documented |
+| E143 | V82 | — | — | — | failed / sealed |
+| E144 | V83 | — | — | — | failed / sealed |
+| E145 | V84 | — | — | — | documented |
+| E146 | V85 | — | — | — | failed / sealed |
+| E147 | V86 | — | — | — | failed / sealed |
+| E148 | V87 | — | — | — | failed / sealed |
+| E149 | V88 | — | — | — | failed / sealed |
+| E150 | — | — | — | — | failed / sealed |
+| E151 | V89 | — | — | — | failed / sealed |
+| E152 | V90 | — | — | — | failed / sealed |
+| E153 | V91 | — | — | — | failed / sealed |
+| E154 | V92 | — | — | — | passed / confirmed as labelled |
+| E155 | V93 | — | — | — | passed / confirmed as labelled |
+| E156 | V94 | — | — | — | passed / confirmed as labelled |
+| E157 | V95 | — | — | — | passed / confirmed as labelled |
+| E158 | V96 | 4.2830 | 5.7955 | — | failed / sealed |
+| E159 | V98 | — | — | — | passed / confirmed as labelled |
+| E160 | V99 | — | — | — | passed / confirmed as labelled |
+| E161 | V100 | — | — | — | passed / confirmed as labelled |
+| E162 | V101 | — | — | — | failed / sealed |
+| E163 | V97 | — | — | — | failed / sealed |
+| E164 | V102 | — | — | — | failed / sealed |
+| E165 | V103 | — | — | — | failed / sealed |
+| E166 | V104 | — | — | — | failed / sealed |
+| E167 | V105 | — | — | — | failed / sealed |
 
 Blank percentages identify structural, analytical, operational, or non-comparable entries. Results from different datasets and comparators must not be added together.
