@@ -15,55 +15,50 @@ An apples-to-apples comparison must use the same hardware block, scored shots, c
 - All main tables use the full scored denominator with 100% coverage.
 - A percentage-point (pp) improvement is baseline error minus candidate error; larger positive values are better.
 - Conditional/postselected results are reported separately and are not full-decoder error rates.
-- `LER/cycle` is populated only after a stable round-resolved fit on a matched circuit cohort. `Not validated` means the aggregate percentage cannot safely be converted into a per-cycle rate.
 - The complete experiment history is an audit index, not a leaderboard; see [ALL_VERSIONS.md](ALL_VERSIONS.md).
 
 ## Primary repeated result
 
 This is the strongest repeated full-denominator result. It pools three post-freeze real-hardware blocks using the same frozen V12 candidate and matched baseline on every scored shot.
 
-| Candidate | Blocks | Scored shots | Coverage | Baseline error | Candidate error | Improvement | Relative reduction | LER/cycle | Evidence |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| V12 | 3 | 259,200 | 100% | 33.67978% | 32.33681% | 1.34298 pp | 3.9875% | Not validated | Repeated full-denominator evaluation |
+| Candidate | Blocks | Scored shots | Coverage | Baseline error | Candidate error | Improvement | Relative reduction | Evidence |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| V12 | 3 | 259,200 | 100% | 33.67978% | 32.33681% | 1.34298 pp | 3.9875% | Repeated full-denominator evaluation |
 
 The same preserved predictions support an exact basis split:
 
-| Basis | Scored shots | Coverage | Baseline error | V12 error | Improvement | Paired 95% CI | LER/cycle | Result |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| X | 129,600 | 100% | 39.21682% | 38.42284% | 0.79398 pp | 0.65881 to 0.92916 pp | Not validated | Confirmed positive |
-| Z | 129,600 | 100% | 28.14275% | 26.25077% | 1.89198 pp | 1.72304 to 2.06091 pp | Not validated | Confirmed positive |
+| Basis | Scored shots | Coverage | Baseline error | V12 error | Improvement | Paired 95% CI | Result |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| X | 129,600 | 100% | 39.21682% | 38.42284% | 0.79398 pp | 0.65881 to 0.92916 pp | Confirmed positive |
+| Z | 129,600 | 100% | 28.14275% | 26.25077% | 1.89198 pp | 1.72304 to 2.06091 pp | Confirmed positive |
 
 Both bases improve, but the full-denominator below-1% two-basis target has not been achieved.
-
-The current 3-, 5-, and 7-round records are suitable for retrospective per-cycle analysis, but the pooled preliminary fit is not stable enough to publish as one rate. Aggregate error is not divided by round count.
-
-A matched-method audit used the published log-fidelity slope definition separately for every preserved domain, basis, and logical configuration. All 14 Z fits passed the declared quality gate, but 0 of 14 X fits passed. Therefore no combined two-basis LER/cycle value is published.
 
 ## Same-shot comparison A: V20 block
 
 All rows use the same 86,400 scored shots and the same matched baseline.
 
-| Candidate | Coverage | Baseline error | Candidate error | Improvement vs baseline | Increment beyond V12 | LER/cycle | Result |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| V12 | 100% | 34.5845% | 33.3947% | 1.1898 pp | — | Not validated | Confirmed |
-| V12 + V20 | 100% | 34.5845% | 33.3438% | 1.2407 pp | 0.0509 pp | Not validated | Confirmed positive increment |
+| Candidate | Coverage | Baseline error | Candidate error | Improvement vs baseline | Increment beyond V12 | Result |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| V12 | 100% | 34.5845% | 33.3947% | 1.1898 pp | — | Confirmed |
+| V12 + V20 | 100% | 34.5845% | 33.3438% | 1.2407 pp | 0.0509 pp | Confirmed positive increment |
 
 ## Same-shot comparison B: V21 block
 
 All rows use the same 86,400 scored shots and the same matched baseline.
 
-| Candidate | Coverage | Baseline error | Candidate error | Improvement vs baseline | Increment beyond V12 | LER/cycle | Result |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| V12 | 100% | 34.6771% | 33.1493% | 1.5278 pp | — | Not validated | Confirmed |
-| V12 + V21 | 100% | 34.6771% | 33.1458% | 1.5313 pp | 0.0035 pp | Not validated | Null increment |
+| Candidate | Coverage | Baseline error | Candidate error | Improvement vs baseline | Increment beyond V12 | Result |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| V12 | 100% | 34.6771% | 33.1493% | 1.5278 pp | — | Confirmed |
+| V12 + V21 | 100% | 34.6771% | 33.1458% | 1.5313 pp | 0.0035 pp | Null increment |
 
 ## Same-shot comparison C: V22 block
 
 The full-denominator row uses all 86,400 scored shots.
 
-| Candidate | Coverage | Baseline error | Candidate error | Improvement vs baseline | LER/cycle | Result |
-| --- | ---: | ---: | ---: | ---: | ---: | --- |
-| V12 | 100% | 31.7778% | 30.4664% | 1.3113 pp | Not validated | Confirmed |
+| Candidate | Coverage | Baseline error | Candidate error | Improvement vs baseline | Result |
+| --- | ---: | ---: | ---: | ---: | --- |
+| V12 | 100% | 31.7778% | 30.4664% | 1.3113 pp | Confirmed |
 
 The V22 conditional result is intentionally excluded from this table because it retained only 5% of shots.
 
@@ -71,11 +66,11 @@ The V22 conditional result is intentionally excluded from this table because it 
 
 All rows use the same 86,400 scored shots and the same matched baseline.
 
-| Candidate | Coverage | Baseline error | Candidate error | Improvement vs baseline | Increment beyond V12 | LER/cycle | Result |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| Mathematical comparator | 100% | 35.7153% | 35.0035% | 0.7118 pp | — | Not validated | Confirmed |
-| V12 | 100% | 35.7153% | 34.5926% | 1.1227 pp | — | Not validated | Confirmed |
-| V12 + V38 | 100% | 35.7153% | 34.4201% | 1.2951 pp | 0.1725 pp | Not validated | Confirmed positive increment |
+| Candidate | Coverage | Baseline error | Candidate error | Improvement vs baseline | Increment beyond V12 | Result |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| Mathematical comparator | 100% | 35.7153% | 35.0035% | 0.7118 pp | — | Confirmed |
+| V12 | 100% | 35.7153% | 34.5926% | 1.1227 pp | — | Confirmed |
+| V12 + V38 | 100% | 35.7153% | 34.4201% | 1.2951 pp | 0.1725 pp | Confirmed positive increment |
 
 This is the strongest independently confirmed same-block hybrid result in the public evidence.
 
@@ -83,20 +78,20 @@ This is the strongest independently confirmed same-block hybrid result in the pu
 
 All rows use the same 86,400 scored shots and the same matched baseline. This block shows why results must be compared on identical data rather than ranked across blocks.
 
-| Candidate | Coverage | Baseline error | Candidate error | Improvement vs baseline | Increment beyond V12 | LER/cycle | Result |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| V39 | 100% | 46.5127% | 45.7083% | 0.8044 pp | — | Not validated | Confirmed on this block |
-| V12 | 100% | 46.5127% | 46.3854% | 0.1273 pp | — | Not validated | Null transfer result |
-| V12 + V38 | 100% | 46.5127% | 46.3692% | 0.1435 pp | 0.0162 pp | Not validated | Null hybrid increment |
+| Candidate | Coverage | Baseline error | Candidate error | Improvement vs baseline | Increment beyond V12 | Result |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| V39 | 100% | 46.5127% | 45.7083% | 0.8044 pp | — | Confirmed on this block |
+| V12 | 100% | 46.5127% | 46.3854% | 0.1273 pp | — | Null transfer result |
+| V12 + V38 | 100% | 46.5127% | 46.3692% | 0.1435 pp | 0.0162 pp | Null hybrid increment |
 
 ## Same-shot comparison F: V68 block
 
 All rows use the same 86,400 scored shots and the same matched baseline.
 
-| Candidate | Coverage | Baseline error | Candidate error | Improvement vs baseline | Increment beyond V12 | LER/cycle | Result |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| V12 | 100% | 32.7581% | 31.2303% | 1.5278 pp | — | Not validated | Confirmed |
-| V12 + V68 | 100% | 32.7581% | 31.2072% | 1.5509 pp | 0.0231 pp | Not validated | Null increment; improvement is principally attributable to V12 |
+| Candidate | Coverage | Baseline error | Candidate error | Improvement vs baseline | Increment beyond V12 | Result |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| V12 | 100% | 32.7581% | 31.2303% | 1.5278 pp | — | Confirmed |
+| V12 + V68 | 100% | 32.7581% | 31.2072% | 1.5509 pp | 0.0231 pp | Null increment; improvement is principally attributable to V12 |
 
 ## Conditional result — not comparable with full-denominator tables
 
