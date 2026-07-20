@@ -1,7 +1,8 @@
-# All documented experiment versions
+# Versions evaluated on preserved real-hardware data
 
-Sanitized public index generated from the audited private experiment ledger.
-Only identifiers and aggregate percentage fields are shown. Blank percentages mean that the entry was structural, analytical, operational, or did not report a directly comparable aggregate rate.
+Sanitized public index generated from the audited private experiment ledger. Only versions evaluated using preserved real-hardware data are included.
+
+The table below is an index, not a cross-version leaderboard. Percentages from different hardware blocks, circuit cohorts, bases, denominators, or split roles are not directly comparable. New entries must include denominator, coverage, X/Z/pooled metrics where available, matched baseline, absolute and relative improvement, evidence level, and target status.
 
 | Ledger ID | Version | Baseline % | Candidate % | Change (pp) | Public status |
 |---|---|---:|---:|---:|---|
@@ -70,26 +71,19 @@ Only identifiers and aggregate percentage fields are shown. Blank percentages me
 | E63 | V10, V13 | 32.3769 | 32.5031 | -0.1262 | failed / sealed |
 | E64 | V10, V13 | 32.3769 | 32.4703 | -0.0934 | failed / sealed |
 | E65 | V10, V13 | 32.3769 | 32.5185 | -0.1416 | failed / sealed |
-| E66 | V14 | 32.3769 | 17.7060 | 14.6709 | documented |
 | E67 | V14 | 32.3769 | 32.3769 | 0.0000 | failed / sealed |
 | E68 | V15 | 32.3769 | 32.3769 | 0.0000 | failed / sealed |
 | E69 | V16 | 32.3769 | 32.3769 | 0.0000 | failed / sealed |
 | E70 | V17 | 32.3769 | 32.3769 | 0.0000 | failed / sealed |
-| E71 | V18 | 45.8776 | 47.6914 | -1.8138 | failed / sealed |
 | E72 | V19 | 35.0035 | 35.7836 | -0.7801 | failed / sealed |
 | E73 | V19 | 34.5833 | 36.8750 | -2.2917 | failed / sealed |
 | E74 | V19 | 33.6435 | 33.6192 | 0.0243 | development |
 | E75 | V19 | 35.5301 | 35.5023 | 0.0278 | documented |
-| E76 | V19 | 40.1274 | 39.4904 | 0.6370 | failed / sealed |
-| E77 | V19 | 40.1274 | 39.4904 | 0.6370 | documented |
-| E78 | V19 | — | — | — | documented |
 | E79 | V20 | 35.5301 | 35.4977 | 0.0324 | development |
 | E80 | V20 | 35.5301 | 35.4988 | 0.0313 | development |
 | E81 | V20 | 35.5301 | 35.4618 | 0.0683 | development |
 | E82 | V20 | 33.6435 | 33.5498 | 0.0938 | development |
 | E83 | V20 | 35.5301 | 35.4456 | 0.0845 | development |
-| E84 | V20 | 66.0111 | 92.4408 | 26.4297 | documented |
-| E85 | V19 | — | — | — | passed / confirmed as labelled |
 | E86 | V20 | 33.3947 | 33.3438 | 0.0509 | passed / confirmed as labelled |
 | E87 | V20 | 34.5845 | 33.3438 | 1.2407 | passed / confirmed as labelled |
 | E88 | V12, V20 | 34.5845 | 33.3947 | 1.1898 | passed / confirmed as labelled |
@@ -138,48 +132,5 @@ Only identifiers and aggregate percentage fields are shown. Blank percentages me
 | E131 | V70 | — | — | — | development |
 | E132 | V70 | — | — | — | failed / sealed |
 | E133 | V70 | — | — | — | failed / sealed |
-| E134 | V71 | — | — | — | failed / sealed |
-| E135 | V72 | — | — | — | failed / sealed |
-| E136 | V73 | — | — | — | development |
-| E137 | V74 | — | — | — | documented |
-| E138 | V75 | — | — | — | failed / sealed |
-| E139 | V76 | — | — | — | failed / sealed |
-| E140 | V77 | — | — | — | failed / sealed |
-| E141 | V78 | — | — | — | failed / sealed |
-| E142 | V80 | — | — | — | documented |
-| E143 | V82 | — | — | — | failed / sealed |
-| E144 | V83 | — | — | — | failed / sealed |
-| E145 | V84 | — | — | — | documented |
-| E146 | V85 | — | — | — | failed / sealed |
-| E147 | V86 | — | — | — | failed / sealed |
-| E148 | V87 | — | — | — | failed / sealed |
-| E149 | V88 | — | — | — | failed / sealed |
-| E150 | — | — | — | — | failed / sealed |
-| E151 | V89 | — | — | — | failed / sealed |
-| E152 | V90 | — | — | — | failed / sealed |
-| E153 | V91 | — | — | — | failed / sealed |
-| E154 | V92 | — | — | — | passed / confirmed as labelled |
-| E155 | V93 | — | — | — | passed / confirmed as labelled |
-| E156 | V94 | — | — | — | passed / confirmed as labelled |
-| E157 | V95 | — | — | — | passed / confirmed as labelled |
-| E158 | V96 | 4.2830 | 5.7955 | — | failed / sealed |
-| E159 | V98 | — | — | — | passed / confirmed as labelled |
-| E160 | V99 | — | — | — | passed / confirmed as labelled |
-| E161 | V100 | — | — | — | passed / confirmed as labelled |
-| E162 | V101 | — | — | — | failed / sealed |
-| E163 | V97 | — | — | — | failed / sealed |
-| E164 | V102 | — | — | — | failed / sealed |
-| E165 | V103 | — | — | — | failed / sealed |
-| E166 | V104 | — | — | — | failed / sealed |
-| E167 | V105 | — | — | — | failed / sealed |
-
-## Current best development percentages
-
-| Version | Basis | Baseline | Candidate | Relative reduction | Evidence |
-|---|---|---:|---:|---:|---|
-| V81 | X | 3.545% | 1.980% | 44.15% | Synthetic development; confirmation running |
-| V81 | Z | 3.805% | 2.760% | 27.46% | Synthetic development; confirmation running |
-
-The below-1% target has not yet been achieved in either basis, and the V81 figures are development results rather than hardware-confirmed results.
 
 Last generated: 20 July 2026, Australia/Sydney.
