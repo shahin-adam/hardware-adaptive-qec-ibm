@@ -4,12 +4,12 @@ Public, sanitized progress record for a Western Sydney University quantum-error-
 
 ## Project team
 
-- Principal Investigator and academic supervisor: [Dr Weisheng Si](https://researchers.westernsydney.edu.au/en/persons/weisheng-si/), Senior Lecturer in Networking & Mobile Computing, Western Sydney University.
+- Principal Investigator and academic supervisor: Dr Weisheng, Western Sydney University.
 - Lead student researcher and technical implementer: Shahin Adam, Western Sydney University student ID 22228049.
 
-## Funding context
+## Research context
 
-This repository is the public preliminary-work link supporting an application to the IBM Quantum Credits Program. Dr Weisheng Si is the proposed Principal Investigator and applicant; Shahin Adam is the collaborating lead student researcher. The application remains subject to Dr Si's review and approval.
+This repository records a sanitized preliminary study of approaches for reducing logical quantum-error-correction error rates across two complementary bases. We report aggregate baseline and candidate error percentages from controlled development evaluations. Dr Weisheng is the academic supervisor and Shahin Adam is the lead student researcher; all work remains subject to academic review.
 
 Only experiment identifiers, aggregate percentages, evidence level, and target status are published here. Current methods, model designs, private datasets, credentials, checkpoints, next-step hypotheses, and internal research documents are intentionally excluded while manuscript preparation is in progress.
 
@@ -20,15 +20,15 @@ Only experiment identifiers, aggregate percentages, evidence level, and target s
 | V81 | X | 3.545% | 1.980% | 44.15% | Synthetic development; confirmation running |
 | V81 | Z | 3.805% | 2.760% | 27.46% | Synthetic development; confirmation running |
 
-The below-1% two-basis target has not yet been achieved. These V81 figures are not IBM-hardware confirmation results.
+The below-1% two-basis target has not yet been achieved. These V81 figures are development results, not hardware-confirmed results.
 
 ## Confirmed and repeated historical improvements
 
 | Version | Baseline error | Candidate error | Absolute improvement | Relative reduction | Evidence |
 |---|---:|---:|---:|---:|---|
-| V12 | 33.67978% | 32.33681% | 1.34298 percentage points | 3.9875% | Repeated across 259,200 untouched IBM shots |
-| V38 | 35.7153% | 34.4201% | 1.29514 percentage points | 3.6265% | Independent 86,400-shot IBM block |
-| V39 | 46.512731% | 45.708333% | 0.804398 percentage points | 1.7294% | Independent 86,400-shot IBM block |
+| V12 | 33.67978% | 32.33681% | 1.34298 percentage points | 3.9875% | Repeated across 259,200 untouched evaluation shots |
+| V38 | 35.7153% | 34.4201% | 1.29514 percentage points | 3.6265% | Independent 86,400-shot evaluation block |
+| V39 | 46.512731% | 45.708333% | 0.804398 percentage points | 1.7294% | Independent 86,400-shot evaluation block |
 
 Results use different datasets and comparators and must not be added together.
 
