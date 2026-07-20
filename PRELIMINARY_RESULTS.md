@@ -25,7 +25,14 @@ This is the strongest repeated full-denominator result. It pools three post-free
 |---|---:|---:|---:|---:|---:|---:|---:|---|
 | V12 | 3 | 259,200 | 100% | 33.67978% | 32.33681% | 1.34298 pp | 3.9875% | Repeated full-denominator evaluation |
 
-X and Z were both included in the pooled result, but separate pooled X and Z percentages were not reported in this aggregate. The full-denominator below-1% two-basis target has not been achieved.
+The same preserved predictions support an exact basis split:
+
+| Basis | Scored shots | Coverage | Baseline error | V12 error | Improvement | Paired 95% CI | Result |
+|---|---:|---:|---:|---:|---:|---:|---|
+| X | 129,600 | 100% | 39.21682% | 38.42284% | 0.79398 pp | 0.65881 to 0.92916 pp | Confirmed positive |
+| Z | 129,600 | 100% | 28.14275% | 26.25077% | 1.89198 pp | 1.72304 to 2.06091 pp | Confirmed positive |
+
+Both bases improve, but the full-denominator below-1% two-basis target has not been achieved.
 
 ## Same-shot comparison A: V20 block
 
@@ -104,3 +111,11 @@ The matched baseline made the same predictions and the same seven errors on the 
 - Blank, structural, operational, failed, or non-comparable ledger entries.
 
 Results from different tables must not be added together. Complete version status and negative-result history remain available in [ALL_VERSIONS.md](ALL_VERSIONS.md).
+
+## Latest real-hardware development test
+
+| Version | Domains | Scored shots | Coverage | Outcome | Evidence |
+|---|---:|---:|---:|---|---|
+| V106 | 7 | 604,800 | 100% | No universally transferable X/Z improvement; sealed null | Retrospective leave-one-domain-out development |
+
+V106 tested a target-label-free calibrated fallback policy. No candidate achieved a positive paired 95% lower improvement bound in every training domain separately for X and Z. No new hardware confirmation was requested.
