@@ -17,9 +17,9 @@ Only experiment identifiers, aggregate percentages, evidence level, and target s
 
 | Version | X error | Z error | Pooled baseline | Pooled candidate | Improvement | Relative reduction | Coverage | Evidence |
 |---|---:|---:|---:|---:|---:|---:|---:|---|
-| V12 | Not separately reported in this aggregate | Not separately reported in this aggregate | 33.67978% | 32.33681% | 1.34298 pp | 3.9875% | 100% (259,200 shots) | Repeated real-hardware evaluation |
+| V12 | 38.42284% (baseline 39.21682%) | 26.25077% (baseline 28.14275%) | 33.67978% | 32.33681% | 1.34298 pp | 3.9875% | 100% (259,200 shots) | Repeated real-hardware evaluation |
 
-The below-1% full-denominator target has not been achieved. X and Z are shown separately whenever the underlying result records support the same denominator; a pooled value is never presented as a substitute for missing basis-specific values.
+The X and Z columns each contain 129,600 scored shots from the same three blocks. V12 improved X by 0.79398 percentage points and Z by 1.89198 points. The below-1% full-denominator target has not been achieved.
 
 ## Conditional real-hardware result requiring separate interpretation
 
