@@ -133,4 +133,6 @@ The table below is an index, not a cross-version leaderboard. Percentages from d
 | E132 | V70 | — | — | — | failed / sealed |
 | E133 | V70 | — | — | — | failed / sealed |
 
+| E167 | V106 | — | — | 0.0000 | development null / sealed |
+
 Last generated: 20 July 2026, Australia/Sydney.
