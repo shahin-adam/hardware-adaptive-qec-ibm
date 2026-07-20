@@ -13,14 +13,21 @@ This repository records a sanitized preliminary study of approaches for reducing
 
 Only experiment identifiers, aggregate percentages, evidence level, and target status are published here. Current methods, model designs, private datasets, credentials, checkpoints, next-step hypotheses, and internal research documents are intentionally excluded while manuscript preparation is in progress.
 
-## Best current development result
+## Leading full-denominator real-hardware result
 
-| Version | Basis | Baseline error | Candidate error | Relative reduction | Evidence |
-|---|---:|---:|---:|---:|---|
-| V81 | X | 3.545% | 1.980% | 44.15% | Synthetic development; confirmation running |
-| V81 | Z | 3.805% | 2.760% | 27.46% | Synthetic development; confirmation running |
+| Version | X error | Z error | Pooled baseline | Pooled candidate | Improvement | Relative reduction | Coverage | Evidence |
+|---|---:|---:|---:|---:|---:|---:|---:|---|
+| V12 | Not separately reported in this aggregate | Not separately reported in this aggregate | 33.67978% | 32.33681% | 1.34298 pp | 3.9875% | 100% (259,200 shots) | Repeated real-hardware evaluation |
 
-The below-1% two-basis target has not yet been achieved. These V81 figures are development results, not hardware-confirmed results.
+The below-1% full-denominator target has not been achieved. X and Z are shown separately whenever the underlying result records support the same denominator; a pooled value is never presented as a substitute for missing basis-specific values.
+
+## Conditional real-hardware result requiring separate interpretation
+
+| Version | Result | Coverage | Interpretation |
+|---|---:|---:|---|
+| V22 | 0.16204% conditional error | 5% selected coverage | Real-hardware postselection result; not below 1% on the full dataset |
+
+This row is not ranked against the full-denominator table.
 
 ## Confirmed and repeated historical improvements
 
@@ -32,18 +39,11 @@ The below-1% two-basis target has not yet been achieved. These V81 figures are d
 
 Results use different datasets and comparators and must not be added together.
 
-## Current version status
+## Standard comparison fields
 
-| Version | Public status |
-|---|---|
-| V81 | Untouched synthetic confirmation running |
-| V97 | Development failed; sealed |
-| V102 | Structural gate failed; sealed |
-| V103 | Structural gate failed; sealed |
-| V104 | Frozen synthetic development running |
-| V105 | Pre-registered and dormant; not launched |
+Every new result is reported with data source, dataset/block role, full or selected denominator, coverage, X error, Z error, pooled error, matched baseline, absolute improvement, relative reduction, statistical evidence, evidence level, and below-1% status. Versions are ranked only when dataset, circuit cohort, basis, denominator, and split role match. Cross-block percentages are contextual rather than direct head-to-head comparisons.
 
-The complete method-free version and percentage index is available in [ALL_VERSIONS.md](ALL_VERSIONS.md).
+The complete method-free index contains only versions evaluated using real-hardware data and is available in [ALL_VERSIONS.md](ALL_VERSIONS.md).
 
 Last public update: 20 July 2026, Australia/Sydney.
 
