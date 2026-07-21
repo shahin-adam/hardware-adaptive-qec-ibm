@@ -1,6 +1,6 @@
 # Preliminary real-hardware results
 
-Updated 20 July 2026.
+Updated 21 July 2026.
 
 Project team: Dr Weisheng, academic supervisor; Shahin Adam, lead student researcher and technical implementer. Western Sydney University.
 
@@ -117,5 +117,8 @@ Results from different tables must not be added together. Complete version statu
 | Version | Domains | Scored shots | Coverage | Outcome | Evidence |
 |---|---:|---:|---:|---|---|
 | V106 | 7 | 604,800 | 100% | No universally transferable X/Z improvement; sealed null | Retrospective leave-one-domain-out development |
+| V107 | 9 | 777,600 | 100% | 39.28987% baseline to 39.23611% candidate; 0.05376 pp improvement; sealed null | Retrospective leave-one-domain-out development |
 
 V106 tested a target-label-free calibrated fallback policy. No candidate achieved a positive paired 95% lower improvement bound in every training domain separately for X and Z. No new hardware confirmation was requested.
+
+V107's pooled paired 95% interval for the 0.05376-point estimate was -0.04517 to +0.15268 percentage points, and no held domain had a positive lower bound. It is therefore not a confirmed improvement and is excluded from the leaderboard.
