@@ -45,7 +45,7 @@ Every new result is reported with data source, dataset/block role, full or selec
 
 The complete method-free index contains only versions evaluated using real-hardware data and is available in [ALL_VERSIONS.md](ALL_VERSIONS.md).
 
-Last public update: 20 July 2026, Australia/Sydney.
+Last public update: 21 July 2026, Australia/Sydney.
 
 ## Disclosure boundary
 
