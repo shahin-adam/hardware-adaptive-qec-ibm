@@ -43,9 +43,23 @@ Results use different datasets and comparators and must not be added together.
 
 Every new result is reported with data source, dataset/block role, full or selected denominator, coverage, X error, Z error, pooled error, matched baseline, absolute improvement, relative reduction, statistical evidence, evidence level, and below-1% status. Versions are ranked only when dataset, circuit cohort, basis, denominator, and split role match. Cross-block percentages are contextual rather than direct head-to-head comparisons.
 
-The complete method-free index contains only versions evaluated using real-hardware data and is available in [ALL_VERSIONS.md](ALL_VERSIONS.md).
+The expanded audited index distinguishes real-hardware, simulation, analytical, structural, and active-development evidence and is available in [ALL_VERSIONS.md](ALL_VERSIONS.md).
 
-Last public update: 21 July 2026, Australia/Sydney.
+## Current development status
+
+V12 remains the validated winner. Recent opened-domain development results and active experiments are:
+
+| Version | Best aggregate observation | Status |
+| --- | --- | --- |
+| V125 | 0.3327 pp pooled development gain | Not promoted; basis/domain gates failed |
+| V128 | 0.3725 pp pooled development gain | Not promoted; basis/domain gates failed |
+| V129 | 0.0749 pp pooled development gain | Not promoted; transfer safety gates failed |
+| V130 | Full evaluation running | Aggregate-metric conditioning ablation; no claim yet |
+| V131 | Smoke/full jobs submitted | Official checkpoint transfer with matched scratch control; no claim yet |
+
+These opened retrospective results are not independent confirmation evidence and do not replace V12.
+
+Last public update: 23 July 2026, Australia/Sydney.
 
 ## Disclosure boundary
 
