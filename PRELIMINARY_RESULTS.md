@@ -18,7 +18,7 @@ An apples-to-apples comparison must use the same hardware block, scored shots, c
 - The complete experiment history is an audit index, not a leaderboard; see [ALL_VERSIONS.md](ALL_VERSIONS.md).
 
 The canonical registry now contains an explicit row for every version from
-V1 through V146. This preliminary-results page contains only comparable
+V1 through V150. This preliminary-results page contains only comparable
 headline tables; absence from this page does not mean that a version is
 missing from the project record.
 
@@ -35,7 +35,7 @@ missing from the project record.
 | V133 | Pending | No performance claim |
 | V134 | Not a decoder metric | No decoder-performance claim |
 | V135 | Pending | No performance claim |
-| V136 | Pending | No performance claim |
+| V136 | Corrected rerun pending | No performance claim; an implementation dtype error invalidated the earlier smoke tasks |
 | V137 | Pending | No performance claim |
 | V138 | Pending | No performance claim |
 | V139 | Completed metric audit | No decoder-improvement claim |
@@ -171,3 +171,8 @@ preselected Fez X-basis configurations. Its pooled paired 95% interval was
 multiscale representation; it remained positive in aggregate but did not beat
 V149 and failed the separate Z safety requirement. Both blocks had previously
 been opened, so neither result replaces the validated V12 claim.
+
+V149 has now been frozen for a new 120,000-shot Fez confirmation covering all
+12 X/Z, 3/5/7-round and logical-state cells. Exact MWPM, V12, full BP-OSD and
+V149 will decode the identical outcomes, giving a paired 100%-coverage
+comparison. Execution is pending; no new improvement is claimed.
