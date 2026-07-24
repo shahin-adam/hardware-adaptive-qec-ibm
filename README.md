@@ -44,7 +44,7 @@ Results use different datasets and comparators and must not be added together.
 Every new result is reported with data source, dataset/block role, full or selected denominator, coverage, X error, Z error, pooled error, matched baseline, absolute improvement, relative reduction, statistical evidence, evidence level, and below-1% status. Versions are ranked only when dataset, circuit cohort, basis, denominator, and split role match. Cross-block percentages are contextual rather than direct head-to-head comparisons.
 
 The canonical, complete registry is [ALL_VERSIONS.md](ALL_VERSIONS.md). It
-contains an explicit row for every version from V1 through V179, including
+contains an explicit row for every version from V1 through V180, including
 archive gaps, null results, failed/sealed experiments, active development,
 and confirmed evidence. README tables are intentionally summaries and must
 not be interpreted as the complete version list.
@@ -109,6 +109,7 @@ scope. Recent opened-domain development results and active experiments are:
 | V177 | Best arm 40.34706% to 39.91898%; +0.42808 pp | Exact-IBM fault-graph pretraining improved X but left Z unchanged; incremental gain over its matched scratch control was +0.02563 pp with CI crossing zero |
 | V178 | 40.34706% to 39.72239%; +0.62467 pp | Label-sealed V167/V177 expert stacking passed retrospective V12 gates but underperformed V167 |
 | V179 | Running; no result yet | Scaled, basis-separated exact-IBM graph pretraining is under controlled evaluation |
+| V180 | No decoder percentage | Pre-registered IBM circuit-level detector-rate optimization protocol; requires new randomized paired hardware data |
 
 These opened retrospective results are not independent confirmation evidence and do not replace V12.
 
