@@ -18,7 +18,7 @@ An apples-to-apples comparison must use the same hardware block, scored shots, c
 - The complete experiment history is an audit index, not a leaderboard; see [ALL_VERSIONS.md](ALL_VERSIONS.md).
 
 The canonical registry now contains an explicit row for every version from
-V1 through V136. This preliminary-results page contains only comparable
+V1 through V137. This preliminary-results page contains only comparable
 headline tables; absence from this page does not mean that a version is
 missing from the project record.
 
@@ -30,12 +30,13 @@ missing from the project record.
 | V128 | +0.37252 pp over V12 | Not promoted; strict held-cell confidence requirement failed |
 | V129 | +0.07490 pp over V12 | Not promoted; external-backbone transfer gate failed |
 | V130 | +0.32424 pp over V12 | Not promoted; X-only gain and negative worst-fold bound |
-| V131 | Pending | Corrected NTU foundation-transfer evaluation running |
-| V132 | Pending | V128+Pathfinder gated fusion running |
-| V133 | Pending | V130 auxiliary-amplification sweep running |
-| V134 | Not a decoder metric | Qwen cross-version evidence audit queued |
-| V135 | Pending | Direct V12+V128+V130 merged decoder queued |
-| V136 | Pending | Relational–structural correction/damage safety router queued after V135 |
+| V131 | Pending | No performance claim |
+| V132 | Pending | No performance claim |
+| V133 | Pending | No performance claim |
+| V134 | Not a decoder metric | No decoder-performance claim |
+| V135 | Pending | No performance claim |
+| V136 | Pending | No performance claim |
+| V137 | Pending | No performance claim |
 
 These are opened-domain development experiments. They demonstrate continued
 model progress but do not replace V12 without a complete X/Z/backend safety
