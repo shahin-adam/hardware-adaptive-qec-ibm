@@ -18,7 +18,7 @@ An apples-to-apples comparison must use the same hardware block, scored shots, c
 - The complete experiment history is an audit index, not a leaderboard; see [ALL_VERSIONS.md](ALL_VERSIONS.md).
 
 The canonical registry now contains an explicit row for every version from
-V1 through V153. This preliminary-results page contains only comparable
+V1 through V173. This preliminary-results page contains only comparable
 headline tables; absence from this page does not mean that a version is
 missing from the project record.
 
@@ -30,22 +30,22 @@ missing from the project record.
 | V128 | +0.37252 pp over V12 | Not promoted; strict held-cell confidence requirement failed |
 | V129 | +0.07490 pp over V12 | Not promoted; external-backbone transfer gate failed |
 | V130 | +0.32424 pp over V12 | Not promoted; X-only gain and negative worst-fold bound |
-| V131 | Pending | No performance claim |
-| V132 | Pending | No performance claim |
-| V133 | Pending | No performance claim |
+| V131 | Best +0.00000 pp; fine-tuned -0.01141 pp | Not promoted |
+| V132 | +0.00000 pp in all arms | Not promoted |
+| V133 | Best +0.44015 pp; X +0.87500 pp, Z +0.00529 pp | Not promoted; negative held cells |
 | V134 | Not a decoder metric | No decoder-performance claim |
-| V135 | Pending | No performance claim |
-| V136 | Corrected smoke passed; full evaluation running | No performance claim; the earlier dtype implementation error was repaired |
-| V137 | Pending | No performance claim |
-| V138 | Pending | No performance claim |
+| V135 | Best +0.37550 pp; X +0.75099 pp, Z unchanged | Not promoted; negative held cells |
+| V136 | Best +0.27993 pp; X +0.55985 pp, Z unchanged | Not promoted |
+| V137 | Best +0.15476 pp; X +0.30952 pp, Z unchanged | Not promoted |
+| V138 | +0.00000 pp in all arms | Not promoted |
 | V139 | Completed metric audit | No decoder-improvement claim |
-| V140 | Pending | No performance claim |
-| V141 | Pending | No performance claim |
-| V142 | Pending | No performance claim |
+| V140 | Best zero-shot +0.17342 pp; few-shot +0.16750 pp | Not promoted |
+| V141 | Best +0.23472 pp; X +0.46944 pp, Z unchanged | Not promoted; negative held cells |
+| V142 | +0.00000 pp in both matched variants | Not promoted |
 | V143 | Completed drift audit | No decoder-improvement claim |
 | V144 | Completed algebraic audit | No decoder-improvement claim |
-| V145 | Pending | No performance claim |
-| V146 | Pending | No performance claim |
+| V145 | Best +0.00000 pp; adversarial arm -0.07434 pp | Not promoted |
+| V146 | +0.00000 pp in all four arms | Not promoted |
 
 These are opened-domain development experiments. They demonstrate continued
 model progress but do not replace V12 without a complete X/Z/backend safety
@@ -169,7 +169,20 @@ Results from different tables must not be added together. Complete version statu
 | V157 | 1 | 43,200 Z shots | 100% | 43.32407% V12 to 43.47685% candidate; -0.15278 pp | Held V39 deep-Transformer regression |
 | V158 | 1 | 43,200 Z shots | 100% | Best arm 43.32407% V12 to 43.24769% candidate; +0.07639 pp; 95% CI crossed zero | Recurrent-Transformer scratch/pretrained transfer controls; no promotion |
 | V159 | 1 | 43,200 Z shots | 100% | Best arm 43.32407% V12 to 43.31019% candidate; +0.01389 pp; 95% CI crossed zero | Six neural architecture families; no promotion |
-| V160 | 1 | 86,400 X/Z shots | 100% | Best arm 46.38542% V12 to 45.57060% candidate; +0.81481 pp; X +1.62269 pp with positive CI, Z +0.00694 pp with CI crossing zero | IBM-native recurrent spatial decoder; full cross-domain validation pending, no promotion |
+| V160 | 7 | 604,800 X/Z shots | 100% | 40.34706% V12 to 39.98429% candidate; +0.36276 pp pooled; X +0.72487 pp (95% CI +0.56248 to +0.88725), Z +0.00066 pp (95% CI -0.00392 to +0.00524) | Cross-domain development completed; Marrakesh regressed and the Z interval crossed zero, so no promotion |
+| V161 | 7 | 604,800 X/Z shots | 100% | 40.34706% V12 to 39.90427% candidate; +0.44279 pp pooled; X +0.89153 pp, Z -0.00595 pp | Cross-domain development result; Marrakesh and one Kingston block regressed, so no promotion |
+| V162 | 7 | 604,800 X/Z shots | 100% | 40.34706% V12 to 39.89269% candidate; +0.45437 pp pooled; X +0.90873 pp, Z +0.00000 pp | Cross-domain development result with no negative domain point estimate; positive Z and all-domain lower bounds were absent |
+| V163 | 7 | 604,800 X/Z shots | 100% | 40.34706% V12 to 39.99223% candidate; +0.35483 pp pooled; X +1.28704 pp, Z -0.57738 pp | Full-support development comparator; Z and two Kingston domains regressed, so no promotion |
+| V164 | 7 | 604,800 X/Z shots | 100% | 40.34706% V12 to 39.84210% candidate; +0.50496 pp pooled (95% CI +0.45936 to +0.55056); X +1.00992 pp, Z +0.00000 pp | Nested cross-domain development result with no negative domain point estimate; fresh confirmation and positive Z evidence remain absent |
+| V165 | 39.52951% | 39.25868% | +0.27083 pp | X +0.54167 pp; Z unchanged | Six exact-graph domains; retrospective development, not promoted |
+| V166 | 39.52951% | 39.12577% | +0.40374 pp | X +0.80748 pp; Z unchanged | Six exact-graph domains; retrospective development, not promoted |
+| V167 | 40.34706% | 39.70354% | +0.64352 pp | X +1.10516 pp; Z +0.18188 pp | Seven-domain 100%-coverage retrospective development; fresh confirmation required |
+| V168 | 40.34706% | 39.70354% best repeated seed | +0.59904 to +0.64352 pp | Positive X and Z gains across five seeds | Robustness development; no independent confirmation claim |
+| V169 | — | — | — | Frozen X/Z deployment package | No new percentage; frozen before fresh-outcome retrieval |
+| V170 | 40.34706% | 39.79167% | +0.55539 pp | X +1.08366 pp; Z +0.02712 pp | Top-20% feature development result; weaker than V167 |
+| V171 | 45.25231% | 45.25231% | +0.00000 pp | No X/Z intervention | Source-only safety null on Marrakesh |
+| V172 | — | — | — | Performance pending | Multi-beam exact-coset extraction running |
+| V173 | 40.34706% | 40.28654% | +0.06052 pp | X +0.12103 pp; Z unchanged | Neural router completed; Kingston regression prevented promotion |
 
 V106 tested a target-label-free calibrated fallback policy. No candidate achieved a positive paired 95% lower improvement bound in every training domain separately for X and Z. No new hardware confirmation was requested.
 
@@ -205,7 +218,32 @@ confidence bound in both. No configuration-level or pooled-Z variant passed.
 The third opened Fez block was evaluated only after selection; V154 retained
 V12 for every Z shot and reduced exactly to V149.
 
+V160's complete seven-domain evaluation confirmed that its useful effect is
+concentrated in X/Fez. Across 604,800 opened real-IBM shots it improved the
+pooled error by 0.36276 percentage points, but Z was statistically null, three
+Kingston domains were inactive, and Marrakesh regressed by 0.18171 points.
+It therefore remains development evidence and does not replace V12.
+
+V161 and V162 each improved the opened V39 Fez development block by about
+0.90 percentage points relative to V12, entirely through X-basis changes.
+Across all seven domains, V161 retained +0.44279 pp but introduced small
+Marrakesh, Kingston and Z regressions. V162 retained +0.45437 pp with no
+negative domain point estimate, but Z remained unchanged. Neither result is a
+validated replacement for V12.
+
+V163's full-support comparator improved X but significantly damaged Z. V164
+used a nested same-backend evidence gate and retained V12 outside the
+consistently useful Fez X cells. It improved the seven-domain pooled error by
+0.50496 percentage points with no negative domain point estimate. Z remained
+unchanged, and all domains were already opened, so V164 remains development
+evidence pending a frozen fresh confirmation.
+
 V149 has now been frozen for a new 120,000-shot Fez confirmation covering all
 12 X/Z, 3/5/7-round and logical-state cells. Exact MWPM, V12, full BP-OSD and
 V149 will decode the identical outcomes, giving a paired 100%-coverage
 comparison. Execution is pending; no new improvement is claimed.
+
+V172 completed 12 larger-beam exact-coset extraction tasks without errors. It
+does not itself produce a decoder percentage. V174 is now evaluating those
+outputs in six nested source-only selector arms. No V174 result is claimed
+while those arms are running.
