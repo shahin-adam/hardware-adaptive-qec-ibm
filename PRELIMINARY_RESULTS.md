@@ -289,3 +289,10 @@ V180 records a future IBM circuit-level detector-rate optimization protocol.
 It has no decoder percentage and cannot run retrospectively because the
 historical shots do not contain randomized policy assignments. It is listed
 to distinguish a pre-registered hardware experiment from a completed result.
+
+V189 and V190 are running controlled follow-ups. V189 evolves bounded
+exact-graph BP-OSD prior classes using source domains before a held historical
+evaluation. V190 compares no alignment against class-conditional covariance
+and third-moment alignment while keeping target logical labels sealed. Neither
+has a performance percentage yet, and neither is currently a replacement for
+V12.
