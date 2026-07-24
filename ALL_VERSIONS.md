@@ -4,9 +4,9 @@ Sanitized public index generated from the audited private experiment ledger. Onl
 
 The table below is an index, not a cross-version leaderboard. Percentages from different hardware blocks, circuit cohorts, bases, denominators, or split roles are not directly comparable. New entries must include denominator, coverage, X/Z/pooled metrics where available, matched baseline, absolute and relative improvement, evidence level, and target status.
 
-<!-- BEGIN EXPLICIT V1-V153 REGISTRY -->
+<!-- BEGIN EXPLICIT V1-V159 REGISTRY -->
 
-## Explicit V1-V153 version registry
+## Explicit V1-V159 version registry
 
 This registry gives every integer version its own row. It complements the experiment-level E01–E167 table below. Blank or skipped version numbers are shown explicitly and are not assigned invented metrics. **V12 remains the best validated full-coverage model on its tested validation scope.**
 
@@ -166,6 +166,11 @@ This registry gives every integer version its own row. It complements the experi
 | V152 | Covariance-aware population and detector-criticality Z extension | V12 46.38542% to 45.53588%, +0.84954 pp; X +1.69907 pp, Z 0.00000 pp; increment beyond V149 0.00000 pp. | Historical 100%-coverage development null; no Z rule passed the adjusted safety bound, so output was identical to V149. |
 | V153 | Strongly typed island genetic-programming Z router | V12 46.38542% to 45.53588%, +0.84954 pp; X +1.69907 pp, Z 0.00000 pp; increment beyond V149 0.00000 pp. | Historical 100%-coverage development null; neither evolved OSD selection nor direct-flip programs passed the adjusted safety gate, so output was identical to V149. |
 | V154 | Exact-graph CUDA-Q BP-OSD Z-variant sweep | Eight physical-prior/BP variants selected on two Fez development blocks and evaluated on a third opened block; V12 46.38542% to 45.53588%, +0.84954 pp; X +1.69907 pp, Z 0.00000 pp; increment beyond V149 0.00000 pp. | Historical 100%-coverage development null; no Z configuration or pooled-Z variant passed the two-domain lower-confidence rule, so output was identical to V149. |
+| V155 | Neural decoder-population Z router | Z-only V12 35.49206% to 35.47388% over 302,400 held-domain shots; +0.01819 pp, 95% CI -0.02045 to +0.05682 pp. | Historical 100%-coverage development null; interval crossed zero and held domains were inconsistent. |
+| V156 | Configuration-specific neural Z router | Z-only V12 35.49206% to 35.50033% over 302,400 held-domain shots; -0.00827 pp, 95% CI -0.04719 to +0.03066 pp. | Historical 100%-coverage development null; not promoted. |
+| V157 | Deep detector/population Transformer | V39 Z-only V12 43.32407% to 43.47685%; -0.15278 pp, 95% CI -0.52773 to +0.22218 pp. | Historical 100%-coverage development regression; not promoted. |
+| V158 | Recurrent-Transformer transfer controls | Best arm was scratch: V39 Z-only V12 43.32407% to 43.24769%; +0.07639 pp, 95% CI -0.07056 to +0.22333 pp. | Historical 100%-coverage development null; pretrained arms did not improve transfer and no arm was promoted. |
+| V159 | Six-family neural architecture comparison | Best arm was compact MLP: V39 Z-only V12 43.32407% to 43.31019%; +0.01389 pp, 95% CI -0.10768 to +0.13546 pp. | Historical 100%-coverage development null; no architecture passed the positive lower-confidence gate. |
 
 Interpretation rules:
 
@@ -174,7 +179,7 @@ Interpretation rules:
 - V22's below-1% value is conditional at 5% retained coverage, not full-denominator decoding.
 - V131–V138, V140–V142 and V145–V146 remain pending until their complete result arrays and safety checks are sealed.
 
-<!-- END EXPLICIT V1-V153 REGISTRY -->
+<!-- END EXPLICIT V1-V159 REGISTRY -->
 
 | Ledger ID | Version | Baseline % | Candidate % | Change (pp) | Public status |
 | --- | --- | ---: | ---: | ---: | --- |
