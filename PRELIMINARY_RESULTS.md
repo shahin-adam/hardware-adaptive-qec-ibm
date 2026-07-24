@@ -158,7 +158,16 @@ Results from different tables must not be added together. Complete version statu
 |---|---:|---:|---:|---|---|
 | V106 | 7 | 604,800 | 100% | No universally transferable X/Z improvement; sealed null | Retrospective leave-one-domain-out development |
 | V107 | 9 | 777,600 | 100% | 39.28987% baseline to 39.23611% candidate; 0.05376 pp improvement; sealed null | Retrospective leave-one-domain-out development |
+| V149 | 1 | 86,400 | 100% | 46.38542% V12 to 45.53588% candidate; 0.84954 pp improvement; X +1.69907 pp and Z unchanged | Historical Fez configuration-routing development; not promoted |
+| V150 | 1 | 86,400 | 100% | Best arm 46.38542% V12 to 45.65509% candidate; 0.73032 pp improvement; multiscale arm regressed Z | Historical Fez development; not promoted |
 
 V106 tested a target-label-free calibrated fallback policy. No candidate achieved a positive paired 95% lower improvement bound in every training domain separately for X and Z. No new hardware confirmation was requested.
 
 V107's pooled paired 95% interval for the 0.05376-point estimate was -0.04517 to +0.15268 percentage points, and no held domain had a positive lower bound. It is therefore not a confirmed improvement and is excluded from the leaderboard.
+
+V149 recovered configuration-specific value by retaining V12 except on two
+preselected Fez X-basis configurations. Its pooled paired 95% interval was
+0.66018 to 1.03890 percentage points. V150 tested an exponentially spaced
+multiscale representation; it remained positive in aggregate but did not beat
+V149 and failed the separate Z safety requirement. Both blocks had previously
+been opened, so neither result replaces the validated V12 claim.
