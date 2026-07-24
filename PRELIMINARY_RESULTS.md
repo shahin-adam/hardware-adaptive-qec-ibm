@@ -243,7 +243,19 @@ V149 has now been frozen for a new 120,000-shot Fez confirmation covering all
 V149 will decode the identical outcomes, giving a paired 100%-coverage
 comparison. Execution is pending; no new improvement is claimed.
 
-V172 completed 12 larger-beam exact-coset extraction tasks without errors. It
-does not itself produce a decoder percentage. V174 is now evaluating those
-outputs in six nested source-only selector arms. No V174 result is claimed
-while those arms are running.
+V172 completed 12 larger-beam exact-coset extraction tasks without errors.
+V174 and V175 converted those outputs into positive X/Z development signals
+of +0.61574 and +0.61607 percentage points respectively, but neither exceeded
+V167. V176 reproduced the V167 pipeline at +0.64236 pp (within 0.00116 pp of
+the archived result); eight compatible second-stage residual arms then added
+exactly 0.00000 pp.
+
+V177 adapted the synthetic-pretraining principle to recovered exact IBM fault
+graphs. Its best arm improved V12 by +0.42808 pp, concentrated in X. The
+increment over an architecture-identical scratch control was only +0.02563 pp
+and its paired confidence interval crossed zero; Z was unchanged and
+Marrakesh regressed. V178 then stacked the independent V167 and V177 experts
+using other-domain evidence only. It achieved +0.62467 pp with positive X and
+Z development gains but remained below V167. V179 is testing increased
+synthetic exposure with independent basis experts; no V179 result is claimed
+while it is running.
