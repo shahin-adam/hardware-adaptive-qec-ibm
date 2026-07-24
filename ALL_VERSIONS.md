@@ -185,7 +185,12 @@ This registry gives every integer version its own row. It complements the experi
 | V171 | Source-only Marrakesh residual extension | Held Marrakesh V12 45.25231% to 45.25231%, +0.00000 pp over 86,400 shots. | No X or Z threshold passed all six source-domain safety gates, so V12 was retained for every shot. |
 | V172 | Multi-beam exact-coset extraction | No decoder percentage. | All 12 larger-beam extraction tasks completed successfully; the outputs are inputs to V174, not a standalone performance claim. |
 | V173 | Neural exact-coset disagreement router | Seven-domain 100%-coverage result: V12 40.34706% to 40.28654%, +0.06052 pp; X +0.12103 pp, Z +0.00000 pp. | One Kingston block regressed and Z was inactive; the neural router was much weaker than V167 and was not promoted. |
-| V174 | Multi-beam exact-coset selector | Running; no result yet. | Six nested source-only arms compare three exact-coset alternatives across two seeds; V12 remains the 100%-coverage fallback. |
+| V174 | Multi-beam exact-coset selector | Seven-domain 100%-coverage development result: V12 40.34706% to 39.73132%, +0.61574 pp; X +1.06019 pp, Z +0.17130 pp. | No negative backend point estimate, but weaker than V167 and not fresh confirmation. |
+| V175 | Exact-coset selector refinement | Seven-domain 100%-coverage development result: V12 40.34706% to 39.73099%, +0.61607 pp; X +1.06713 pp, Z +0.16501 pp. | Retained positive basis signals without surpassing V167; not promoted. |
+| V176 | V167 reproduction and independent residual cascade | Authoritative repeat: V12 40.34706% to 39.70470%, +0.64236 pp; X +1.10350 pp, Z +0.18122 pp. Eight compatible second-stage residual arms added 0.00000 pp. | Reproduced V167 within 0.00116 pp; the proposed second stage was a sealed null and no fresh confirmation occurred. |
+| V177 | Google-to-IBM exact-fault-graph pretraining | Best arm: V12 40.34706% to 39.91898%, +0.42808 pp; X +0.85615 pp, Z +0.00000 pp. Increment over matched scratch control +0.02563 pp with CI crossing zero. | Fez/X development signal, Marrakesh regression and inactive Z; rejected. No Google data or weights were used. |
+| V178 | Label-sealed V167/V177 expert stacking | V12 40.34706% to 39.72239%, +0.62467 pp; X +1.06812 pp, Z +0.18122 pp. | Passed retrospective V12 gates but underperformed V167, so it is a controlled null stacking result. |
+| V179 | Scaled basis-separated IBM graph pretraining | Running; no result yet. | Controlled evaluation of independent X/Z experts and increased exact-IBM synthetic exposure; no performance claim while running. |
 
 Interpretation rules:
 
@@ -195,7 +200,7 @@ Interpretation rules:
 - V161-V162 have sealed seven-domain development results; neither passed promotion.
 - V163-V164 are sealed retrospective development results, not fresh confirmation.
 
-<!-- END EXPLICIT V1-V165 REGISTRY -->
+<!-- END EXPLICIT V1-V179 REGISTRY -->
 
 | Ledger ID | Version | Baseline % | Candidate % | Change (pp) | Public status |
 | --- | --- | ---: | ---: | ---: | --- |
