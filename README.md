@@ -51,7 +51,8 @@ not be interpreted as the complete version list.
 
 ## Current development status
 
-V12 remains the validated winner. Recent opened-domain development results and active experiments are:
+V12 remains the best validated full-coverage model on its tested validation
+scope. Recent opened-domain development results and active experiments are:
 
 | Version | Best aggregate observation | Status |
 | --- | --- | --- |
@@ -64,7 +65,7 @@ V12 remains the validated winner. Recent opened-domain development results and a
 | V133 | Pending | Development evaluation; no performance claim |
 | V134 | Not a decoder metric | Research audit; no performance claim |
 | V135 | Pending | Development evaluation; no performance claim |
-| V136 | Pending | Development evaluation; no performance claim |
+| V136 | Corrected rerun pending | Earlier smoke tasks exposed a dtype implementation error; no performance claim |
 | V137 | Pending | Development evaluation; no performance claim |
 | V138 | Pending | Development evaluation; no performance claim |
 | V139 | Completed metric audit | No decoder-improvement claim |
@@ -77,10 +78,15 @@ V12 remains the validated winner. Recent opened-domain development results and a
 | V146 | Pending | Development evaluation; no performance claim |
 | V147 | No decoder percentage | Exact mechanism-graph recovery and validation |
 | V148 | No decoder percentage | Mathematical implementation/conformance audit |
-| V149 | 46.38542% to 45.53588%; +0.84954 pp | Historical Fez development; X +1.69907 pp, Z unchanged; not promoted |
+| V149 | 46.38542% to 45.53588%; +0.84954 pp | Historical Fez development; X +1.69907 pp, Z unchanged; fresh 120,000-shot full-coverage Fez confirmation submitted and pending |
 | V150 | Best arm 46.38542% to 45.65509%; +0.73032 pp | Historical Fez development; multiscale arm failed Z safety and did not beat V149 |
 
 These opened retrospective results are not independent confirmation evidence and do not replace V12.
+
+The V149 confirmation uses one shared untouched block for exact MWPM, V12,
+full BP-OSD and V149. All models will be scored on the same 12 circuits,
+120,000 shots and 100% denominator. No confirmation outcome or external job
+identifier is published while execution is pending.
 
 Last public update: 24 July 2026, Australia/Sydney.
 
