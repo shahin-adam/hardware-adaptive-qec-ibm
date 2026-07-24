@@ -169,6 +169,7 @@ Results from different tables must not be added together. Complete version statu
 | V157 | 1 | 43,200 Z shots | 100% | 43.32407% V12 to 43.47685% candidate; -0.15278 pp | Held V39 deep-Transformer regression |
 | V158 | 1 | 43,200 Z shots | 100% | Best arm 43.32407% V12 to 43.24769% candidate; +0.07639 pp; 95% CI crossed zero | Recurrent-Transformer scratch/pretrained transfer controls; no promotion |
 | V159 | 1 | 43,200 Z shots | 100% | Best arm 43.32407% V12 to 43.31019% candidate; +0.01389 pp; 95% CI crossed zero | Six neural architecture families; no promotion |
+| V160 | 1 | 86,400 X/Z shots | 100% | Best arm 46.38542% V12 to 45.57060% candidate; +0.81481 pp; X +1.62269 pp with positive CI, Z +0.00694 pp with CI crossing zero | IBM-native recurrent spatial decoder; full cross-domain validation pending, no promotion |
 
 V106 tested a target-label-free calibrated fallback policy. No candidate achieved a positive paired 95% lower improvement bound in every training domain separately for X and Z. No new hardware confirmation was requested.
 
