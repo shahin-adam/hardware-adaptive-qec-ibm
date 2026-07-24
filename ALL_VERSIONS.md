@@ -4,9 +4,9 @@ Sanitized public index generated from the audited private experiment ledger. Onl
 
 The table below is an index, not a cross-version leaderboard. Percentages from different hardware blocks, circuit cohorts, bases, denominators, or split roles are not directly comparable. New entries must include denominator, coverage, X/Z/pooled metrics where available, matched baseline, absolute and relative improvement, evidence level, and target status.
 
-<!-- BEGIN EXPLICIT V1-V159 REGISTRY -->
+<!-- BEGIN EXPLICIT V1-V160 REGISTRY -->
 
-## Explicit V1-V159 version registry
+## Explicit V1-V160 version registry
 
 This registry gives every integer version its own row. It complements the experiment-level E01–E167 table below. Blank or skipped version numbers are shown explicitly and are not assigned invented metrics. **V12 remains the best validated full-coverage model on its tested validation scope.**
 
@@ -171,6 +171,7 @@ This registry gives every integer version its own row. It complements the experi
 | V157 | Deep detector/population Transformer | V39 Z-only V12 43.32407% to 43.47685%; -0.15278 pp, 95% CI -0.52773 to +0.22218 pp. | Historical 100%-coverage development regression; not promoted. |
 | V158 | Recurrent-Transformer transfer controls | Best arm was scratch: V39 Z-only V12 43.32407% to 43.24769%; +0.07639 pp, 95% CI -0.07056 to +0.22333 pp. | Historical 100%-coverage development null; pretrained arms did not improve transfer and no arm was promoted. |
 | V159 | Six-family neural architecture comparison | Best arm was compact MLP: V39 Z-only V12 43.32407% to 43.31019%; +0.01389 pp, 95% CI -0.10768 to +0.13546 pp. | Historical 100%-coverage development null; no architecture passed the positive lower-confidence gate. |
+| V160 | IBM-native graph-spatial recurrent decoder | Best arm: V39 full-coverage V12 46.38542% to 45.57060%; +0.81481 pp pooled, 95% CI +0.66365 to +0.96598 pp; X +1.62269 pp, Z +0.00694 pp. | Held-domain development advance; X interval was positive but Z interval crossed zero, so no promotion. Complete cross-domain validation is pending. |
 
 Interpretation rules:
 
@@ -179,7 +180,7 @@ Interpretation rules:
 - V22's below-1% value is conditional at 5% retained coverage, not full-denominator decoding.
 - V131–V138, V140–V142 and V145–V146 remain pending until their complete result arrays and safety checks are sealed.
 
-<!-- END EXPLICIT V1-V159 REGISTRY -->
+<!-- END EXPLICIT V1-V160 REGISTRY -->
 
 | Ledger ID | Version | Baseline % | Candidate % | Change (pp) | Public status |
 | --- | --- | ---: | ---: | ---: | --- |
