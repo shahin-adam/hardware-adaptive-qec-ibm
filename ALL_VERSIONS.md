@@ -4,9 +4,9 @@ Sanitized public index generated from the audited private experiment ledger. Onl
 
 The table below is an index, not a cross-version leaderboard. Percentages from different hardware blocks, circuit cohorts, bases, denominators, or split roles are not directly comparable. New entries must include denominator, coverage, X/Z/pooled metrics where available, matched baseline, absolute and relative improvement, evidence level, and target status.
 
-<!-- BEGIN EXPLICIT V1-V146 REGISTRY -->
+<!-- BEGIN EXPLICIT V1-V150 REGISTRY -->
 
-## Explicit V1–V146 version registry
+## Explicit V1–V150 version registry
 
 This registry gives every integer version its own row. It complements the experiment-level E01–E167 table below. Blank or skipped version numbers are shown explicitly and are not assigned invented metrics. **V12 remains the validated full-coverage winner.**
 
@@ -158,6 +158,10 @@ This registry gives every integer version its own row. It complements the experi
 | V144 | Algebraic audit V144 | No decoder-improvement percentage. | Completed feasibility audit; no promotion claim. |
 | V145 | Development experiment V145 | Performance pending. | No performance or promotion claim. |
 | V146 | Development experiment V146 | Performance pending. | No performance or promotion claim. |
+| V147 | Exact detector/error-mechanism graph recovery | No decoder-improvement percentage; exact matrix/graph validation completed. | Mathematical infrastructure result; no promotion claim. |
+| V148 | Mathematical formulation conformance | No decoder-improvement percentage; implementation checks completed. | Mathematical audit; no promotion claim. |
+| V149 | Basis/configuration-aware Fez decoder gate | V12 46.38542% to 45.53588%, +0.84954 pp; X +1.69907 pp, Z 0.00000 pp. | Historical development evidence; positive pooled/X result but not a universal promotion. |
+| V150 | Multiscale diffusion/scattering router | Best arm V12 46.38542% to 45.65509%, +0.73032 pp; multiscale arm +0.66204 pp and regressed Z by 0.03935 pp. | Historical development result; did not beat V149 and failed basis safety. |
 
 Interpretation rules:
 
