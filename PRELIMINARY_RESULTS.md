@@ -18,7 +18,7 @@ An apples-to-apples comparison must use the same hardware block, scored shots, c
 - The complete experiment history is an audit index, not a leaderboard; see [ALL_VERSIONS.md](ALL_VERSIONS.md).
 
 The canonical registry now contains an explicit row for every version from
-V1 through V150. This preliminary-results page contains only comparable
+V1 through V151. This preliminary-results page contains only comparable
 headline tables; absence from this page does not mean that a version is
 missing from the project record.
 
@@ -160,6 +160,7 @@ Results from different tables must not be added together. Complete version statu
 | V107 | 9 | 777,600 | 100% | 39.28987% baseline to 39.23611% candidate; 0.05376 pp improvement; sealed null | Retrospective leave-one-domain-out development |
 | V149 | 1 | 86,400 | 100% | 46.38542% V12 to 45.53588% candidate; 0.84954 pp improvement; X +1.69907 pp and Z unchanged | Historical Fez configuration-routing development; not promoted |
 | V150 | 1 | 86,400 | 100% | Best arm 46.38542% V12 to 45.65509% candidate; 0.73032 pp improvement; multiscale arm regressed Z | Historical Fez development; not promoted |
+| V151 | 1 | 86,400 | 100% | 46.38542% V12 to 45.65509% candidate; +0.73032 pp while intervening on 3.68171% of shots | Historical Fez Pareto-concentration development; 0.11921 pp worse than V149 |
 
 V106 tested a target-label-free calibrated fallback policy. No candidate achieved a positive paired 95% lower improvement bound in every training domain separately for X and Z. No new hardware confirmation was requested.
 
@@ -171,6 +172,11 @@ preselected Fez X-basis configurations. Its pooled paired 95% interval was
 multiscale representation; it remained positive in aggregate but did not beat
 V149 and failed the separate Z safety requirement. Both blocks had previously
 been opened, so neither result replaces the validated V12 claim.
+
+V151 tested whether V149's useful minority could be narrowed further. It
+retained 100% prediction coverage through V12 fallback and achieved a positive
+aggregate result, but the additional selectivity discarded useful corrections
+and did not beat V149.
 
 V149 has now been frozen for a new 120,000-shot Fez confirmation covering all
 12 X/Z, 3/5/7-round and logical-state cells. Exact MWPM, V12, full BP-OSD and
