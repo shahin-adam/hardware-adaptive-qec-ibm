@@ -183,6 +183,17 @@ Results from different tables must not be added together. Complete version statu
 | V171 | 45.25231% | 45.25231% | +0.00000 pp | No X/Z intervention | Source-only safety null on Marrakesh |
 | V172 | — | — | — | Performance pending | Multi-beam exact-coset extraction running |
 | V173 | 40.34706% | 40.28654% | +0.06052 pp | X +0.12103 pp; Z unchanged | Neural router completed; Kingston regression prevented promotion |
+| V174 | 40.34706% | 39.73132% | +0.61574 pp | X +1.06019 pp; Z +0.17130 pp | Multi-beam exact-coset development; weaker than V167 |
+| V175 | 40.34706% | 39.73099% | +0.61607 pp | X +1.06713 pp; Z +0.16501 pp | Exact-coset refinement; weaker than V167 |
+| V176 | 40.34706% | 39.70470% | +0.64236 pp | X +1.10350 pp; Z +0.18122 pp | Authoritative V167 reproduction; second-stage residual was null |
+| V177 | 40.34706% | 39.91898% | +0.42808 pp | X +0.85615 pp; Z unchanged | Exact-IBM graph pretraining; incremental CI over scratch crossed zero |
+| V178 | 40.34706% | 39.72239% | +0.62467 pp | X +1.06812 pp; Z +0.18122 pp | Label-sealed stack; weaker than V167 |
+| V179 | 40.34706% | 39.86194% | +0.48512 pp | X +0.97024 pp; Z unchanged | Scaled basis-separated graph pretraining; weaker than V167 |
+| V181 | 40.34706% | 39.93882% | +0.40823 pp | X +0.81647 pp; Z unchanged | IBM-adapted recurrent graph-attention core; Marrakesh regressed |
+| V182 | 40.34706% | 39.64897% | +0.69808 pp | X +1.21495 pp; Z +0.18122 pp | Label-sealed V167/V179 cascade; retrospective development only |
+| V185 | 40.34706% | 39.69907% | +0.64798 pp | X +1.11475 pp; Z +0.18122 pp | Holland classifier-system router; below V182 |
+| V186 | 40.34706% | 39.70370% | +0.64335 pp | X +1.10549 pp; Z +0.18122 pp | Best hierarchical partial-pooling arm; negligible increment over V167 reproduction |
+| V187 | 40.34706% | 39.63624% | +0.71081 pp | X +1.23512 pp; Z +0.18651 pp | Strongest retrospective point estimate; +0.01273 pp versus V182 with CI crossing zero |
 
 V106 tested a target-label-free calibrated fallback policy. No candidate achieved a positive paired 95% lower improvement bound in every training domain separately for X and Z. No new hardware confirmation was requested.
 
@@ -256,9 +267,17 @@ increment over an architecture-identical scratch control was only +0.02563 pp
 and its paired confidence interval crossed zero; Z was unchanged and
 Marrakesh regressed. V178 then stacked the independent V167 and V177 experts
 using other-domain evidence only. It achieved +0.62467 pp with positive X and
-Z development gains but remained below V167. V179 is testing increased
-synthetic exposure with independent basis experts; no V179 result is claimed
-while it is running.
+Z development gains but remained below V167. V179 increased synthetic exposure
+with independent basis experts and reached +0.48512 pp, concentrated entirely
+in X, so it did not replace V167.
+
+V182 combined V167's exact-coset Z evidence with V179's Fez-X expert using
+source-only routing and reached +0.69808 pp. V185's book-derived classifier
+system and V186's hierarchical partial pooling remained below V182. V187 added
+an exact-coset MAP residual and produced the largest retrospective point
+estimate, +0.71081 pp. Its +0.01273 pp increment over V182 had a paired 95%
+interval of -0.02686 to +0.05233 pp, so superiority over V182 is not
+statistically established. None of V182-V187 is fresh independent confirmation.
 
 V180 records a future IBM circuit-level detector-rate optimization protocol.
 It has no decoder percentage and cannot run retrospectively because the
