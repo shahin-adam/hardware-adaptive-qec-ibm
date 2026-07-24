@@ -8,7 +8,7 @@ The table below is an index, not a cross-version leaderboard. Percentages from d
 
 ## Explicit V1–V150 version registry
 
-This registry gives every integer version its own row. It complements the experiment-level E01–E167 table below. Blank or skipped version numbers are shown explicitly and are not assigned invented metrics. **V12 remains the validated full-coverage winner.**
+This registry gives every integer version its own row. It complements the experiment-level E01–E167 table below. Blank or skipped version numbers are shown explicitly and are not assigned invented metrics. **V12 remains the best validated full-coverage model on its tested validation scope.**
 
 | Version | Model or experiment | Quantitative headline | Evidence status / decision |
 | --- | --- | --- | --- |
@@ -147,7 +147,7 @@ This registry gives every integer version its own row. It complements the experi
 | V133 | V12 metric-auxiliary amplification | Twelve auxiliary-weight, multitask and routing configurations are running. | Directly amplifies V130’s useful training-only auxiliary signal; no promotion claim yet. |
 | V134 | Qwen cross-version result analyst | Local Qwen3-Coder-30B-A3B analysis job queued; no decoder metric. | Research-ideation tool only; cannot promote a model or replace measured IBM evaluation. |
 | V135 | V12 + V128 + V130 merged decoder | Three controlled auxiliary strengths queued after smoke validation. | Direct merge of V128’s +0.37252 pp and V130’s +0.32424 pp development directions; result pending. |
-| V136 | Development experiment V136 | Performance pending. | No performance or promotion claim. |
+| V136 | Development experiment V136 | Performance pending; an earlier smoke run exposed a dtype implementation error. | Invalid smoke tasks cancelled; corrected full rerun pending. |
 | V137 | Development experiment V137 | Performance pending. | No performance or promotion claim. |
 | V138 | Development experiment V138 | Performance pending. | No performance or promotion claim. |
 | V139 | Metric audit V139 | No decoder-improvement percentage. | Completed development audit; no promotion claim. |
@@ -160,7 +160,7 @@ This registry gives every integer version its own row. It complements the experi
 | V146 | Development experiment V146 | Performance pending. | No performance or promotion claim. |
 | V147 | Exact detector/error-mechanism graph recovery | No decoder-improvement percentage; exact matrix/graph validation completed. | Mathematical infrastructure result; no promotion claim. |
 | V148 | Mathematical formulation conformance | No decoder-improvement percentage; implementation checks completed. | Mathematical audit; no promotion claim. |
-| V149 | Basis/configuration-aware Fez decoder gate | V12 46.38542% to 45.53588%, +0.84954 pp; X +1.69907 pp, Z 0.00000 pp. | Historical development evidence; positive pooled/X result but not a universal promotion. |
+| V149 | Basis/configuration-aware Fez decoder gate | V12 46.38542% to 45.53588%, +0.84954 pp; X +1.69907 pp, Z 0.00000 pp. | Historical development evidence; frozen fresh 120,000-shot full-coverage Fez confirmation submitted and pending. |
 | V150 | Multiscale diffusion/scattering router | Best arm V12 46.38542% to 45.65509%, +0.73032 pp; multiscale arm +0.66204 pp and regressed Z by 0.03935 pp. | Historical development result; did not beat V149 and failed basis safety. |
 
 Interpretation rules:
@@ -170,7 +170,7 @@ Interpretation rules:
 - V22's below-1% value is conditional at 5% retained coverage, not full-denominator decoding.
 - V131–V138, V140–V142 and V145–V146 remain pending until their complete result arrays and safety checks are sealed.
 
-<!-- END EXPLICIT V1-V146 REGISTRY -->
+<!-- END EXPLICIT V1-V150 REGISTRY -->
 
 | Ledger ID | Version | Baseline % | Candidate % | Change (pp) | Public status |
 | --- | --- | ---: | ---: | ---: | --- |
