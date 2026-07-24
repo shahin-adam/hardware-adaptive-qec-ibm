@@ -190,8 +190,15 @@ This registry gives every integer version its own row. It complements the experi
 | V176 | V167 reproduction and independent residual cascade | Authoritative repeat: V12 40.34706% to 39.70470%, +0.64236 pp; X +1.10350 pp, Z +0.18122 pp. Eight compatible second-stage residual arms added 0.00000 pp. | Reproduced V167 within 0.00116 pp; the proposed second stage was a sealed null and no fresh confirmation occurred. |
 | V177 | Google-to-IBM exact-fault-graph pretraining | Best arm: V12 40.34706% to 39.91898%, +0.42808 pp; X +0.85615 pp, Z +0.00000 pp. Increment over matched scratch control +0.02563 pp with CI crossing zero. | Fez/X development signal, Marrakesh regression and inactive Z; rejected. No Google data or weights were used. |
 | V178 | Label-sealed V167/V177 expert stacking | V12 40.34706% to 39.72239%, +0.62467 pp; X +1.06812 pp, Z +0.18122 pp. | Passed retrospective V12 gates but underperformed V167, so it is a controlled null stacking result. |
-| V179 | Scaled basis-separated IBM graph pretraining | Running; no result yet. | Controlled evaluation of independent X/Z experts and increased exact-IBM synthetic exposure; no performance claim while running. |
+| V179 | Scaled basis-separated IBM graph pretraining | V12 40.34706% to 39.86194%, +0.48512 pp; X +0.97024 pp, Z +0.00000 pp. | Opened-domain development result; weaker than V167 and not promoted. |
 | V180 | IBM circuit-level detector-rate policy protocol | No decoder percentage; future-hardware protocol. | Pre-registered randomized paired optimization of target-valid schedules/layouts using detector-rate reward; retrospective execution is invalid because historical shots contain no policy assignments. |
+| V181 | IBM-adapted recurrent graph-attention core | Best arm: V12 40.34706% to 39.93882%, +0.40823 pp; X +0.81647 pp, Z +0.00000 pp. | Opened-domain development result; Marrakesh regressed and no promotion occurred. |
+| V182 | Label-sealed V167/V179 basis-backend cascade | V12 40.34706% to 39.64897%, +0.69808 pp; X +1.21495 pp, Z +0.18122 pp. | Strong full-coverage retrospective candidate; increment over V167 +0.05572 pp with positive paired CI, but fresh confirmation is required. |
+| V183 | Hierarchical and simultaneous non-inferiority audit | No new decoder percentage. | Methodological audit of V182; no prediction was changed and no promotion claim was made. |
+| V184 | Neuroscience-inspired causal temporal decoder | Running; no result yet. | Matched causal alpha-filter, surprise and homeostasis ablation; no performance claim while running. |
+| V185 | Holland classifier-system credit router | V12 40.34706% to 39.69907%, +0.64798 pp; X +1.11475 pp, Z +0.18122 pp. | Passed retrospective gates and improved V167 by +0.00562 pp, but remained below V182 and requires fresh confirmation. |
+| V186 | Hierarchical partial-pooling expert router | Best arm: V12 40.34706% to 39.70370%, +0.64335 pp; X +1.10549 pp, Z +0.18122 pp. | Partial pooling added only +0.00099 pp over the reproduced V167 output and remained below V182. |
+| V187 | Exact-coset MAP residual over V182 | V12 40.34706% to 39.63624%, +0.71081 pp; X +1.23512 pp, Z +0.18651 pp. | Strongest full-coverage retrospective point estimate. The +0.01273 pp increment over V182 had a CI crossing zero; fresh confirmation is required. |
 
 Interpretation rules:
 
