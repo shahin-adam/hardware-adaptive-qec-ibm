@@ -44,7 +44,7 @@ Results use different datasets and comparators and must not be added together.
 Every new result is reported with data source, dataset/block role, full or selected denominator, coverage, X error, Z error, pooled error, matched baseline, absolute improvement, relative reduction, statistical evidence, evidence level, and below-1% status. Versions are ranked only when dataset, circuit cohort, basis, denominator, and split role match. Cross-block percentages are contextual rather than direct head-to-head comparisons.
 
 The canonical, complete registry is [ALL_VERSIONS.md](ALL_VERSIONS.md). It
-contains an explicit row for every version from V1 through V160, including
+contains an explicit row for every version from V1 through V174, including
 archive gaps, null results, failed/sealed experiments, active development,
 and confirmed evidence. README tables are intentionally summaries and must
 not be interpreted as the complete version list.
@@ -60,22 +60,22 @@ scope. Recent opened-domain development results and active experiments are:
 | V128 | 0.3725 pp pooled development gain | Not promoted; basis/domain gates failed |
 | V129 | 0.0749 pp pooled development gain | Not promoted; transfer safety gates failed |
 | V130 | 0.3242 pp pooled development gain | X +0.6485 pp, Z unchanged; worst-fold gate failed |
-| V131 | Pending | Development evaluation; no performance claim |
-| V132 | Pending | Development evaluation; no performance claim |
-| V133 | Pending | Development evaluation; no performance claim |
+| V131 | Best arm 0.00000 pp; fine-tuned arm -0.01141 pp | Foundation-model transfer completed; no arm was promoted |
+| V132 | 0.00000 pp in all four fusion/control arms | Fusion completed; no arm was promoted |
+| V133 | Best arm +0.44015 pp; X +0.87500 pp, Z +0.00529 pp | Opened-domain development only; negative held cells prevented promotion |
 | V134 | Not a decoder metric | Research audit; no performance claim |
-| V135 | Pending | Development evaluation; no performance claim |
-| V136 | Corrected smoke passed; full evaluation running | Earlier dtype implementation error repaired; no performance claim |
-| V137 | Pending | Development evaluation; no performance claim |
-| V138 | Pending | Development evaluation; no performance claim |
+| V135 | Best arm +0.37550 pp; X +0.75099 pp, Z unchanged | Opened-domain development only; negative held cells prevented promotion |
+| V136 | Best arm +0.27993 pp; X +0.55985 pp, Z unchanged | Full evaluation completed; zero-gain cells prevented promotion |
+| V137 | Best arm +0.15476 pp; X +0.30952 pp, Z unchanged | Full evaluation completed; zero-gain cells prevented promotion |
+| V138 | 0.00000 pp in all asymmetric-risk arms | Full evaluation completed; no arm was promoted |
 | V139 | Completed metric audit | No decoder-improvement claim |
-| V140 | Pending | Development evaluation; no performance claim |
-| V141 | Pending | Development evaluation; no performance claim |
-| V142 | Pending | Development evaluation; no performance claim |
+| V140 | Best zero-shot +0.17342 pp; corresponding few-shot +0.16750 pp | MMD/EWC transfer development completed; no arm was promoted |
+| V141 | Best arm +0.23472 pp; X +0.46944 pp, Z unchanged | Unlabelled-target MMD development completed; negative held cells prevented promotion |
+| V142 | 0.00000 pp for original and spectral variants | Spectral audit and matched decoder comparison completed; no promotion |
 | V143 | Completed drift audit | No decoder-improvement claim |
 | V144 | Completed algebraic audit | No decoder-improvement claim |
-| V145 | Pending | Development evaluation; no performance claim |
-| V146 | Pending | Development evaluation; no performance claim |
+| V145 | Best arm 0.00000 pp; strongest adversarial arm -0.07434 pp | Domain-adversarial evaluation completed; no arm was promoted |
+| V146 | 0.00000 pp for all four importance-weight caps | Covariate-shift evaluation completed; no arm was promoted |
 | V147 | No decoder percentage | Exact mechanism-graph recovery and validation |
 | V148 | No decoder percentage | Mathematical implementation/conformance audit |
 | V149 | 46.38542% to 45.53588%; +0.84954 pp | Historical Fez development; X +1.69907 pp, Z unchanged; fresh 120,000-shot full-coverage Fez confirmation submitted and pending |
@@ -89,7 +89,21 @@ scope. Recent opened-domain development results and active experiments are:
 | V157 | V39 Z-only 43.32407% to 43.47685%; -0.15278 pp | Deep Transformer regression; not promoted |
 | V158 | Best arm V39 Z-only 43.32407% to 43.24769%; +0.07639 pp | Scratch recurrent-Transformer result; confidence interval crossed zero |
 | V159 | Best arm V39 Z-only 43.32407% to 43.31019%; +0.01389 pp | Six-architecture comparison; no arm passed confidence gating |
-| V160 | Best arm V39 full-coverage 46.38542% to 45.57060%; +0.81481 pp | IBM-native graph-spatial recurrent decoder; X +1.62269 pp (positive CI), Z +0.00694 pp (CI crossed zero); cross-domain validation pending |
+| V160 | V39 46.38542% to 45.57060%; +0.81481 pp; seven-domain pooled 40.34706% to 39.98429%; +0.36276 pp | Cross-domain evaluation completed on 604,800 shots: X +0.72487 pp, Z +0.00066 pp; Marrakesh regressed and Z CI crossed zero, so not promoted |
+| V161 | Seven-domain 40.34706% to 39.90427%; +0.44279 pp; X +0.89153 pp, Z -0.00595 pp | Cross-domain development result; domain regressions prevented promotion |
+| V162 | Seven-domain 40.34706% to 39.89269%; +0.45437 pp; X +0.90873 pp, Z unchanged | Cross-domain development result with no negative domain point estimate; positive Z evidence absent |
+| V163 | 40.34706% to 39.99223%; +0.35483 pp; X +1.28704 pp, Z -0.57738 pp | Full-coverage development comparator; Z and two Kingston domains regressed |
+| V164 | 40.34706% to 39.84210%; +0.50496 pp; X +1.00992 pp, Z unchanged | Nested seven-domain development result with no negative domain point estimate; fresh confirmation still required |
+| V165 | Six exact-graph domains 39.52951% to 39.25868%; +0.27083 pp | Nested cost-margin development result; X +0.54167 pp, Z unchanged; not promoted |
+| V166 | Six exact-graph domains +0.40374 pp | Configuration-specific syndrome selector; X +0.80748 pp, Z unchanged; not promoted |
+| V167 | Seven-domain full coverage 40.34706% to 39.70354%; +0.64352 pp | Strongest retrospective candidate in this audit; X +1.10516 pp and Z +0.18188 pp, but fresh confirmation is required |
+| V168 | Repeated-seed range +0.59904 to +0.64352 pp | Positive X and Z gains persisted across five seeds; matched exact-only and syndrome-only ablations were weaker |
+| V169 | No new performance percentage | Fez X/Z selectors and thresholds frozen before fresh-outcome retrieval |
+| V170 | 40.34706% to 39.79167%; +0.55539 pp | Source-only top-20% feature model; retained positive X/Z gains but was weaker than V167 |
+| V171 | Marrakesh 45.25231% to 45.25231%; +0.00000 pp | No source-only X/Z rule passed all safety gates; V12 retained |
+| V172 | No decoder percentage | All 12 multi-beam extraction tasks completed successfully; outputs feed V174 |
+| V173 | Full coverage +0.06052 pp; X +0.12103 pp, Z unchanged | Neural exact-coset router completed; one Kingston block regressed, so no promotion |
+| V174 | Running; no result yet | Six nested multi-beam selector arms are being evaluated; no performance claim |
 
 These opened retrospective results are not independent confirmation evidence and do not replace V12.
 
