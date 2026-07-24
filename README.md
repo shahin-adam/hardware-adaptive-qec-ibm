@@ -44,7 +44,7 @@ Results use different datasets and comparators and must not be added together.
 Every new result is reported with data source, dataset/block role, full or selected denominator, coverage, X error, Z error, pooled error, matched baseline, absolute improvement, relative reduction, statistical evidence, evidence level, and below-1% status. Versions are ranked only when dataset, circuit cohort, basis, denominator, and split role match. Cross-block percentages are contextual rather than direct head-to-head comparisons.
 
 The canonical, complete registry is [ALL_VERSIONS.md](ALL_VERSIONS.md). It
-contains an explicit row for every version from V1 through V135, including
+contains an explicit row for every version from V1 through V136, including
 archive gaps, null results, failed/sealed experiments, active development,
 and confirmed evidence. README tables are intentionally summaries and must
 not be interpreted as the complete version list.
@@ -64,6 +64,7 @@ V12 remains the validated winner. Recent opened-domain development results and a
 | V133 | Full 12-arm sweep running | Amplifies V130 metric auxiliaries with multitask and routing controls |
 | V134 | Qwen result-audit job queued | Open-model research analyst; not a syndrome decoder or performance claim |
 | V135 | Corrected smoke/full jobs queued | Direct V12 + V128 + V130 merged decoder |
+| V136 | Smoke/full jobs dependency-chained | Correction-versus-damage router combining V12 fallback, local V128/V130 evidence, and global V125 relational evidence |
 
 These opened retrospective results are not independent confirmation evidence and do not replace V12.
 
