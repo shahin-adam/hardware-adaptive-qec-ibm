@@ -200,6 +200,8 @@ This registry gives every integer version its own row. It complements the experi
 | V186 | Hierarchical partial-pooling expert router | Best arm: V12 40.34706% to 39.70370%, +0.64335 pp; X +1.10549 pp, Z +0.18122 pp. | Partial pooling added only +0.00099 pp over the reproduced V167 output and remained below V182. |
 | V187 | Exact-coset MAP residual over V182 | V12 40.34706% to 39.63624%, +0.71081 pp; X +1.23512 pp, Z +0.18651 pp. | Strongest full-coverage retrospective point estimate. The +0.01273 pp increment over V182 had a CI crossing zero; fresh confirmation is required. |
 | V188 | Temporal delayed-credit V182/V187 router | V12 40.34706% to 39.63029%, +0.71677 pp; X +1.25231 pp, Z +0.18122 pp. | Strongest full-coverage retrospective point estimate. Increment over V182 +0.01868 pp with positive paired CI; increment over V187 not established; fresh confirmation required. |
+| V189 | Evolutionary exact-graph BP-OSD prior calibration | Running; no performance percentage yet. | Source domains select the bounded genome and fallback configurations before held historical evaluation; not fresh confirmation. |
+| V190 | Class-conditional higher-order backend alignment | Running; no performance percentage yet. | Matched no-alignment, covariance and third-moment arms; target logical labels and target V12 correctness remain sealed. |
 
 Interpretation rules:
 
