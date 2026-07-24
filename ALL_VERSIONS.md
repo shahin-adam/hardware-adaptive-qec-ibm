@@ -4,9 +4,9 @@ Sanitized public index generated from the audited private experiment ledger. Onl
 
 The table below is an index, not a cross-version leaderboard. Percentages from different hardware blocks, circuit cohorts, bases, denominators, or split roles are not directly comparable. New entries must include denominator, coverage, X/Z/pooled metrics where available, matched baseline, absolute and relative improvement, evidence level, and target status.
 
-<!-- BEGIN EXPLICIT V1-V135 REGISTRY -->
+<!-- BEGIN EXPLICIT V1-V136 REGISTRY -->
 
-## Explicit V1–V135 version registry
+## Explicit V1–V136 version registry
 
 This registry gives every integer version its own row. It complements the experiment-level E01–E167 table below. Blank or skipped version numbers are shown explicitly and are not assigned invented metrics. **V12 remains the validated full-coverage winner.**
 
@@ -147,15 +147,16 @@ This registry gives every integer version its own row. It complements the experi
 | V133 | V12 metric-auxiliary amplification | Twelve auxiliary-weight, multitask and routing configurations are running. | Directly amplifies V130’s useful training-only auxiliary signal; no promotion claim yet. |
 | V134 | Qwen cross-version result analyst | Local Qwen3-Coder-30B-A3B analysis job queued; no decoder metric. | Research-ideation tool only; cannot promote a model or replace measured IBM evaluation. |
 | V135 | V12 + V128 + V130 merged decoder | Three controlled auxiliary strengths queued after smoke validation. | Direct merge of V128’s +0.37252 pp and V130’s +0.32424 pp development directions; result pending. |
+| V136 | Relational–structural correction/damage router | Smoke/full jobs chained after V135; performance pending. | V12 fallback + local V128/V130 expert + global V125 expert; no promotion claim yet. |
 
 Interpretation rules:
 
 - Development, simulation, structural, selective and postselected results are not directly comparable.
 - A blank metric means unavailable or not applicable; it does not mean zero.
 - V22's below-1% value is conditional at 5% retained coverage, not full-denominator decoding.
-- V131–V135 remain pending until their complete result arrays and safety checks are sealed.
+- V131–V136 remain pending until their complete result arrays and safety checks are sealed.
 
-<!-- END EXPLICIT V1-V135 REGISTRY -->
+<!-- END EXPLICIT V1-V136 REGISTRY -->
 
 | Ledger ID | Version | Baseline % | Candidate % | Change (pp) | Public status |
 | --- | --- | ---: | ---: | ---: | --- |
