@@ -44,7 +44,7 @@ Results use different datasets and comparators and must not be added together.
 Every new result is reported with data source, dataset/block role, full or selected denominator, coverage, X error, Z error, pooled error, matched baseline, absolute improvement, relative reduction, statistical evidence, evidence level, and below-1% status. Versions are ranked only when dataset, circuit cohort, basis, denominator, and split role match. Cross-block percentages are contextual rather than direct head-to-head comparisons.
 
 The canonical, complete registry is [ALL_VERSIONS.md](ALL_VERSIONS.md). It
-contains an explicit row for every version from V1 through V174, including
+contains an explicit row for every version from V1 through V179, including
 archive gaps, null results, failed/sealed experiments, active development,
 and confirmed evidence. README tables are intentionally summaries and must
 not be interpreted as the complete version list.
@@ -103,7 +103,12 @@ scope. Recent opened-domain development results and active experiments are:
 | V171 | Marrakesh 45.25231% to 45.25231%; +0.00000 pp | No source-only X/Z rule passed all safety gates; V12 retained |
 | V172 | No decoder percentage | All 12 multi-beam extraction tasks completed successfully; outputs feed V174 |
 | V173 | Full coverage +0.06052 pp; X +0.12103 pp, Z unchanged | Neural exact-coset router completed; one Kingston block regressed, so no promotion |
-| V174 | Running; no result yet | Six nested multi-beam selector arms are being evaluated; no performance claim |
+| V174 | 40.34706% to 39.73132%; +0.61574 pp | Multi-beam exact-coset selector retained positive X/Z development gains but was weaker than V167 |
+| V175 | 40.34706% to 39.73099%; +0.61607 pp | Matched refinement retained positive X/Z development gains but was weaker than V167 |
+| V176 | Authoritative repeat 40.34706% to 39.70470%; +0.64236 pp | V167 reproduction was within 0.00116 pp of the archived result; eight second-stage residual arms added 0.00000 pp |
+| V177 | Best arm 40.34706% to 39.91898%; +0.42808 pp | Exact-IBM fault-graph pretraining improved X but left Z unchanged; incremental gain over its matched scratch control was +0.02563 pp with CI crossing zero |
+| V178 | 40.34706% to 39.72239%; +0.62467 pp | Label-sealed V167/V177 expert stacking passed retrospective V12 gates but underperformed V167 |
+| V179 | Running; no result yet | Scaled, basis-separated exact-IBM graph pretraining is under controlled evaluation |
 
 These opened retrospective results are not independent confirmation evidence and do not replace V12.
 
@@ -112,7 +117,7 @@ full BP-OSD and V149. All models will be scored on the same 12 circuits,
 120,000 shots and 100% denominator. No confirmation outcome or external job
 identifier is published while execution is pending.
 
-Last public update: 24 July 2026, Australia/Sydney.
+Last public update: 25 July 2026, Australia/Sydney.
 
 ## Disclosure boundary
 
