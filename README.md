@@ -44,7 +44,7 @@ Results use different datasets and comparators and must not be added together.
 Every new result is reported with data source, dataset/block role, full or selected denominator, coverage, X error, Z error, pooled error, matched baseline, absolute improvement, relative reduction, statistical evidence, evidence level, and below-1% status. Versions are ranked only when dataset, circuit cohort, basis, denominator, and split role match. Cross-block percentages are contextual rather than direct head-to-head comparisons.
 
 The canonical, complete registry is [ALL_VERSIONS.md](ALL_VERSIONS.md). It
-contains an explicit row for every version from V1 through V146, including
+contains an explicit row for every version from V1 through V150, including
 archive gaps, null results, failed/sealed experiments, active development,
 and confirmed evidence. README tables are intentionally summaries and must
 not be interpreted as the complete version list.
@@ -75,6 +75,10 @@ V12 remains the validated winner. Recent opened-domain development results and a
 | V144 | Completed algebraic audit | No decoder-improvement claim |
 | V145 | Pending | Development evaluation; no performance claim |
 | V146 | Pending | Development evaluation; no performance claim |
+| V147 | No decoder percentage | Exact mechanism-graph recovery and validation |
+| V148 | No decoder percentage | Mathematical implementation/conformance audit |
+| V149 | 46.38542% to 45.53588%; +0.84954 pp | Historical Fez development; X +1.69907 pp, Z unchanged; not promoted |
+| V150 | Best arm 46.38542% to 45.65509%; +0.73032 pp | Historical Fez development; multiscale arm failed Z safety and did not beat V149 |
 
 These opened retrospective results are not independent confirmation evidence and do not replace V12.
 
