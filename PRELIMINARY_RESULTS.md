@@ -1,6 +1,6 @@
 # Preliminary real-hardware results
 
-Updated 21 July 2026.
+Updated 24 July 2026.
 
 Project team: Dr Weisheng, academic supervisor; Shahin Adam, lead student researcher and technical implementer. Western Sydney University.
 
@@ -16,6 +16,29 @@ An apples-to-apples comparison must use the same hardware block, scored shots, c
 - A percentage-point (pp) improvement is baseline error minus candidate error; larger positive values are better.
 - Conditional/postselected results are reported separately and are not full-decoder error rates.
 - The complete experiment history is an audit index, not a leaderboard; see [ALL_VERSIONS.md](ALL_VERSIONS.md).
+
+The canonical registry now contains an explicit row for every version from
+V1 through V135. This preliminary-results page contains only comparable
+headline tables; absence from this page does not mean that a version is
+missing from the project record.
+
+## Current post-V12 development
+
+| Version | Pooled development observation | Decision/status |
+| --- | ---: | --- |
+| V125 | +0.33267 pp over V12 | Not promoted; basis/domain safety failed |
+| V128 | +0.37252 pp over V12 | Not promoted; strict held-cell confidence requirement failed |
+| V129 | +0.07490 pp over V12 | Not promoted; external-backbone transfer gate failed |
+| V130 | +0.32424 pp over V12 | Not promoted; X-only gain and negative worst-fold bound |
+| V131 | Pending | Corrected NTU foundation-transfer evaluation running |
+| V132 | Pending | V128+Pathfinder gated fusion running |
+| V133 | Pending | V130 auxiliary-amplification sweep running |
+| V134 | Not a decoder metric | Qwen cross-version evidence audit queued |
+| V135 | Pending | Direct V12+V128+V130 merged decoder queued |
+
+These are opened-domain development experiments. They demonstrate continued
+model progress but do not replace V12 without a complete X/Z/backend safety
+pass and a new untouched IBM confirmation block.
 
 ## Metric-definition note
 
