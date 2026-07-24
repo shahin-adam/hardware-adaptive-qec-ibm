@@ -164,6 +164,11 @@ Results from different tables must not be added together. Complete version statu
 | V152 | 1 | 86,400 | 100% | 46.38542% V12 to 45.53588% candidate; +0.84954 pp; X +1.69907 pp and Z unchanged | Historical Fez population/criticality extension; no safe Z intervention, therefore identical to V149 |
 | V153 | 1 | 86,400 | 100% | 46.38542% V12 to 45.53588% candidate; +0.84954 pp; X +1.69907 pp and Z unchanged | Historical Fez symbolic island-GP extension; no evolved Z program passed the safety gate, therefore identical to V149 |
 | V154 | 3 | 86,400 evaluation | 100% | 46.38542% V12 to 45.53588% candidate; +0.84954 pp; X +1.69907 pp and Z unchanged | Exact-graph CUDA-Q Z sweep selected on two Fez blocks and evaluated on a third opened block; no Z variant passed, therefore identical to V149 |
+| V155 | 7 | 302,400 Z shots | 100% | 35.49206% V12 to 35.47388% candidate; +0.01819 pp; 95% CI crossed zero | Held-domain neural population-router development null |
+| V156 | 7 | 302,400 Z shots | 100% | 35.49206% V12 to 35.50033% candidate; -0.00827 pp | Configuration-specific neural-router development null |
+| V157 | 1 | 43,200 Z shots | 100% | 43.32407% V12 to 43.47685% candidate; -0.15278 pp | Held V39 deep-Transformer regression |
+| V158 | 1 | 43,200 Z shots | 100% | Best arm 43.32407% V12 to 43.24769% candidate; +0.07639 pp; 95% CI crossed zero | Recurrent-Transformer scratch/pretrained transfer controls; no promotion |
+| V159 | 1 | 43,200 Z shots | 100% | Best arm 43.32407% V12 to 43.31019% candidate; +0.01389 pp; 95% CI crossed zero | Six neural architecture families; no promotion |
 
 V106 tested a target-label-free calibrated fallback policy. No candidate achieved a positive paired 95% lower improvement bound in every training domain separately for X and Z. No new hardware confirmation was requested.
 
