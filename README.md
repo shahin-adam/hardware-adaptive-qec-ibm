@@ -44,7 +44,7 @@ Results use different datasets and comparators and must not be added together.
 Every new result is reported with data source, dataset/block role, full or selected denominator, coverage, X error, Z error, pooled error, matched baseline, absolute improvement, relative reduction, statistical evidence, evidence level, and below-1% status. Versions are ranked only when dataset, circuit cohort, basis, denominator, and split role match. Cross-block percentages are contextual rather than direct head-to-head comparisons.
 
 The canonical, complete registry is [ALL_VERSIONS.md](ALL_VERSIONS.md). It
-contains an explicit row for every version from V1 through V159, including
+contains an explicit row for every version from V1 through V160, including
 archive gaps, null results, failed/sealed experiments, active development,
 and confirmed evidence. README tables are intentionally summaries and must
 not be interpreted as the complete version list.
@@ -89,6 +89,7 @@ scope. Recent opened-domain development results and active experiments are:
 | V157 | V39 Z-only 43.32407% to 43.47685%; -0.15278 pp | Deep Transformer regression; not promoted |
 | V158 | Best arm V39 Z-only 43.32407% to 43.24769%; +0.07639 pp | Scratch recurrent-Transformer result; confidence interval crossed zero |
 | V159 | Best arm V39 Z-only 43.32407% to 43.31019%; +0.01389 pp | Six-architecture comparison; no arm passed confidence gating |
+| V160 | Best arm V39 full-coverage 46.38542% to 45.57060%; +0.81481 pp | IBM-native graph-spatial recurrent decoder; X +1.62269 pp (positive CI), Z +0.00694 pp (CI crossed zero); cross-domain validation pending |
 
 These opened retrospective results are not independent confirmation evidence and do not replace V12.
 
