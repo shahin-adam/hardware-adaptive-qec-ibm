@@ -44,7 +44,7 @@ Results use different datasets and comparators and must not be added together.
 Every new result is reported with data source, dataset/block role, full or selected denominator, coverage, X error, Z error, pooled error, matched baseline, absolute improvement, relative reduction, statistical evidence, evidence level, and below-1% status. Versions are ranked only when dataset, circuit cohort, basis, denominator, and split role match. Cross-block percentages are contextual rather than direct head-to-head comparisons.
 
 The canonical, complete registry is [ALL_VERSIONS.md](ALL_VERSIONS.md). It
-contains an explicit row for every version from V1 through V151, including
+contains an explicit row for every version from V1 through V152, including
 archive gaps, null results, failed/sealed experiments, active development,
 and confirmed evidence. README tables are intentionally summaries and must
 not be interpreted as the complete version list.
@@ -65,7 +65,7 @@ scope. Recent opened-domain development results and active experiments are:
 | V133 | Pending | Development evaluation; no performance claim |
 | V134 | Not a decoder metric | Research audit; no performance claim |
 | V135 | Pending | Development evaluation; no performance claim |
-| V136 | Corrected rerun pending | Earlier smoke tasks exposed a dtype implementation error; no performance claim |
+| V136 | Corrected smoke passed; full evaluation running | Earlier dtype implementation error repaired; no performance claim |
 | V137 | Pending | Development evaluation; no performance claim |
 | V138 | Pending | Development evaluation; no performance claim |
 | V139 | Completed metric audit | No decoder-improvement claim |
@@ -81,6 +81,7 @@ scope. Recent opened-domain development results and active experiments are:
 | V149 | 46.38542% to 45.53588%; +0.84954 pp | Historical Fez development; X +1.69907 pp, Z unchanged; fresh 120,000-shot full-coverage Fez confirmation submitted and pending |
 | V150 | Best arm 46.38542% to 45.65509%; +0.73032 pp | Historical Fez development; multiscale arm failed Z safety and did not beat V149 |
 | V151 | 46.38542% to 45.65509%; +0.73032 pp | 3.68171%-intervention Pareto cascade; strong concentration but 0.11921 pp worse than V149 |
+| V152 | 46.38542% to 45.53588%; +0.84954 pp | 100%-coverage population/criticality extension made no safe Z changes and reduced exactly to V149; no incremental gain |
 
 These opened retrospective results are not independent confirmation evidence and do not replace V12.
 
