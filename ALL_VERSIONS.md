@@ -4,9 +4,9 @@ Sanitized public index generated from the audited private experiment ledger. Onl
 
 The table below is an index, not a cross-version leaderboard. Percentages from different hardware blocks, circuit cohorts, bases, denominators, or split roles are not directly comparable. New entries must include denominator, coverage, X/Z/pooled metrics where available, matched baseline, absolute and relative improvement, evidence level, and target status.
 
-<!-- BEGIN EXPLICIT V1-V151 REGISTRY -->
+<!-- BEGIN EXPLICIT V1-V152 REGISTRY -->
 
-## Explicit V1–V151 version registry
+## Explicit V1-V152 version registry
 
 This registry gives every integer version its own row. It complements the experiment-level E01–E167 table below. Blank or skipped version numbers are shown explicitly and are not assigned invented metrics. **V12 remains the best validated full-coverage model on its tested validation scope.**
 
@@ -147,7 +147,7 @@ This registry gives every integer version its own row. It complements the experi
 | V133 | V12 metric-auxiliary amplification | Twelve auxiliary-weight, multitask and routing configurations are running. | Directly amplifies V130’s useful training-only auxiliary signal; no promotion claim yet. |
 | V134 | Qwen cross-version result analyst | Local Qwen3-Coder-30B-A3B analysis job queued; no decoder metric. | Research-ideation tool only; cannot promote a model or replace measured IBM evaluation. |
 | V135 | V12 + V128 + V130 merged decoder | Three controlled auxiliary strengths queued after smoke validation. | Direct merge of V128’s +0.37252 pp and V130’s +0.32424 pp development directions; result pending. |
-| V136 | Development experiment V136 | Performance pending; an earlier smoke run exposed a dtype implementation error. | Invalid smoke tasks cancelled; corrected full rerun pending. |
+| V136 | Development experiment V136 | Performance pending; corrected smoke array passed. | Earlier dtype error repaired; full evaluation running. |
 | V137 | Development experiment V137 | Performance pending. | No performance or promotion claim. |
 | V138 | Development experiment V138 | Performance pending. | No performance or promotion claim. |
 | V139 | Metric audit V139 | No decoder-improvement percentage. | Completed development audit; no promotion claim. |
@@ -163,6 +163,7 @@ This registry gives every integer version its own row. It complements the experi
 | V149 | Basis/configuration-aware Fez decoder gate | V12 46.38542% to 45.53588%, +0.84954 pp; X +1.69907 pp, Z 0.00000 pp. | Historical development evidence; frozen fresh 120,000-shot full-coverage Fez confirmation submitted and pending. |
 | V150 | Multiscale diffusion/scattering router | Best arm V12 46.38542% to 45.65509%, +0.73032 pp; multiscale arm +0.66204 pp and regressed Z by 0.03935 pp. | Historical development result; did not beat V149 and failed basis safety. |
 | V151 | Pareto-concentrated disagreement cascade | V12 46.38542% to 45.65509%, +0.73032 pp with 3.68171% routed interventions; increment beyond V149 -0.11921 pp. | Historical development result; confirms benefit concentration but the simpler V149 gate remains stronger. |
+| V152 | Covariance-aware population and detector-criticality Z extension | V12 46.38542% to 45.53588%, +0.84954 pp; X +1.69907 pp, Z 0.00000 pp; increment beyond V149 0.00000 pp. | Historical 100%-coverage development null; no Z rule passed the adjusted safety bound, so output was identical to V149. |
 
 Interpretation rules:
 
@@ -171,7 +172,7 @@ Interpretation rules:
 - V22's below-1% value is conditional at 5% retained coverage, not full-denominator decoding.
 - V131–V138, V140–V142 and V145–V146 remain pending until their complete result arrays and safety checks are sealed.
 
-<!-- END EXPLICIT V1-V151 REGISTRY -->
+<!-- END EXPLICIT V1-V152 REGISTRY -->
 
 | Ledger ID | Version | Baseline % | Candidate % | Change (pp) | Public status |
 | --- | --- | ---: | ---: | ---: | --- |
@@ -305,4 +306,4 @@ Interpretation rules:
 | E167 | V106 | — | — | 0.0000 | development null / sealed |
 | E163 | V107 | 39.2899 | 39.2361 | 0.0538 | development null / sealed |
 
-Last generated: 23 July 2026, Australia/Sydney.
+Last generated: 24 July 2026, Australia/Sydney.
