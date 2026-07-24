@@ -18,7 +18,7 @@ An apples-to-apples comparison must use the same hardware block, scored shots, c
 - The complete experiment history is an audit index, not a leaderboard; see [ALL_VERSIONS.md](ALL_VERSIONS.md).
 
 The canonical registry now contains an explicit row for every version from
-V1 through V135. This preliminary-results page contains only comparable
+V1 through V136. This preliminary-results page contains only comparable
 headline tables; absence from this page does not mean that a version is
 missing from the project record.
 
@@ -35,6 +35,7 @@ missing from the project record.
 | V133 | Pending | V130 auxiliary-amplification sweep running |
 | V134 | Not a decoder metric | Qwen cross-version evidence audit queued |
 | V135 | Pending | Direct V12+V128+V130 merged decoder queued |
+| V136 | Pending | Relational–structural correction/damage safety router queued after V135 |
 
 These are opened-domain development experiments. They demonstrate continued
 model progress but do not replace V12 without a complete X/Z/backend safety
