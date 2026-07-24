@@ -4,9 +4,9 @@ Sanitized public index generated from the audited private experiment ledger. Onl
 
 The table below is an index, not a cross-version leaderboard. Percentages from different hardware blocks, circuit cohorts, bases, denominators, or split roles are not directly comparable. New entries must include denominator, coverage, X/Z/pooled metrics where available, matched baseline, absolute and relative improvement, evidence level, and target status.
 
-<!-- BEGIN EXPLICIT V1-V160 REGISTRY -->
+<!-- BEGIN EXPLICIT V1-V165 REGISTRY -->
 
-## Explicit V1-V160 version registry
+## Explicit V1-V165 version registry
 
 This registry gives every integer version its own row. It complements the experiment-level E01–E167 table below. Blank or skipped version numbers are shown explicitly and are not assigned invented metrics. **V12 remains the best validated full-coverage model on its tested validation scope.**
 
@@ -142,22 +142,22 @@ This registry gives every integer version its own row. It complements the experi
 | V128 | Hackathon-inspired structural decoder V128 | Best pooled development arm +0.37252 pp. | Not promoted; basis/domain safety requirements failed. |
 | V129 | Pathfinder beta adapter V129 | Best pooled development arm +0.07490 pp. | Not promoted; pretrained Pathfinder did not pass the full transfer safety gates. |
 | V130 | AlphaQubit-compatible metric conditioning V130 | Best auxiliary arm +0.32424 pp pooled development gain over V12; X +0.64848 pp, Z 0.00000 pp. | Not promoted; worst-fold confidence bound was negative. The auxiliary signal is carried into V133 and V135. |
-| V131 | NTU foundation-decoder transfer V131 | Slurm evaluation in progress; no performance claim yet. | External simulated labels are not used; measured IBM labels and V12 safety fallback remain authoritative. |
-| V132 | V128 structural + V129 Pathfinder gated fusion | Smoke and full Slurm arrays submitted; performance pending. | Tests complementary local structural and directional spacetime features with V12 fallback. |
-| V133 | V12 metric-auxiliary amplification | Twelve auxiliary-weight, multitask and routing configurations are running. | Directly amplifies V130’s useful training-only auxiliary signal; no promotion claim yet. |
+| V131 | NTU foundation-decoder transfer V131 | Best arm +0.00000 pp; fine-tuned transfer arm -0.01141 pp. | Full development evaluation completed; no arm was promoted. |
+| V132 | V128 structural + V129 Pathfinder gated fusion | All four fusion and control arms produced +0.00000 pp. | Full development evaluation completed; no arm was promoted. |
+| V133 | V12 metric-auxiliary amplification | Best arm +0.44015 pp pooled; X +0.87500 pp, Z +0.00529 pp. | Opened-domain development result; negative held cells prevented promotion. |
 | V134 | Qwen cross-version result analyst | Local Qwen3-Coder-30B-A3B analysis job queued; no decoder metric. | Research-ideation tool only; cannot promote a model or replace measured IBM evaluation. |
-| V135 | V12 + V128 + V130 merged decoder | Three controlled auxiliary strengths queued after smoke validation. | Direct merge of V128’s +0.37252 pp and V130’s +0.32424 pp development directions; result pending. |
-| V136 | Development experiment V136 | Performance pending; corrected smoke array passed. | Earlier dtype error repaired; full evaluation running. |
-| V137 | Development experiment V137 | Performance pending. | No performance or promotion claim. |
-| V138 | Development experiment V138 | Performance pending. | No performance or promotion claim. |
+| V135 | V12 + V128 + V130 merged decoder | Best arm +0.37550 pp pooled; X +0.75099 pp, Z +0.00000 pp. | Opened-domain development result; negative held cells prevented promotion. |
+| V136 | Development experiment V136 | Best arm +0.27993 pp pooled; X +0.55985 pp, Z +0.00000 pp. | Full development evaluation completed; no promotion. |
+| V137 | Development experiment V137 | Best arm +0.15476 pp pooled; X +0.30952 pp, Z +0.00000 pp. | Full development evaluation completed; no promotion. |
+| V138 | Development experiment V138 | All asymmetric-risk arms produced +0.00000 pp. | Full development evaluation completed; no promotion. |
 | V139 | Metric audit V139 | No decoder-improvement percentage. | Completed development audit; no promotion claim. |
-| V140 | Development experiment V140 | Performance pending. | No performance or promotion claim. |
-| V141 | Development experiment V141 | Performance pending. | No performance or promotion claim. |
-| V142 | Development experiment V142 | Performance pending. | No performance or promotion claim. |
+| V140 | Development experiment V140 | Best zero-shot arm +0.17342 pp; corresponding few-shot arm +0.16750 pp. | MMD/EWC transfer development completed; no promotion. |
+| V141 | Development experiment V141 | Best arm +0.23472 pp pooled; X +0.46944 pp, Z +0.00000 pp. | Unlabelled-target MMD development completed; negative held cells prevented promotion. |
+| V142 | Development experiment V142 | Original and spectral variants both produced +0.00000 pp. | Spectral audit and matched decoder evaluation completed; no promotion. |
 | V143 | Drift audit V143 | No decoder-improvement percentage. | Completed development audit; no promotion claim. |
 | V144 | Algebraic audit V144 | No decoder-improvement percentage. | Completed feasibility audit; no promotion claim. |
-| V145 | Development experiment V145 | Performance pending. | No performance or promotion claim. |
-| V146 | Development experiment V146 | Performance pending. | No performance or promotion claim. |
+| V145 | Development experiment V145 | Best arm +0.00000 pp; strongest adversarial arm -0.07434 pp. | Domain-adversarial evaluation completed; no promotion. |
+| V146 | Development experiment V146 | All four importance-weight caps produced +0.00000 pp. | Covariate-shift evaluation completed; no promotion. |
 | V147 | Exact detector/error-mechanism graph recovery | No decoder-improvement percentage; exact matrix/graph validation completed. | Mathematical infrastructure result; no promotion claim. |
 | V148 | Mathematical formulation conformance | No decoder-improvement percentage; implementation checks completed. | Mathematical audit; no promotion claim. |
 | V149 | Basis/configuration-aware Fez decoder gate | V12 46.38542% to 45.53588%, +0.84954 pp; X +1.69907 pp, Z 0.00000 pp. | Historical development evidence; frozen fresh 120,000-shot full-coverage Fez confirmation submitted and pending. |
@@ -171,16 +171,31 @@ This registry gives every integer version its own row. It complements the experi
 | V157 | Deep detector/population Transformer | V39 Z-only V12 43.32407% to 43.47685%; -0.15278 pp, 95% CI -0.52773 to +0.22218 pp. | Historical 100%-coverage development regression; not promoted. |
 | V158 | Recurrent-Transformer transfer controls | Best arm was scratch: V39 Z-only V12 43.32407% to 43.24769%; +0.07639 pp, 95% CI -0.07056 to +0.22333 pp. | Historical 100%-coverage development null; pretrained arms did not improve transfer and no arm was promoted. |
 | V159 | Six-family neural architecture comparison | Best arm was compact MLP: V39 Z-only V12 43.32407% to 43.31019%; +0.01389 pp, 95% CI -0.10768 to +0.13546 pp. | Historical 100%-coverage development null; no architecture passed the positive lower-confidence gate. |
-| V160 | IBM-native graph-spatial recurrent decoder | Best arm: V39 full-coverage V12 46.38542% to 45.57060%; +0.81481 pp pooled, 95% CI +0.66365 to +0.96598 pp; X +1.62269 pp, Z +0.00694 pp. | Held-domain development advance; X interval was positive but Z interval crossed zero, so no promotion. Complete cross-domain validation is pending. |
+| V160 | IBM-native graph-spatial recurrent decoder | V39 best arm: V12 46.38542% to 45.57060%, +0.81481 pp. Complete seven-domain result: V12 40.34706% to 39.98429%, +0.36276 pp over 604,800 shots; X +0.72487 pp, Z +0.00066 pp. | Cross-domain development completed; Z CI crossed zero, three Kingston domains were inactive and Marrakesh regressed, so no promotion. |
+| V161 | Development experiment V161 | Seven-domain result: V12 40.34706% to 39.90427%, +0.44279 pp; X +0.89153 pp, Z -0.00595 pp. | Cross-domain development result; Marrakesh and one Kingston block regressed, so no promotion. |
+| V162 | Development experiment V162 | Seven-domain result: V12 40.34706% to 39.89269%, +0.45437 pp; X +0.90873 pp, Z 0.00000 pp. | Cross-domain development result with no negative domain point estimate; positive Z and all-domain lower bounds were absent, so no promotion. |
+| V163 | Development experiment V163 | Original-prior arm: V12 40.34706% to 39.99223%, +0.35483 pp pooled; X +1.28704 pp, Z -0.57738 pp. | Seven-domain full-coverage development result; Z and two Kingston domains regressed, so no promotion. |
+| V164 | Development experiment V164 | V12 40.34706% to 39.84210%, +0.50496 pp over 604,800 shots; X +1.00992 pp, Z 0.00000 pp. | Nested cross-domain development result with no negative domain point estimate; fresh confirmation and positive Z evidence are still absent, so no promotion. |
+| V165 | Exact logical-coset cost router | Six exact-graph domains: V12 39.52951% to 39.25868%, +0.27083 pp; X +0.54167 pp, Z +0.00000 pp. | Nested retrospective development result; one Kingston X block regressed and Z was inactive, so no promotion. |
+| V166 | Configuration-specific syndrome-conditioned coset router | Six exact-graph domains: V12 39.52951% to 39.12577%, +0.40374 pp; X +0.80748 pp, Z +0.00000 pp. | Retrospective development result; all exact-graph X domains improved but Z was inactive, so no promotion. |
+| V167 | Basis-pooled syndrome-conditioned coset router | Seven-domain 100%-coverage result: V12 40.34706% to 39.70354%, +0.64352 pp; X +1.10516 pp, Z +0.18188 pp. | Strongest full-coverage retrospective candidate in this audit; exact-graph domain/basis cells were positive, Marrakesh retained V12, and fresh frozen confirmation is required. |
+| V168 | Repeated-seed and feature-ablation audit | Five combined-feature seeds produced +0.59904 to +0.64352 pp pooled, with positive X and Z gains in every seed; exact-only +0.50017 pp and syndrome-only +0.53985 pp. | Robustness development evidence; the hybrid signal exceeded both matched ablations but remains retrospective. |
+| V169 | Pre-outcome frozen Fez deployment package | No new decoder-improvement percentage. | Separate X/Z selectors and source-only thresholds were frozen and hashed before fresh hardware outcome retrieval. |
+| V170 | Source-only top-20% feature concentration | Seven-domain 100%-coverage result: V12 40.34706% to 39.79167%, +0.55539 pp; X +1.08366 pp, Z +0.02712 pp. | Retained a positive signal but underperformed full-feature V167, showing that the feature tail materially supports Z transfer. |
+| V171 | Source-only Marrakesh residual extension | Held Marrakesh V12 45.25231% to 45.25231%, +0.00000 pp over 86,400 shots. | No X or Z threshold passed all six source-domain safety gates, so V12 was retained for every shot. |
+| V172 | Multi-beam exact-coset extraction | No decoder percentage. | All 12 larger-beam extraction tasks completed successfully; the outputs are inputs to V174, not a standalone performance claim. |
+| V173 | Neural exact-coset disagreement router | Seven-domain 100%-coverage result: V12 40.34706% to 40.28654%, +0.06052 pp; X +0.12103 pp, Z +0.00000 pp. | One Kingston block regressed and Z was inactive; the neural router was much weaker than V167 and was not promoted. |
+| V174 | Multi-beam exact-coset selector | Running; no result yet. | Six nested source-only arms compare three exact-coset alternatives across two seeds; V12 remains the 100%-coverage fallback. |
 
 Interpretation rules:
 
 - Development, simulation, structural, selective and postselected results are not directly comparable.
 - A blank metric means unavailable or not applicable; it does not mean zero.
 - V22's below-1% value is conditional at 5% retained coverage, not full-denominator decoding.
-- V131–V138, V140–V142 and V145–V146 remain pending until their complete result arrays and safety checks are sealed.
+- V161-V162 have sealed seven-domain development results; neither passed promotion.
+- V163-V164 are sealed retrospective development results, not fresh confirmation.
 
-<!-- END EXPLICIT V1-V160 REGISTRY -->
+<!-- END EXPLICIT V1-V165 REGISTRY -->
 
 | Ledger ID | Version | Baseline % | Candidate % | Change (pp) | Public status |
 | --- | --- | ---: | ---: | ---: | --- |
@@ -314,4 +329,4 @@ Interpretation rules:
 | E167 | V106 | — | — | 0.0000 | development null / sealed |
 | E163 | V107 | 39.2899 | 39.2361 | 0.0538 | development null / sealed |
 
-Last generated: 24 July 2026, Australia/Sydney.
+Last generated: 25 July 2026, Australia/Sydney.
