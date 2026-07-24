@@ -17,6 +17,12 @@ An apples-to-apples comparison must use the same hardware block, scored shots, c
 - Conditional/postselected results are reported separately and are not full-decoder error rates.
 - The complete experiment history is an audit index, not a leaderboard; see [ALL_VERSIONS.md](ALL_VERSIONS.md).
 
+## Metric-definition note
+
+The percentages reported on this page are full-circuit logical-error fractions over the stated scored shots. They are **not** logical error per error-correction round (LER/round) and must not be compared directly with per-round results from studies such as AlphaQubit.
+
+An AlphaQubit-compatible LER requires the logical-error fraction at known syndrome-round counts and either (i) inversion of the repeated-round fidelity model at a fixed round count, or (ii) a fit of log fidelity across several round counts with fit-quality diagnostics. The private audit now additionally tracks round count, code distance, fitted LER, fit quality, detection-event density, distance-suppression factor, probability calibration, decoder throughput and final latency. Blank fields mean that the preserved evidence does not support that measurement. No validated LER/round or distance-suppression claim is currently made for V12.
+
 ## Primary repeated result
 
 This is the strongest repeated full-denominator result. It pools three post-freeze real-hardware blocks using the same frozen V12 candidate and matched baseline on every scored shot.
