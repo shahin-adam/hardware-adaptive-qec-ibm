@@ -165,6 +165,7 @@ This registry gives every integer version its own row. It complements the experi
 | V151 | Pareto-concentrated disagreement cascade | V12 46.38542% to 45.65509%, +0.73032 pp with 3.68171% routed interventions; increment beyond V149 -0.11921 pp. | Historical development result; confirms benefit concentration but the simpler V149 gate remains stronger. |
 | V152 | Covariance-aware population and detector-criticality Z extension | V12 46.38542% to 45.53588%, +0.84954 pp; X +1.69907 pp, Z 0.00000 pp; increment beyond V149 0.00000 pp. | Historical 100%-coverage development null; no Z rule passed the adjusted safety bound, so output was identical to V149. |
 | V153 | Strongly typed island genetic-programming Z router | V12 46.38542% to 45.53588%, +0.84954 pp; X +1.69907 pp, Z 0.00000 pp; increment beyond V149 0.00000 pp. | Historical 100%-coverage development null; neither evolved OSD selection nor direct-flip programs passed the adjusted safety gate, so output was identical to V149. |
+| V154 | Exact-graph CUDA-Q BP-OSD Z-variant sweep | Eight physical-prior/BP variants selected on two Fez development blocks and evaluated on a third opened block; V12 46.38542% to 45.53588%, +0.84954 pp; X +1.69907 pp, Z 0.00000 pp; increment beyond V149 0.00000 pp. | Historical 100%-coverage development null; no Z configuration or pooled-Z variant passed the two-domain lower-confidence rule, so output was identical to V149. |
 
 Interpretation rules:
 
