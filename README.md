@@ -118,6 +118,8 @@ scope. Recent opened-domain development results and active experiments are:
 | V186 | Best arm 40.34706% to 39.70370%; +0.64335 pp | Hierarchical partial-pooling router; only +0.00099 pp beyond the reproduced V167 output |
 | V187 | 40.34706% to 39.63624%; +0.71081 pp | Strongest full-coverage retrospective point estimate; X +1.23512 pp, Z +0.18651 pp; increment over V182 was not statistically established |
 | V188 | 40.34706% to 39.63029%; +0.71677 pp | Strongest full-coverage retrospective point estimate; X +1.25231 pp, Z +0.18122 pp; fresh confirmation required |
+| V189 | Running; no percentage yet | Source-selected evolutionary calibration of exact-graph BP-OSD priors; V12 fallback and held-domain evaluation retained |
+| V190 | Running; no percentage yet | Class-conditional second/third-order domain-alignment comparison; target logical labels remain sealed |
 
 These opened retrospective results are not independent confirmation evidence and do not replace V12.
 
