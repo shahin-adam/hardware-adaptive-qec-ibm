@@ -44,7 +44,7 @@ Results use different datasets and comparators and must not be added together.
 Every new result is reported with data source, dataset/block role, full or selected denominator, coverage, X error, Z error, pooled error, matched baseline, absolute improvement, relative reduction, statistical evidence, evidence level, and below-1% status. Versions are ranked only when dataset, circuit cohort, basis, denominator, and split role match. Cross-block percentages are contextual rather than direct head-to-head comparisons.
 
 The canonical, complete registry is [ALL_VERSIONS.md](ALL_VERSIONS.md). It
-contains an explicit row for every version from V1 through V180, including
+contains an explicit row for every version from V1 through V187, including
 archive gaps, null results, failed/sealed experiments, active development,
 and confirmed evidence. README tables are intentionally summaries and must
 not be interpreted as the complete version list.
@@ -96,7 +96,7 @@ scope. Recent opened-domain development results and active experiments are:
 | V164 | 40.34706% to 39.84210%; +0.50496 pp; X +1.00992 pp, Z unchanged | Nested seven-domain development result with no negative domain point estimate; fresh confirmation still required |
 | V165 | Six exact-graph domains 39.52951% to 39.25868%; +0.27083 pp | Nested cost-margin development result; X +0.54167 pp, Z unchanged; not promoted |
 | V166 | Six exact-graph domains +0.40374 pp | Configuration-specific syndrome selector; X +0.80748 pp, Z unchanged; not promoted |
-| V167 | Seven-domain full coverage 40.34706% to 39.70354%; +0.64352 pp | Strongest retrospective candidate in this audit; X +1.10516 pp and Z +0.18188 pp, but fresh confirmation is required |
+| V167 | Seven-domain full coverage 40.34706% to 39.70354%; +0.64352 pp | Strong retrospective candidate; X +1.10516 pp and Z +0.18188 pp, but fresh confirmation is required |
 | V168 | Repeated-seed range +0.59904 to +0.64352 pp | Positive X and Z gains persisted across five seeds; matched exact-only and syndrome-only ablations were weaker |
 | V169 | No new performance percentage | Fez X/Z selectors and thresholds frozen before fresh-outcome retrieval |
 | V170 | 40.34706% to 39.79167%; +0.55539 pp | Source-only top-20% feature model; retained positive X/Z gains but was weaker than V167 |
@@ -108,8 +108,15 @@ scope. Recent opened-domain development results and active experiments are:
 | V176 | Authoritative repeat 40.34706% to 39.70470%; +0.64236 pp | V167 reproduction was within 0.00116 pp of the archived result; eight second-stage residual arms added 0.00000 pp |
 | V177 | Best arm 40.34706% to 39.91898%; +0.42808 pp | Exact-IBM fault-graph pretraining improved X but left Z unchanged; incremental gain over its matched scratch control was +0.02563 pp with CI crossing zero |
 | V178 | 40.34706% to 39.72239%; +0.62467 pp | Label-sealed V167/V177 expert stacking passed retrospective V12 gates but underperformed V167 |
-| V179 | Running; no result yet | Scaled, basis-separated exact-IBM graph pretraining is under controlled evaluation |
+| V179 | 40.34706% to 39.86194%; +0.48512 pp | Scaled basis-separated graph pretraining; X +0.97024 pp, Z unchanged; weaker than V167 |
 | V180 | No decoder percentage | Pre-registered IBM circuit-level detector-rate optimization protocol; requires new randomized paired hardware data |
+| V181 | 40.34706% to 39.93882%; +0.40823 pp | IBM-adapted recurrent graph-attention core; X +0.81647 pp, Z unchanged, and Marrakesh regressed |
+| V182 | 40.34706% to 39.64897%; +0.69808 pp | Label-sealed V167/V179 cascade; X +1.21495 pp, Z +0.18122 pp; retrospective development only |
+| V183 | No new decoder percentage | Hierarchical and simultaneous non-inferiority audit; evaluation methodology only |
+| V184 | Running; no result yet | Causal alpha-filter and homeostatic temporal decoder under matched evaluation |
+| V185 | 40.34706% to 39.69907%; +0.64798 pp | Holland classifier-system router; X +1.11475 pp, Z +0.18122 pp; below V182 |
+| V186 | Best arm 40.34706% to 39.70370%; +0.64335 pp | Hierarchical partial-pooling router; only +0.00099 pp beyond the reproduced V167 output |
+| V187 | 40.34706% to 39.63624%; +0.71081 pp | Strongest full-coverage retrospective point estimate; X +1.23512 pp, Z +0.18651 pp; increment over V182 was not statistically established |
 
 These opened retrospective results are not independent confirmation evidence and do not replace V12.
 
