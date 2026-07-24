@@ -18,7 +18,7 @@ An apples-to-apples comparison must use the same hardware block, scored shots, c
 - The complete experiment history is an audit index, not a leaderboard; see [ALL_VERSIONS.md](ALL_VERSIONS.md).
 
 The canonical registry now contains an explicit row for every version from
-V1 through V145. This preliminary-results page contains only comparable
+V1 through V146. This preliminary-results page contains only comparable
 headline tables; absence from this page does not mean that a version is
 missing from the project record.
 
@@ -45,6 +45,7 @@ missing from the project record.
 | V143 | Completed drift audit | No decoder-improvement claim |
 | V144 | Completed algebraic audit | No decoder-improvement claim |
 | V145 | Pending | No performance claim |
+| V146 | Pending | No performance claim |
 
 These are opened-domain development experiments. They demonstrate continued
 model progress but do not replace V12 without a complete X/Z/backend safety
