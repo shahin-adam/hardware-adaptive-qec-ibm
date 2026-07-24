@@ -4,9 +4,9 @@ Sanitized public index generated from the audited private experiment ledger. Onl
 
 The table below is an index, not a cross-version leaderboard. Percentages from different hardware blocks, circuit cohorts, bases, denominators, or split roles are not directly comparable. New entries must include denominator, coverage, X/Z/pooled metrics where available, matched baseline, absolute and relative improvement, evidence level, and target status.
 
-<!-- BEGIN EXPLICIT V1-V144 REGISTRY -->
+<!-- BEGIN EXPLICIT V1-V145 REGISTRY -->
 
-## Explicit V1–V144 version registry
+## Explicit V1–V145 version registry
 
 This registry gives every integer version its own row. It complements the experiment-level E01–E167 table below. Blank or skipped version numbers are shown explicitly and are not assigned invented metrics. **V12 remains the validated full-coverage winner.**
 
@@ -156,15 +156,16 @@ This registry gives every integer version its own row. It complements the experi
 | V142 | Development experiment V142 | Performance pending. | No performance or promotion claim. |
 | V143 | Drift audit V143 | No decoder-improvement percentage. | Completed development audit; no promotion claim. |
 | V144 | Algebraic audit V144 | No decoder-improvement percentage. | Completed feasibility audit; no promotion claim. |
+| V145 | Development experiment V145 | Performance pending. | No performance or promotion claim. |
 
 Interpretation rules:
 
 - Development, simulation, structural, selective and postselected results are not directly comparable.
 - A blank metric means unavailable or not applicable; it does not mean zero.
 - V22's below-1% value is conditional at 5% retained coverage, not full-denominator decoding.
-- V131–V138 and V140–V142 remain pending until their complete result arrays and safety checks are sealed.
+- V131–V138, V140–V142 and V145 remain pending until their complete result arrays and safety checks are sealed.
 
-<!-- END EXPLICIT V1-V144 REGISTRY -->
+<!-- END EXPLICIT V1-V145 REGISTRY -->
 
 | Ledger ID | Version | Baseline % | Candidate % | Change (pp) | Public status |
 | --- | --- | ---: | ---: | ---: | --- |
