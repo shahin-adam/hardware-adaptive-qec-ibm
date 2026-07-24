@@ -191,6 +191,7 @@ This registry gives every integer version its own row. It complements the experi
 | V177 | Google-to-IBM exact-fault-graph pretraining | Best arm: V12 40.34706% to 39.91898%, +0.42808 pp; X +0.85615 pp, Z +0.00000 pp. Increment over matched scratch control +0.02563 pp with CI crossing zero. | Fez/X development signal, Marrakesh regression and inactive Z; rejected. No Google data or weights were used. |
 | V178 | Label-sealed V167/V177 expert stacking | V12 40.34706% to 39.72239%, +0.62467 pp; X +1.06812 pp, Z +0.18122 pp. | Passed retrospective V12 gates but underperformed V167, so it is a controlled null stacking result. |
 | V179 | Scaled basis-separated IBM graph pretraining | Running; no result yet. | Controlled evaluation of independent X/Z experts and increased exact-IBM synthetic exposure; no performance claim while running. |
+| V180 | IBM circuit-level detector-rate policy protocol | No decoder percentage; future-hardware protocol. | Pre-registered randomized paired optimization of target-valid schedules/layouts using detector-rate reward; retrospective execution is invalid because historical shots contain no policy assignments. |
 
 Interpretation rules:
 
@@ -200,7 +201,7 @@ Interpretation rules:
 - V161-V162 have sealed seven-domain development results; neither passed promotion.
 - V163-V164 are sealed retrospective development results, not fresh confirmation.
 
-<!-- END EXPLICIT V1-V179 REGISTRY -->
+<!-- END EXPLICIT V1-V180 REGISTRY -->
 
 | Ledger ID | Version | Baseline % | Candidate % | Change (pp) | Public status |
 | --- | --- | ---: | ---: | ---: | --- |
