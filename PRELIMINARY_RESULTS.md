@@ -259,3 +259,8 @@ using other-domain evidence only. It achieved +0.62467 pp with positive X and
 Z development gains but remained below V167. V179 is testing increased
 synthetic exposure with independent basis experts; no V179 result is claimed
 while it is running.
+
+V180 records a future IBM circuit-level detector-rate optimization protocol.
+It has no decoder percentage and cannot run retrospectively because the
+historical shots do not contain randomized policy assignments. It is listed
+to distinguish a pre-registered hardware experiment from a completed result.
