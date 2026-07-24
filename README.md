@@ -44,7 +44,7 @@ Results use different datasets and comparators and must not be added together.
 Every new result is reported with data source, dataset/block role, full or selected denominator, coverage, X error, Z error, pooled error, matched baseline, absolute improvement, relative reduction, statistical evidence, evidence level, and below-1% status. Versions are ranked only when dataset, circuit cohort, basis, denominator, and split role match. Cross-block percentages are contextual rather than direct head-to-head comparisons.
 
 The canonical, complete registry is [ALL_VERSIONS.md](ALL_VERSIONS.md). It
-contains an explicit row for every version from V1 through V187, including
+contains an explicit row for every version from V1 through V188, including
 archive gaps, null results, failed/sealed experiments, active development,
 and confirmed evidence. README tables are intentionally summaries and must
 not be interpreted as the complete version list.
@@ -113,10 +113,11 @@ scope. Recent opened-domain development results and active experiments are:
 | V181 | 40.34706% to 39.93882%; +0.40823 pp | IBM-adapted recurrent graph-attention core; X +0.81647 pp, Z unchanged, and Marrakesh regressed |
 | V182 | 40.34706% to 39.64897%; +0.69808 pp | Label-sealed V167/V179 cascade; X +1.21495 pp, Z +0.18122 pp; retrospective development only |
 | V183 | No new decoder percentage | Hierarchical and simultaneous non-inferiority audit; evaluation methodology only |
-| V184 | Running; no result yet | Causal alpha-filter and homeostatic temporal decoder under matched evaluation |
+| V184 | 40.34706% to 39.89633%; +0.45073 pp | Causal alpha-filter decoder; X +0.90146 pp, Z unchanged, and Marrakesh regressed |
 | V185 | 40.34706% to 39.69907%; +0.64798 pp | Holland classifier-system router; X +1.11475 pp, Z +0.18122 pp; below V182 |
 | V186 | Best arm 40.34706% to 39.70370%; +0.64335 pp | Hierarchical partial-pooling router; only +0.00099 pp beyond the reproduced V167 output |
 | V187 | 40.34706% to 39.63624%; +0.71081 pp | Strongest full-coverage retrospective point estimate; X +1.23512 pp, Z +0.18651 pp; increment over V182 was not statistically established |
+| V188 | 40.34706% to 39.63029%; +0.71677 pp | Strongest full-coverage retrospective point estimate; X +1.25231 pp, Z +0.18122 pp; fresh confirmation required |
 
 These opened retrospective results are not independent confirmation evidence and do not replace V12.
 
