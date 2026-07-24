@@ -44,7 +44,7 @@ Results use different datasets and comparators and must not be added together.
 Every new result is reported with data source, dataset/block role, full or selected denominator, coverage, X error, Z error, pooled error, matched baseline, absolute improvement, relative reduction, statistical evidence, evidence level, and below-1% status. Versions are ranked only when dataset, circuit cohort, basis, denominator, and split role match. Cross-block percentages are contextual rather than direct head-to-head comparisons.
 
 The canonical, complete registry is [ALL_VERSIONS.md](ALL_VERSIONS.md). It
-contains an explicit row for every version from V1 through V144, including
+contains an explicit row for every version from V1 through V145, including
 archive gaps, null results, failed/sealed experiments, active development,
 and confirmed evidence. README tables are intentionally summaries and must
 not be interpreted as the complete version list.
@@ -73,6 +73,7 @@ V12 remains the validated winner. Recent opened-domain development results and a
 | V142 | Pending | Development evaluation; no performance claim |
 | V143 | Completed drift audit | No decoder-improvement claim |
 | V144 | Completed algebraic audit | No decoder-improvement claim |
+| V145 | Pending | Development evaluation; no performance claim |
 
 These opened retrospective results are not independent confirmation evidence and do not replace V12.
 
