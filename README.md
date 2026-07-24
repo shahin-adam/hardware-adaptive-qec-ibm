@@ -43,7 +43,11 @@ Results use different datasets and comparators and must not be added together.
 
 Every new result is reported with data source, dataset/block role, full or selected denominator, coverage, X error, Z error, pooled error, matched baseline, absolute improvement, relative reduction, statistical evidence, evidence level, and below-1% status. Versions are ranked only when dataset, circuit cohort, basis, denominator, and split role match. Cross-block percentages are contextual rather than direct head-to-head comparisons.
 
-The expanded audited index distinguishes real-hardware, simulation, analytical, structural, and active-development evidence and is available in [ALL_VERSIONS.md](ALL_VERSIONS.md).
+The canonical, complete registry is [ALL_VERSIONS.md](ALL_VERSIONS.md). It
+contains an explicit row for every version from V1 through V135, including
+archive gaps, null results, failed/sealed experiments, active development,
+and confirmed evidence. README tables are intentionally summaries and must
+not be interpreted as the complete version list.
 
 ## Current development status
 
@@ -54,12 +58,16 @@ V12 remains the validated winner. Recent opened-domain development results and a
 | V125 | 0.3327 pp pooled development gain | Not promoted; basis/domain gates failed |
 | V128 | 0.3725 pp pooled development gain | Not promoted; basis/domain gates failed |
 | V129 | 0.0749 pp pooled development gain | Not promoted; transfer safety gates failed |
-| V130 | Full evaluation running | Aggregate-metric conditioning ablation; no claim yet |
-| V131 | Smoke/full jobs submitted | Official checkpoint transfer with matched scratch control; no claim yet |
+| V130 | 0.3242 pp pooled development gain | X +0.6485 pp, Z unchanged; worst-fold gate failed |
+| V131 | Corrected full transfer job running | Official NTU checkpoint transfer with matched scratch/frozen/fine-tuned controls |
+| V132 | Smoke/full jobs running | V128 structural + V129 directional-Pathfinder gated fusion |
+| V133 | Full 12-arm sweep running | Amplifies V130 metric auxiliaries with multitask and routing controls |
+| V134 | Qwen result-audit job queued | Open-model research analyst; not a syndrome decoder or performance claim |
+| V135 | Corrected smoke/full jobs queued | Direct V12 + V128 + V130 merged decoder |
 
 These opened retrospective results are not independent confirmation evidence and do not replace V12.
 
-Last public update: 23 July 2026, Australia/Sydney.
+Last public update: 24 July 2026, Australia/Sydney.
 
 ## Disclosure boundary
 
