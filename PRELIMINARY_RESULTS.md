@@ -191,9 +191,11 @@ Results from different tables must not be added together. Complete version statu
 | V179 | 40.34706% | 39.86194% | +0.48512 pp | X +0.97024 pp; Z unchanged | Scaled basis-separated graph pretraining; weaker than V167 |
 | V181 | 40.34706% | 39.93882% | +0.40823 pp | X +0.81647 pp; Z unchanged | IBM-adapted recurrent graph-attention core; Marrakesh regressed |
 | V182 | 40.34706% | 39.64897% | +0.69808 pp | X +1.21495 pp; Z +0.18122 pp | Label-sealed V167/V179 cascade; retrospective development only |
+| V184 | 40.34706% | 39.89633% | +0.45073 pp | X +0.90146 pp; Z unchanged | Causal temporal decoder; Marrakesh regressed |
 | V185 | 40.34706% | 39.69907% | +0.64798 pp | X +1.11475 pp; Z +0.18122 pp | Holland classifier-system router; below V182 |
 | V186 | 40.34706% | 39.70370% | +0.64335 pp | X +1.10549 pp; Z +0.18122 pp | Best hierarchical partial-pooling arm; negligible increment over V167 reproduction |
 | V187 | 40.34706% | 39.63624% | +0.71081 pp | X +1.23512 pp; Z +0.18651 pp | Strongest retrospective point estimate; +0.01273 pp versus V182 with CI crossing zero |
+| V188 | 40.34706% | 39.63029% | +0.71677 pp | X +1.25231 pp; Z +0.18122 pp | Temporal delayed-credit router; strongest retrospective point estimate, not independent confirmation |
 
 V106 tested a target-label-free calibrated fallback policy. No candidate achieved a positive paired 95% lower improvement bound in every training domain separately for X and Z. No new hardware confirmation was requested.
 
@@ -277,7 +279,11 @@ system and V186's hierarchical partial pooling remained below V182. V187 added
 an exact-coset MAP residual and produced the largest retrospective point
 estimate, +0.71081 pp. Its +0.01273 pp increment over V182 had a paired 95%
 interval of -0.02686 to +0.05233 pp, so superiority over V182 is not
-statistically established. None of V182-V187 is fresh independent confirmation.
+statistically established. V188 then used source-only temporal delayed credit
+to reach +0.71677 pp. Its increment over V182 was +0.01868 pp with a paired
+95% interval of +0.00047 to +0.03690 pp, while its +0.00595 pp increment over
+V187 had an interval crossing zero. None of V182-V188 is fresh independent
+confirmation.
 
 V180 records a future IBM circuit-level detector-rate optimization protocol.
 It has no decoder percentage and cannot run retrospectively because the
