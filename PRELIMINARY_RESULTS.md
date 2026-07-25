@@ -290,9 +290,26 @@ It has no decoder percentage and cannot run retrospectively because the
 historical shots do not contain randomized policy assignments. It is listed
 to distinguish a pre-registered hardware experiment from a completed result.
 
-V189 and V190 are running controlled follow-ups. V189 evolves bounded
-exact-graph BP-OSD prior classes using source domains before a held historical
-evaluation. V190 compares no alignment against class-conditional covariance
-and third-moment alignment while keeping target logical labels sealed. Neither
-has a performance percentage yet, and neither is currently a replacement for
-V12.
+V189 completed with +0.84537 pp on one held historical block, concentrated in
+X (+1.69074 pp) while Z remained unchanged. It is therefore a specialist
+development result rather than a universal replacement. V190 remains a
+running comparison of no alignment against class-conditional covariance and
+third-moment alignment.
+
+## External real-IBM repetition-code transfer
+
+V199 performs three leave-one-backend-out tests on an independently published
+real-IBM repetition-code dataset. Its primary calibration-conditioned model
+improved Fez by +1.10986 pp, Kingston by +0.91347 pp, and Pittsburgh by
++0.70499 pp. The X and Z lower 95% confidence bounds were positive in all
+three held-backend folds.
+
+This is strong cross-device transfer evidence, but it is deliberately
+separated from the surface-code ranking: the code family, labels, circuits,
+and baseline differ, and the data are retrospective rather than a fresh IBM
+execution. It does not replace V12.
+
+V203 then tested ERM, IRMv1, and MMD under a balanced synthetic heterogeneous
+noise protocol. The best held-environment gain was only +0.00167 pp with a
+lower 95% confidence bound of -0.00160 pp. V204 is running a bounded
+invariant-plus-calibration-residual follow-up.
