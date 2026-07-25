@@ -200,8 +200,22 @@ This registry gives every integer version its own row. It complements the experi
 | V186 | Hierarchical partial-pooling expert router | Best arm: V12 40.34706% to 39.70370%, +0.64335 pp; X +1.10549 pp, Z +0.18122 pp. | Partial pooling added only +0.00099 pp over the reproduced V167 output and remained below V182. |
 | V187 | Exact-coset MAP residual over V182 | V12 40.34706% to 39.63624%, +0.71081 pp; X +1.23512 pp, Z +0.18651 pp. | Strongest full-coverage retrospective point estimate. The +0.01273 pp increment over V182 had a CI crossing zero; fresh confirmation is required. |
 | V188 | Temporal delayed-credit V182/V187 router | V12 40.34706% to 39.63029%, +0.71677 pp; X +1.25231 pp, Z +0.18122 pp. | Strongest full-coverage retrospective point estimate. Increment over V182 +0.01868 pp with positive paired CI; increment over V187 not established; fresh confirmation required. |
-| V189 | Evolutionary exact-graph BP-OSD prior calibration | Running; no performance percentage yet. | Source domains select the bounded genome and fallback configurations before held historical evaluation; not fresh confirmation. |
+| V189 | Evolutionary exact-graph BP-OSD prior calibration | Held historical block: +0.84537 pp; X +1.69074 pp, Z +0.00000 pp. | Specialist development result with inactive Z; not a full X/Z replacement and not fresh confirmation. |
 | V190 | Class-conditional higher-order backend alignment | Running; no performance percentage yet. | Matched no-alignment, covariance and third-moment arms; target logical labels and target V12 correctness remain sealed. |
+| V191 | External real-IBM repetition-code model audit | Best exploratory arm +1.47466 pp; X +0.30037 pp, Z +2.61025 pp. | Exploratory input audit; not surface-code comparable and not the final paper-faithful protocol. |
+| V192 | Syndrome-moment source matching | -1.14305 pp. | External transfer regression; rejected. |
+| V193 | Basis-specific external model selector | +1.47466 pp. | Selected the same MLP for both bases; no improvement beyond V191. |
+| V194 | Detector-only external transfer ablation | Best +0.16649 pp. | X confidence bound crossed zero; rejected. |
+| V195 | Paper-faithful per-qubit FiLM decoder | Best +1.36810 pp; X +0.90720 pp, Z +1.81380 pp. | Real-IBM repetition-code development; positive bases but unsafe shallow cells; not V12-comparable. |
+| V196 | Unlabeled target MMD adaptation | Best arm -0.39650 pp. | All MMD arms regressed; rejected. |
+| V197 | Source-cell-safe FiLM routing | +0.67205 pp; X +0.50511 pp, Z +0.83348 pp. | Safer but lower-coverage external repetition-code development result. |
+| V198 | Paired FiLM calibration contribution | +0.08674 pp over the matched CNN; X +0.05974 pp, Z +0.11286 pp. | Positive incremental calibration effect on the external benchmark. |
+| V199 | Three-way leave-one-IBM-backend-out decoder | Held-backend gains: Fez +1.10986 pp, Kingston +0.91347 pp, Pittsburgh +0.70499 pp; positive X/Z bounds in every fold. | Strong external real-IBM repetition-code transfer evidence; not a fresh execution and not directly comparable with V12. |
+| V200 | Stripped zero/low-parameter core | Best +0.24123 pp; entirely Z. | Useful abstraction audit but inactive X; rejected. |
+| V201 | Zero-parameter calibrated matching | Backend range -0.80578 to +0.55402 pp. | Calibration reweighting reversed sign across backends; no universal gain. |
+| V202 | Unlabeled syndrome-moment matching | Backend range -1.85836 to -1.19297 pp. | All backends regressed; pair moments were insufficient. |
+| V203 | Balanced heterogeneous-noise ERM/IRM/MMD | Best +0.00167 pp, lower 95% CI -0.00160 pp. | Controlled synthetic null; no real-IBM claim. |
+| V204 | Frozen invariant decoder plus bounded calibration residual | Running; no percentage yet. | Newton-inspired decomposition under three-way held-backend testing; external repetition-code protocol. |
 
 Interpretation rules:
 
