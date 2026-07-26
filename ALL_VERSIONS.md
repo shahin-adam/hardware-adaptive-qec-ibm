@@ -1,369 +1,221 @@
-# Versions evaluated on preserved real-hardware data
+# Sanitized QEC percentage index
 
-Sanitized public index generated from the audited private experiment ledger. Only versions evaluated using preserved real-hardware data are included.
+Only version identifiers, aggregate percentages, and compact evidence status are published.
 
-The table below is an index, not a cross-version leaderboard. Percentages from different hardware blocks, circuit cohorts, bases, denominators, or split roles are not directly comparable. New entries must include denominator, coverage, X/Z/pooled metrics where available, matched baseline, absolute and relative improvement, evidence level, and target status.
+| Version | Aggregate percentages reported | Status |
+| --- | --- | --- |
+| V1 | 1.2180 pp; 0.8383 pp | recorded |
+| V2 | +0.4750 pp; 0.1531 pp | not promoted |
+| V3 | 38.4271%; 38.0990%; +0.3281 pp; 1.9688 pp | confirmed |
+| V4 | +1.7396 pp; +0.6505 pp | confirmed |
+| V5 | +1.5167 pp; 0.0000 pp | null |
+| V6 | +1.5906 pp; +0.0740 pp | recorded |
+| V7 | +1.7313 pp | development |
+| V8 | +1.7443 pp | recorded |
+| V9 | +1.8125 pp; 0.6493 pp | not promoted |
+| V10 | 35.0035%; 33.6435%; +1.3600 pp | confirmed |
+| V11 | 1.0918 pp | not promoted |
+| V12 | 33.67978%; 32.33681%; +1.34298 pp | validated winner |
+| V13 | â€” | recorded |
+| V14 | â€” | not promoted |
+| V15 | â€” | not promoted |
+| V16 | â€” | not promoted |
+| V17 | â€” | not promoted |
+| V18 | â€” | recorded |
+| V19 | â€” | recorded |
+| V20 | 33.3947%; 33.3438%; +0.05093 pp | recorded |
+| V21 | +0.00347 pp | null |
+| V22 | 0.16204%; 95%; 0.30414% | confirmed |
+| V23 | +0.021219 pp | development |
+| V24 | +0.001157 pp | null |
+| V25 | 45.954861%; 45.826389%; +0.128472 pp | confirmed |
+| V26 | â€” | recorded |
+| V27 | 1.7222 pp; 0.9667 pp | recorded |
+| V28 | 45.5370%; 45.2523%; +0.2847 pp | confirmed |
+| V29 | 46.0148%; 45.0407%; +0.9741 pp; 45.3944% | not promoted |
+| V30 | +0.07639 pp; +0.03241 pp | null |
+| V31 | +0.05440 pp; 2.056%; +0.00347 pp | not promoted |
+| V32 | â€” | recorded |
+| V33 | â€” | recorded |
+| V34 | â€” | recorded |
+| V35 | â€” | recorded |
+| V36 | â€” | recorded |
+| V37 | â€” | recorded |
+| V38 | 35.7153%; 34.5926%; 34.4201%; +0.17245 pp | recorded |
+| V39 | 46.512731%; 45.708333%; +0.804398 pp; 5.1875 pp; 0.9861 pp | recorded |
+| V40 | +1.223380 pp; 15.0% | confirmed |
+| V41 | â€” | recorded |
+| V42 | â€” | recorded |
+| V43 | â€” | recorded |
+| V44 | â€” | recorded |
+| V45 | â€” | recorded |
+| V46 | â€” | recorded |
+| V47 | â€” | recorded |
+| V48 | â€” | recorded |
+| V49 | â€” | recorded |
+| V50 | â€” | recorded |
+| V51 | â€” | recorded |
+| V52 | â€” | recorded |
+| V53 | â€” | recorded |
+| V54 | â€” | development |
+| V55 | â€” | development |
+| V56 | â€” | development |
+| V57 | â€” | development |
+| V58 | â€” | recorded |
+| V59 | â€” | development |
+| V60 | â€” | development |
+| V61 | â€” | development |
+| V62 | â€” | development |
+| V63 | â€” | development |
+| V64 | â€” | development |
+| V65 | â€” | development |
+| V66 | â€” | development |
+| V67 | â€” | development |
+| V68 | â€” | development |
+| V69 | â€” | development |
+| V70 | â€” | development |
+| V71 | â€” | recorded |
+| V72 | â€” | recorded |
+| V73 | â€” | recorded |
+| V74 | â€” | recorded |
+| V75 | â€” | recorded |
+| V76 | â€” | recorded |
+| V77 | â€” | recorded |
+| V78 | â€” | recorded |
+| V79 | â€” | recorded |
+| V80 | â€” | recorded |
+| V81 | â€” | recorded |
+| V82 | â€” | recorded |
+| V83 | â€” | recorded |
+| V84 | â€” | recorded |
+| V85 | â€” | recorded |
+| V86 | â€” | recorded |
+| V87 | â€” | recorded |
+| V88 | â€” | recorded |
+| V89 | â€” | recorded |
+| V90 | â€” | recorded |
+| V91 | â€” | recorded |
+| V92 | â€” | recorded |
+| V93 | â€” | recorded |
+| V94 | â€” | recorded |
+| V95 | â€” | recorded |
+| V96 | â€” | recorded |
+| V97 | â€” | recorded |
+| V98 | â€” | recorded |
+| V99 | â€” | recorded |
+| V100 | â€” | recorded |
+| V101 | â€” | recorded |
+| V102 | â€” | recorded |
+| V103 | â€” | recorded |
+| V104 | â€” | recorded |
+| V105 | â€” | recorded |
+| V106 | â€” | recorded |
+| V107 | 39.289866%; 39.236111%; +0.053755 pp | not promoted |
+| V108 | â€” | recorded |
+| V109 | 39.28987% | null |
+| V110 | +0.00077 pp; +0.00154 pp | not promoted |
+| V111 | 41.60262%; 41.57446%; +0.02816 pp; +0.05633 pp; 0.01505 pp | not promoted |
+| V112 | â€” | recorded |
+| V113 | â€” | not promoted |
+| V114 | â€” | recorded |
+| V115 | 0.00000 pp | not promoted |
+| V116 | 0.00000 pp | null |
+| V117 | â€” | recorded |
+| V118 | â€” | recorded |
+| V119 | â€” | recorded |
+| V120 | 0.00000 pp | null |
+| V121 | 0.00000 pp | recorded |
+| V122 | 40.34706%; 40.15790%; +0.18915 pp | not promoted |
+| V123 | â€” | recorded |
+| V124 | 40.34706%; 40.13988%; +0.20718 pp | not promoted |
+| V125 | 40.34706%; 40.01438%; +0.33267 pp | not promoted |
+| V126 | 40.34706%; 40.18767%; +0.15939 pp | not promoted |
+| V127 | 0.00000 pp | null |
+| V128 | +0.37252 pp | not promoted |
+| V129 | +0.07490 pp | not promoted |
+| V130 | +0.32424 pp; +0.64848 pp; 0.00000 pp | not promoted |
+| V131 | +0.00000 pp; -0.01141 pp | development |
+| V132 | +0.00000 pp | development |
+| V133 | +0.44015 pp; +0.87500 pp; +0.00529 pp | development |
+| V134 | â€” | recorded |
+| V135 | +0.37550 pp; +0.75099 pp; +0.00000 pp | development |
+| V136 | +0.27993 pp; +0.55985 pp; +0.00000 pp | development |
+| V137 | +0.15476 pp; +0.30952 pp; +0.00000 pp | development |
+| V138 | +0.00000 pp | development |
+| V139 | â€” | development |
+| V140 | +0.17342 pp; +0.16750 pp | development |
+| V141 | +0.23472 pp; +0.46944 pp; +0.00000 pp | development |
+| V142 | +0.00000 pp | recorded |
+| V143 | â€” | development |
+| V144 | â€” | recorded |
+| V145 | +0.00000 pp; -0.07434 pp | recorded |
+| V146 | +0.00000 pp | recorded |
+| V147 | â€” | recorded |
+| V148 | â€” | recorded |
+| V149 | 46.38542%; 45.53588%; +0.84954 pp; +1.69907 pp; 0.00000 pp | pending |
+| V150 | 46.38542%; 45.65509%; +0.73032 pp; +0.66204 pp; 0.03935 pp | failed |
+| V151 | 46.38542%; 45.65509%; +0.73032 pp; 3.68171%; -0.11921 pp | development |
+| V152 | 46.38542%; 45.53588%; +0.84954 pp; +1.69907 pp; 0.00000 pp; 0.00000 pp | null |
+| V153 | 46.38542%; 45.53588%; +0.84954 pp; +1.69907 pp; 0.00000 pp; 0.00000 pp | null |
+| V154 | 46.38542%; 45.53588%; +0.84954 pp; +1.69907 pp; 0.00000 pp; 0.00000 pp | null |
+| V155 | 35.49206%; 35.47388%; +0.01819 pp; 95%; +0.05682 pp | null |
+| V156 | 35.49206%; 35.50033%; -0.00827 pp; 95%; +0.03066 pp | not promoted |
+| V157 | 43.32407%; 43.47685%; -0.15278 pp; 95%; +0.22218 pp | not promoted |
+| V158 | 43.32407%; 43.24769%; +0.07639 pp; 95%; +0.22333 pp | null |
+| V159 | 43.32407%; 43.31019%; +0.01389 pp; 95%; +0.13546 pp | null |
+| V160 | 46.38542%; 45.57060%; +0.81481 pp; 40.34706%; 39.98429%; +0.36276 pp; +0.72487 pp; +0.00066 pp | pending |
+| V161 | 40.34706%; 39.90427%; +0.44279 pp; +0.89153 pp; -0.00595 pp | development |
+| V162 | 40.34706%; 39.89269%; +0.45437 pp; +0.90873 pp; 0.00000 pp | development |
+| V163 | 40.34706%; 39.99223%; +0.35483 pp; +1.28704 pp; -0.57738 pp | development |
+| V164 | 40.34706%; 39.84210%; +0.50496 pp; +1.00992 pp; 0.00000 pp | development |
+| V165 | 39.52951%; 39.25868%; +0.27083 pp; +0.54167 pp; +0.00000 pp | pending |
+| V166 | 39.52951%; 39.12577%; +0.40374 pp; +0.80748 pp; +0.00000 pp | pending |
+| V167 | 100%; 40.34706%; 39.70354%; +0.64352 pp; +1.10516 pp; +0.18188 pp | recorded |
+| V168 | +0.64352 pp; +0.50017 pp; +0.53985 pp | development |
+| V169 | â€” | recorded |
+| V170 | 100%; 40.34706%; 39.79167%; +0.55539 pp; +1.08366 pp; +0.02712 pp | recorded |
+| V171 | 45.25231%; 45.25231%; +0.00000 pp | recorded |
+| V172 | â€” | recorded |
+| V173 | 100%; 40.34706%; 40.28654%; +0.06052 pp; +0.12103 pp; +0.00000 pp | not promoted |
+| V174 | 100%; 40.34706%; 39.73132%; +0.61574 pp; +1.06019 pp; +0.17130 pp | recorded |
+| V175 | 100%; 40.34706%; 39.73099%; +0.61607 pp; +1.06713 pp; +0.16501 pp | not promoted |
+| V176 | 40.34706%; 39.70470%; +0.64236 pp; +1.10350 pp; +0.18122 pp; 0.00000 pp | null |
+| V177 | 40.34706%; 39.91898%; +0.42808 pp; +0.85615 pp; +0.00000 pp; +0.02563 pp | not promoted |
+| V178 | 40.34706%; 39.72239%; +0.62467 pp; +1.06812 pp; +0.18122 pp | null |
+| V179 | 40.34706%; 39.86194%; +0.48512 pp; +0.97024 pp; +0.00000 pp | not promoted |
+| V180 | â€” | recorded |
+| V181 | 40.34706%; 39.93882%; +0.40823 pp; +0.81647 pp; +0.00000 pp | development |
+| V182 | 40.34706%; 39.64897%; +0.69808 pp; +1.21495 pp; +0.18122 pp | recorded |
+| V183 | â€” | recorded |
+| V184 | 40.34706%; 39.89633%; +0.45073 pp; +0.90146 pp; +0.00000 pp | development |
+| V185 | 40.34706%; 39.69907%; +0.64798 pp; +1.11475 pp; +0.18122 pp | recorded |
+| V186 | 40.34706%; 39.70370%; +0.64335 pp; +1.10549 pp; +0.18122 pp | recorded |
+| V187 | 40.34706%; 39.63624%; +0.71081 pp; +1.23512 pp; +0.18651 pp | recorded |
+| V188 | 40.34706%; 39.63029%; +0.71677 pp; +1.25231 pp; +0.18122 pp | recorded |
+| V189 | +0.84537 pp; +1.69074 pp; +0.00000 pp | pending |
+| V190 | +0.41245 pp; +0.82491 pp; 0.00000 pp; +0.40040 pp | pending |
+| V191 | +1.47466 pp; +0.30037 pp; +2.61025 pp | recorded |
+| V192 | -1.14305 pp | not promoted |
+| V193 | +1.47466 pp | recorded |
+| V194 | +0.16649 pp | not promoted |
+| V195 | +1.36810 pp; +0.90720 pp; +1.81380 pp | development |
+| V196 | -0.39650 pp | not promoted |
+| V197 | +0.67205 pp; +0.50511 pp; +0.83348 pp | development |
+| V198 | +0.08674 pp; +0.05974 pp; +0.11286 pp | recorded |
+| V199 | +1.10986 pp; +0.91347 pp; +0.70499 pp | recorded |
+| V200 | +0.24123 pp | not promoted |
+| V201 | +0.55402 pp | recorded |
+| V202 | -1.19297 pp | recorded |
+| V203 | +0.00167 pp; 95%; -0.00160 pp | null |
+| V204 | +0.78482 pp; +0.01512 pp; 95%; +0.01732 pp; +0.75498 pp; +0.80668 pp | development |
+| V205 | 40.34706%; 39.62930%; +0.71776 pp; +1.25430 pp; +0.18122 pp | development |
+| V206 | +0.05192 pp; 95%; +0.09370 pp; -0.06763 pp | not promoted |
+| V207 | +1.18958 pp; -0.06250 pp; +2.44167 pp; +0.08333 pp; 95%; +0.24000 pp | development |
+| V208 | +1.25000 pp; 0.00000 pp; +2.50000 pp; 95%; +1.57917 pp | recorded |
+| V209 | -0.07093 pp; 95%; -0.11261 pp; -0.14484 pp; +0.00298 pp; +0.01521 pp | not promoted |
+| V210 | 0.00000 pp; 0.00000 pp; 0.00000 pp | not promoted |
+| V211 | -0.00430 pp; -0.00380 pp | not promoted |
+| V212 | â€” | running |
+| V213 | â€” | running |
 
-<!-- BEGIN EXPLICIT V1-V165 REGISTRY -->
-
-## Explicit V1-V165 version registry
-
-This registry gives every integer version its own row. It complements the experiment-level E01–E167 table below. Blank or skipped version numbers are shown explicitly and are not assigned invented metrics. **V12 remains the best validated full-coverage model on its tested validation scope.**
-
-| Version | Model or experiment | Quantitative headline | Evidence status / decision |
-| --- | --- | --- | --- |
-| V1 | Legacy/pre-versioned neural baseline | Transformer improved over CNN by 1.2180 pp; the four-model ensemble improved over Transformer by 0.8383 pp but remained worse than matched phenomenological MWPM. | Treat as the pre-versioned foundation, not as a uniquely reconstructable V1 checkpoint. |
-| V2 | Harmony-spacetime V2 | +0.4750 pp in development, then −0.1531 pp on independent confirmation. | Rejected as a transferable final decoder; calibration-block transfer failed. |
-| V3 | Shift-guarded FiLM V3 | 38.4271% to 38.0990%, +0.3281 pp; the Z5 accepted cohort gained 1.9688 pp. | Confirmed but superseded by stronger guarded relational families. |
-| V4 | Safe multi-expert V4 | +1.7396 pp development; +0.6505 pp independent aggregate, concentrated in accepted Z7. | Confirmed selective decoder; useful evidence that guarded multi-expert residual decoding can transfer. |
-| V5 | Snapshot-relationship V5 | +1.5167 pp development; new block triggered the frozen shift guard for every cohort, yielding a safe 0.0000 pp change. | Safe null on confirmation; relationship representation was promising but domain shift prevented intervention. |
-| V6 | Local-global memory V6 | +1.5906 pp over MWPM but only +0.0740 pp over V5; CI crossed zero and p=0.338. | Not frozen or submitted; extra complexity did not establish incremental value. |
-| V7 | All-pair relationships V7 | +1.7313 pp over exact-circuit MWPM. | Promising development component, later incorporated into V9/V10 rather than deployed alone. |
-| V8 | Shift-robust relationships V8 | +1.7443 pp over exact-circuit MWPM. | Used as the medium-shift branch of V9; later transfer showed the guard was insufficient. |
-| V9 | Relational ensemble V9 | Largest early development gain, +1.8125 pp; independent replication regressed by −0.6493 pp. | Rejected. This failure motivated multi-day domain training and stricter fallback. |
-| V10 | Multi-day all-pair V10 | 35.0035% to 33.6435%, +1.3600 pp, CI 1.1736–1.5451; all five enabled cohorts improved. | Strong confirmed relational foundation retained inside V12. |
-| V11 | Wildcard V11 screens | Reported gains of 1.0081, 1.1979, 0.5012 and 1.0918 pp, all below V10 or too costly/weak. | Rejected as successors; diagnostic only. |
-| V12 | Calibration-diverse relational blend V12 — validated winner | Exact MWPM 33.67978% to V12 32.33681%, +1.34298 pp, CI 1.23478–1.45118, p=5.57e−131. | Current validated full-coverage winner and mandatory fallback/comparator for later work. |
-| V13 | Open-model transfer V13 | No open model established a safer full-domain successor to V12. | Retained as reuse/transfer evidence; do not infer that generic pretrained models improve QEC automatically. |
-| V14 | Risk-controlled relational router V14 | Did not meet the frozen safety/promotion requirements. | Not promoted. |
-| V15 | Quantum-kernel selector V15 | No safe transfer improvement over the classical V12 pipeline. | Rejected; quantum kernels did not solve the domain-routing problem. |
-| V16 | Long-range counterfactual selector V16 | Did not pass the full X/Z and domain safety gates. | Not promoted. |
-| V17 | VQC selector V17 | No validated advantage over the classical residual-routing alternatives. | Rejected; do not replace the GNN/relational decoder with a VQC on current evidence. |
-| V18 | Quantum ambiguity resolver V18 | Did not establish a deployable full-denominator advantage. | Kept as a controlled quantum-assisted research branch. |
-| V19 | Belief-hyperedge quantum subsolver V19 | Exact optimum appeared in 20/20 and the lowest-energy observed valid answer matched exact in 20/20; no quantum advantage claim. | Feasibility validated, but exact classical solving remained available and decoder benefit was not established. |
-| V20 | Selective local-hypergraph overlay V20 | Selected 1,079 shots; V12 33.3947% to V20 33.3438%, +0.05093 pp, CI 0.00624–0.09561; one cohort regressed. | Small independent selective improvement, not a replacement for V12 and not universally safe. |
-| V21 | Cluster-conformal hurdle cascade V21 | Selected 635 shots; only +0.00347 pp over V12, CI crossing zero, p=0.8905. | Independent null; widened selection did not replicate. |
-| V22 | High-reliability postselection V22 | Seven retained errors: 0.16204% conditional error, one-sided 95% upper bound 0.30414%. MWPM and V12 were identical within the retained subset. | Confirmed below-1% conditional postselection, not full-decoder error and not LER/cycle. |
-| V23 | Hundred-policy routing tournament V23 | Best pooled gain +0.021219 pp; 0/100 policies were positive in every domain and non-regressive in every configuration. | Development-only; no QPU confirmation warranted. |
-| V24 | IBM-adapted NVIDIA-Ising-style local 3D expert V24 | Only three net corrections; +0.001157 pp and not positive in every domain. | Null; architectural inspiration is not equivalent to checkpoint fine-tuning. |
-| V25 | Frozen V12 cross-backend Fez V25 | 45.954861% to 45.826389%, +0.128472 pp; CI crossed zero, p=0.100102. | Positive but not statistically confirmed cross-backend transfer. |
-| V26 | Official heavy-hex controlled-distance screen V26 | d5 improved at lower noise but Z worsened at p=0.02; routing expanded 400 logical CX to 1,722 CZ for d5. | Simulation/structural evidence only; naive legacy HHC mapping was too costly for QPU submission. |
-| V27 | Leakage-safe Fez soft-IQ development V27 | Hard-only guarded model gained 1.7222 pp on blocked development test; full-soft was 0.9667 pp worse than hard-only. | Promising hard-syndrome residual, but no evidence that soft IQ added value. |
-| V28 | Frozen V12 Marrakesh replication V28 | 45.5370% to 45.2523%, +0.2847 pp, CI 0.0972–0.4653, p=0.00250; X5 and Z5 regressed. | Confirmed aggregate transfer but not zero-regression safety. |
-| V29 | Frozen hard/soft Fez residual confirmation V29 | MWPM 46.0148%; hard-only 45.0407% (+0.9741 pp); full-soft 45.3944%, significantly worse than hard-only. | Confirmed hard-syndrome residual learning; rejected incremental soft-IQ claim. |
-| V30 | Harm-aware gate tournament V30 | Largest retrospective +0.07639 pp but configuration regressions remained; pre-test rule achieved +0.03241 pp. | Diagnostic null; domain sign reversal, not classifier capacity, was limiting. |
-| V31 | Protein-inspired evolutionary energy gate V31 | +0.05440 pp over V12 at 2.056% coverage, only +0.00347 pp above the frozen V20 reference, with four regressing cohorts. | Rejected for freezing; optimizer scaling did not resolve hardware-domain reversal. |
-| V32 | Reserved, missing, or protocol-only | — | No sealed V32 artifact found; numbering moved from V31 to V38 in the preserved archive. |
-| V33 | Reserved, missing, or protocol-only | — | No sealed V33 artifact found; numbering moved from V31 to V38 in the preserved archive. |
-| V34 | Reserved, missing, or protocol-only | — | No sealed V34 artifact found; numbering moved from V31 to V38 in the preserved archive. |
-| V35 | Reserved, missing, or protocol-only | — | No sealed V35 artifact found; numbering moved from V31 to V38 in the preserved archive. |
-| V36 | Reserved, missing, or protocol-only | — | No sealed V36 artifact found; numbering moved from V31 to V38 in the preserved archive. |
-| V37 | Reserved, missing, or protocol-only | — | No sealed V37 artifact found; numbering moved from V31 to V38 in the preserved archive. |
-| V38 | Frozen CUDA-Q/BP-OSD hybrid selector V38 | Exact MWPM 35.7153%, V12 34.5926%, V38 34.4201%; +0.17245 pp over V12. | Strong same-block confirmation, but its extra routing advantage did not significantly transfer to Fez. |
-| V39 | Fixed BP-OSD Fez replication V39 | 46.512731% to 45.708333%, +0.804398 pp; X3 gained 5.1875 pp while Z3 regressed 0.9861 pp. | Positive classical solver result requiring configuration awareness. |
-| V40 | Synthetic-pretrained hardware-domain router V40 | +0.918981 to +1.223380 pp at 8.7–15.0% intervention coverage. | Promising LODO development only; not independently confirmed on a new QPU block. |
-| V41 | Reserved, missing, or protocol-only | — | No sealed V41 artifact found; V41–V53 are unused/reserved in the preserved version sequence. |
-| V42 | Reserved, missing, or protocol-only | — | No sealed V42 artifact found; V41–V53 are unused/reserved in the preserved version sequence. |
-| V43 | Reserved, missing, or protocol-only | — | No sealed V43 artifact found; V41–V53 are unused/reserved in the preserved version sequence. |
-| V44 | Reserved, missing, or protocol-only | — | No sealed V44 artifact found; V41–V53 are unused/reserved in the preserved version sequence. |
-| V45 | Reserved, missing, or protocol-only | — | No sealed V45 artifact found; V41–V53 are unused/reserved in the preserved version sequence. |
-| V46 | Reserved, missing, or protocol-only | — | No sealed V46 artifact found; V41–V53 are unused/reserved in the preserved version sequence. |
-| V47 | Reserved, missing, or protocol-only | — | No sealed V47 artifact found; V41–V53 are unused/reserved in the preserved version sequence. |
-| V48 | Reserved, missing, or protocol-only | — | No sealed V48 artifact found; V41–V53 are unused/reserved in the preserved version sequence. |
-| V49 | Reserved, missing, or protocol-only | — | No sealed V49 artifact found; V41–V53 are unused/reserved in the preserved version sequence. |
-| V50 | Reserved, missing, or protocol-only | — | No sealed V50 artifact found; V41–V53 are unused/reserved in the preserved version sequence. |
-| V51 | Reserved, missing, or protocol-only | — | No sealed V51 artifact found; V41–V53 are unused/reserved in the preserved version sequence. |
-| V52 | Reserved, missing, or protocol-only | — | No sealed V52 artifact found; V41–V53 are unused/reserved in the preserved version sequence. |
-| V53 | Reserved, missing, or protocol-only | — | No sealed V53 artifact found; V41–V53 are unused/reserved in the preserved version sequence. |
-| V54 | Versioned experiment | No compact quantitative result in the public registry. | Decoder/router development; not a validated replacement for V12. |
-| V55 | Versioned experiment | No compact quantitative result in the public registry. | Decoder/router development; not a validated replacement for V12. |
-| V56 | Versioned experiment | No compact quantitative result in the public registry. | Decoder/router development; not a validated replacement for V12. |
-| V57 | Versioned experiment | No compact quantitative result in the public registry. | Decoder/router development; not a validated replacement for V12. |
-| V58 | Reserved, missing, or protocol-only | — | No sealed V58 artifact found; the certified-solver sequence continues at V59. |
-| V59 | Versioned experiment | No compact quantitative result in the public registry. | Decoder/router development; not a validated replacement for V12. |
-| V60 | Versioned experiment | No compact quantitative result in the public registry. | Decoder/router development; not a validated replacement for V12. |
-| V61 | Versioned experiment | No compact quantitative result in the public registry. | Decoder/router development; not a validated replacement for V12. |
-| V62 | Versioned experiment | No compact quantitative result in the public registry. | Decoder/router development; not a validated replacement for V12. |
-| V63 | Versioned experiment | No compact quantitative result in the public registry. | Decoder/router development; not a validated replacement for V12. |
-| V64 | Versioned experiment | No compact quantitative result in the public registry. | Decoder/router development; not a validated replacement for V12. |
-| V65 | Versioned experiment | No compact quantitative result in the public registry. | Decoder/router development; not a validated replacement for V12. |
-| V66 | Versioned experiment | No compact quantitative result in the public registry. | Decoder/router development; not a validated replacement for V12. |
-| V67 | Versioned experiment | No compact quantitative result in the public registry. | Decoder/router development; not a validated replacement for V12. |
-| V68 | Versioned experiment | No compact quantitative result in the public registry. | Decoder/router development; not a validated replacement for V12. |
-| V69 | Versioned experiment | No compact quantitative result in the public registry. | Decoder/router development; not a validated replacement for V12. |
-| V70 | Versioned experiment | No compact quantitative result in the public registry. | Decoder/router development; not a validated replacement for V12. |
-| V71 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V72 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V73 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V74 | Reserved, missing, or protocol-only | — | V74 has a bounded missing-T2 protocol but no sealed JSON result; treat as protocol-only/incomplete. |
-| V75 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V76 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V77 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V78 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V79 | Reserved, missing, or protocol-only | — | V79 contains decoder-candidate qualification notes but no sealed JSON performance result. |
-| V80 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V81 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V82 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V83 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V84 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V85 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V86 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V87 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V88 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V89 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V90 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V91 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V92 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V93 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V94 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V95 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V96 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V97 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V98 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V99 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V100 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V101 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V102 | Versioned experiment | No compact quantitative result in the public registry. | Simulation, algebraic or structural gate; no real-hardware decoder claim. |
-| V103 | Reserved, missing, or protocol-only | — | No sealed V103 artifact found. |
-| V104 | Reserved, missing, or protocol-only | — | No sealed V104 artifact found. |
-| V105 | Reserved, missing, or protocol-only | — | No sealed V105 artifact found. |
-| V106 | Reserved, missing, or protocol-only | — | No sealed V106 artifact found; the next preserved experiment is V107. |
-| V107 | IBM QPU dataset and calibration audit V107 | MWPM 39.289866%; measured-label residual 39.236111%, +0.053755 pp with CI crossing zero; pseudo-label imitation exactly 0. Global calibration worsened held-domain MAE. | Naive global calibration and MWPM teacher labels rejected; motivated circuit-local context. |
-| V108 | Circuit-local IBM graph V108 | Structure validated, but detector→measurement→physical-qubit→scheduled-operation mapping remained unresolved. | Not a decoder-performance result; graph completion required before a defensible final model. |
-| V109 | Open-source IBM residual GNN V109 | MWPM and candidate both 39.28987%; no X or Z change. | Null development result; conservative gate retained MWPM. |
-| V110 | Qwen/OpenEvolve GNN search V110 | Best apparent gain +0.00077 pp; X zero, Z +0.00154 pp with CI crossing zero; zero passing folds. | Not promoted. The initial OpenEvolve loop also lacked true per-candidate feedback. |
-| V111 | Long-run GNN–GRU V111 | 41.60262% to 41.57446%, +0.02816 pp; Z +0.05633 pp, X unchanged, Marrakesh −0.01505 pp. Best checkpoint was epoch 20. | Useful Z-only development result; promotion rejected and longer training shown to overfit. |
-| V112 | Basis-specific correction/damage router V112 | Some Fez X gains but regressions and confidence gates prevented promotion. | Not safer than V12 across domains. |
-| V113 | Qiskit operation-graph decoder V113 | Small gains in individual domains were offset by regressions and confidence failures. | Not promoted; graph fidelity outside Kingston remained a limitation. |
-| V114 | Closed-loop OpenEvolve V114/V114b | Original loop used placeholder fitness; V114b restored real feedback but produced no promoted decoder. | Useful search-infrastructure correction, not a logical-error improvement. |
-| V115 | IBM-paper noise-context model V115 | Graph-only and context models both produced 0.00000 pp and no prediction changes. | Naive density context rejected. |
-| V116 | Detector-correlation fingerprint V116 | 0.00000 pp; conservative router made no X or Z changes. | Null development result. |
-| V117 | Constraint-first code discovery V117 | Best retained [[7,1,3]] distance while routing proxy improved 4.9333 to 4.4444. | Structural feasibility only; no logical-error improvement. |
-| V118 | Schedule–decoder co-design V118 | 24/32 improved structural proxy; 12 did so without increasing depth. Hardware outcome remained pending at the recorded handoff. | Proxy is not logical error; real paired decoding is required before promotion. |
-| V119 | Masked-syndrome Transformer V119 | Did not pass promotion. | Retained as an architectural comparator. |
-| V120 | Neural ensemble selector V120 | 0.00000 pp in the recorded smoke result. | Null; expert diversity alone did not create safe routing information. |
-| V121 | Calibration-FiLM selector V121 | Strict result 0.00000 pp. | No validated gain; matched timing/mapping remained critical. |
-| V122 | Calibration residual model V122 | 40.34706% to 40.15790%, +0.18915 pp pooled, but unsafe by basis/domain gates. | Development gain only; not promoted. |
-| V123 | Calibration-signal ablation V123 | No independently promotable V123 result. | Mark incomplete/unsealed rather than infer a gain. |
-| V124 | Open-source mix-and-match decoder V124 | 40.34706% to 40.13988%, +0.20718 pp; Z unchanged and Kingston X regressed. | Rejected by basis/domain safety criteria. |
-| V125 | Manuscript-derived relational decoder V125 | 40.34706% to 40.01438%, +0.33267 pp, the strongest recent pooled development estimate. | Not promoted because basis/domain safety gates failed; highest-value recent failure to diagnose. |
-| V126 | Open QEC backbone/forum adapters V126 | Best recorded TCN with real calibration: 40.34706% to 40.18767%, +0.15939 pp. | Not promoted; open backbone reuse was feasible but not safer than V12. |
-| V127 | Discrete diffusion residual decoder V127 | 0.00000 pp; router did not find safe changes. | Null. Physical error maps were not available as true targets, limiting the proposed generative formulation. |
-| V128 | Hackathon-inspired structural decoder V128 | Best pooled development arm +0.37252 pp. | Not promoted; basis/domain safety requirements failed. |
-| V129 | Pathfinder beta adapter V129 | Best pooled development arm +0.07490 pp. | Not promoted; pretrained Pathfinder did not pass the full transfer safety gates. |
-| V130 | AlphaQubit-compatible metric conditioning V130 | Best auxiliary arm +0.32424 pp pooled development gain over V12; X +0.64848 pp, Z 0.00000 pp. | Not promoted; worst-fold confidence bound was negative. The auxiliary signal is carried into V133 and V135. |
-| V131 | NTU foundation-decoder transfer V131 | Best arm +0.00000 pp; fine-tuned transfer arm -0.01141 pp. | Full development evaluation completed; no arm was promoted. |
-| V132 | V128 structural + V129 Pathfinder gated fusion | All four fusion and control arms produced +0.00000 pp. | Full development evaluation completed; no arm was promoted. |
-| V133 | V12 metric-auxiliary amplification | Best arm +0.44015 pp pooled; X +0.87500 pp, Z +0.00529 pp. | Opened-domain development result; negative held cells prevented promotion. |
-| V134 | Qwen cross-version result analyst | Failed during local model-server startup; no decoder metric. | Infrastructure-only failure caused by an illegal CPU instruction; no QEC performance conclusion. |
-| V135 | V12 + V128 + V130 merged decoder | Best arm +0.37550 pp pooled; X +0.75099 pp, Z +0.00000 pp. | Opened-domain development result; negative held cells prevented promotion. |
-| V136 | Development experiment V136 | Best arm +0.27993 pp pooled; X +0.55985 pp, Z +0.00000 pp. | Full development evaluation completed; no promotion. |
-| V137 | Development experiment V137 | Best arm +0.15476 pp pooled; X +0.30952 pp, Z +0.00000 pp. | Full development evaluation completed; no promotion. |
-| V138 | Development experiment V138 | All asymmetric-risk arms produced +0.00000 pp. | Full development evaluation completed; no promotion. |
-| V139 | Metric audit V139 | No decoder-improvement percentage. | Completed development audit; no promotion claim. |
-| V140 | Development experiment V140 | Best zero-shot arm +0.17342 pp; corresponding few-shot arm +0.16750 pp. | MMD/EWC transfer development completed; no promotion. |
-| V141 | Development experiment V141 | Best arm +0.23472 pp pooled; X +0.46944 pp, Z +0.00000 pp. | Unlabelled-target MMD development completed; negative held cells prevented promotion. |
-| V142 | Development experiment V142 | Original and spectral variants both produced +0.00000 pp. | Spectral audit and matched decoder evaluation completed; no promotion. |
-| V143 | Drift audit V143 | No decoder-improvement percentage. | Completed development audit; no promotion claim. |
-| V144 | Algebraic audit V144 | No decoder-improvement percentage. | Completed feasibility audit; no promotion claim. |
-| V145 | Development experiment V145 | Best arm +0.00000 pp; strongest adversarial arm -0.07434 pp. | Domain-adversarial evaluation completed; no promotion. |
-| V146 | Development experiment V146 | All four importance-weight caps produced +0.00000 pp. | Covariate-shift evaluation completed; no promotion. |
-| V147 | Exact detector/error-mechanism graph recovery | No decoder-improvement percentage; exact matrix/graph validation completed. | Mathematical infrastructure result; no promotion claim. |
-| V148 | Mathematical formulation conformance | No decoder-improvement percentage; implementation checks completed. | Mathematical audit; no promotion claim. |
-| V149 | Basis/configuration-aware Fez decoder gate | V12 46.38542% to 45.53588%, +0.84954 pp; X +1.69907 pp, Z 0.00000 pp. | Historical development evidence; frozen fresh 120,000-shot full-coverage Fez confirmation submitted and pending. |
-| V150 | Multiscale diffusion/scattering router | Best arm V12 46.38542% to 45.65509%, +0.73032 pp; multiscale arm +0.66204 pp and regressed Z by 0.03935 pp. | Historical development result; did not beat V149 and failed basis safety. |
-| V151 | Pareto-concentrated disagreement cascade | V12 46.38542% to 45.65509%, +0.73032 pp with 3.68171% routed interventions; increment beyond V149 -0.11921 pp. | Historical development result; confirms benefit concentration but the simpler V149 gate remains stronger. |
-| V152 | Covariance-aware population and detector-criticality Z extension | V12 46.38542% to 45.53588%, +0.84954 pp; X +1.69907 pp, Z 0.00000 pp; increment beyond V149 0.00000 pp. | Historical 100%-coverage development null; no Z rule passed the adjusted safety bound, so output was identical to V149. |
-| V153 | Strongly typed island genetic-programming Z router | V12 46.38542% to 45.53588%, +0.84954 pp; X +1.69907 pp, Z 0.00000 pp; increment beyond V149 0.00000 pp. | Historical 100%-coverage development null; neither evolved OSD selection nor direct-flip programs passed the adjusted safety gate, so output was identical to V149. |
-| V154 | Exact-graph CUDA-Q BP-OSD Z-variant sweep | Eight physical-prior/BP variants selected on two Fez development blocks and evaluated on a third opened block; V12 46.38542% to 45.53588%, +0.84954 pp; X +1.69907 pp, Z 0.00000 pp; increment beyond V149 0.00000 pp. | Historical 100%-coverage development null; no Z configuration or pooled-Z variant passed the two-domain lower-confidence rule, so output was identical to V149. |
-| V155 | Neural decoder-population Z router | Z-only V12 35.49206% to 35.47388% over 302,400 held-domain shots; +0.01819 pp, 95% CI -0.02045 to +0.05682 pp. | Historical 100%-coverage development null; interval crossed zero and held domains were inconsistent. |
-| V156 | Configuration-specific neural Z router | Z-only V12 35.49206% to 35.50033% over 302,400 held-domain shots; -0.00827 pp, 95% CI -0.04719 to +0.03066 pp. | Historical 100%-coverage development null; not promoted. |
-| V157 | Deep detector/population Transformer | V39 Z-only V12 43.32407% to 43.47685%; -0.15278 pp, 95% CI -0.52773 to +0.22218 pp. | Historical 100%-coverage development regression; not promoted. |
-| V158 | Recurrent-Transformer transfer controls | Best arm was scratch: V39 Z-only V12 43.32407% to 43.24769%; +0.07639 pp, 95% CI -0.07056 to +0.22333 pp. | Historical 100%-coverage development null; pretrained arms did not improve transfer and no arm was promoted. |
-| V159 | Six-family neural architecture comparison | Best arm was compact MLP: V39 Z-only V12 43.32407% to 43.31019%; +0.01389 pp, 95% CI -0.10768 to +0.13546 pp. | Historical 100%-coverage development null; no architecture passed the positive lower-confidence gate. |
-| V160 | IBM-native graph-spatial recurrent decoder | V39 best arm: V12 46.38542% to 45.57060%, +0.81481 pp. Complete seven-domain result: V12 40.34706% to 39.98429%, +0.36276 pp over 604,800 shots; X +0.72487 pp, Z +0.00066 pp. | Cross-domain development completed; Z CI crossed zero, three Kingston domains were inactive and Marrakesh regressed, so no promotion. |
-| V161 | Development experiment V161 | Seven-domain result: V12 40.34706% to 39.90427%, +0.44279 pp; X +0.89153 pp, Z -0.00595 pp. | Cross-domain development result; Marrakesh and one Kingston block regressed, so no promotion. |
-| V162 | Development experiment V162 | Seven-domain result: V12 40.34706% to 39.89269%, +0.45437 pp; X +0.90873 pp, Z 0.00000 pp. | Cross-domain development result with no negative domain point estimate; positive Z and all-domain lower bounds were absent, so no promotion. |
-| V163 | Development experiment V163 | Original-prior arm: V12 40.34706% to 39.99223%, +0.35483 pp pooled; X +1.28704 pp, Z -0.57738 pp. | Seven-domain full-coverage development result; Z and two Kingston domains regressed, so no promotion. |
-| V164 | Development experiment V164 | V12 40.34706% to 39.84210%, +0.50496 pp over 604,800 shots; X +1.00992 pp, Z 0.00000 pp. | Nested cross-domain development result with no negative domain point estimate; fresh confirmation and positive Z evidence are still absent, so no promotion. |
-| V165 | Exact logical-coset cost router | Six exact-graph domains: V12 39.52951% to 39.25868%, +0.27083 pp; X +0.54167 pp, Z +0.00000 pp. | Nested retrospective development result; one Kingston X block regressed and Z was inactive, so no promotion. |
-| V166 | Configuration-specific syndrome-conditioned coset router | Six exact-graph domains: V12 39.52951% to 39.12577%, +0.40374 pp; X +0.80748 pp, Z +0.00000 pp. | Retrospective development result; all exact-graph X domains improved but Z was inactive, so no promotion. |
-| V167 | Basis-pooled syndrome-conditioned coset router | Seven-domain 100%-coverage result: V12 40.34706% to 39.70354%, +0.64352 pp; X +1.10516 pp, Z +0.18188 pp. | Strongest full-coverage retrospective candidate in this audit; exact-graph domain/basis cells were positive, Marrakesh retained V12, and fresh frozen confirmation is required. |
-| V168 | Repeated-seed and feature-ablation audit | Five combined-feature seeds produced +0.59904 to +0.64352 pp pooled, with positive X and Z gains in every seed; exact-only +0.50017 pp and syndrome-only +0.53985 pp. | Robustness development evidence; the hybrid signal exceeded both matched ablations but remains retrospective. |
-| V169 | Pre-outcome frozen Fez deployment package | No new decoder-improvement percentage. | Separate X/Z selectors and source-only thresholds were frozen and hashed before fresh hardware outcome retrieval. |
-| V170 | Source-only top-20% feature concentration | Seven-domain 100%-coverage result: V12 40.34706% to 39.79167%, +0.55539 pp; X +1.08366 pp, Z +0.02712 pp. | Retained a positive signal but underperformed full-feature V167, showing that the feature tail materially supports Z transfer. |
-| V171 | Source-only Marrakesh residual extension | Held Marrakesh V12 45.25231% to 45.25231%, +0.00000 pp over 86,400 shots. | No X or Z threshold passed all six source-domain safety gates, so V12 was retained for every shot. |
-| V172 | Multi-beam exact-coset extraction | No decoder percentage. | All 12 larger-beam extraction tasks completed successfully; the outputs are inputs to V174, not a standalone performance claim. |
-| V173 | Neural exact-coset disagreement router | Seven-domain 100%-coverage result: V12 40.34706% to 40.28654%, +0.06052 pp; X +0.12103 pp, Z +0.00000 pp. | One Kingston block regressed and Z was inactive; the neural router was much weaker than V167 and was not promoted. |
-| V174 | Multi-beam exact-coset selector | Seven-domain 100%-coverage development result: V12 40.34706% to 39.73132%, +0.61574 pp; X +1.06019 pp, Z +0.17130 pp. | No negative backend point estimate, but weaker than V167 and not fresh confirmation. |
-| V175 | Exact-coset selector refinement | Seven-domain 100%-coverage development result: V12 40.34706% to 39.73099%, +0.61607 pp; X +1.06713 pp, Z +0.16501 pp. | Retained positive basis signals without surpassing V167; not promoted. |
-| V176 | V167 reproduction and independent residual cascade | Authoritative repeat: V12 40.34706% to 39.70470%, +0.64236 pp; X +1.10350 pp, Z +0.18122 pp. Eight compatible second-stage residual arms added 0.00000 pp. | Reproduced V167 within 0.00116 pp; the proposed second stage was a sealed null and no fresh confirmation occurred. |
-| V177 | Google-to-IBM exact-fault-graph pretraining | Best arm: V12 40.34706% to 39.91898%, +0.42808 pp; X +0.85615 pp, Z +0.00000 pp. Increment over matched scratch control +0.02563 pp with CI crossing zero. | Fez/X development signal, Marrakesh regression and inactive Z; rejected. No Google data or weights were used. |
-| V178 | Label-sealed V167/V177 expert stacking | V12 40.34706% to 39.72239%, +0.62467 pp; X +1.06812 pp, Z +0.18122 pp. | Passed retrospective V12 gates but underperformed V167, so it is a controlled null stacking result. |
-| V179 | Scaled basis-separated IBM graph pretraining | V12 40.34706% to 39.86194%, +0.48512 pp; X +0.97024 pp, Z +0.00000 pp. | Opened-domain development result; weaker than V167 and not promoted. |
-| V180 | IBM circuit-level detector-rate policy protocol | No decoder percentage; future-hardware protocol. | Pre-registered randomized paired optimization of target-valid schedules/layouts using detector-rate reward; retrospective execution is invalid because historical shots contain no policy assignments. |
-| V181 | IBM-adapted recurrent graph-attention core | Best arm: V12 40.34706% to 39.93882%, +0.40823 pp; X +0.81647 pp, Z +0.00000 pp. | Opened-domain development result; Marrakesh regressed and no promotion occurred. |
-| V182 | Label-sealed V167/V179 basis-backend cascade | V12 40.34706% to 39.64897%, +0.69808 pp; X +1.21495 pp, Z +0.18122 pp. | Strong full-coverage retrospective candidate; increment over V167 +0.05572 pp with positive paired CI, but fresh confirmation is required. |
-| V183 | Hierarchical and simultaneous non-inferiority audit | No new decoder percentage. | Methodological audit of V182; no prediction was changed and no promotion claim was made. |
-| V184 | Neuroscience-inspired causal temporal decoder | Best arm: V12 40.34706% to 39.89633%, +0.45073 pp; X +0.90146 pp, Z +0.00000 pp. | Opened-domain development result; Marrakesh regressed and no promotion occurred. |
-| V185 | Holland classifier-system credit router | V12 40.34706% to 39.69907%, +0.64798 pp; X +1.11475 pp, Z +0.18122 pp. | Passed retrospective gates and improved V167 by +0.00562 pp, but remained below V182 and requires fresh confirmation. |
-| V186 | Hierarchical partial-pooling expert router | Best arm: V12 40.34706% to 39.70370%, +0.64335 pp; X +1.10549 pp, Z +0.18122 pp. | Partial pooling added only +0.00099 pp over the reproduced V167 output and remained below V182. |
-| V187 | Exact-coset MAP residual over V182 | V12 40.34706% to 39.63624%, +0.71081 pp; X +1.23512 pp, Z +0.18651 pp. | Strongest full-coverage retrospective point estimate. The +0.01273 pp increment over V182 had a CI crossing zero; fresh confirmation is required. |
-| V188 | Temporal delayed-credit V182/V187 router | V12 40.34706% to 39.63029%, +0.71677 pp; X +1.25231 pp, Z +0.18122 pp. | Strongest full-coverage retrospective point estimate. Increment over V182 +0.01868 pp with positive paired CI; increment over V187 not established; fresh confirmation required. |
-| V189 | Evolutionary exact-graph BP-OSD prior calibration | Held historical block: +0.84537 pp; X +1.69074 pp, Z +0.00000 pp. | Specialist development result with inactive Z; not a full X/Z replacement and not fresh confirmation. |
-| V190 | Class-conditional higher-order backend alignment | Best unaligned control +0.41245 pp pooled; X +0.82491 pp, Z 0.00000 pp. Best aligned arm +0.40040 pp. | Completed opened real-IBM development; alignment strength reduced gain, Z stayed inactive and no candidate passed promotion. |
-| V191 | External real-IBM repetition-code model audit | Best exploratory arm +1.47466 pp; X +0.30037 pp, Z +2.61025 pp. | Exploratory input audit; not surface-code comparable and not the final paper-faithful protocol. |
-| V192 | Syndrome-moment source matching | -1.14305 pp. | External transfer regression; rejected. |
-| V193 | Basis-specific external model selector | +1.47466 pp. | Selected the same MLP for both bases; no improvement beyond V191. |
-| V194 | Detector-only external transfer ablation | Best +0.16649 pp. | X confidence bound crossed zero; rejected. |
-| V195 | Paper-faithful per-qubit FiLM decoder | Best +1.36810 pp; X +0.90720 pp, Z +1.81380 pp. | Real-IBM repetition-code development; positive bases but unsafe shallow cells; not V12-comparable. |
-| V196 | Unlabeled target MMD adaptation | Best arm -0.39650 pp. | All MMD arms regressed; rejected. |
-| V197 | Source-cell-safe FiLM routing | +0.67205 pp; X +0.50511 pp, Z +0.83348 pp. | Safer but lower-coverage external repetition-code development result. |
-| V198 | Paired FiLM calibration contribution | +0.08674 pp over the matched CNN; X +0.05974 pp, Z +0.11286 pp. | Positive incremental calibration effect on the external benchmark. |
-| V199 | Three-way leave-one-IBM-backend-out decoder | Held-backend gains: Fez +1.10986 pp, Kingston +0.91347 pp, Pittsburgh +0.70499 pp; positive X/Z bounds in every fold. | Strong external real-IBM repetition-code transfer evidence; not a fresh execution and not directly comparable with V12. |
-| V200 | Stripped zero/low-parameter core | Best +0.24123 pp; entirely Z. | Useful abstraction audit but inactive X; rejected. |
-| V201 | Zero-parameter calibrated matching | Backend range -0.80578 to +0.55402 pp. | Calibration reweighting reversed sign across backends; no universal gain. |
-| V202 | Unlabeled syndrome-moment matching | Backend range -1.85836 to -1.19297 pp. | All backends regressed; pair moments were insufficient. |
-| V203 | Balanced heterogeneous-noise ERM/IRM/MMD | Best +0.00167 pp, lower 95% CI -0.00160 pp. | Controlled synthetic null; no real-IBM claim. |
-| V204 | Frozen invariant decoder plus bounded calibration residual | Shared bound: +0.78482 pp over the external baseline; adapter increment over frozen base +0.01512 pp, 95% CI +0.01291 to +0.01732 pp; X +0.75498 pp, Z +0.80668 pp. | Completed leave-one-IBM-backend-out repetition-code development across Fez, Kingston and Pittsburgh; not surface-code or V12-comparable. |
-| V205 | Correlation-aware source-only weak-supervision router | V12 40.34706% to 39.62930%, +0.71776 pp; X +1.25430 pp, Z +0.18122 pp. | Full-coverage opened-domain development; all domain point estimates non-negative, but Marrakesh retained V12 and the +0.00694 pp increment over V187 was not significant; fresh confirmation required. |
-| V206 | Historical Kingston temporal-diversity ablation | Archive augmentation improved the matched student by +0.05192 pp (95% CI +0.01013 to +0.09370 pp), but the augmented model was still -0.06763 pp versus V12. | Opened real-IBM development; benefit concentrated in Kingston, with no Fez gain and no Marrakesh transfer improvement; rejected as a V12 successor. |
-| V207 | Leakage-safe real-IBM level-1 IQ ablation | Frozen V12: +1.18958 pp pooled, X -0.06250 pp, Z +2.44167 pp. Intermediate-IQ increment over matched hard model: +0.08333 pp, 95% CI -0.07333 to +0.24000 pp. | Historical single-backend development; final-data IQ excluded, negative control indistinguishable, no promotion. |
-| V208 | Pre-registered X/Z-by-round decoder switching | Versus MWPM: +1.25000 pp pooled, X 0.00000 pp, Z +2.50000 pp; pooled 95% CI +0.92083 to +1.57917 pp. | Validation selected V12 only for Z7 and retained MWPM elsewhere; historical single-backend time split, no fresh promotion. |
-| V209 | Uncertainty-filtered pseudo-label residual adaptation | Best pseudo arm: -0.07093 pp vs V12 (95% lower bound -0.11261 pp); X -0.14484 pp, Z +0.00298 pp. Increment over weak source-only student +0.01521 pp, CI crossed zero. | 604,800 opened real-IBM shots, seven outer domains, separate label-opening evaluator and matched random-position control; rejected. |
-| V210 | Exact-schema uniform/heterogeneous synthetic masked pretraining | 0.00000 pp vs V12; X 0.00000 pp, Z 0.00000 pp; zero interventions | 604,800 opened real-IBM shots, seven outer domains; completed null, rejected |
-| V211 | V210 pretraining with pooled-positive plus -0.10 pp domain non-inferiority routing | Uniform -0.00430 pp; heterogeneous -0.00380 pp; X-only interventions, Z unchanged | 604,800 opened real-IBM shots; completed, rejected |
-
-Interpretation rules:
-
-- Development, simulation, structural, selective and postselected results are not directly comparable.
-- A blank metric means unavailable or not applicable; it does not mean zero.
-- V22's below-1% value is conditional at 5% retained coverage, not full-denominator decoding.
-- V161-V162 have sealed seven-domain development results; neither passed promotion.
-- V163-V164 are sealed retrospective development results, not fresh confirmation.
-
-<!-- END EXPLICIT V1-V180 REGISTRY -->
-
-| Ledger ID | Version | Baseline % | Candidate % | Change (pp) | Public status |
-| --- | --- | ---: | ---: | ---: | --- |
-| E01 | — | 46.4615 | 46.4231 | 0.0384 | development |
-| E02 | — | 46.4231 | 45.2051 | 1.2180 | development |
-| E03 | — | 44.9292 | 44.0908 | 0.8383 | passed / confirmed as labelled |
-| E04 | — | 44.0908 | 42.6442 | 1.4466 | documented |
-| E05 | — | 45.8205 | 45.3237 | 0.4968 | development |
-| E06 | — | — | 44.1282 | — | development |
-| E07 | — | — | 45.4199 | — | development |
-| E08 | — | 42.2532 | 42.1987 | 0.0545 | development |
-| E09 | — | 42.2532 | 42.2596 | -0.0064 | failed / sealed |
-| E10 | — | 44.1282 | 42.7404 | 1.3878 | development |
-| E11 | — | 42.2532 | 42.7404 | -0.4872 | failed / sealed |
-| E12 | — | 42.2532 | 42.8173 | -0.5641 | failed / sealed |
-| E13 | — | 42.2532 | 42.2340 | 0.0192 | development |
-| E14 | — | 43.3650 | 42.3680 | 0.9970 | passed / confirmed as labelled |
-| E15 | — | 42.3680 | 34.2720 | 8.0960 | passed / confirmed as labelled |
-| E16 | — | 33.6630 | 33.0140 | 0.6490 | passed / confirmed as labelled |
-| E17 | — | 36.2850 | 36.1600 | 0.1240 | passed / confirmed as labelled |
-| E18 | — | 36.4470 | 36.1600 | 0.2860 | passed / confirmed as labelled |
-| E19 | V2 | 36.0292 | 35.5542 | 0.4750 | development |
-| E20 | V2 | 36.3823 | 36.5354 | -0.1531 | passed / confirmed as labelled |
-| E21 | V3 | — | — | 1.4583 | development |
-| E22 | V3 | — | — | 1.4974 | failed / sealed |
-| E23 | V3 | 38.4271 | 38.0990 | 0.3281 | passed / confirmed as labelled |
-| E24 | V3 | 31.7938 | 29.8250 | 1.9688 | passed / confirmed as labelled |
-| E25 | V4 | 38.4271 | 38.0125 | 0.4146 | documented |
-| E26 | V4 | 37.9109 | 37.2604 | 0.6505 | passed / confirmed as labelled |
-| E27 | V4 | 41.6528 | 37.7500 | 3.9028 | passed / confirmed as labelled |
-| E28 | — | 37.9918 | 38.3158 | -0.3241 | failed / sealed |
-| E29 | — | 27.4130 | 26.3870 | 1.0260 | passed / confirmed as labelled |
-| E30 | — | 15.8260 | 17.5620 | -1.7360 | passed / confirmed as labelled |
-| E31 | — | — | — | 0.1333 | development |
-| E32 | — | — | — | 0.0000 | passed / confirmed as labelled |
-| E33 | — | 45.2051 | 45.1058 | 0.0994 | development |
-| E34 | — | 45.2051 | 44.9647 | 0.2404 | development |
-| E35 | — | 45.2051 | 45.9006 | -0.6955 | failed / sealed |
-| E36 | — | 44.7949 | 44.4744 | 0.3205 | development |
-| E37 | — | 36.0375 | 34.7406 | 1.2969 | development |
-| E38 | — | 36.0375 | 35.0380 | 0.9995 | development |
-| E39 | — | 36.0375 | 34.5208 | 1.5167 | development |
-| E40 | V5 | 33.5498 | 33.5498 | 0.0000 | passed / confirmed as labelled |
-| E41 | V6 | 36.0375 | 34.4469 | 1.5906 | development |
-| E42 | V7 | 36.0375 | 34.3063 | 1.7313 | development |
-| E43 | V8 | 36.0375 | 34.2932 | 1.7443 | development |
-| E44 | V5, V7, V8 | 36.0375 | 34.2250 | 1.8125 | development |
-| E45 | V9 | 32.6400 | 33.2894 | -0.6493 | passed / confirmed as labelled |
-| E46 | V10 | 33.0949 | 32.1088 | 0.9861 | development |
-| E47 | V10 | 35.0035 | 33.6435 | 1.3600 | passed / confirmed as labelled |
-| E48 | V11 | — | — | 1.0081 | failed / sealed |
-| E49 | V11 | — | — | 1.1979 | failed / sealed |
-| E50 | — | — | — | 0.5012 | failed / sealed |
-| E51 | V11 | — | — | 1.0918 | failed / sealed |
-| E52 | V12 | 35.0035 | 33.7790 | 1.2245 | development |
-| E53 | V10, V12 | 33.7311 | 32.3553 | 1.3758 | development |
-| E54 | V12 | 36.4120 | 35.5301 | 0.8819 | passed / confirmed as labelled |
-| E55 | V13 | 34.2690 | 33.8624 | 0.4066 | development |
-| E56 | V13 | 34.2690 | 33.8285 | 0.4405 | development |
-| E57 | V13 | 34.2690 | 34.2965 | -0.0275 | failed / sealed |
-| E58 | V13 | 34.2690 | 33.9598 | 0.3092 | development |
-| E59 | V13 | 34.2690 | 34.0882 | 0.1808 | development |
-| E60 | V10, V13 | 32.3769 | 32.3441 | 0.0328 | development |
-| E61 | V10, V13 | 32.3769 | 32.5475 | -0.1705 | failed / sealed |
-| E62 | V10, V13 | 32.3769 | 32.4853 | -0.1084 | failed / sealed |
-| E63 | V10, V13 | 32.3769 | 32.5031 | -0.1262 | failed / sealed |
-| E64 | V10, V13 | 32.3769 | 32.4703 | -0.0934 | failed / sealed |
-| E65 | V10, V13 | 32.3769 | 32.5185 | -0.1416 | failed / sealed |
-| E67 | V14 | 32.3769 | 32.3769 | 0.0000 | failed / sealed |
-| E68 | V15 | 32.3769 | 32.3769 | 0.0000 | failed / sealed |
-| E69 | V16 | 32.3769 | 32.3769 | 0.0000 | failed / sealed |
-| E70 | V17 | 32.3769 | 32.3769 | 0.0000 | failed / sealed |
-| E72 | V19 | 35.0035 | 35.7836 | -0.7801 | failed / sealed |
-| E73 | V19 | 34.5833 | 36.8750 | -2.2917 | failed / sealed |
-| E74 | V19 | 33.6435 | 33.6192 | 0.0243 | development |
-| E75 | V19 | 35.5301 | 35.5023 | 0.0278 | documented |
-| E79 | V20 | 35.5301 | 35.4977 | 0.0324 | development |
-| E80 | V20 | 35.5301 | 35.4988 | 0.0313 | development |
-| E81 | V20 | 35.5301 | 35.4618 | 0.0683 | development |
-| E82 | V20 | 33.6435 | 33.5498 | 0.0938 | development |
-| E83 | V20 | 35.5301 | 35.4456 | 0.0845 | development |
-| E86 | V20 | 33.3947 | 33.3438 | 0.0509 | passed / confirmed as labelled |
-| E87 | V20 | 34.5845 | 33.3438 | 1.2407 | passed / confirmed as labelled |
-| E88 | V12, V20 | 34.5845 | 33.3947 | 1.1898 | passed / confirmed as labelled |
-| E89 | V21 | — | — | 6.6636 | development |
-| E90 | V21 | 33.1493 | 33.1458 | 0.0035 | null result |
-| E91 | V21 | 34.6771 | 33.1458 | 1.5313 | passed / confirmed as labelled |
-| E92 | V12, V21 | 34.6771 | 33.1493 | 1.5278 | passed / confirmed as labelled |
-| E93 | V12 | 34.6308 | 33.2720 | 1.3588 | passed / confirmed as labelled |
-| E94 | V22 | 33.7667 | 36.4500 | -2.6833 | development |
-| E95 | V22 | 33.7667 | 36.5000 | -2.7333 | development |
-| E96 | V22 | — | 0.5671 | — | development |
-| E97 | V22 | 30.4664 | 0.1620 | — | passed / confirmed as labelled |
-| E98 | V12, V22 | 31.7778 | 30.4664 | 1.3113 | passed / confirmed as labelled |
-| E99 | V12 | 33.6798 | 32.3368 | 1.3430 | passed / confirmed as labelled |
-| E100 | V37 | — | — | 0.4272 | development |
-| E101 | — | 34.5845 | 34.1227 | 0.4618 | development |
-| E102 | V38 | — | — | 0.1238 | development |
-| E103 | — | 35.7153 | 35.0035 | 0.7118 | passed / confirmed as labelled |
-| E104 | V12, V38 | 35.7153 | 34.5926 | 1.1227 | passed / confirmed as labelled |
-| E105 | V12, V38 | 35.7153 | 34.4201 | 1.2951 | passed / confirmed as labelled |
-| E106 | V12, V38 | 34.5926 | 34.4201 | 0.1725 | passed / confirmed as labelled |
-| E107 | V39 | 46.5127 | 45.7083 | 0.8044 | passed / confirmed as labelled |
-| E108 | V12 | 46.5127 | 46.3854 | 0.1273 | null result |
-| E109 | V38 | 46.5127 | 46.3692 | 0.1435 | null result |
-| E110 | V12, V38 | 46.3854 | 46.3692 | 0.0162 | null result |
-| E111 | V40 | 33.5498 | 32.3264 | 1.2234 | development |
-| E112 | V40 | 32.6400 | 31.6169 | 1.0231 | development |
-| E113 | V40 | 35.0035 | 34.0845 | 0.9190 | development |
-| E114 | V54 | — | — | — | development |
-| E115 | V56 | — | — | — | development |
-| E116 | V59 | — | — | — | development |
-| E117 | V60 | — | — | — | development |
-| E118 | V61 | 42.7276 | 41.7512 | 0.9765 | development |
-| E119 | V61 | 45.5370 | 45.4896 | 0.0475 | null result |
-| E120 | V62 | — | — | — | development |
-| E121 | V63 | 43.4300 | 43.0289 | 0.4010 | development |
-| E122 | V12, V64 | — | — | — | development |
-| E123 | V67 | — | — | — | development |
-| E124 | V68 | — | — | — | development |
-| E125 | V12, V68 | 32.7581 | 31.2303 | 1.5278 | passed / confirmed as labelled |
-| E126 | V68 | 31.2303 | 31.2072 | 0.0231 | null result |
-| E127 | V12, V68 | 32.7581 | 31.2072 | 1.5509 | passed / confirmed as labelled |
-| E128 | — | 37.0000 | 34.0000 | 3.0000 | development |
-| E129 | V69 | 32.4000 | 31.8000 | 0.6000 | development |
-| E130 | V69 | 35.3000 | 34.4000 | 0.9000 | development |
-| E131 | V70 | — | — | — | development |
-| E132 | V70 | — | — | — | failed / sealed |
-| E133 | V70 | — | — | — | failed / sealed |
-
-| E167 | V106 | — | — | 0.0000 | development null / sealed |
-| E163 | V107 | 39.2899 | 39.2361 | 0.0538 | development null / sealed |
-
-Last generated: 26 July 2026, Australia/Sydney.
+Percentages from different datasets are not directly comparable. Blank values mean no percentage is published.
