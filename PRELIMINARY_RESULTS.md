@@ -355,3 +355,15 @@ unchanged and Z improved by +2.50000 points.
 This eliminated the X regression observed when applying V12 broadly, but it did
 not outperform frozen V12 overall. The result is historical single-backend
 development evidence and was not promoted.
+## Completed bounded calibration adapter
+
+The completed V204 campaign used an external real-IBM repetition-code dataset
+with complete leave-one-backend-out evaluation over Fez, Kingston and
+Pittsburgh. Under one shared perturbation bound, the invariant backbone
+improved the benchmark baseline by +0.76971 percentage points, and the bounded
+calibration adapter added a further +0.01512 points (95% CI +0.01291 to
++0.01732). The complete model improved X by +0.75498 points and Z by +0.80668
+points over the external baseline.
+
+This is strong external repetition-code development evidence, but it is not a
+surface-code experiment and is not directly comparable with V12.
