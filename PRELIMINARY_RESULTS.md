@@ -9,6 +9,8 @@
 | V128 | +0.37252 pp | not promoted |
 | V129 | +0.07490 pp | not promoted |
 | V130 | +0.32424 pp | not promoted |
-| V131-V213 | - | pending or development |
+| V131-V211 | - | pending or development |
+| V212 | -0.00678 pp | completed; not promoted |
+| V213 | -0.12467 pp | completed; not promoted |
 
 These aggregate percentages are not directly comparable across different datasets. No per-round or below-1% full-denominator claim is made here.
