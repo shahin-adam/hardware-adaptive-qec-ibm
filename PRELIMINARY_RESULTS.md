@@ -311,8 +311,8 @@ execution. It does not replace V12.
 
 V203 then tested ERM, IRMv1, and MMD under a balanced synthetic heterogeneous
 noise protocol. The best held-environment gain was only +0.00167 pp with a
-lower 95% confidence bound of -0.00160 pp. V204 is running a bounded
-invariant-plus-calibration-residual follow-up.
+lower 95% confidence bound of -0.00160 pp. V204 subsequently completed its
+bounded invariant-plus-calibration-residual follow-up; its results are reported below.
 ## Correlation-aware retrospective routing
 
 V205 evaluated a full-coverage source-only router on 604,800 opened real-IBM
