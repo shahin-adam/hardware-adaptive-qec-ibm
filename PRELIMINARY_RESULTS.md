@@ -367,3 +367,12 @@ points over the external baseline.
 
 This is strong external repetition-code development evidence, but it is not a
 surface-code experiment and is not directly comparable with V12.
+## Completed moment-alignment ablation
+
+V190 completed five real-IBM development arms. Its unaligned control had the
+largest pooled gain, +0.41245 percentage points, with X +0.82491 points and Z
+unchanged. The best covariance-aligned arm reached +0.40040 points, while
+stronger covariance and third-moment penalties progressively reduced the gain.
+
+The control regressed one Marrakesh X domain, and no arm activated Z. V190 was
+therefore rejected as a V12 successor.
