@@ -12,5 +12,6 @@
 | V131-V211 | - | pending or development |
 | V212 | -0.00678 pp | completed; not promoted |
 | V213 | -0.12467 pp | completed; not promoted |
+| V215 | +0.84537 pp pooled; +1.69074 pp X; 0.00000 pp Z | development-only; not promoted |
 
 These aggregate percentages are not directly comparable across different datasets. No per-round or below-1% full-denominator claim is made here.
