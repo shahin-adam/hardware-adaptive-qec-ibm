@@ -222,6 +222,7 @@ This registry gives every integer version its own row. It complements the experi
 | V208 | Pre-registered X/Z-by-round decoder switching | Versus MWPM: +1.25000 pp pooled, X 0.00000 pp, Z +2.50000 pp; pooled 95% CI +0.92083 to +1.57917 pp. | Validation selected V12 only for Z7 and retained MWPM elsewhere; historical single-backend time split, no fresh promotion. |
 | V209 | Uncertainty-filtered pseudo-label residual adaptation | Best pseudo arm: -0.07093 pp vs V12 (95% lower bound -0.11261 pp); X -0.14484 pp, Z +0.00298 pp. Increment over weak source-only student +0.01521 pp, CI crossed zero. | 604,800 opened real-IBM shots, seven outer domains, separate label-opening evaluator and matched random-position control; rejected. |
 | V210 | Exact-schema uniform/heterogeneous synthetic masked pretraining | 0.00000 pp vs V12; X 0.00000 pp, Z 0.00000 pp; zero interventions | 604,800 opened real-IBM shots, seven outer domains; completed null, rejected |
+| V211 | V210 pretraining with pooled-positive plus -0.10 pp domain non-inferiority routing | Uniform -0.00430 pp; heterogeneous -0.00380 pp; X-only interventions, Z unchanged | 604,800 opened real-IBM shots; completed, rejected |
 
 Interpretation rules:
 
