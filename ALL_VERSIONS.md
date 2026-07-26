@@ -220,6 +220,7 @@ This registry gives every integer version its own row. It complements the experi
 | V206 | Historical Kingston temporal-diversity ablation | Archive augmentation improved the matched student by +0.05192 pp (95% CI +0.01013 to +0.09370 pp), but the augmented model was still -0.06763 pp versus V12. | Opened real-IBM development; benefit concentrated in Kingston, with no Fez gain and no Marrakesh transfer improvement; rejected as a V12 successor. |
 | V207 | Leakage-safe real-IBM level-1 IQ ablation | Frozen V12: +1.18958 pp pooled, X -0.06250 pp, Z +2.44167 pp. Intermediate-IQ increment over matched hard model: +0.08333 pp, 95% CI -0.07333 to +0.24000 pp. | Historical single-backend development; final-data IQ excluded, negative control indistinguishable, no promotion. |
 | V208 | Pre-registered X/Z-by-round decoder switching | Versus MWPM: +1.25000 pp pooled, X 0.00000 pp, Z +2.50000 pp; pooled 95% CI +0.92083 to +1.57917 pp. | Validation selected V12 only for Z7 and retained MWPM elsewhere; historical single-backend time split, no fresh promotion. |
+| V209 | Uncertainty-filtered pseudo-label residual adaptation | Best pseudo arm: -0.07093 pp vs V12 (95% lower bound -0.11261 pp); X -0.14484 pp, Z +0.00298 pp. Increment over weak source-only student +0.01521 pp, CI crossed zero. | 604,800 opened real-IBM shots, seven outer domains, separate label-opening evaluator and matched random-position control; rejected. |
 
 Interpretation rules:
 
