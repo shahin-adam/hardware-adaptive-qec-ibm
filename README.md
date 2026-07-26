@@ -123,6 +123,7 @@ scope. Recent opened-domain development results and active experiments are:
 | V199 | Fez +1.10986 pp; Kingston +0.91347 pp; Pittsburgh +0.70499 pp | External real-IBM repetition-code leave-one-backend-out result with positive X/Z bounds in every fold; not directly comparable with V12 |
 | V203 | +0.00167 pp; lower 95% CI -0.00160 pp | Controlled heterogeneous-noise synthetic null |
 | V204 | Running; no percentage yet | Frozen invariant decoder plus bounded calibration residual under external three-way backend testing |
+| V205 | 40.34706% to 39.62930%; +0.71776 pp | Full-coverage retrospective development; X +1.25430 pp, Z +0.18122 pp; no observed domain regression, but fresh confirmation required |
 
 These opened retrospective results are not independent confirmation evidence and do not replace V12.
 
@@ -131,7 +132,7 @@ full BP-OSD and V149. All models will be scored on the same 12 circuits,
 120,000 shots and 100% denominator. No confirmation outcome or external job
 identifier is published while execution is pending.
 
-Last public update: 25 July 2026, Australia/Sydney.
+Last public update: 26 July 2026, Australia/Sydney.
 
 ## Disclosure boundary
 
