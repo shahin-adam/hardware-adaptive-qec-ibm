@@ -313,3 +313,14 @@ V203 then tested ERM, IRMv1, and MMD under a balanced synthetic heterogeneous
 noise protocol. The best held-environment gain was only +0.00167 pp with a
 lower 95% confidence bound of -0.00160 pp. V204 is running a bounded
 invariant-plus-calibration-residual follow-up.
+## Correlation-aware retrospective routing
+
+V205 evaluated a full-coverage source-only router on 604,800 opened real-IBM
+shots. It reduced the matched V12 error from 40.34706% to 39.62930%, a
++0.71776 percentage-point development gain. X improved by +1.25430 points
+and Z by +0.18122 points. All domain point estimates were non-negative, but
+Marrakesh retained V12 exactly. The incremental gain over V187 was only
++0.00694 points and was not statistically established.
+
+This is retrospective development evidence, not fresh confirmation, and it
+does not replace V12 as the validated full-coverage winner.
