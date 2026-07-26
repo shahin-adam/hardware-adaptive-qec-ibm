@@ -376,3 +376,14 @@ stronger covariance and third-moment penalties progressively reduced the gain.
 
 The control regressed one Marrakesh X domain, and no arm activated Z. V190 was
 therefore rejected as a V12 successor.
+## Uncertainty-filtered pseudo-label test
+
+V209 tested transductive semi-supervised adaptation across seven opened
+real-IBM domains. The best uncertainty-filtered arm changed V12 by -0.07093
+percentage points overall: X -0.14484 points and Z +0.00298 points. Its small
++0.01521-point increment over a matched weak source-only student was not
+significant and was reproduced by a random-position control.
+
+The experiment therefore found no useful pseudo-label signal and was rejected.
+Target labels were opened only by a separate evaluator after prediction
+artifacts were frozen.
