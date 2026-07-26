@@ -145,7 +145,7 @@ This registry gives every integer version its own row. It complements the experi
 | V131 | NTU foundation-decoder transfer V131 | Best arm +0.00000 pp; fine-tuned transfer arm -0.01141 pp. | Full development evaluation completed; no arm was promoted. |
 | V132 | V128 structural + V129 Pathfinder gated fusion | All four fusion and control arms produced +0.00000 pp. | Full development evaluation completed; no arm was promoted. |
 | V133 | V12 metric-auxiliary amplification | Best arm +0.44015 pp pooled; X +0.87500 pp, Z +0.00529 pp. | Opened-domain development result; negative held cells prevented promotion. |
-| V134 | Qwen cross-version result analyst | Local Qwen3-Coder-30B-A3B analysis job queued; no decoder metric. | Research-ideation tool only; cannot promote a model or replace measured IBM evaluation. |
+| V134 | Qwen cross-version result analyst | Failed during local model-server startup; no decoder metric. | Infrastructure-only failure caused by an illegal CPU instruction; no QEC performance conclusion. |
 | V135 | V12 + V128 + V130 merged decoder | Best arm +0.37550 pp pooled; X +0.75099 pp, Z +0.00000 pp. | Opened-domain development result; negative held cells prevented promotion. |
 | V136 | Development experiment V136 | Best arm +0.27993 pp pooled; X +0.55985 pp, Z +0.00000 pp. | Full development evaluation completed; no promotion. |
 | V137 | Development experiment V137 | Best arm +0.15476 pp pooled; X +0.30952 pp, Z +0.00000 pp. | Full development evaluation completed; no promotion. |
