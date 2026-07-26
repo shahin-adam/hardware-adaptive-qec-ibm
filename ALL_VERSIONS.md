@@ -16,117 +16,117 @@ Only version identifiers, aggregate percentages, and compact evidence status are
 | V10 | 35.0035%; 33.6435%; +1.3600 pp | confirmed |
 | V11 | 1.0918 pp | not promoted |
 | V12 | 33.67978%; 32.33681%; +1.34298 pp | validated winner |
-| V13 | â€” | recorded |
-| V14 | â€” | not promoted |
-| V15 | â€” | not promoted |
-| V16 | â€” | not promoted |
-| V17 | â€” | not promoted |
-| V18 | â€” | recorded |
-| V19 | â€” | recorded |
+| V13 | - | recorded |
+| V14 | - | not promoted |
+| V15 | - | not promoted |
+| V16 | - | not promoted |
+| V17 | - | not promoted |
+| V18 | - | recorded |
+| V19 | - | recorded |
 | V20 | 33.3947%; 33.3438%; +0.05093 pp | recorded |
 | V21 | +0.00347 pp | null |
 | V22 | 0.16204%; 95%; 0.30414% | confirmed |
 | V23 | +0.021219 pp | development |
 | V24 | +0.001157 pp | null |
 | V25 | 45.954861%; 45.826389%; +0.128472 pp | confirmed |
-| V26 | â€” | recorded |
+| V26 | - | recorded |
 | V27 | 1.7222 pp; 0.9667 pp | recorded |
 | V28 | 45.5370%; 45.2523%; +0.2847 pp | confirmed |
 | V29 | 46.0148%; 45.0407%; +0.9741 pp; 45.3944% | not promoted |
 | V30 | +0.07639 pp; +0.03241 pp | null |
 | V31 | +0.05440 pp; 2.056%; +0.00347 pp | not promoted |
-| V32 | â€” | recorded |
-| V33 | â€” | recorded |
-| V34 | â€” | recorded |
-| V35 | â€” | recorded |
-| V36 | â€” | recorded |
-| V37 | â€” | recorded |
+| V32 | - | recorded |
+| V33 | - | recorded |
+| V34 | - | recorded |
+| V35 | - | recorded |
+| V36 | - | recorded |
+| V37 | - | recorded |
 | V38 | 35.7153%; 34.5926%; 34.4201%; +0.17245 pp | recorded |
 | V39 | 46.512731%; 45.708333%; +0.804398 pp; 5.1875 pp; 0.9861 pp | recorded |
 | V40 | +1.223380 pp; 15.0% | confirmed |
-| V41 | â€” | recorded |
-| V42 | â€” | recorded |
-| V43 | â€” | recorded |
-| V44 | â€” | recorded |
-| V45 | â€” | recorded |
-| V46 | â€” | recorded |
-| V47 | â€” | recorded |
-| V48 | â€” | recorded |
-| V49 | â€” | recorded |
-| V50 | â€” | recorded |
-| V51 | â€” | recorded |
-| V52 | â€” | recorded |
-| V53 | â€” | recorded |
-| V54 | â€” | development |
-| V55 | â€” | development |
-| V56 | â€” | development |
-| V57 | â€” | development |
-| V58 | â€” | recorded |
-| V59 | â€” | development |
-| V60 | â€” | development |
-| V61 | â€” | development |
-| V62 | â€” | development |
-| V63 | â€” | development |
-| V64 | â€” | development |
-| V65 | â€” | development |
-| V66 | â€” | development |
-| V67 | â€” | development |
-| V68 | â€” | development |
-| V69 | â€” | development |
-| V70 | â€” | development |
-| V71 | â€” | recorded |
-| V72 | â€” | recorded |
-| V73 | â€” | recorded |
-| V74 | â€” | recorded |
-| V75 | â€” | recorded |
-| V76 | â€” | recorded |
-| V77 | â€” | recorded |
-| V78 | â€” | recorded |
-| V79 | â€” | recorded |
-| V80 | â€” | recorded |
-| V81 | â€” | recorded |
-| V82 | â€” | recorded |
-| V83 | â€” | recorded |
-| V84 | â€” | recorded |
-| V85 | â€” | recorded |
-| V86 | â€” | recorded |
-| V87 | â€” | recorded |
-| V88 | â€” | recorded |
-| V89 | â€” | recorded |
-| V90 | â€” | recorded |
-| V91 | â€” | recorded |
-| V92 | â€” | recorded |
-| V93 | â€” | recorded |
-| V94 | â€” | recorded |
-| V95 | â€” | recorded |
-| V96 | â€” | recorded |
-| V97 | â€” | recorded |
-| V98 | â€” | recorded |
-| V99 | â€” | recorded |
-| V100 | â€” | recorded |
-| V101 | â€” | recorded |
-| V102 | â€” | recorded |
-| V103 | â€” | recorded |
-| V104 | â€” | recorded |
-| V105 | â€” | recorded |
-| V106 | â€” | recorded |
+| V41 | - | recorded |
+| V42 | - | recorded |
+| V43 | - | recorded |
+| V44 | - | recorded |
+| V45 | - | recorded |
+| V46 | - | recorded |
+| V47 | - | recorded |
+| V48 | - | recorded |
+| V49 | - | recorded |
+| V50 | - | recorded |
+| V51 | - | recorded |
+| V52 | - | recorded |
+| V53 | - | recorded |
+| V54 | - | development |
+| V55 | - | development |
+| V56 | - | development |
+| V57 | - | development |
+| V58 | - | recorded |
+| V59 | - | development |
+| V60 | - | development |
+| V61 | - | development |
+| V62 | - | development |
+| V63 | - | development |
+| V64 | - | development |
+| V65 | - | development |
+| V66 | - | development |
+| V67 | - | development |
+| V68 | - | development |
+| V69 | - | development |
+| V70 | - | development |
+| V71 | - | recorded |
+| V72 | - | recorded |
+| V73 | - | recorded |
+| V74 | - | recorded |
+| V75 | - | recorded |
+| V76 | - | recorded |
+| V77 | - | recorded |
+| V78 | - | recorded |
+| V79 | - | recorded |
+| V80 | - | recorded |
+| V81 | - | recorded |
+| V82 | - | recorded |
+| V83 | - | recorded |
+| V84 | - | recorded |
+| V85 | - | recorded |
+| V86 | - | recorded |
+| V87 | - | recorded |
+| V88 | - | recorded |
+| V89 | - | recorded |
+| V90 | - | recorded |
+| V91 | - | recorded |
+| V92 | - | recorded |
+| V93 | - | recorded |
+| V94 | - | recorded |
+| V95 | - | recorded |
+| V96 | - | recorded |
+| V97 | - | recorded |
+| V98 | - | recorded |
+| V99 | - | recorded |
+| V100 | - | recorded |
+| V101 | - | recorded |
+| V102 | - | recorded |
+| V103 | - | recorded |
+| V104 | - | recorded |
+| V105 | - | recorded |
+| V106 | - | recorded |
 | V107 | 39.289866%; 39.236111%; +0.053755 pp | not promoted |
-| V108 | â€” | recorded |
+| V108 | - | recorded |
 | V109 | 39.28987% | null |
 | V110 | +0.00077 pp; +0.00154 pp | not promoted |
 | V111 | 41.60262%; 41.57446%; +0.02816 pp; +0.05633 pp; 0.01505 pp | not promoted |
-| V112 | â€” | recorded |
-| V113 | â€” | not promoted |
-| V114 | â€” | recorded |
+| V112 | - | recorded |
+| V113 | - | not promoted |
+| V114 | - | recorded |
 | V115 | 0.00000 pp | not promoted |
 | V116 | 0.00000 pp | null |
-| V117 | â€” | recorded |
-| V118 | â€” | recorded |
-| V119 | â€” | recorded |
+| V117 | - | recorded |
+| V118 | - | recorded |
+| V119 | - | recorded |
 | V120 | 0.00000 pp | null |
 | V121 | 0.00000 pp | recorded |
 | V122 | 40.34706%; 40.15790%; +0.18915 pp | not promoted |
-| V123 | â€” | recorded |
+| V123 | - | recorded |
 | V124 | 40.34706%; 40.13988%; +0.20718 pp | not promoted |
 | V125 | 40.34706%; 40.01438%; +0.33267 pp | not promoted |
 | V126 | 40.34706%; 40.18767%; +0.15939 pp | not promoted |
@@ -137,21 +137,21 @@ Only version identifiers, aggregate percentages, and compact evidence status are
 | V131 | +0.00000 pp; -0.01141 pp | development |
 | V132 | +0.00000 pp | development |
 | V133 | +0.44015 pp; +0.87500 pp; +0.00529 pp | development |
-| V134 | â€” | recorded |
+| V134 | - | recorded |
 | V135 | +0.37550 pp; +0.75099 pp; +0.00000 pp | development |
 | V136 | +0.27993 pp; +0.55985 pp; +0.00000 pp | development |
 | V137 | +0.15476 pp; +0.30952 pp; +0.00000 pp | development |
 | V138 | +0.00000 pp | development |
-| V139 | â€” | development |
+| V139 | - | development |
 | V140 | +0.17342 pp; +0.16750 pp | development |
 | V141 | +0.23472 pp; +0.46944 pp; +0.00000 pp | development |
 | V142 | +0.00000 pp | recorded |
-| V143 | â€” | development |
-| V144 | â€” | recorded |
+| V143 | - | development |
+| V144 | - | recorded |
 | V145 | +0.00000 pp; -0.07434 pp | recorded |
 | V146 | +0.00000 pp | recorded |
-| V147 | â€” | recorded |
-| V148 | â€” | recorded |
+| V147 | - | recorded |
+| V148 | - | recorded |
 | V149 | 46.38542%; 45.53588%; +0.84954 pp; +1.69907 pp; 0.00000 pp | pending |
 | V150 | 46.38542%; 45.65509%; +0.73032 pp; +0.66204 pp; 0.03935 pp | failed |
 | V151 | 46.38542%; 45.65509%; +0.73032 pp; 3.68171%; -0.11921 pp | development |
@@ -172,10 +172,10 @@ Only version identifiers, aggregate percentages, and compact evidence status are
 | V166 | 39.52951%; 39.12577%; +0.40374 pp; +0.80748 pp; +0.00000 pp | pending |
 | V167 | 100%; 40.34706%; 39.70354%; +0.64352 pp; +1.10516 pp; +0.18188 pp | recorded |
 | V168 | +0.64352 pp; +0.50017 pp; +0.53985 pp | development |
-| V169 | â€” | recorded |
+| V169 | - | recorded |
 | V170 | 100%; 40.34706%; 39.79167%; +0.55539 pp; +1.08366 pp; +0.02712 pp | recorded |
 | V171 | 45.25231%; 45.25231%; +0.00000 pp | recorded |
-| V172 | â€” | recorded |
+| V172 | - | recorded |
 | V173 | 100%; 40.34706%; 40.28654%; +0.06052 pp; +0.12103 pp; +0.00000 pp | not promoted |
 | V174 | 100%; 40.34706%; 39.73132%; +0.61574 pp; +1.06019 pp; +0.17130 pp | recorded |
 | V175 | 100%; 40.34706%; 39.73099%; +0.61607 pp; +1.06713 pp; +0.16501 pp | not promoted |
@@ -183,10 +183,10 @@ Only version identifiers, aggregate percentages, and compact evidence status are
 | V177 | 40.34706%; 39.91898%; +0.42808 pp; +0.85615 pp; +0.00000 pp; +0.02563 pp | not promoted |
 | V178 | 40.34706%; 39.72239%; +0.62467 pp; +1.06812 pp; +0.18122 pp | null |
 | V179 | 40.34706%; 39.86194%; +0.48512 pp; +0.97024 pp; +0.00000 pp | not promoted |
-| V180 | â€” | recorded |
+| V180 | - | recorded |
 | V181 | 40.34706%; 39.93882%; +0.40823 pp; +0.81647 pp; +0.00000 pp | development |
 | V182 | 40.34706%; 39.64897%; +0.69808 pp; +1.21495 pp; +0.18122 pp | recorded |
-| V183 | â€” | recorded |
+| V183 | - | recorded |
 | V184 | 40.34706%; 39.89633%; +0.45073 pp; +0.90146 pp; +0.00000 pp | development |
 | V185 | 40.34706%; 39.69907%; +0.64798 pp; +1.11475 pp; +0.18122 pp | recorded |
 | V186 | 40.34706%; 39.70370%; +0.64335 pp; +1.10549 pp; +0.18122 pp | recorded |
@@ -215,7 +215,7 @@ Only version identifiers, aggregate percentages, and compact evidence status are
 | V209 | -0.07093 pp; 95%; -0.11261 pp; -0.14484 pp; +0.00298 pp; +0.01521 pp | not promoted |
 | V210 | 0.00000 pp; 0.00000 pp; 0.00000 pp | not promoted |
 | V211 | -0.00430 pp; -0.00380 pp | not promoted |
-| V212 | â€” | running |
-| V213 | â€” | running |
+| V212 | - | running |
+| V213 | - | running |
 
-Percentages from different datasets are not directly comparable. Blank values mean no percentage is published.
+Percentages from different datasets are not directly comparable. A dash means no percentage is published.
