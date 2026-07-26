@@ -124,6 +124,7 @@ scope. Recent opened-domain development results and active experiments are:
 | V203 | +0.00167 pp; lower 95% CI -0.00160 pp | Controlled heterogeneous-noise synthetic null |
 | V204 | Running; no percentage yet | Frozen invariant decoder plus bounded calibration residual under external three-way backend testing |
 | V205 | 40.34706% to 39.62930%; +0.71776 pp | Full-coverage retrospective development; X +1.25430 pp, Z +0.18122 pp; no observed domain regression, but fresh confirmation required |
+| V206 | Archive augmentation improved its matched student by +0.05192 pp, but remained -0.06763 pp below V12 | Opened real-IBM data ablation; same-backend history did not solve Fez/Marrakesh transfer; rejected |
 
 These opened retrospective results are not independent confirmation evidence and do not replace V12.
 
