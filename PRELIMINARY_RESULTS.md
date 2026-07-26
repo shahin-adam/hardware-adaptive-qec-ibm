@@ -394,3 +394,10 @@ synthetic masked-detector pretraining over 604,800 opened real-IBM shots.
 Every arm retained V12 on every shot: **0.00000 percentage points** pooled,
 **0.00000 pp X**, and **0.00000 pp Z**. This is a completed development null,
 not an improvement.
+### V211 non-inferiority-routed pretraining
+
+V211 tested whether V210's strict gate hid a useful signal. The best active
+arm was heterogeneous pretraining at **-0.00380 percentage points** versus
+V12 (**X -0.00761 pp; Z 0.00000 pp**). Uniform pretraining regressed by
+**-0.00430 pp**. The relaxed rule exposed non-transferable X interventions
+rather than an improvement, so V211 was rejected.
