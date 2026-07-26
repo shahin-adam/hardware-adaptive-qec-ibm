@@ -126,6 +126,7 @@ scope. Recent opened-domain development results and active experiments are:
 | V205 | 40.34706% to 39.62930%; +0.71776 pp | Full-coverage retrospective development; X +1.25430 pp, Z +0.18122 pp; no observed domain regression, but fresh confirmation required |
 | V206 | Archive augmentation improved its matched student by +0.05192 pp, but remained -0.06763 pp below V12 | Opened real-IBM data ablation; same-backend history did not solve Fez/Marrakesh transfer; rejected |
 | V207 | Frozen V12 gained +1.18958 pp on a historical IBM IQ block; X -0.06250 pp, Z +2.44167 pp | Intermediate-IQ increment over matched hard model +0.08333 pp, CI crossed zero; development only, not promoted |
+| V208 | Safe decoder switching gained +1.25000 pp over MWPM; X 0.00000 pp, Z +2.50000 pp | Historical time-split development; eliminated X regression using MWPM fallback, but did not beat frozen V12; not promoted |
 
 These opened retrospective results are not independent confirmation evidence and do not replace V12.
 
