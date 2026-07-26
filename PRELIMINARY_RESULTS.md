@@ -324,3 +324,13 @@ Marrakesh retained V12 exactly. The incremental gain over V187 was only
 
 This is retrospective development evidence, not fresh confirmation, and it
 does not replace V12 as the validated full-coverage winner.
+## Historical-data diversity ablation
+
+V206 held the residual architecture, seeds, source/validation splits and V12
+fallback fixed while adding one opened historical Kingston block to training.
+The augmentation improved its matched current-data-only student by +0.05192
+percentage points (95% CI +0.01013 to +0.09370), but the augmented student
+still regressed by -0.06763 points versus V12. The benefit was concentrated
+in Kingston and did not improve Fez or Marrakesh transfer.
+
+This is useful data-ablation evidence, not a promoted decoder.
