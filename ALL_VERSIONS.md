@@ -215,7 +215,7 @@ Only version identifiers, aggregate percentages, and compact evidence status are
 | V209 | -0.07093 pp; 95%; -0.11261 pp; -0.14484 pp; +0.00298 pp; +0.01521 pp | not promoted |
 | V210 | 0.00000 pp; 0.00000 pp; 0.00000 pp | not promoted |
 | V211 | -0.00430 pp; -0.00380 pp | not promoted |
-| V212 | - | running |
-| V213 | - | running |
+| V212 | -0.00678 pp | completed; not promoted |
+| V213 | -0.12467 pp | completed; not promoted |
 
 Percentages from different datasets are not directly comparable. A dash means no percentage is published.
