@@ -387,3 +387,10 @@ significant and was reproduced by a random-position control.
 The experiment therefore found no useful pseudo-label signal and was rejected.
 Target labels were opened only by a separate evaluator after prediction
 artifacts were frozen.
+### V210 exact-schema synthetic pretraining
+
+V210 compared random initialization with uniform, heterogeneous, and mixed
+synthetic masked-detector pretraining over 604,800 opened real-IBM shots.
+Every arm retained V12 on every shot: **0.00000 percentage points** pooled,
+**0.00000 pp X**, and **0.00000 pp Z**. This is a completed development null,
+not an improvement.
