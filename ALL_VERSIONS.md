@@ -217,6 +217,7 @@ This registry gives every integer version its own row. It complements the experi
 | V203 | Balanced heterogeneous-noise ERM/IRM/MMD | Best +0.00167 pp, lower 95% CI -0.00160 pp. | Controlled synthetic null; no real-IBM claim. |
 | V204 | Frozen invariant decoder plus bounded calibration residual | Running; no percentage yet. | Newton-inspired decomposition under three-way held-backend testing; external repetition-code protocol. |
 | V205 | Correlation-aware source-only weak-supervision router | V12 40.34706% to 39.62930%, +0.71776 pp; X +1.25430 pp, Z +0.18122 pp. | Full-coverage opened-domain development; all domain point estimates non-negative, but Marrakesh retained V12 and the +0.00694 pp increment over V187 was not significant; fresh confirmation required. |
+| V206 | Historical Kingston temporal-diversity ablation | Archive augmentation improved the matched student by +0.05192 pp (95% CI +0.01013 to +0.09370 pp), but the augmented model was still -0.06763 pp versus V12. | Opened real-IBM development; benefit concentrated in Kingston, with no Fez gain and no Marrakesh transfer improvement; rejected as a V12 successor. |
 
 Interpretation rules:
 
