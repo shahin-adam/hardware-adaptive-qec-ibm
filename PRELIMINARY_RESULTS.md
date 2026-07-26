@@ -334,3 +334,13 @@ still regressed by -0.06763 points versus V12. The benefit was concentrated
 in Kingston and did not improve Fez or Marrakesh transfer.
 
 This is useful data-ablation evidence, not a promoted decoder.
+## Leakage-safe level-1 IQ ablation
+
+V207 evaluated frozen V12 on a historical real-IBM level-1 IQ block. V12
+improved the pooled error by +1.18958 percentage points, but X regressed by
+-0.06250 points while Z improved by +2.44167 points. A matched residual model
+using only intermediate-measurement analog confidence improved over its
+hard-only control by +0.08333 points; its 95% interval crossed zero and a
+permuted-IQ control was statistically indistinguishable.
+
+V207 is historical single-backend development evidence and was not promoted.
