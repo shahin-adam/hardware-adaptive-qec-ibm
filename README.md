@@ -128,6 +128,7 @@ scope. Recent opened-domain development results and active experiments are:
 | V207 | Frozen V12 gained +1.18958 pp on a historical IBM IQ block; X -0.06250 pp, Z +2.44167 pp | Intermediate-IQ increment over matched hard model +0.08333 pp, CI crossed zero; development only, not promoted |
 | V208 | Safe decoder switching gained +1.25000 pp over MWPM; X 0.00000 pp, Z +2.50000 pp | Historical time-split development; eliminated X regression using MWPM fallback, but did not beat frozen V12; not promoted |
 | V209 | Best uncertainty pseudo-label arm: -0.07093 pp vs V12; X -0.14484 pp, Z +0.00298 pp | Seven-domain real-IBM transductive development; random control matched the tiny student increment; rejected |
+| V210 | Exact-schema synthetic pretraining: 0.00000 pp vs V12; X 0.00000 pp, Z 0.00000 pp | Seven-domain real-IBM development; strict router retained V12 on every shot |
 
 These opened retrospective results are not independent confirmation evidence and do not replace V12.
 
