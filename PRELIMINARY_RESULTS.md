@@ -344,3 +344,14 @@ hard-only control by +0.08333 points; its 95% interval crossed zero and a
 permuted-IQ control was statistically indistinguishable.
 
 V207 is historical single-backend development evidence and was not promoted.
+## Pre-registered decoder switching
+
+V208 selected between exact-circuit MWPM and frozen V12 separately for X3, X5,
+X7, Z3, Z5, and Z7 using a validation time segment only. Only Z7 passed the
+positive-lower-confidence-bound rule. On the held final time segment, the
+switched decoder improved over MWPM by +1.25000 percentage points: X was
+unchanged and Z improved by +2.50000 points.
+
+This eliminated the X regression observed when applying V12 broadly, but it did
+not outperform frozen V12 overall. The result is historical single-backend
+development evidence and was not promoted.
