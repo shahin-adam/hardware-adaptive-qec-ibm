@@ -216,6 +216,7 @@ This registry gives every integer version its own row. It complements the experi
 | V202 | Unlabeled syndrome-moment matching | Backend range -1.85836 to -1.19297 pp. | All backends regressed; pair moments were insufficient. |
 | V203 | Balanced heterogeneous-noise ERM/IRM/MMD | Best +0.00167 pp, lower 95% CI -0.00160 pp. | Controlled synthetic null; no real-IBM claim. |
 | V204 | Frozen invariant decoder plus bounded calibration residual | Running; no percentage yet. | Newton-inspired decomposition under three-way held-backend testing; external repetition-code protocol. |
+| V205 | Correlation-aware source-only weak-supervision router | V12 40.34706% to 39.62930%, +0.71776 pp; X +1.25430 pp, Z +0.18122 pp. | Full-coverage opened-domain development; all domain point estimates non-negative, but Marrakesh retained V12 and the +0.00694 pp increment over V187 was not significant; fresh confirmation required. |
 
 Interpretation rules:
 
@@ -359,4 +360,4 @@ Interpretation rules:
 | E167 | V106 | — | — | 0.0000 | development null / sealed |
 | E163 | V107 | 39.2899 | 39.2361 | 0.0538 | development null / sealed |
 
-Last generated: 25 July 2026, Australia/Sydney.
+Last generated: 26 July 2026, Australia/Sydney.
