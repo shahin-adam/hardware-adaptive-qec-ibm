@@ -361,6 +361,7 @@ These versions were produced after the 167-record ledger. They use opened retros
 | V232 | Wolffe read-only analyst | Python 3.13 environment built; compute-node Hugging Face access unavailable, so no model output claimed; no raw IBM arrays or fine-tuning | infrastructure only; blocked by model-cache/network access |
 | V233 | untouched Kingston audit | frozen Z-round-5/7 gate: -0.03704 pp overall, X 0.00000 pp, Z -0.07407 pp | not promoted; V12/MWPM fallback retained |
 | RETRO-HARMONY-V2 | 96,000 untouched Kingston shots from archived QPY run | frozen hybrid -0.1531 pp overall; X/3 -0.9250 pp, Z/3 -0.3688 pp; Z/5 and Z/7 positive | retrospective artifact audit; not promoted |
+| D5-DATASET-AUDIT | 127,200 real Kingston shots, 24 d3/d5 configurations | raw failure 46.23035%; distance-5 routed circuits near 50%; no V12/MWPM prediction column | dataset audit only; no decoder claim |
 
 ## Current winner
 
