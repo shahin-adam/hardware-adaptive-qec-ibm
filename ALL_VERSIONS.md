@@ -358,7 +358,7 @@ These versions were produced after the 167-record ledger. They use opened retros
 | V229 | saved IBM Kingston QPY | 12 ISA circuits, operation/measurement graph; 45 candidate edges in first circuit | structural graph only; not exact DEM |
 | V230 | standardized ledger meta-analysis | confirms V222 as safest recent point estimate; no promotion without paired uncertainty | audit only |
 | V231 | 108,000-shot saved Kingston block | X +0.00231 pp, Z +0.00000 pp on held test; 2 better/1 worse X changes | not promoted |
-| V232 | Wolffe read-only analyst | compact sanitized summaries only; no raw IBM arrays or fine-tuning | analysis infrastructure; result pending |
+| V232 | Wolffe read-only analyst | Python 3.13 environment built; compute-node Hugging Face access unavailable, so no model output claimed; no raw IBM arrays or fine-tuning | infrastructure only; blocked by model-cache/network access |
 | V233 | untouched Kingston audit | frozen Z-round-5/7 gate: -0.03704 pp overall, X 0.00000 pp, Z -0.07407 pp | not promoted; V12/MWPM fallback retained |
 | RETRO-HARMONY-V2 | 96,000 untouched Kingston shots from archived QPY run | frozen hybrid -0.1531 pp overall; X/3 -0.9250 pp, Z/3 -0.3688 pp; Z/5 and Z/7 positive | retrospective artifact audit; not promoted |
 
