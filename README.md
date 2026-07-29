@@ -5,7 +5,7 @@ Public, sanitized progress record for a Western Sydney University quantum-error-
 ## Project team
 
 - Principal Investigator and academic supervisor: Dr Weisheng, Western Sydney University.
-- Lead student researcher and technical implementer: Shahin Adam, Western Sydney University student ID 22228049.
+- Lead student researcher and technical implementer: Shahin Adam, Western Sydney University.
 
 ## Research context
 
@@ -43,33 +43,63 @@ Results use different datasets and comparators and must not be added together.
 
 Every new result is reported with data source, dataset/block role, full or selected denominator, coverage, X error, Z error, pooled error, matched baseline, absolute improvement, relative reduction, statistical evidence, evidence level, and below-1% status. Versions are ranked only when dataset, circuit cohort, basis, denominator, and split role match. Cross-block percentages are contextual rather than direct head-to-head comparisons.
 
-The expanded method-free index distinguishes real-hardware, simulation, analytical, and structural evidence and is available in [ALL_VERSIONS.md](ALL_VERSIONS.md).
+The canonical, complete registry is [ALL_VERSIONS.md](ALL_VERSIONS.md). It
+contains an explicit row for every version from V1 through V160, including
+archive gaps, null results, failed/sealed experiments, active development,
+and confirmed evidence. README tables are intentionally summaries and must
+not be interpreted as the complete version list.
 
 ## Current development status
 
-V12 remains the validated winner. Later real-data models have produced useful but non-promotable development results:
+V12 remains the best validated full-coverage model on its tested validation
+scope. Recent opened-domain development results and active experiments are:
 
 | Version | Best aggregate observation | Status |
 | --- | --- | --- |
-| V111 | 0.0282 pp pooled gain; X unchanged | Not promoted |
-| V122 | 0.1892 pp pooled development gain | Domain-safety gate failed |
-| V124 | 0.2072 pp pooled development gain | Z/domain gates failed |
-| V125 | 0.3327 pp pooled development gain | Largest recent pooled point estimate; not safe across all required strata |
-| V126 | 0.1594 pp pooled development gain | Open-backbone adapter; not promoted |
-| V127 | 0.0000 pp | Null result |
-| V128 | 0.3725 pp pooled development gain | Domain/basis safety gates failed; not promoted |
-| V129 | 0.0749 pp pooled development gain | Pathfinder transfer safety gates failed; not promoted |
-| V130 | Full evaluation running | Aggregate-metric conditioning ablation; no performance claim yet |
-| V131 | Smoke/full jobs submitted | Official NTU checkpoint transfer with matched scratch control; no performance claim yet |
+| V125 | 0.3327 pp pooled development gain | Not promoted; basis/domain gates failed |
+| V128 | 0.3725 pp pooled development gain | Not promoted; basis/domain gates failed |
+| V129 | 0.0749 pp pooled development gain | Not promoted; transfer safety gates failed |
+| V130 | 0.3242 pp pooled development gain | X +0.6485 pp, Z unchanged; worst-fold gate failed |
+| V131 | Pending | Development evaluation; no performance claim |
+| V132 | Pending | Development evaluation; no performance claim |
+| V133 | Pending | Development evaluation; no performance claim |
+| V134 | Not a decoder metric | Research audit; no performance claim |
+| V135 | Pending | Development evaluation; no performance claim |
+| V136 | Corrected smoke passed; full evaluation running | Earlier dtype implementation error repaired; no performance claim |
+| V137 | Pending | Development evaluation; no performance claim |
+| V138 | Pending | Development evaluation; no performance claim |
+| V139 | Completed metric audit | No decoder-improvement claim |
+| V140 | Pending | Development evaluation; no performance claim |
+| V141 | Pending | Development evaluation; no performance claim |
+| V142 | Pending | Development evaluation; no performance claim |
+| V143 | Completed drift audit | No decoder-improvement claim |
+| V144 | Completed algebraic audit | No decoder-improvement claim |
+| V145 | Pending | Development evaluation; no performance claim |
+| V146 | Pending | Development evaluation; no performance claim |
+| V147 | No decoder percentage | Exact mechanism-graph recovery and validation |
+| V148 | No decoder percentage | Mathematical implementation/conformance audit |
+| V149 | 46.38542% to 45.53588%; +0.84954 pp | Historical Fez development; X +1.69907 pp, Z unchanged; fresh 120,000-shot full-coverage Fez confirmation submitted and pending |
+| V150 | Best arm 46.38542% to 45.65509%; +0.73032 pp | Historical Fez development; multiscale arm failed Z safety and did not beat V149 |
+| V151 | 46.38542% to 45.65509%; +0.73032 pp | 3.68171%-intervention Pareto cascade; strong concentration but 0.11921 pp worse than V149 |
+| V152 | 46.38542% to 45.53588%; +0.84954 pp | 100%-coverage population/criticality extension made no safe Z changes and reduced exactly to V149; no incremental gain |
+| V153 | 46.38542% to 45.53588%; +0.84954 pp | 100%-coverage symbolic island-GP extension found no safe Z rule and reduced exactly to V149; no incremental gain |
+| V154 | 46.38542% to 45.53588%; +0.84954 pp | Eight exact-graph CUDA-Q BP/prior Z variants were tested across three Fez blocks; none passed the two-development-block safety rule, so V154 reduced exactly to V149 |
+| V155 | Z-only 35.49206% to 35.47388%; +0.01819 pp | Seven held-domain neural population-router test; confidence interval crossed zero |
+| V156 | Z-only 35.49206% to 35.50033%; -0.00827 pp | Configuration-specific neural router regressed; not promoted |
+| V157 | V39 Z-only 43.32407% to 43.47685%; -0.15278 pp | Deep Transformer regression; not promoted |
+| V158 | Best arm V39 Z-only 43.32407% to 43.24769%; +0.07639 pp | Scratch recurrent-Transformer result; confidence interval crossed zero |
+| V159 | Best arm V39 Z-only 43.32407% to 43.31019%; +0.01389 pp | Six-architecture comparison; no arm passed confidence gating |
+| V160 | Best arm V39 full-coverage 46.38542% to 45.57060%; +0.81481 pp | IBM-native graph-spatial recurrent decoder; X +1.62269 pp (positive CI), Z +0.00694 pp (CI crossed zero); cross-domain validation pending |
 
-These figures use opened retrospective development domains and are not ranked against V12 as independent confirmation evidence. See [ALL_VERSIONS.md](ALL_VERSIONS.md) for the expanded audited index through V131.
+These opened retrospective results are not independent confirmation evidence and do not replace V12.
 
-Last public update: 23 July 2026, Australia/Sydney.
+The V149 confirmation uses one shared untouched block for exact MWPM, V12,
+full BP-OSD and V149. All models will be scored on the same 12 circuits,
+120,000 shots and 100% denominator. No confirmation outcome or external job
+identifier is published while execution is pending.
+
+Last public update: 24 July 2026, Australia/Sydney.
 
 ## Disclosure boundary
 
 This repository does not publish current research ideas or implementation details. Full reproducibility material will be considered after manuscript preparation, institutional review, and security review.
-
-
-## 2026-07-29 sanitized audit
-V228-V231 are recorded in the public ledger as infrastructure/development results; V12 remains the validated full-coverage winner. V232 is a read-only local analyst design and publishes no IBM shot data, credentials, or model-training artifacts.
