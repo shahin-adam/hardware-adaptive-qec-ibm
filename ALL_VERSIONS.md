@@ -374,6 +374,7 @@ These versions were produced after the 167-record ledger. They use opened retros
 | V245 | 25,440 untouched real Kingston D3/D5 shots; per-distance/basis/round/logical-state confidence thresholds | pooled -0.53459 pp; mixed configuration cells, canonical DEM comparator | diagnostic only; not promoted |
 | V246 | 25,440 untouched real Kingston D3/D5 shots; leave-one-job-out calibration-domain residual ensemble | X 0.00000 pp, Z 0.00000 pp, pooled 0.00000 pp; gate selected zero coverage | diagnostic null; not promoted |
 | V248 | 25,440 untouched real Kingston D3/D5 shots; V12-style residual positive weighting ablation | X -0.57390 pp, Z -1.17925 pp, pooled -0.87657 pp; unsafe interventions at 27.81%/19.70% gate coverage | diagnostic only; not promoted |
+| V249 | 25,440 untouched real Kingston D3/D5 shots; fired-detector activity gate with BP-OSD | X +0.22799 pp, Z -0.52673 pp, pooled -0.14937 pp; identical to V244 because activity equals syndrome weight | diagnostic replication; not promoted |
 
 ## Current winner
 
