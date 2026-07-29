@@ -371,6 +371,7 @@ These versions were produced after the 167-record ledger. They use opened retros
 | V241 | 25,440 untouched real Kingston D3/D5 shots; BP-OSD on X and MWPM on Z | X +0.44811 pp, Z 0.00000 pp, pooled +0.22406 pp; canonical DEM comparator | strongest D5 diagnostic; not a V12 promotion |
 | V242 | 25,440 untouched real Kingston D3/D5 shots; validation-selected canonical BP-OSD p=0.012 on X, MWPM on Z | X +0.18868 pp, Z 0.00000 pp; canonical DEM comparator | diagnostic only; not promoted |
 | V244 | 25,440 untouched real Kingston D3/D5 shots; validation-selected syndrome-weight confidence gate for BP-OSD | X +0.22799 pp, Z -0.52673 pp, pooled -0.14937 pp; canonical DEM comparator | diagnostic only; Z gate failed, not promoted |
+| V245 | 25,440 untouched real Kingston D3/D5 shots; per-distance/basis/round/logical-state confidence thresholds | pooled -0.53459 pp; mixed configuration cells, canonical DEM comparator | diagnostic only; not promoted |
 
 ## Current winner
 
