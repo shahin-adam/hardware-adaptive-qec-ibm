@@ -367,6 +367,8 @@ These versions were produced after the 167-record ledger. They use opened retros
 | V237 | 127,200 real Kingston D3/D5 shots; Melbourne-inspired temporal features | X +0.00000 pp, Z -0.08648 pp on untouched 25,440-shot test; 95/95 X changes and 264/275 Z changes; canonical DEM comparator | diagnostic only; not promoted |
 | V238 | 127,200 real Kingston D3/D5 shots; job-local IBM calibration summaries | X +0.00786 pp, Z -0.28302 pp on untouched 25,440-shot test; canonical DEM comparator | diagnostic only; not promoted |
 | V239 | 127,200 real Kingston D3/D5 shots; interpretable syndrome energy/Ising proxy | X -0.36164 pp, Z -0.79403 pp on untouched 25,440-shot test; canonical DEM comparator | diagnostic only; not promoted |
+| V240 | 25,440 untouched real Kingston D3/D5 shots; canonical DEM BP-OSD comparator | X +0.44811 pp, Z -3.23899 pp versus canonical DEM MWPM | diagnostic only; basis asymmetry exposed |
+| V241 | 25,440 untouched real Kingston D3/D5 shots; BP-OSD on X and MWPM on Z | X +0.44811 pp, Z 0.00000 pp, pooled +0.22406 pp; canonical DEM comparator | strongest D5 diagnostic; not a V12 promotion |
 
 ## Current winner
 
