@@ -363,6 +363,7 @@ These versions were produced after the 167-record ledger. They use opened retros
 | RETRO-HARMONY-V2 | 96,000 untouched Kingston shots from archived QPY run | frozen hybrid -0.1531 pp overall; X/3 -0.9250 pp, Z/3 -0.3688 pp; Z/5 and Z/7 positive | retrospective artifact audit; not promoted |
 | D5-DATASET-AUDIT | 127,200 real Kingston shots, 24 d3/d5 configurations | raw failure 46.23035%; distance-5 routed circuits near 50%; no V12/MWPM prediction column | dataset audit only; no decoder claim |
 | V235 | 127,200 real Kingston D3/D5 shots; canonical Stim DEM comparator | X +0.03931 pp, Z -0.16509 pp on untouched 25,440-shot test; comparator is not operation-faithful hardware MWPM | diagnostic only; not promoted |
+| V236 | 31,200 held-out real Kingston D3/D5 neural predictions | canonical DEM error 42.13782%; Transformer 45.20513%; CNN 46.42308%; Transformer loses 6,760 versus 5,803 canonical shots | recovered neural baseline audit; not promoted |
 
 ## Current winner
 
