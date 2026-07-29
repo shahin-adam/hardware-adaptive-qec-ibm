@@ -364,6 +364,7 @@ These versions were produced after the 167-record ledger. They use opened retros
 | D5-DATASET-AUDIT | 127,200 real Kingston shots, 24 d3/d5 configurations | raw failure 46.23035%; distance-5 routed circuits near 50%; no V12/MWPM prediction column | dataset audit only; no decoder claim |
 | V235 | 127,200 real Kingston D3/D5 shots; canonical Stim DEM comparator | X +0.03931 pp, Z -0.16509 pp on untouched 25,440-shot test; comparator is not operation-faithful hardware MWPM | diagnostic only; not promoted |
 | V236 | 31,200 held-out real Kingston D3/D5 neural predictions | canonical DEM error 42.13782%; Transformer 45.20513%; CNN 46.42308%; Transformer loses 6,760 versus 5,803 canonical shots | recovered neural baseline audit; not promoted |
+| V237 | 127,200 real Kingston D3/D5 shots; Melbourne-inspired temporal features | X +0.00000 pp, Z -0.08648 pp on untouched 25,440-shot test; 95/95 X changes and 264/275 Z changes; canonical DEM comparator | diagnostic only; not promoted |
 
 ## Current winner
 
