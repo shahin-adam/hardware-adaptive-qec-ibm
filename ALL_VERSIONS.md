@@ -373,10 +373,10 @@ These versions were produced after the 167-record ledger. They use opened retros
 | V244 | 25,440 untouched real Kingston D3/D5 shots; validation-selected syndrome-weight confidence gate for BP-OSD | X +0.22799 pp, Z -0.52673 pp, pooled -0.14937 pp; canonical DEM comparator | diagnostic only; Z gate failed, not promoted |
 | V245 | 25,440 untouched real Kingston D3/D5 shots; per-distance/basis/round/logical-state confidence thresholds | pooled -0.53459 pp; mixed configuration cells, canonical DEM comparator | diagnostic only; not promoted |
 | V246 | 25,440 untouched real Kingston D3/D5 shots; leave-one-job-out calibration-domain residual ensemble | X 0.00000 pp, Z 0.00000 pp, pooled 0.00000 pp; gate selected zero coverage | diagnostic null; not promoted |
+| V248 | 25,440 untouched real Kingston D3/D5 shots; V12-style residual positive weighting ablation | X -0.57390 pp, Z -1.17925 pp, pooled -0.87657 pp; unsafe interventions at 27.81%/19.70% gate coverage | diagnostic only; not promoted |
 
 ## Current winner
 
 V12 remains the winning validated full-coverage model: 33.67978% baseline to 32.33681% candidate error over 259,200 real-hardware shots, a 1.34298 percentage-point improvement. No post-ledger model has passed the separate X, Z, held-domain, and confidence requirements needed to replace it.
 
 Last generated: 29 July 2026, Australia/Sydney.
-| V248 | 25,440 untouched real Kingston D3/D5 shots; V12-style residual positive weighting ablation | X -0.57390 pp, Z -1.17925 pp, pooled -0.87657 pp; unsafe interventions at 27.81%/19.70% gate coverage | diagnostic only; not promoted |
