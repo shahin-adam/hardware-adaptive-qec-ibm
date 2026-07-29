@@ -359,6 +359,7 @@ These versions were produced after the 167-record ledger. They use opened retros
 | V230 | standardized ledger meta-analysis | confirms V222 as safest recent point estimate; no promotion without paired uncertainty | audit only |
 | V231 | 108,000-shot saved Kingston block | X +0.00231 pp, Z +0.00000 pp on held test; 2 better/1 worse X changes | not promoted |
 | V232 | Wolffe read-only analyst | compact sanitized summaries only; no raw IBM arrays or fine-tuning | analysis infrastructure; result pending |
+| V233 | untouched Kingston audit | frozen Z-round-5/7 gate: -0.03704 pp overall, X 0.00000 pp, Z -0.07407 pp | not promoted; V12/MWPM fallback retained |
 
 ## Current winner
 
