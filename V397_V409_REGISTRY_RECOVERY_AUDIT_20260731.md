@@ -10,7 +10,7 @@ Recovered results:
 - V400: four-tier router regressed âˆ’0.014 pp pooled and âˆ’0.061 pp held-out; rejected.
 - V401: temporal-risk router +0.067 pp pooled and +0.069 pp held-out, but r3/r5 subgroups regressed; not promoted.
 - V402: Google Willow 3D-CNN smoke lost to majority; not comparable to IBM V12.
-- V403: distance-3 specialist +0.074 pp pooled, with +0.722 pp on 7-round shots but a subgroup regression; prospective validation required.
+- V403: local replay gives +0.022 pp pooled, +0.074 pp held-out, and +0.722 pp on 7-round shots, but subgroup regressions remain; prospective validation required.
 - V404: nested guard has no independent held-out confirmation; diagnostic protocol only.
 - V407: public Google distance-conditioned smoke regressed against majority in all d3/d5 X/Z slices.
 - V408: public DEM residual adapter regressed against matched MWPM in all four slices.
