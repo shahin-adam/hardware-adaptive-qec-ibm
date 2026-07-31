@@ -1444,3 +1444,6 @@ Each version has explicit d=3, d=5, and d=7 rows. Values are copied only when th
 | V480 | d=3 | +0.442000 pp (X/r7) | +0.000000 pp | +0.442000 pp selected slice | [+0.004000,+0.884000] pp | real IBM three-block validation; limited promotion |
 | V480 | d=5 | not recorded | not recorded | not recorded | not reported | no paired result at this distance |
 | V480 | d=7 | not recorded | not recorded | not recorded | not reported | no paired result at this distance |
+| V481 | d=3 | not recorded | not recorded | not recorded | not reported | open-model advisory; not a decoder result |
+| V481 | d=5 | not recorded | not recorded | not recorded | not reported | open-model advisory; not a decoder result |
+| V481 | d=7 | not recorded | not recorded | not recorded | not reported | open-model advisory; not a decoder result |
