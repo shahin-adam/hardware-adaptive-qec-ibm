@@ -1,0 +1,185 @@
+{
+  "version": "V429",
+  "method": "frozen V403 cross-domain transfer",
+  "source_policy": "C:\\Users\\22228049\\OneDrive - Western Sydney University\\Shahin Adam 22228049\\QEC\\Versions_20260731\\V403\\V403_DISTANCE3_SPECIALIST_20260731.json",
+  "source_data": "C:\\Users\\22228049\\.codex\\qec_work\\v29_v12_new_data.npz",
+  "target_data": "C:\\Users\\22228049\\OneDrive - Western Sydney University\\Shahin Adam 22228049\\QEC\\Versions_20260731\\V003\\ARCHIVE_CONTENT\\Complete_15-7-2026\\QEC_AI_PAPER_MASTER_20260717\\ALL_ORIGINAL_QEC_MATERIAL\\LOCAL_QEC_SOURCE_TREE_COPY\\crossblock_v3_data.npz",
+  "thresholds_transferred_from_source": {
+    "0/7": 0.4107142857142857,
+    "1/3": 0.4583333333333333
+  },
+  "pooled": {
+    "v12_error_percent": 36.17138888888889,
+    "v429_error_percent": 36.17194444444444,
+    "gain_pp": -0.0005555555555503133,
+    "bootstrap_ci95_pp": [
+      -0.044722222222222226,
+      0.04500694444444444
+    ]
+  },
+  "rows": [
+    {
+      "domain": 0,
+      "basis": 0,
+      "rounds": 3,
+      "shots": 20000,
+      "v12_error_percent": 35.195,
+      "v429_error_percent": 35.195,
+      "gain_pp": 0.0
+    },
+    {
+      "domain": 0,
+      "basis": 0,
+      "rounds": 5,
+      "shots": 20000,
+      "v12_error_percent": 45.9,
+      "v429_error_percent": 45.875,
+      "gain_pp": 0.02499999999999858
+    },
+    {
+      "domain": 0,
+      "basis": 0,
+      "rounds": 7,
+      "shots": 20000,
+      "v12_error_percent": 49.345,
+      "v429_error_percent": 49.29,
+      "gain_pp": 0.054999999999999716
+    },
+    {
+      "domain": 0,
+      "basis": 1,
+      "rounds": 3,
+      "shots": 20000,
+      "v12_error_percent": 15.834999999999999,
+      "v429_error_percent": 15.834999999999999,
+      "gain_pp": 0.0
+    },
+    {
+      "domain": 0,
+      "basis": 1,
+      "rounds": 5,
+      "shots": 20000,
+      "v12_error_percent": 29.25,
+      "v429_error_percent": 29.25,
+      "gain_pp": 0.0
+    },
+    {
+      "domain": 0,
+      "basis": 1,
+      "rounds": 7,
+      "shots": 20000,
+      "v12_error_percent": 41.025,
+      "v429_error_percent": 41.18,
+      "gain_pp": -0.15500000000000114
+    },
+    {
+      "domain": 1,
+      "basis": 0,
+      "rounds": 3,
+      "shots": 20000,
+      "v12_error_percent": 34.925,
+      "v429_error_percent": 34.925,
+      "gain_pp": 0.0
+    },
+    {
+      "domain": 1,
+      "basis": 0,
+      "rounds": 5,
+      "shots": 20000,
+      "v12_error_percent": 46.48,
+      "v429_error_percent": 46.47,
+      "gain_pp": 0.00999999999999801
+    },
+    {
+      "domain": 1,
+      "basis": 0,
+      "rounds": 7,
+      "shots": 20000,
+      "v12_error_percent": 48.33,
+      "v429_error_percent": 48.39,
+      "gain_pp": -0.060000000000002274
+    },
+    {
+      "domain": 1,
+      "basis": 1,
+      "rounds": 3,
+      "shots": 20000,
+      "v12_error_percent": 15.825,
+      "v429_error_percent": 15.85,
+      "gain_pp": -0.025000000000000355
+    },
+    {
+      "domain": 1,
+      "basis": 1,
+      "rounds": 5,
+      "shots": 20000,
+      "v12_error_percent": 29.595,
+      "v429_error_percent": 29.595,
+      "gain_pp": 0.0
+    },
+    {
+      "domain": 1,
+      "basis": 1,
+      "rounds": 7,
+      "shots": 20000,
+      "v12_error_percent": 41.135,
+      "v429_error_percent": 41.14,
+      "gain_pp": -0.005000000000002558
+    },
+    {
+      "domain": 2,
+      "basis": 0,
+      "rounds": 3,
+      "shots": 20000,
+      "v12_error_percent": 36.22,
+      "v429_error_percent": 36.22,
+      "gain_pp": 0.0
+    },
+    {
+      "domain": 2,
+      "basis": 0,
+      "rounds": 5,
+      "shots": 20000,
+      "v12_error_percent": 43.63,
+      "v429_error_percent": 43.795,
+      "gain_pp": -0.16499999999999915
+    },
+    {
+      "domain": 2,
+      "basis": 0,
+      "rounds": 7,
+      "shots": 20000,
+      "v12_error_percent": 46.785,
+      "v429_error_percent": 46.68,
+      "gain_pp": 0.10499999999999687
+    },
+    {
+      "domain": 2,
+      "basis": 1,
+      "rounds": 3,
+      "shots": 20000,
+      "v12_error_percent": 21.154999999999998,
+      "v429_error_percent": 21.215,
+      "gain_pp": -0.060000000000002274
+    },
+    {
+      "domain": 2,
+      "basis": 1,
+      "rounds": 5,
+      "shots": 20000,
+      "v12_error_percent": 28.999999999999996,
+      "v429_error_percent": 28.999999999999996,
+      "gain_pp": 0.0
+    },
+    {
+      "domain": 2,
+      "basis": 1,
+      "rounds": 7,
+      "shots": 20000,
+      "v12_error_percent": 41.455,
+      "v429_error_percent": 41.19,
+      "gain_pp": 0.26500000000000057
+    }
+  ],
+  "gate": "diagnostic; no retraining; promote only if every target domain/basis/round slice is non-regressing."
+}
