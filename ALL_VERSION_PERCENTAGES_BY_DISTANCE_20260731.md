@@ -1447,3 +1447,6 @@ Each version has explicit d=3, d=5, and d=7 rows. Values are copied only when th
 | V481 | d=3 | not recorded | not recorded | not recorded | not reported | open-model advisory; not a decoder result |
 | V481 | d=5 | not recorded | not recorded | not recorded | not reported | open-model advisory; not a decoder result |
 | V481 | d=7 | not recorded | not recorded | not recorded | not reported | open-model advisory; not a decoder result |
+| V490 | d=3 | not recorded | not recorded | not recorded | not reported | no V490 d=3 contract |
+| V490 | d=5 | 0.0000% syndrome closure | 0.0000% syndrome closure | CUDA-QX BP-OSD diagnostic rejected | not reported | real Fez/Marrakesh shots; matched detector dimensions but BP convergence and H?e=s closure both 0%; provisional gains invalid |
+| V490 | d=7 | 0.0000% syndrome closure | 0.0000% syndrome closure | CUDA-QX BP-OSD diagnostic rejected | not reported | real Fez/Marrakesh shots; matched detector dimensions but BP convergence and H?e=s closure both 0%; rebuild DEM decomposition/configuration before reuse |
