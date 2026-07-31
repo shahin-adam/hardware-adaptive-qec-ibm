@@ -10,7 +10,7 @@ Sanitized, versioned results from the IBM-QEC decoder project. The canonical reg
 
 ## Validated baseline
 
-| Version | Distance | Basis | Baseline ? candidate | Gain | Evidence |
+| Version | Distance | Basis | Baseline → candidate | Gain | Evidence |
 |---|---:|---|---:|---:|---|
 | V12 | d=3 | X | 39.21682% ? 38.42284% | +0.79398 pp | repeated real IBM hardware |
 | V12 | d=3 | Z | 28.14275% ? 26.25077% | +1.89198 pp | repeated real IBM hardware |
@@ -29,7 +29,7 @@ Sanitized, versioned results from the IBM-QEC decoder project. The canonical reg
 | V417 | d=3/5 | X/Z; r=3,5,7 | calibrated MWPM | locked confirmation audit | MWPM 42.6442% | measured audit; analytical baseline wins |
 | V418 | d=3/5 | all 12 slices | frozen predictions | reproduction audit | exact source metrics reproduced | verified audit |
 | V419 | d=3 | X/Z; r=3,5,7 | V12 | empirical lookup | +0.340 pp pooled | rejected; basis-1 -3.718 pp; 3.75% coverage |
-| V420 | d=3 | X/Z; r=3,5,7 | exact calibrated MWPM | residual router | +0.1245 pp vs selected MWPM | diagnostic; seven-round regressions; Wolffe 64814 matched |
+| V420 | d=3 | X/Z; r=3,5,7 | exact calibrated MWPM | residual router | +0.1245 pp vs selected MWPM | diagnostic; seven-round regressions; Wolffe 64814 matched |`n| V421 | d=3 | X/Z; r=3,5,7 | V420 selected MWPM | cross-block slice guard | +0.1625/+0.1646 pp retrospective; +0.0521/+0.1552 pp LOO | diagnostic; Wolffe 64816 matched |
 
 ## Recovered IBM 3D evidence
 
