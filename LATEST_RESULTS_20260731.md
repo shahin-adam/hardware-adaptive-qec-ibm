@@ -11,6 +11,7 @@ These are IBM-specific diagnostic experiments. No universal-vendor performance c
 | V414 | Full tensor block, round-sequence NumPy fallback | Wolffe job gains -0.583 to +0.564 pp vs majority proxy | Diagnostic; job 64788 completed; V12 vector absent |
 | V415 | IBM V29 conformal-style member gate | -0.186 pp vs V12 on held-out test; 5/6 X/Z/round slices regressed | Rejected; Wolffe job 64799 matched local |
 | V416 | Full IBM tensor block, true 3D CNN + calibration FiLM | 51.0641% vs 48.3974% majority proxy (-2.667 pp); only basis-0/r7 slice positive | Rejected diagnostic; no paired V12 vector; Wolffe replay 64804 blocked by PyTorch import |
+| V419 | IBM V29 empirical distance-3 lookup with basis/round/domain safety gates | +0.340 pp overall vs V12; paired 95% CI +0.213 to +0.457 pp; basis-1 −3.718 pp; 3.75% coverage | Rejected; pooled gain fails basis/coverage gates |
 | V418 | Deterministic reproduction of locked IBM confirmation predictions | Reproduced Transformer 44.9292%, FiLM 44.5450%, UNet 44.7658%, sparse 44.1275%, four-model 44.0908% across 120,000 shots and 12 d/basis/round slices | Verified audit; no fitting; no per-shot V12 vector |
 | V417 | Recovered locked IBM Kingston confirmation (120,000 shots, d=3/5, rounds 3/5/7) | MWPM 42.6442%; BP-OSD 43.2592%; four-model ensemble 44.0908%; Transformer 44.9292% | Measured audit; MWPM wins; phenomenological DEM limitation; no universal claim |
 ## Recovered source evidence
