@@ -25,6 +25,11 @@ Sanitized, versioned results from the IBM-QEC decoder project. The canonical reg
 | V412 | source d=5 rows | X/Z; selected manifest | stored Transformer | stored-output gate | ?15.152 pp | audit only; 100-row subset |
 | V413 | recovered tensor block | leave-job-out; X/Z metadata | majority proxy | calibration + 3D statistics | job gains -2.205 to +1.333 pp; diagnostic; V12 vector unavailable |
 | V414 | recovered tensor block | leave-job-out; round sequence | majority proxy | sequence fallback | Wolffe gains -0.583 to +0.564 pp; diagnostic; V12 vector unavailable |
+| V416 | d=3 | X/Z; r=3,5,7 | majority proxy | 3D CNN + FiLM | -2.667 pp | rejected diagnostic; local CPU; Wolffe PyTorch blocked |
+| V417 | d=3/5 | X/Z; r=3,5,7 | calibrated MWPM | locked confirmation audit | MWPM 42.6442% | measured audit; analytical baseline wins |
+| V418 | d=3/5 | all 12 slices | frozen predictions | reproduction audit | exact source metrics reproduced | verified audit |
+| V419 | d=3 | X/Z; r=3,5,7 | V12 | empirical lookup | +0.340 pp pooled | rejected; basis-1 -3.718 pp; 3.75% coverage |
+| V420 | d=3 | X/Z; r=3,5,7 | exact calibrated MWPM | residual router | +0.1245 pp vs selected MWPM | diagnostic; seven-round regressions; Wolffe 64814 matched |
 
 ## Recovered IBM 3D evidence
 
@@ -44,6 +49,6 @@ Google Willow d3/d5 raw detector shots and supplied DEMs are benchmarked separat
 
 ## Audit boundary
 
-`Z:\Meetings\Complete\15-7-2026` yielded 14,983 files, including 5,472 readable QEC-related candidates. `Z:\Meetings\22-7-2026` was unavailable at the time of audit. Source files were not deleted.
+`Z:\\Meetings\\Complete\\15-7-2026` yielded 14,983 files, including 6,322 broad QEC candidates. `Z:\\Meetings\\Complete\\22-7-2026` yielded 17,590 files, including 8,872 broad QEC candidates. The literal `Z:\\Meetings\\22-7-2026` path is unavailable. Source files were not deleted.
 
 Last update: 31 July 2026 (Australia/Sydney).
