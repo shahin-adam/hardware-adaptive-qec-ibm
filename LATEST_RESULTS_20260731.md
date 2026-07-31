@@ -9,6 +9,7 @@ These are IBM-specific diagnostic experiments. No universal-vendor performance c
 | V412 | Recovered IBM 3D handoff, fresh gate on 100 selected rows | -15.152 pp vs stored Transformer reference; 95% CI -42.424 to +12.121 pp | Audit only; subset is not a benchmark |
 | V413 | Full 127,200-shot 3D/calibration tensor block | Job gains -2.205 to +1.333 pp vs majority proxy | Diagnostic; V12 vector absent |
 | V414 | Full tensor block, round-sequence NumPy fallback | Wolffe job gains -0.583 to +0.564 pp vs majority proxy | Diagnostic; job 64788 completed; V12 vector absent |
+| V415 | IBM V29 conformal-style member gate | -0.186 pp vs V12 on held-out test; 5/6 X/Z/round slices regressed | Rejected; Wolffe job 64799 pending |
 
 ## Recovered source evidence
 
