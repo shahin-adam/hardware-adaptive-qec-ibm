@@ -16,3 +16,5 @@ All four fixed thresholds reproduced the archived candidate logical-error rates 
 | 0.20 | 45.0453704% | 45.0453704% | 0 |
 
 This verifies the V390 artifact and implementation, but does not change its scientific decision: it remains diagnostic/not promoted because distance-5 and other subgroup regressions violate the project safety gate.
+
+The recovered unit test also passes in an isolated local import environment: `1 passed`.
