@@ -18,4 +18,4 @@ The 15 July IBM 3D handoff contains 127,200 numerical shots with detector masks,
 
 ## Audit boundary
 
-`Z:\Meetings\22-7-2026` was unavailable at audit time. `Z:\Meetings\Complete\15-7-2026` yielded 14,983 files, including 5,472 readable QEC-related candidates. Source files were not deleted.
+`Z:\Meetings\22-7-2026` was unavailable at audit time. `Z:\Meetings\Complete\15-7-2026` yielded 14,983 files, including 5,472 readable QEC-related candidates. Complete/22 source audit found 17,590 entries (8,872 QEC candidates); source files were not deleted.
