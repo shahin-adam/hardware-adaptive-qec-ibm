@@ -1,0 +1,193 @@
+{
+  "version": "V430",
+  "method": "leave-domain-out calibration-conditioned router",
+  "dataset": "/home/22228049/qec_v109_open_source_20260722/qec_work/crossblock_v3_calibration_data.npz",
+  "split_protocol": "fit other domains split=2; evaluate target domain split=3; no target-label fitting",
+  "pooled_test": {
+    "v12_error_percent": 36.38229166666667,
+    "v430_error_percent": 36.58854166666667,
+    "gain_pp": -0.20625000000000426,
+    "bootstrap_ci95_pp": [
+      -0.3187760416666666,
+      -0.09890625000000006
+    ]
+  },
+  "records": [
+    {
+      "target_domain": 2,
+      "source_domains": [
+        0,
+        1
+      ],
+      "calibration_profile": -8738.0107421875,
+      "source_distance": 8738.044921875,
+      "test_shots": 96000,
+      "v12_error_percent": 36.38229166666667,
+      "v430_error_percent": 36.58854166666667,
+      "gain_pp": -0.20625000000000426,
+      "bootstrap_ci95_pp": [
+        -0.31354166666666666,
+        -0.10096354166666674
+      ],
+      "groups": [
+        {
+          "basis": 0,
+          "rounds": 3,
+          "logical_state": 0,
+          "train_shots": 4000,
+          "test_shots": 8000,
+          "member": 30,
+          "quantile": 0.5,
+          "threshold": 0.0,
+          "train_gain_pp": 0.8500000000000014,
+          "train_route_rate": 0.042,
+          "enabled": true
+        },
+        {
+          "basis": 0,
+          "rounds": 3,
+          "logical_state": 1,
+          "train_shots": 4000,
+          "test_shots": 8000,
+          "member": 6,
+          "quantile": 0.5,
+          "threshold": 0.0,
+          "train_gain_pp": 1.0,
+          "train_route_rate": 0.0505,
+          "enabled": true
+        },
+        {
+          "basis": 0,
+          "rounds": 5,
+          "logical_state": 0,
+          "train_shots": 4000,
+          "test_shots": 8000,
+          "member": 14,
+          "quantile": 0.5,
+          "threshold": -1.1219526641070843e-07,
+          "train_gain_pp": 0.6000000000000014,
+          "train_route_rate": 0.036,
+          "enabled": true
+        },
+        {
+          "basis": 0,
+          "rounds": 5,
+          "logical_state": 1,
+          "train_shots": 4000,
+          "test_shots": 8000,
+          "member": 21,
+          "quantile": 0.5,
+          "threshold": -1.1199517757631838e-07,
+          "train_gain_pp": 0.5750000000000028,
+          "train_route_rate": 0.03625,
+          "enabled": true
+        },
+        {
+          "basis": 0,
+          "rounds": 7,
+          "logical_state": 0,
+          "train_shots": 4000,
+          "test_shots": 8000,
+          "member": 11,
+          "quantile": 0.65,
+          "threshold": 0.4021054804325104,
+          "train_gain_pp": 0.5749999999999957,
+          "train_route_rate": 0.04325,
+          "enabled": true
+        },
+        {
+          "basis": 0,
+          "rounds": 7,
+          "logical_state": 1,
+          "train_shots": 4000,
+          "test_shots": 8000,
+          "member": 18,
+          "quantile": 0.5,
+          "threshold": -1.8498394638299942e-07,
+          "train_gain_pp": 0.9500000000000028,
+          "train_route_rate": 0.0615,
+          "enabled": true
+        },
+        {
+          "basis": 1,
+          "rounds": 3,
+          "logical_state": 0,
+          "train_shots": 4000,
+          "test_shots": 8000,
+          "member": 9,
+          "quantile": 0.8,
+          "threshold": 0.8939316868782043,
+          "train_gain_pp": 0.3000000000000007,
+          "train_route_rate": 0.0155,
+          "enabled": true
+        },
+        {
+          "basis": 1,
+          "rounds": 3,
+          "logical_state": 1,
+          "train_shots": 4000,
+          "test_shots": 8000,
+          "member": 28,
+          "quantile": 0.5,
+          "threshold": 0.0,
+          "train_gain_pp": 0.3249999999999993,
+          "train_route_rate": 0.02125,
+          "enabled": true
+        },
+        {
+          "basis": 1,
+          "rounds": 5,
+          "logical_state": 0,
+          "train_shots": 4000,
+          "test_shots": 8000,
+          "member": 5,
+          "quantile": 0.65,
+          "threshold": 0.4131135940551758,
+          "train_gain_pp": 0.6000000000000014,
+          "train_route_rate": 0.023,
+          "enabled": true
+        },
+        {
+          "basis": 1,
+          "rounds": 5,
+          "logical_state": 1,
+          "train_shots": 4000,
+          "test_shots": 8000,
+          "member": 21,
+          "quantile": 0.5,
+          "threshold": 0.0,
+          "train_gain_pp": 0.6250000000000036,
+          "train_route_rate": 0.02275,
+          "enabled": true
+        },
+        {
+          "basis": 1,
+          "rounds": 7,
+          "logical_state": 0,
+          "train_shots": 4000,
+          "test_shots": 8000,
+          "member": 13,
+          "quantile": 0.5,
+          "threshold": -1.8181162886321545e-07,
+          "train_gain_pp": 0.625,
+          "train_route_rate": 0.02825,
+          "enabled": true
+        },
+        {
+          "basis": 1,
+          "rounds": 7,
+          "logical_state": 1,
+          "train_shots": 4000,
+          "test_shots": 8000,
+          "member": 20,
+          "quantile": 0.9,
+          "threshold": 1.2937266826629639,
+          "train_gain_pp": 0.42500000000000426,
+          "train_route_rate": 0.01025,
+          "enabled": true
+        }
+      ]
+    }
+  ],
+  "gate": "diagnostic; promote only if every held-out domain/basis/round slice is non-regressing."
+}
