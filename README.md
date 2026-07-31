@@ -103,3 +103,8 @@ Last public update: 24 July 2026, Australia/Sydney.
 ## Disclosure boundary
 
 This repository does not publish current research ideas or implementation details. Full reproducibility material will be considered after manuscript preparation, institutional review, and security review.
+
+
+## Latest controlled results
+
+See [LATEST_RESULTS_20260731.md](LATEST_RESULTS_20260731.md) for V410–V414 metrics, held-out confidence intervals, source-audit boundaries, and non-promotion decisions.
