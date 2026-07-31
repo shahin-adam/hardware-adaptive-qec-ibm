@@ -49,7 +49,7 @@ Google Willow d3/d5 raw detector shots and supplied DEMs are benchmarked separat
 
 ## Audit boundary
 
-`Z:\\Meetings\\Complete\\15-7-2026` yielded 14,983 files, including 6,322 broad QEC candidates. `Z:\\Meetings\\Complete\\22-7-2026` yielded 17,590 files, including 8,872 broad QEC candidates. The literal `Z:\\Meetings\\22-7-2026` path is unavailable. Source files were not deleted.
+`Z:\\Meetings\\Complete\\15-7-2026` yielded 14,983 files, including 6,322 broad QEC candidates. `Z:\\Meetings\\Complete\\22-7-2026` is live and yielded 22,808 files, including 8,993 broad QEC candidates. The separate literal `Z:\\Meetings\\22-7-2026` path remains unavailable. Source files were not deleted.
 
 Last update: 31 July 2026 (Australia/Sydney).
 
