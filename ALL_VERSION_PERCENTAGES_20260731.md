@@ -1,442 +1,441 @@
-# IBM QEC — all-version percentage ledger
+# IBM QEC — complete version percentage ledger
+Percentage-only public summary. X, Z, and distance are recorded only when explicitly present in the source registry; `not recorded` means no value was inferred.
 
-Percentage-only public summary.
-
-| Version | Numeric result | Confidence interval | Status |
-|---|---|---|---|
-| V1 | 1.2180 pp; 0.8383 pp | not reported | promoted |
-| V2 | +0.4750 pp; 0.1531 pp | not reported | diagnostic/rejected |
-| V3 | +0.3281 pp; 1.9688 pp | not reported | promoted |
-| V4 | +1.7396 pp; +0.6505 pp | not reported | promoted |
-| V5 | +1.5167 pp; 0.0000 pp | not reported | promoted |
-| V6 | +1.5906 pp; +0.0740 pp | not reported | promoted |
-| V7 | +1.7313 pp | not reported | promoted |
-| V8 | +1.7443 pp | not reported | promoted |
-| V9 | +1.8125 pp; 0.6493 pp | not reported | diagnostic/rejected |
-| V10 | +1.3600 pp | not reported | promoted |
-| V11 | 1.0918 pp | not reported | diagnostic/rejected |
-| V12 | +1.34298 pp | not reported | promoted |
-| V13 | not reported | not reported | promoted |
-| V14 | not reported | not reported | diagnostic/rejected |
-| V15 | not reported | not reported | diagnostic/rejected |
-| V16 | not reported | not reported | diagnostic/rejected |
-| V17 | not reported | not reported | diagnostic/rejected |
-| V18 | not reported | not reported | promoted |
-| V19 | not reported | not reported | promoted |
-| V20 | +0.05093 pp | not reported | promoted |
-| V21 | +0.00347 pp | not reported | promoted |
-| V22 | not reported | not reported | promoted |
-| V23 | +0.021219 pp | not reported | promoted |
-| V24 | +0.001157 pp | not reported | promoted |
-| V25 | +0.128472 pp | not reported | promoted |
-| V26 | not reported | not reported | promoted |
-| V27 | 1.7222 pp; 0.9667 pp | not reported | promoted |
-| V28 | +0.2847 pp | not reported | promoted |
-| V29 | +0.9741 pp | not reported | diagnostic/rejected |
-| V30 | +0.07639 pp; +0.03241 pp | not reported | diagnostic/rejected |
-| V31 | +0.05440 pp; +0.00347 pp | not reported | diagnostic/rejected |
-| V32 | not reported | not reported | promoted |
-| V33 | not reported | not reported | promoted |
-| V34 | not reported | not reported | promoted |
-| V35 | not reported | not reported | promoted |
-| V36 | not reported | not reported | promoted |
-| V37 | not reported | not reported | promoted |
-| V38 | +0.17245 pp | not reported | promoted |
-| V39 | +0.804398 pp; 5.1875 pp; 0.9861 pp | not reported | promoted |
-| V40 | +1.223380 pp | not reported | promoted |
-| V41 | not reported | not reported | promoted |
-| V42 | not reported | not reported | promoted |
-| V43 | not reported | not reported | promoted |
-| V44 | not reported | not reported | promoted |
-| V45 | not reported | not reported | promoted |
-| V46 | not reported | not reported | promoted |
-| V47 | not reported | not reported | promoted |
-| V48 | not reported | not reported | promoted |
-| V49 | not reported | not reported | promoted |
-| V50 | not reported | not reported | promoted |
-| V51 | not reported | not reported | promoted |
-| V52 | not reported | not reported | promoted |
-| V53 | not reported | not reported | promoted |
-| V54 | not reported | not reported | promoted |
-| V55 | not reported | not reported | promoted |
-| V56 | not reported | not reported | promoted |
-| V57 | not reported | not reported | promoted |
-| V58 | not reported | not reported | promoted |
-| V59 | not reported | not reported | promoted |
-| V60 | not reported | not reported | promoted |
-| V61 | not reported | not reported | promoted |
-| V62 | not reported | not reported | promoted |
-| V63 | not reported | not reported | promoted |
-| V64 | not reported | not reported | promoted |
-| V65 | not reported | not reported | promoted |
-| V66 | not reported | not reported | promoted |
-| V67 | not reported | not reported | promoted |
-| V68 | not reported | not reported | promoted |
-| V69 | not reported | not reported | promoted |
-| V70 | not reported | not reported | promoted |
-| V71 | not reported | not reported | promoted |
-| V72 | not reported | not reported | promoted |
-| V73 | not reported | not reported | promoted |
-| V74 | not reported | not reported | promoted |
-| V75 | not reported | not reported | promoted |
-| V76 | not reported | not reported | promoted |
-| V77 | not reported | not reported | promoted |
-| V78 | not reported | not reported | promoted |
-| V79 | not reported | not reported | promoted |
-| V80 | not reported | not reported | promoted |
-| V81 | not reported | not reported | promoted |
-| V82 | not reported | not reported | promoted |
-| V83 | not reported | not reported | promoted |
-| V84 | not reported | not reported | promoted |
-| V85 | not reported | not reported | promoted |
-| V86 | not reported | not reported | promoted |
-| V87 | not reported | not reported | promoted |
-| V88 | not reported | not reported | promoted |
-| V89 | not reported | not reported | promoted |
-| V90 | not reported | not reported | promoted |
-| V91 | not reported | not reported | promoted |
-| V92 | not reported | not reported | promoted |
-| V93 | not reported | not reported | promoted |
-| V94 | not reported | not reported | promoted |
-| V95 | not reported | not reported | promoted |
-| V96 | not reported | not reported | promoted |
-| V97 | not reported | not reported | promoted |
-| V98 | not reported | not reported | promoted |
-| V99 | not reported | not reported | promoted |
-| V100 | not reported | not reported | promoted |
-| V101 | not reported | not reported | promoted |
-| V102 | not reported | not reported | promoted |
-| V103 | not reported | not reported | promoted |
-| V104 | not reported | not reported | promoted |
-| V105 | not reported | not reported | promoted |
-| V106 | not reported | not reported | promoted |
-| V107 | +0.053755 pp | not reported | diagnostic/rejected |
-| V108 | not reported | not reported | promoted |
-| V109 | not reported | not reported | promoted |
-| V110 | +0.00077 pp; +0.00154 pp | not reported | diagnostic/rejected |
-| V111 | +0.02816 pp; +0.05633 pp; 0.01505 pp | not reported | diagnostic/rejected |
-| V112 | not reported | not reported | promoted |
-| V113 | not reported | not reported | diagnostic/rejected |
-| V114 | not reported | not reported | promoted |
-| V115 | not reported | not reported | diagnostic/rejected |
-| V116 | not reported | not reported | promoted |
-| V117 | not reported | not reported | promoted |
-| V118 | not reported | not reported | promoted |
-| V119 | not reported | not reported | promoted |
-| V120 | not reported | not reported | promoted |
-| V121 | not reported | not reported | promoted |
-| V122 | not reported | not reported | diagnostic/rejected |
-| V123 | not reported | not reported | promoted |
-| V124 | not reported | not reported | diagnostic/rejected |
-| V125 | not reported | not reported | diagnostic/rejected |
-| V126 | not reported | not reported | diagnostic/rejected |
-| V127 | not reported | not reported | diagnostic/rejected |
-| V128 | not reported | not reported | diagnostic/rejected |
-| V129 | not reported | not reported | diagnostic/rejected |
-| V130 | not reported | not reported | diagnostic/rejected |
-| V131 | not reported | not reported | diagnostic/rejected |
-| V132 | not reported | not reported | diagnostic/rejected |
-| V133 | not reported | not reported | diagnostic/rejected |
-| V134 | not reported | not reported | diagnostic/rejected |
-| V135 | +0.37252 pp; +0.32424 pp | not reported | diagnostic/rejected |
-| V136 | not reported | not reported | diagnostic/rejected |
-| V137 | not reported | not reported | diagnostic/rejected |
-| V138 | not reported | not reported | diagnostic/rejected |
-| V139 | not reported | not reported | diagnostic/rejected |
-| V140 | not reported | not reported | diagnostic/rejected |
-| V141 | not reported | not reported | diagnostic/rejected |
-| V142 | not reported | not reported | diagnostic/rejected |
-| V143 | not reported | not reported | diagnostic/rejected |
-| V144 | not reported | not reported | diagnostic/rejected |
-| V145 | not reported | not reported | diagnostic/rejected |
-| V146 | not reported | not reported | diagnostic/rejected |
-| V147 | not reported | not reported | diagnostic/rejected |
-| V148 | not reported | not reported | diagnostic/rejected |
-| V149 | not reported | not reported | diagnostic/rejected |
-| V150 | not reported | not reported | promoted |
-| V151 | 0.85818 pp | not reported | promoted |
-| V152 | not reported | not reported | diagnostic/rejected |
-| V153 | not reported | not reported | diagnostic/rejected |
-| V154 | 1.2180 pp; 0.8383 pp; +0.4750 pp; 0.1531 pp; +0.3281 pp; 1.9688 pp; +1.7396 pp; +0.6505 pp; +1.5167 pp; 0.0000 pp | not reported | diagnostic/rejected |
-| V155 | not reported | not reported | diagnostic/rejected |
-| V156 | not reported | not reported | diagnostic/rejected |
-| V157 | not reported | not reported | diagnostic/rejected |
-| V158 | not reported | not reported | promoted |
-| V159 | not reported | not reported | diagnostic/rejected |
-| V160 | not reported | not reported | diagnostic/rejected |
-| V161 | not reported | not reported | diagnostic/rejected |
-| V162 | +0.72487 pp; +0.00066 pp | not reported | diagnostic/rejected |
-| V163 | not reported | not reported | promoted |
-| V164 | not reported | not reported | promoted |
-| V165 | not reported | not reported | promoted |
-| V166 | not reported | not reported | promoted |
-| V167 | not reported | not reported | promoted |
-| V168 | not reported | not reported | promoted |
-| V169 | not reported | not reported | promoted |
-| V170 | not reported | not reported | promoted |
-| V171 | not reported | not reported | promoted |
-| V172 | not reported | not reported | promoted |
-| V173 | not reported | not reported | promoted |
-| V174 | not reported | not reported | promoted |
-| V175 | not reported | not reported | promoted |
-| V176 | not reported | not reported | diagnostic/rejected |
-| V177 | not reported | not reported | diagnostic/rejected |
-| V178 | not reported | not reported | promoted |
-| V179 | not reported | not reported | promoted |
-| V180 | not reported | not reported | promoted |
-| V181 | not reported | not reported | promoted |
-| V182 | not reported | not reported | promoted |
-| V183 | not reported | not reported | promoted |
-| V184 | not reported | not reported | promoted |
-| V185 | not reported | not reported | promoted |
-| V186 | not reported | not reported | promoted |
-| V187 | not reported | not reported | promoted |
-| V188 | not reported | not reported | promoted |
-| V189 | not reported | not reported | diagnostic/rejected |
-| V190 | not reported | not reported | diagnostic/rejected |
-| V191 | not reported | not reported | promoted |
-| V192 | not reported | not reported | promoted |
-| V193 | not reported | not reported | promoted |
-| V194 | not reported | not reported | promoted |
-| V195 | not reported | not reported | promoted |
-| V196 | not reported | not reported | promoted |
-| V197 | not reported | not reported | promoted |
-| V198 | not reported | not reported | promoted |
-| V199 | not reported | not reported | promoted |
-| V200 | not reported | not reported | promoted |
-| V201 | not reported | not reported | promoted |
-| V202 | not reported | not reported | promoted |
-| V203 | not reported | not reported | diagnostic/rejected |
-| V204 | not reported | not reported | diagnostic/rejected |
-| V205 | not reported | not reported | promoted |
-| V206 | not reported | not reported | diagnostic/rejected |
-| V207 | not reported | not reported | diagnostic/rejected |
-| V208 | not reported | not reported | diagnostic/rejected |
-| V209 | not reported | not reported | diagnostic/rejected |
-| V210 | not reported | not reported | diagnostic/rejected |
-| V211 | 0.10 pp | not reported | diagnostic/rejected |
-| V212 | not reported | not reported | promoted |
-| V213 | not reported | not reported | diagnostic/rejected |
-| V214 | not reported | not reported | promoted |
-| V215 | not reported | not reported | promoted |
-| V216 | not reported | not reported | diagnostic/rejected |
-| V217 | not reported | not reported | diagnostic/rejected |
-| V218 | not reported | not reported | diagnostic/rejected |
-| V219 | not reported | not reported | diagnostic/rejected |
-| V220 | not reported | not reported | diagnostic/rejected |
-| V221 | not reported | not reported | diagnostic/rejected |
-| V222 | +0.01862 pp; 0.00000 pp; +0.03724 pp | not reported | diagnostic/rejected |
-| V223 | not reported | not reported | diagnostic/rejected |
-| V224 | not reported | not reported | diagnostic/rejected |
-| V225 | not reported | not reported | diagnostic/rejected |
-| V226 | not reported | not reported | diagnostic/rejected |
-| V227 | not reported | not reported | diagnostic/rejected |
-| V228 | not reported | not reported | diagnostic/rejected |
-| V229 | not reported | not reported | diagnostic/rejected |
-| V230 | not reported | not reported | promoted |
-| V231 | +0.00231 pp; +0.00000 pp | not reported | diagnostic/rejected |
-| V232 | not reported | not reported | diagnostic/rejected |
-| V233 | -0.03704 pp; 0.00000 pp; -0.07407 pp | not reported | diagnostic/rejected |
-| V234 | not reported | not reported | diagnostic/rejected |
-| V235 | +0.03931 pp; -0.16509 pp | not reported | diagnostic/rejected |
-| V236 | not reported | not reported | diagnostic/rejected |
-| V237 | +0.00000 pp; -0.08648 pp | not reported | diagnostic/rejected |
-| V238 | +0.00786 pp; -0.28302 pp | not reported | diagnostic/rejected |
-| V239 | -0.36164 pp; -0.79403 pp | not reported | diagnostic/rejected |
-| V240 | +0.44811 pp; -3.23899 pp | not reported | diagnostic/rejected |
-| V241 | +0.44811 pp; 0.00000 pp; +0.22406 pp | not reported | diagnostic/rejected |
-| V242 | +0.18868 pp; 0.00000 pp | not reported | diagnostic/rejected |
-| V243 | +0.44811 pp; -3.23899 pp; 0.00000 pp; +0.18868 pp | not reported | diagnostic/rejected |
-| V244 | +0.22799 pp; -0.52673 pp; -0.14937 pp | not reported | diagnostic/rejected |
-| V245 | -0.53459 pp | not reported | diagnostic/rejected |
-| V246 | 0.00000 pp | not reported | diagnostic/rejected |
-| V247 | not reported | not reported | diagnostic/rejected |
-| V248 | -0.57390 pp; -1.17925 pp; -0.87657 pp | not reported | diagnostic/rejected |
-| V249 | +0.22799 pp; -0.52673 pp; -0.14937 pp | not reported | diagnostic/rejected |
-| V250 | 0.00000 pp | not reported | diagnostic/rejected |
-| V251 | +0.02083 pp; -0.18056 pp; -0.07986 pp | not reported | diagnostic/rejected |
-| V252 | +0.00000 pp | not reported | diagnostic/rejected |
-| V253 | +0.04630 pp | not reported | diagnostic/rejected |
-| V254 | not reported | not reported | diagnostic/rejected |
-| V255 | not reported | not reported | diagnostic/rejected |
-| V256 | not reported | not reported | diagnostic/rejected |
-| V257 | not reported | not reported | diagnostic/rejected |
-| V258 | not reported | not reported | diagnostic/rejected |
-| V259 | not reported | not reported | diagnostic/rejected |
-| V260 | not reported | not reported | diagnostic/rejected |
-| V261 | not reported | not reported | diagnostic/rejected |
-| V262 | not reported | not reported | diagnostic/rejected |
-| V263 | not reported | not reported | diagnostic/rejected |
-| V264 | not reported | not reported | diagnostic/rejected |
-| V265 | not reported | not reported | diagnostic/rejected |
-| V266 | not reported | not reported | diagnostic/rejected |
-| V267 | not reported | not reported | diagnostic/rejected |
-| V268 | not reported | not reported | diagnostic/rejected |
-| V269 | not reported | not reported | diagnostic/rejected |
-| V270 | not reported | not reported | diagnostic/rejected |
-| V271 | not reported | not reported | diagnostic/rejected |
-| V272 | not reported | not reported | diagnostic/rejected |
-| V273 | not reported | not reported | diagnostic/rejected |
-| V274 | not reported | not reported | diagnostic/rejected |
-| V275 | not reported | not reported | diagnostic/rejected |
-| V276 | not reported | not reported | diagnostic/rejected |
-| V277 | not reported | not reported | diagnostic/rejected |
-| V278 | not reported | not reported | diagnostic/rejected |
-| V279 | not reported | not reported | diagnostic/rejected |
-| V280 | not reported | not reported | diagnostic/rejected |
-| V281 | not reported | not reported | diagnostic/rejected |
-| V282 | not reported | not reported | diagnostic/rejected |
-| V283 | not reported | not reported | diagnostic/rejected |
-| V284 | not reported | not reported | diagnostic/rejected |
-| V285 | not reported | not reported | diagnostic/rejected |
-| V286 | not reported | not reported | diagnostic/rejected |
-| V287 | not reported | not reported | diagnostic/rejected |
-| V288 | not reported | not reported | diagnostic/rejected |
-| V289 | not reported | not reported | diagnostic/rejected |
-| V290 | not reported | not reported | diagnostic/rejected |
-| V291 | not reported | not reported | diagnostic/rejected |
-| V292 | not reported | not reported | diagnostic/rejected |
-| V293 | not reported | not reported | diagnostic/rejected |
-| V294 | not reported | not reported | diagnostic/rejected |
-| V295 | not reported | not reported | diagnostic/rejected |
-| V296 | not reported | not reported | diagnostic/rejected |
-| V297 | not reported | not reported | diagnostic/rejected |
-| V298 | not reported | not reported | diagnostic/rejected |
-| V299 | not reported | not reported | diagnostic/rejected |
-| V300 | not reported | not reported | diagnostic/rejected |
-| V301 | not reported | not reported | diagnostic/rejected |
-| V302 | not reported | not reported | diagnostic/rejected |
-| V303 | not reported | not reported | diagnostic/rejected |
-| V304 | not reported | not reported | diagnostic/rejected |
-| V305 | not reported | not reported | diagnostic/rejected |
-| V306 | not reported | not reported | diagnostic/rejected |
-| V307 | not reported | not reported | diagnostic/rejected |
-| V308 | not reported | not reported | diagnostic/rejected |
-| V309 | not reported | not reported | diagnostic/rejected |
-| V310 | not reported | not reported | diagnostic/rejected |
-| V311 | not reported | not reported | diagnostic/rejected |
-| V312 | not reported | not reported | diagnostic/rejected |
-| V313 | not reported | not reported | diagnostic/rejected |
-| V314 | not reported | not reported | diagnostic/rejected |
-| V315 | not reported | not reported | diagnostic/rejected |
-| V316 | not reported | not reported | diagnostic/rejected |
-| V317 | not reported | not reported | diagnostic/rejected |
-| V318 | not reported | not reported | diagnostic/rejected |
-| V319 | not reported | not reported | diagnostic/rejected |
-| V320 | not reported | not reported | diagnostic/rejected |
-| V321 | not reported | not reported | diagnostic/rejected |
-| V322 | not reported | not reported | diagnostic/rejected |
-| V323 | not reported | not reported | diagnostic/rejected |
-| V324 | not reported | not reported | diagnostic/rejected |
-| V325 | not reported | not reported | diagnostic/rejected |
-| V326 | not reported | not reported | diagnostic/rejected |
-| V327 | not reported | not reported | diagnostic/rejected |
-| V328 | not reported | not reported | diagnostic/rejected |
-| V329 | not reported | not reported | diagnostic/rejected |
-| V330 | not reported | not reported | diagnostic/rejected |
-| V331 | not reported | not reported | diagnostic/rejected |
-| V332 | not reported | not reported | diagnostic/rejected |
-| V333 | not reported | not reported | diagnostic/rejected |
-| V334 | not reported | not reported | diagnostic/rejected |
-| V335 | not reported | not reported | diagnostic/rejected |
-| V336 | not reported | not reported | diagnostic/rejected |
-| V337 | not reported | not reported | diagnostic/rejected |
-| V338 | not reported | not reported | diagnostic/rejected |
-| V339 | not reported | not reported | diagnostic/rejected |
-| V340 | not reported | not reported | diagnostic/rejected |
-| V341 | not reported | not reported | diagnostic/rejected |
-| V342 | not reported | not reported | diagnostic/rejected |
-| V343 | not reported | not reported | diagnostic/rejected |
-| V344 | not reported | not reported | diagnostic/rejected |
-| V345 | not reported | not reported | diagnostic/rejected |
-| V346 | not reported | not reported | diagnostic/rejected |
-| V347 | not reported | not reported | diagnostic/rejected |
-| V348 | not reported | not reported | diagnostic/rejected |
-| V349 | not reported | not reported | diagnostic/rejected |
-| V350 | not reported | not reported | diagnostic/rejected |
-| V351 | not reported | not reported | diagnostic/rejected |
-| V352 | not reported | not reported | diagnostic/rejected |
-| V353 | not reported | not reported | diagnostic/rejected |
-| V354 | not reported | not reported | diagnostic/rejected |
-| V355 | not reported | not reported | diagnostic/rejected |
-| V356 | not reported | not reported | diagnostic/rejected |
-| V357 | not reported | not reported | diagnostic/rejected |
-| V358 | not reported | not reported | diagnostic/rejected |
-| V359 | not reported | not reported | diagnostic/rejected |
-| V360 | not reported | not reported | diagnostic/rejected |
-| V361 | not reported | not reported | diagnostic/rejected |
-| V362 | not reported | not reported | diagnostic/rejected |
-| V363 | not reported | not reported | diagnostic/rejected |
-| V364 | not reported | not reported | diagnostic/rejected |
-| V365 | not reported | not reported | diagnostic/rejected |
-| V366 | not reported | not reported | diagnostic/rejected |
-| V367 | not reported | not reported | diagnostic/rejected |
-| V368 | not reported | not reported | diagnostic/rejected |
-| V369 | not reported | not reported | diagnostic/rejected |
-| V370 | not reported | not reported | diagnostic/rejected |
-| V371 | not reported | not reported | diagnostic/rejected |
-| V372 | not reported | not reported | diagnostic/rejected |
-| V373 | not reported | not reported | diagnostic/rejected |
-| V374 | not reported | not reported | diagnostic/rejected |
-| V375 | not reported | not reported | diagnostic/rejected |
-| V376 | not reported | not reported | diagnostic/rejected |
-| V377 | not reported | not reported | diagnostic/rejected |
-| V378 | not reported | not reported | diagnostic/rejected |
-| V379 | not reported | not reported | diagnostic/rejected |
-| V380 | not reported | not reported | diagnostic/rejected |
-| V381 | not reported | not reported | diagnostic/rejected |
-| V382 | not reported | not reported | diagnostic/rejected |
-| V383 | not reported | not reported | diagnostic/rejected |
-| V384 | not reported | not reported | diagnostic/rejected |
-| V385 | not reported | not reported | diagnostic/rejected |
-| V386 | not reported | not reported | diagnostic/rejected |
-| V387 | not reported | not reported | diagnostic/rejected |
-| V388 | not reported | not reported | diagnostic/rejected |
-| V389 | not reported | not reported | diagnostic/rejected |
-| V390 | not reported | not reported | diagnostic/rejected |
-| V391 | not reported | not reported | diagnostic/rejected |
-| V392 | not reported | not reported | diagnostic/rejected |
-| V393 | +0.662963 pp; 46.014815% | not reported | diagnostic/rejected |
-| V394 | +0.662963 pp; -0.124074 pp | not reported | diagnostic/rejected |
-| V395 | 0.351667% | not reported | diagnostic/rejected |
-| V396 | +0.005556 pp | not reported | diagnostic/rejected |
-| V410 | +0.000000 pp | not reported | diagnostic/rejected |
-| V411 | +0.117284 pp | not reported | diagnostic/rejected |
-| V412 | -15.151515 pp; +0.124 pp | not reported | diagnostic/rejected |
-| V413 | +1.333333 pp | not reported | diagnostic/rejected |
-| V414 | +0.262821 pp | not reported | diagnostic/rejected |
-| V415 | -0.186111 pp | not reported | diagnostic/rejected |
-| V416 | 51.0641%; 48.3974%; -2.6667 pp; +0.7692 pp | not reported | diagnostic/rejected |
-| V417 | 42.6442%; 43.2592%; 44.0908%; 44.9292% | not reported | diagnostic/rejected |
-| V418 | 44.9292%; 44.5450%; 44.7658%; 44.1275%; 44.0908% | not reported | audit |
-| V419 | +0.3395 pp; +0.457 pp | 3.7469% | diagnostic/rejected |
-| V420 | +0.1245 pp; +0.2865 pp | +0.2292 pp | promoted |
-| V421 | +0.162500 pp; +0.164583 pp; +0.155208 pp | not reported | diagnostic/rejected |
-| V422 | +0.659259 pp; 33.662963%; 33.003704%; +0.782407 pp | +0.782407 pp | promoted |
-| V423 | 0.6000%; 0.7300%; 0.3350%; 0.2750% | not reported | diagnostic/rejected |
-| V424 | +1.0768519 pp; 46.0148148%; 44.9379630% | not reported | diagnostic/rejected |
-| V425 | 36.3822917%; 36.5354167%; -0.1531250 pp | not reported | diagnostic/rejected |
-| V397 | +0.000000 pp | not reported | diagnostic/rejected |
-| V398 | not reported | not reported | diagnostic/rejected |
-| V399 | +0.075000 pp; +0.105556 pp | not reported | diagnostic/rejected |
-| V400 | -0.013889 pp; -0.061111 pp | not reported | diagnostic/rejected |
-| V401 | +0.066667 pp; +0.068519 pp | not reported | diagnostic/rejected |
-| V402 | -3.740000 pp | not reported | diagnostic/rejected |
-| V403 | +0.022222 pp; +0.074074 pp; +0.722222 pp | not reported | diagnostic/rejected |
-| V404 | not reported | not reported | diagnostic/rejected |
-| V405 | not reported | not reported | recorded |
-| V406 | not reported | not reported | recorded |
-| V407 | 12.553333 pp | not reported | diagnostic/rejected |
-| V408 | 15.653333 pp | not reported | diagnostic/rejected |
-| V409 | +0.006667 pp | not reported | diagnostic/rejected |
-| V426 | +0.2212963 pp; +0.0740741 pp | not reported | diagnostic/rejected |
-| V427 | +0.1018519 pp | not reported | diagnostic/rejected |
-| V428 | 0.000000 pp | not reported | diagnostic/rejected |
-| V429 | -0.0005556 pp | not reported | diagnostic/rejected |
-| V430 | -0.2062500 pp | not reported | diagnostic/rejected |
-| V431 | +0.2650463 pp | not reported | diagnostic/rejected |
-| V432 | +0.1203704 pp | not reported | diagnostic/rejected |
-| V433 | +0.1828704 pp; -0.0031250 pp | not reported | diagnostic/rejected |
-| V434 | +0.0729167 pp; -0.1885417 pp | not reported | recorded |
-| V435 | +0.0405093 pp | not reported | recorded |
-| V436 | -0.0949074 pp | not reported | recorded |
+| Version | X basis | Z basis | Distance | Numeric result | 95% CI | Status |
+|---|---|---|---|---|---|---|
+| V1 | not recorded | not recorded | not recorded | 1.2180 pp; 0.8383 pp | not reported | promoted |
+| V2 | not recorded | not recorded | not recorded | +0.4750 pp; 0.1531 pp | not reported | rejected |
+| V3 | not recorded | not recorded | not recorded | +0.3281 pp; 1.9688 pp | not reported | promoted |
+| V4 | not recorded | not recorded | not recorded | +1.7396 pp; +0.6505 pp | not reported | promoted |
+| V5 | not recorded | not recorded | not recorded | +1.5167 pp; 0.0000 pp | not reported | promoted |
+| V6 | not recorded | not recorded | not recorded | +1.5906 pp; +0.0740 pp | not reported | promoted |
+| V7 | not recorded | not recorded | not recorded | +1.7313 pp | not reported | promoted |
+| V8 | not recorded | not recorded | not recorded | +1.7443 pp | not reported | promoted |
+| V9 | not recorded | not recorded | not recorded | +1.8125 pp; 0.6493 pp | not reported | rejected |
+| V10 | not recorded | included | not recorded | +1.3600 pp | not reported | promoted |
+| V11 | not recorded | not recorded | not recorded | 1.0918 pp | not reported | rejected |
+| V12 | not recorded | included | not recorded | +1.34298 pp | not reported | promoted |
+| V13 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V14 | not recorded | not recorded | not recorded | not recorded | not reported | recorded |
+| V15 | not recorded | not recorded | not recorded | not recorded | not reported | rejected |
+| V16 | not recorded | not recorded | not recorded | not recorded | not reported | recorded |
+| V17 | not recorded | not recorded | not recorded | not recorded | not reported | rejected |
+| V18 | not recorded | included | not recorded | not recorded | not reported | promoted |
+| V19 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V20 | not recorded | not recorded | not recorded | +0.05093 pp | not reported | promoted |
+| V21 | not recorded | not recorded | not recorded | +0.00347 pp | not reported | promoted |
+| V22 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V23 | not recorded | not recorded | not recorded | +0.021219 pp | not reported | promoted |
+| V24 | not recorded | not recorded | not recorded | +0.001157 pp | not reported | promoted |
+| V25 | not recorded | not recorded | not recorded | +0.128472 pp | not reported | promoted |
+| V26 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V27 | not recorded | not recorded | not recorded | 1.7222 pp; 0.9667 pp | not reported | promoted |
+| V28 | not recorded | not recorded | not recorded | +0.2847 pp | not reported | promoted |
+| V29 | not recorded | not recorded | not recorded | +0.9741 pp | not reported | rejected |
+| V30 | not recorded | not recorded | not recorded | +0.07639 pp; +0.03241 pp | not reported | promoted |
+| V31 | not recorded | not recorded | not recorded | +0.05440 pp; +0.00347 pp | not reported | rejected |
+| V32 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V33 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V34 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V35 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V36 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V37 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V38 | not recorded | not recorded | not recorded | +0.17245 pp | not reported | promoted |
+| V39 | not recorded | not recorded | not recorded | +0.804398 pp; 5.1875 pp; 0.9861 pp | not reported | promoted |
+| V40 | included | included | not recorded | +1.223380 pp | not reported | promoted |
+| V41 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V42 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V43 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V44 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V45 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V46 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V47 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V48 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V49 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V50 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V51 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V52 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V53 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V54 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V55 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V56 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V57 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V58 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V59 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V60 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V61 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V62 | included | not recorded | not recorded | not recorded | not reported | promoted |
+| V63 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V64 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V65 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V66 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V67 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V68 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V69 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V70 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V71 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V72 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V73 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V74 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V75 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V76 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V77 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V78 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V79 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V80 | included | not recorded | not recorded | not recorded | not reported | promoted |
+| V81 | included | included | not recorded | not recorded | not reported | promoted |
+| V82 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V83 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V84 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V85 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V86 | included | included | not recorded | not recorded | not reported | promoted |
+| V87 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V88 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V89 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V90 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V91 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V92 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V93 | included | not recorded | not recorded | not recorded | not reported | promoted |
+| V94 | included | not recorded | not recorded | not recorded | not reported | promoted |
+| V95 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V96 | included | included | not recorded | not recorded | not reported | promoted |
+| V97 | included | included | not recorded | not recorded | not reported | promoted |
+| V98 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V99 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V100 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V101 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V102 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V103 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V104 | included | included | not recorded | not recorded | not reported | promoted |
+| V105 | included | included | not recorded | not recorded | not reported | promoted |
+| V106 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V107 | not recorded | not recorded | not recorded | +0.053755 pp | not reported | rejected |
+| V108 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V109 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V110 | not recorded | not recorded | not recorded | +0.00077 pp; +0.00154 pp | not reported | recorded |
+| V111 | not recorded | not recorded | not recorded | +0.02816 pp; +0.05633 pp; 0.01505 pp | not reported | rejected |
+| V112 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V113 | not recorded | not recorded | not recorded | not recorded | not reported | recorded |
+| V114 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V115 | not recorded | not recorded | not recorded | not recorded | not reported | rejected |
+| V116 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V117 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V118 | included | not recorded | not recorded | not recorded | not reported | recorded |
+| V119 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V120 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V121 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V122 | not recorded | not recorded | not recorded | not recorded | not reported | recorded |
+| V123 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V124 | not recorded | not recorded | not recorded | not recorded | not reported | rejected |
+| V125 | not recorded | not recorded | not recorded | not recorded | not reported | recorded |
+| V126 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V127 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V128 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V129 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V130 | included | not recorded | not recorded | not recorded | not reported | promoted |
+| V131 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V132 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V133 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V134 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V135 | not recorded | not recorded | not recorded | +0.37252 pp; +0.32424 pp | not reported | promoted |
+| V136 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V137 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V138 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V139 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V140 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V141 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V142 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V143 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V144 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V145 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V146 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V147 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V148 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V149 | not recorded | included | not recorded | not recorded | not reported | promoted |
+| V150 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V151 | not recorded | not recorded | not recorded | 0.85818 pp | not reported | promoted |
+| V152 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V153 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V154 | not recorded | not recorded | not recorded | 1.2180 pp; 0.8383 pp; +0.4750 pp; 0.1531 pp; +0.3281 pp; 1.9688 pp; +1.7396 pp; +0.6505 pp; +1.5167 pp; 0.0000 pp | not reported | promoted |
+| V155 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V156 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V157 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V158 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V159 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V160 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V161 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V162 | not recorded | not recorded | not recorded | +0.72487 pp; +0.00066 pp | not reported | promoted |
+| V163 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V164 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V165 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V166 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V167 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V168 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V169 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V170 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V171 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V172 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V173 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V174 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V175 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V176 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V177 | included | not recorded | not recorded | not recorded | not reported | promoted |
+| V178 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V179 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V180 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V181 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V182 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V183 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V184 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V185 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V186 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V187 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V188 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V189 | included | not recorded | not recorded | not recorded | not reported | promoted |
+| V190 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V191 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V192 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V193 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V194 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V195 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V196 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V197 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V198 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V199 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V200 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V201 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V202 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V203 | included | not recorded | not recorded | not recorded | not reported | promoted |
+| V204 | included | not recorded | not recorded | not recorded | not reported | promoted |
+| V205 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V206 | not recorded | included | not recorded | not recorded | not reported | promoted |
+| V207 | not recorded | included | not recorded | not recorded | not reported | promoted |
+| V208 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V209 | not recorded | included | not recorded | not recorded | not reported | promoted |
+| V210 | not recorded | included | not recorded | not recorded | not reported | promoted |
+| V211 | not recorded | not recorded | not recorded | 0.10 pp | not reported | promoted |
+| V212 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V213 | not recorded | included | not recorded | not recorded | not reported | promoted |
+| V214 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V215 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V216 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V217 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V218 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V219 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V220 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V221 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V222 | not recorded | not recorded | not recorded | +0.01862 pp; 0.00000 pp; +0.03724 pp | not reported | promoted |
+| V223 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V224 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V225 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V226 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V227 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V228 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V229 | included | included | not recorded | not recorded | not reported | promoted |
+| V230 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V231 | not recorded | not recorded | not recorded | +0.00231 pp; +0.00000 pp | not reported | promoted |
+| V232 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V233 | not recorded | not recorded | not recorded | -0.03704 pp; 0.00000 pp; -0.07407 pp | not reported | promoted |
+| V234 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V235 | not recorded | included | not recorded | +0.03931 pp; -0.16509 pp | not reported | promoted |
+| V236 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V237 | not recorded | included | not recorded | +0.00000 pp; -0.08648 pp | not reported | promoted |
+| V238 | not recorded | included | not recorded | +0.00786 pp; -0.28302 pp | not reported | promoted |
+| V239 | not recorded | included | not recorded | -0.36164 pp; -0.79403 pp | not reported | promoted |
+| V240 | not recorded | included | not recorded | +0.44811 pp; -3.23899 pp | not reported | promoted |
+| V241 | not recorded | not recorded | not recorded | +0.44811 pp; 0.00000 pp; +0.22406 pp | not reported | promoted |
+| V242 | not recorded | not recorded | not recorded | +0.18868 pp; 0.00000 pp | not reported | promoted |
+| V243 | not recorded | not recorded | not recorded | +0.44811 pp; -3.23899 pp; 0.00000 pp; +0.18868 pp | not reported | promoted |
+| V244 | included | included | not recorded | +0.22799 pp; -0.52673 pp; -0.14937 pp | not reported | promoted |
+| V245 | not recorded | not recorded | not recorded | -0.53459 pp | not reported | promoted |
+| V246 | not recorded | included | not recorded | 0.00000 pp | not reported | promoted |
+| V247 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V248 | not recorded | not recorded | not recorded | -0.57390 pp; -1.17925 pp; -0.87657 pp | not reported | promoted |
+| V249 | included | included | not recorded | +0.22799 pp; -0.52673 pp; -0.14937 pp | not reported | promoted |
+| V250 | not recorded | included | not recorded | 0.00000 pp | not reported | promoted |
+| V251 | not recorded | included | not recorded | +0.02083 pp; -0.18056 pp; -0.07986 pp | not reported | promoted |
+| V252 | included | included | not recorded | +0.00000 pp | not reported | promoted |
+| V253 | included | included | not recorded | +0.04630 pp | not reported | promoted |
+| V254 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V255 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V256 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V257 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V258 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V259 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V260 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V261 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V262 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V263 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V264 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V265 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V266 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V267 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V268 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V269 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V270 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V271 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V272 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V273 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V274 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V275 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V276 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V277 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V278 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V279 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V280 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V281 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V282 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V283 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V284 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V285 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V286 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V287 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V288 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V289 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V290 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V291 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V292 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V293 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V294 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V295 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V296 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V297 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V298 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V299 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V300 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V301 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V302 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V303 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V304 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V305 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V306 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V307 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V308 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V309 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V310 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V311 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V312 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V313 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V314 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V315 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V316 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V317 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V318 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V319 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V320 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V321 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V322 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V323 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V324 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V325 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V326 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V327 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V328 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V329 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V330 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V331 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V332 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V333 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V334 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V335 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V336 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V337 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V338 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V339 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V340 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V341 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V342 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V343 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V344 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V345 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V346 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V347 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V348 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V349 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V350 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V351 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V352 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V353 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V354 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V355 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V356 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V357 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V358 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V359 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V360 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V361 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V362 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V363 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V364 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V365 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V366 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V367 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V368 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V369 | not recorded | not recorded | not recorded | not recorded | not reported | rejected |
+| V370 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V371 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V372 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V373 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V374 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V375 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V376 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V377 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V378 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V379 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V380 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V381 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V382 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V383 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V384 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V385 | not recorded | not recorded | not recorded | not recorded | not reported | rejected |
+| V386 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V387 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V388 | not recorded | not recorded | not recorded | not recorded | not reported | rejected |
+| V389 | included | included | 3, 3 | not recorded | not reported | promoted |
+| V390 | included | included | 3, 3 | not recorded | not reported | promoted |
+| V391 | included | included | 3, 3 | not recorded | not reported | promoted |
+| V392 | included | included | 3, 3 | not recorded | not reported | promoted |
+| V393 | included | included | not recorded | +0.662963 pp | not reported | promoted |
+| V394 | included | included | not recorded | +0.662963 pp; -0.124074 pp | not reported | promoted |
+| V395 | included | included | not recorded | not recorded | not reported | promoted |
+| V396 | not recorded | not recorded | not recorded | +0.005556 pp | not reported | promoted |
+| V410 | not recorded | not recorded | 3 | +0.000000 pp | not reported | promoted |
+| V411 | not recorded | not recorded | 3 | +0.117284 pp | not reported | promoted |
+| V412 | not recorded | not recorded | 5 | -15.151515 pp; +0.124 pp | not reported | promoted |
+| V413 | not recorded | not recorded | not recorded | +1.333333 pp | not reported | promoted |
+| V414 | not recorded | not recorded | not recorded | +0.262821 pp | not reported | promoted |
+| V415 | included | included | 3 | -0.186111 pp | not reported | rejected |
+| V416 | not recorded | not recorded | 3 | -2.6667 pp; +0.7692 pp | not reported | promoted |
+| V417 | not recorded | not recorded | 3 | not recorded | not reported | promoted |
+| V418 | not recorded | not recorded | 3 | not recorded | not reported | diagnostic |
+| V419 | included | included | 3 | +0.3395 pp; +0.457 pp | not reported | rejected |
+| V420 | not recorded | not recorded | 3 | +0.1245 pp; +0.2865 pp | +0.0203 to +0.2292 pp | promoted |
+| V421 | not recorded | not recorded | 3 | +0.162500 pp; +0.164583 pp; +0.155208 pp | not reported | promoted |
+| V422 | included | included | 3 | +0.659259 pp; +0.782407 pp | +0.535185 to +0.782407 pp | promoted |
+| V423 | not recorded | included | 3, 5 | not recorded | not reported | promoted |
+| V424 | included | included | 3 | +1.0768519 pp | not reported | promoted |
+| V425 | included | included | 3 | -0.1531250 pp | not reported | promoted |
+| V397 | not recorded | included | 3 | +0.000000 pp; +0.000000 pp | not reported | promoted |
+| V398 | not recorded | not recorded | 3 | not recorded | not reported | promoted |
+| V399 | not recorded | not recorded | 3 | +0.075000 pp; +0.105556 pp | not reported | promoted |
+| V400 | not recorded | not recorded | 3 | -0.013889 pp; -0.061111 pp | not reported | rejected |
+| V401 | not recorded | not recorded | 3 | +0.066667 pp; +0.068519 pp | not reported | promoted |
+| V402 | not recorded | not recorded | 3 | -3.740000 pp | not reported | promoted |
+| V403 | included | included | 3 | +0.022222 pp; +0.074074 pp; +0.722222 pp | not reported | promoted |
+| V404 | included | included | 3 | not recorded | not reported | promoted |
+| V405 | not recorded | not recorded | not recorded | not recorded | not reported | diagnostic |
+| V406 | not recorded | not recorded | not recorded | not recorded | not reported | diagnostic |
+| V407 | not recorded | not recorded | 3, 5 | 12.553333 pp | not reported | promoted |
+| V408 | not recorded | not recorded | 3, 5 | 15.653333 pp | not reported | rejected |
+| V409 | not recorded | not recorded | 3, 5 | +0.006667 pp | not reported | rejected |
+| V426 | not recorded | not recorded | 3 | +0.2212963 pp; +0.0740741 pp | [+0.0685185,+0.3750463] pp; [-0.2222222,+0.3550926] pp | promoted |
+| V427 | not recorded | included | 3 | +0.1018519 pp | [-0.1851852,+0.3796296] pp | promoted |
+| V428 | included | included | 3 | 0.000000 pp | [0.0000,0.0000] pp | promoted |
+| V429 | not recorded | not recorded | 3 | -0.0005556 pp | [-0.0447222,+0.0450069] pp | promoted |
+| V430 | not recorded | not recorded | 3 | -0.2062500 pp | [-0.3135417,-0.1009635] pp | rejected |
+| V431 | included | included | 3 | +0.2650463 pp | [+0.0925637,+0.4479456] pp | promoted |
+| V432 | included | included | 3 | +0.1203704 pp | [-0.0497975,+0.3033275] pp | recorded |
+| V433 | included | included | 3 | +0.1828704 pp; -0.0031250 pp | [+0.0509259,+0.3275463] pp; [-0.0562760,+0.0510677] pp | promoted |
+| V434 | not recorded | not recorded | 3 | +0.0729167 pp; -0.1885417 pp | not reported | recorded |
+| V435 | included | not recorded | 3 | +0.0405093 pp | [-0.0463252,+0.1238715] pp | recorded |
+| V436 | not recorded | included | 3 | -0.0949074 pp | [-0.1319734,-0.0555266] pp | recorded |
