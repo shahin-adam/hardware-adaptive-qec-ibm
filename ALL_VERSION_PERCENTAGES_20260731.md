@@ -7,7 +7,7 @@ Percentage-only public summary rebuilt from the local registry. Existing publish
 | V1 | not recorded | not recorded | not recorded | 1.2180 pp; 0.8383 pp | not reported | promoted |
 | V2 | not recorded | not recorded | not recorded | +0.4750 pp; 0.1531 pp | not reported | rejected |
 | V3 | not recorded | not recorded | not recorded | +0.3281 pp; 1.9688 pp | not reported | promoted |
-| V4 | not recorded | not recorded | not recorded | +1.7396 pp; +0.6505 pp | not reported | promoted |
+| V4 | 0.0000 pp (r3/r5/r7) | 0.0000/0.0000/+3.9028 pp (r3/r5/r7) | 3 | +1.7396 pp development; +0.6505 pp confirmed pooled | not reported | diagnostic selective gain concentrated in Z7 |
 | V5 | not recorded | not recorded | not recorded | +1.5167 pp; 0.0000 pp | not reported | promoted |
 | V6 | not recorded | not recorded | not recorded | +1.5906 pp; +0.0740 pp | not reported | promoted |
 | V7 | not recorded | not recorded | not recorded | +1.7313 pp | not reported | promoted |
