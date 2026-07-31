@@ -42,7 +42,7 @@ Percentage-only public summary rebuilt from the local registry. Existing publish
 | V36 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
 | V37 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
 | V38 | not recorded | not recorded | not recorded | +0.17245 pp | not reported | promoted |
-| V39 | not recorded | not recorded | not recorded | +0.804398 pp; 5.1875 pp; 0.9861 pp | not reported | promoted |
+| V39 | +5.1875 pp (X3) | -0.9861 pp (Z3) | 3 | +0.804398 pp pooled | not reported | diagnostic; Z regression preserved |
 | V40 | included | included | not recorded | +1.223380 pp | not reported | promoted |
 | V41 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
 | V42 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
