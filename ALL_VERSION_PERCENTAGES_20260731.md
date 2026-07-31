@@ -447,3 +447,7 @@ Percentage-only public summary rebuilt from the local registry. Existing publish
 | V441 | X/Z | X/Z | d=5 | not recorded | not reported | pending |
 | V442 | X/Z | X/Z | d=5 | not recorded | not reported | pending |
 | V446 | X/Z | X/Z | 3 | +0.090667 pp | [+0.076667,+0.105333] pp | promoted limited IBM Kingston |
+| V443 | X/Z | X/Z | 3,5 | +0.038462 pp; +1.256410 pp | not reported | diagnostic; paired V12 vector unavailable |
+| V444 | X/Z | X/Z | 3 | +0.696296 pp; +0.459259 pp | not reported | diagnostic/rejected; held-out round-7 regressions |
+| V445 | X/Z | X/Z | 3 | +0.227778 pp | [+0.187037,+0.265764] pp | diagnostic; same-block only |
+| V447 | X/Z | X/Z | 3 | +0.313667 pp sweep maximum; +0.090667 pp at fixed 0.80 | not reported | exploratory same-block threshold sweep; not promoted |
