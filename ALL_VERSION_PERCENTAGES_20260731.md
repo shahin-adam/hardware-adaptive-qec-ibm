@@ -455,3 +455,4 @@ Percentage-only public summary rebuilt from the local registry. Existing publish
 | V449 | X/Z | X/Z | 3 | +0.043750 pp; +0.056250 pp; +0.649074 pp held-out blocks | not reported | diagnostic; basis-specific held-out slice gates failed |
 | V450 | X/Z | X/Z | 3 | +0.043750 pp; +0.056250 pp; +0.649074 pp | pooled CIs include/ exclude zero by block; slice CIs reported locally | diagnostic; bootstrap validation of V449 |
 | V451 | X/Z | X/Z | 3 | +0.128125 pp; +0.151042 pp; +0.649074 pp held-out blocks | not reported | diagnostic; slice-specific gates still regressed |
+| V452 | X/Z | X/Z | 3 | +0.010417 pp; +0.016667 pp; +0.227778 pp | bootstrap intervals recorded locally | limited IBM Kingston V446 consolidation audit |
