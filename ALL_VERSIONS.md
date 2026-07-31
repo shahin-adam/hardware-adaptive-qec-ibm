@@ -386,3 +386,5 @@ Last generated: 29 July 2026, Australia/Sydney.
 
 ## V422 - independent IBM third-block guard
 Frozen V421 basis/round policy on 108,000 IBM Kingston D02 shots: +0.659259 pp versus selected MWPM; paired 95% CI [+0.535185, +0.782407] pp. Promoted only for IBM Kingston d=3; no universal-vendor claim.
+## V423 - NTU baseline compatibility smoke
+Synthetic Stim-only standard/correlated PyMatching control: d3 0.6000%/0.7300%, d5 0.3350%/0.2750%. Local smoke passed; Wolffe environment failed to import NumPy. Not an IBM result.
