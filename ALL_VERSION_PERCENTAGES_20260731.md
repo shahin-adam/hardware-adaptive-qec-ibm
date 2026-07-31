@@ -23,9 +23,9 @@ Percentage-only public summary rebuilt from the local registry. Existing publish
 | V17 | not recorded | not recorded | not recorded | not recorded | not reported | rejected |
 | V18 | not recorded | included | not recorded | not recorded | not reported | promoted |
 | V19 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V20 | not recorded | not recorded | not recorded | +0.05093 pp | not reported | promoted |
-| V21 | not recorded | not recorded | not recorded | +0.00347 pp | not reported | promoted |
-| V22 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V20 | not recorded | not recorded | 3 | +0.05093 pp incremental; +1.24074 pp vs MWPM | [+0.00624,+0.09561] pp incremental | diagnostic selective overlay |
+| V21 | not recorded | not recorded | 3 | +0.00347 pp incremental; +1.53125 pp vs MWPM | [-0.02948,+0.03642] pp incremental | diagnostic/null overlay |
+| V22 | not recorded | +3.9028 pp (Z7 selective) | 3 | 0.16204% conditional error at 5% retained coverage | upper bound 0.30414% | selective post-selection; not full-decoder gain |
 | V23 | not recorded | not recorded | not recorded | +0.021219 pp | not reported | promoted |
 | V24 | not recorded | not recorded | not recorded | +0.001157 pp | not reported | promoted |
 | V25 | not recorded | not recorded | not recorded | +0.128472 pp | not reported | promoted |
