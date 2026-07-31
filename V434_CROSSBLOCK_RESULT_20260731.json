@@ -1,0 +1,110 @@
+{
+  "version": "V434",
+  "method": "source-trained logistic difficulty router",
+  "source_data": "C:\\Users\\22228049\\.codex\\qec_work\\v29_v12_new_data.npz",
+  "target_data": "C:\\Users\\22228049\\OneDrive - Western Sydney University\\Shahin Adam 22228049\\QEC\\Versions_20260731\\V003\\ARCHIVE_CONTENT\\Complete_15-7-2026\\QEC_AI_PAPER_MASTER_20260717\\ALL_ORIGINAL_QEC_MATERIAL\\LOCAL_QEC_SOURCE_TREE_COPY\\crossblock_v3_data.npz",
+  "fit_split": 2,
+  "threshold_selection_split": 3,
+  "target_split": 3,
+  "threshold": 0.45,
+  "source_validation": {
+    "threshold": 0.45,
+    "v12_error_percent": 46.09143518518518,
+    "candidate_error_percent": 45.99421296296296,
+    "gain_pp": 0.09722222222222632,
+    "bootstrap_ci95_pp": [
+      -0.15416666666666665,
+      0.3449652777777777
+    ]
+  },
+  "pooled": {
+    "v12_error_percent": 36.38229166666667,
+    "candidate_error_percent": 36.57083333333333,
+    "gain_pp": -0.1885416666666695,
+    "bootstrap_ci95_pp": [
+      -0.33333333333333337,
+      -0.052083333333333336
+    ]
+  },
+  "rows": [
+    {
+      "domain": 3,
+      "basis": 0,
+      "rounds": 3,
+      "shots": 16000,
+      "v12_error_percent": 36.36875,
+      "candidate_error_percent": 36.6875,
+      "gain_pp": -0.318750000000001,
+      "bootstrap_ci95_pp": [
+        -0.6689062499999999,
+        0.03140624999999986
+      ]
+    },
+    {
+      "domain": 3,
+      "basis": 0,
+      "rounds": 5,
+      "shots": 16000,
+      "v12_error_percent": 43.443749999999994,
+      "candidate_error_percent": 43.78125,
+      "gain_pp": -0.3375000000000017,
+      "bootstrap_ci95_pp": [
+        -0.65,
+        0.018906249999999857
+      ]
+    },
+    {
+      "domain": 3,
+      "basis": 0,
+      "rounds": 7,
+      "shots": 16000,
+      "v12_error_percent": 46.650000000000006,
+      "candidate_error_percent": 46.85625,
+      "gain_pp": -0.2062499999999967,
+      "bootstrap_ci95_pp": [
+        -0.6125,
+        0.19390624999999986
+      ]
+    },
+    {
+      "domain": 3,
+      "basis": 1,
+      "rounds": 3,
+      "shots": 16000,
+      "v12_error_percent": 21.2625,
+      "candidate_error_percent": 21.631249999999998,
+      "gain_pp": -0.36874999999999825,
+      "bootstrap_ci95_pp": [
+        -0.65640625,
+        -0.08125
+      ]
+    },
+    {
+      "domain": 3,
+      "basis": 1,
+      "rounds": 5,
+      "shots": 16000,
+      "v12_error_percent": 29.15,
+      "candidate_error_percent": 29.268749999999997,
+      "gain_pp": -0.1187500000000008,
+      "bootstrap_ci95_pp": [
+        -0.42500000000000004,
+        0.16890624999999987
+      ]
+    },
+    {
+      "domain": 3,
+      "basis": 1,
+      "rounds": 7,
+      "shots": 16000,
+      "v12_error_percent": 41.418749999999996,
+      "candidate_error_percent": 41.199999999999996,
+      "gain_pp": 0.2187500000000009,
+      "bootstrap_ci95_pp": [
+        -0.10625000000000001,
+        0.55625
+      ]
+    }
+  ],
+  "gate": "diagnostic; promote only after independent-domain aggregate and subgroup non-regression."
+}
