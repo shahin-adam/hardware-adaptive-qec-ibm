@@ -1,0 +1,235 @@
+{
+  "version": "V424",
+  "method": "transfer of frozen V421/V422 basis-round allow-list plus V390 soft confidence gate",
+  "allow_list": [
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      5
+    ]
+  ],
+  "tau": 0.1,
+  "shots": 108000,
+  "baseline_ler_percent": 46.01481481481481,
+  "candidate_ler_percent": 44.93796296296296,
+  "gain_pp": 1.076851851851852,
+  "ci95_pp": [
+    0.9203472222222222,
+    1.2296759259259258
+  ],
+  "route_percent": 49.839814814814815,
+  "groups": [
+    {
+      "metadata": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "shots": 9000,
+      "baseline_ler_percent": 49.766666666666666,
+      "candidate_ler_percent": 42.72222222222222,
+      "gain_pp": 7.044444444444445,
+      "ci95_pp": [
+        5.833055555555556,
+        8.255833333333332
+      ],
+      "route_percent": 99.82222222222222
+    },
+    {
+      "metadata": [
+        3,
+        0,
+        3,
+        1
+      ],
+      "shots": 9000,
+      "baseline_ler_percent": 49.46666666666666,
+      "candidate_ler_percent": 42.98888888888889,
+      "gain_pp": 6.477777777777778,
+      "ci95_pp": [
+        5.255277777777778,
+        7.644444444444444
+      ],
+      "route_percent": 99.67777777777778
+    },
+    {
+      "metadata": [
+        3,
+        0,
+        5,
+        0
+      ],
+      "shots": 9000,
+      "baseline_ler_percent": 49.77777777777778,
+      "candidate_ler_percent": 49.77777777777778,
+      "gain_pp": 0.0,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "route_percent": 0.0
+    },
+    {
+      "metadata": [
+        3,
+        0,
+        5,
+        1
+      ],
+      "shots": 9000,
+      "baseline_ler_percent": 49.34444444444445,
+      "candidate_ler_percent": 49.34444444444445,
+      "gain_pp": 0.0,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "route_percent": 0.0
+    },
+    {
+      "metadata": [
+        3,
+        0,
+        7,
+        0
+      ],
+      "shots": 9000,
+      "baseline_ler_percent": 50.33333333333333,
+      "candidate_ler_percent": 50.33333333333333,
+      "gain_pp": 0.0,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "route_percent": 0.0
+    },
+    {
+      "metadata": [
+        3,
+        0,
+        7,
+        1
+      ],
+      "shots": 9000,
+      "baseline_ler_percent": 50.77777777777778,
+      "candidate_ler_percent": 50.77777777777778,
+      "gain_pp": 0.0,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "route_percent": 0.0
+    },
+    {
+      "metadata": [
+        3,
+        1,
+        3,
+        0
+      ],
+      "shots": 9000,
+      "baseline_ler_percent": 31.41111111111111,
+      "candidate_ler_percent": 31.41111111111111,
+      "gain_pp": 0.0,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "route_percent": 99.83333333333333
+    },
+    {
+      "metadata": [
+        3,
+        1,
+        3,
+        1
+      ],
+      "shots": 9000,
+      "baseline_ler_percent": 32.666666666666664,
+      "candidate_ler_percent": 32.666666666666664,
+      "gain_pp": 0.0,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "route_percent": 99.71111111111111
+    },
+    {
+      "metadata": [
+        3,
+        1,
+        5,
+        0
+      ],
+      "shots": 9000,
+      "baseline_ler_percent": 44.855555555555554,
+      "candidate_ler_percent": 45.455555555555556,
+      "gain_pp": -0.6,
+      "ci95_pp": [
+        -1.4224999999999999,
+        0.33333333333333337
+      ],
+      "route_percent": 99.42222222222222
+    },
+    {
+      "metadata": [
+        3,
+        1,
+        5,
+        1
+      ],
+      "shots": 9000,
+      "baseline_ler_percent": 46.47777777777778,
+      "candidate_ler_percent": 46.47777777777778,
+      "gain_pp": 0.0,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "route_percent": 99.6111111111111
+    },
+    {
+      "metadata": [
+        3,
+        1,
+        7,
+        0
+      ],
+      "shots": 9000,
+      "baseline_ler_percent": 48.577777777777776,
+      "candidate_ler_percent": 48.577777777777776,
+      "gain_pp": 0.0,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "route_percent": 0.0
+    },
+    {
+      "metadata": [
+        3,
+        1,
+        7,
+        1
+      ],
+      "shots": 9000,
+      "baseline_ler_percent": 48.72222222222222,
+      "candidate_ler_percent": 48.72222222222222,
+      "gain_pp": 0.0,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "route_percent": 0.0
+    }
+  ],
+  "promotion_allowed": false
+}
