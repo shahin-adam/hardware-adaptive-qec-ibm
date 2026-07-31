@@ -11,7 +11,7 @@ These are IBM-specific diagnostic experiments. No universal-vendor performance c
 | V414 | Full tensor block, round-sequence NumPy fallback | Wolffe job gains -0.583 to +0.564 pp vs majority proxy | Diagnostic; job 64788 completed; V12 vector absent |
 | V415 | IBM V29 conformal-style member gate | -0.186 pp vs V12 on held-out test; 5/6 X/Z/round slices regressed | Rejected; Wolffe job 64799 matched local |
 | V416 | Full IBM tensor block, true 3D CNN + calibration FiLM | 51.0641% vs 48.3974% majority proxy (-2.667 pp); only basis-0/r7 slice positive | Rejected diagnostic; no paired V12 vector; Wolffe replay 64804 blocked by PyTorch import |
-| V417 | Recovered locked IBM Kingston confirmation (120,000 shots, d=3/5, rounds 3/5/7) | MWPM 42.6442%; BP-OSD 43.2592%; four-model ensemble 44.0908%; Transformer 44.9292% | Measured audit; MWPM wins; phenomenological DEM limitation; no universal claim |`r`n
+| V417 | Recovered locked IBM Kingston confirmation (120,000 shots, d=3/5, rounds 3/5/7) | MWPM 42.6442%; BP-OSD 43.2592%; four-model ensemble 44.0908%; Transformer 44.9292% | Measured audit; MWPM wins; phenomenological DEM limitation; no universal claim |
 ## Recovered source evidence
 
 The 15 July IBM 3D handoff contains 127,200 numerical shots with detector masks, 3D volumes, 27 calibration features and job identifiers. Its separate frozen report covers 192,000 scored IBM Kingston shots and reports +0.124 pp versus selected single-MWPM (95% CI +0.024 to +0.223 pp), but it also documents seven-round regressions and incomplete historical calibration information. That source result remains diagnostic until reproduced against the frozen V12 vector with basis and domain gates.
