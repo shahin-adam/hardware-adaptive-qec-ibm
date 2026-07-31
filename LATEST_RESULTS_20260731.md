@@ -4,10 +4,11 @@ These are IBM-specific diagnostic experiments. No universal-vendor performance c
 
 | Version | Data / method | Held-out result | Status |
 |---|---|---:|---|
-| V410 | IBM V29 space-time residual router | ?3.556 pp vs V12 | Rejected; temporal summaries alone regressed |
-| V411 | IBM V29 strict seven-round specialist | +0.117 pp vs V12; 95% CI ?0.161 to +0.407 pp | Diagnostic; not promoted |
-| V412 | Recovered IBM 3D handoff, fresh gate on 100 selected rows | ?15.152 pp vs stored Transformer reference; 95% CI ?42.424 to +12.121 pp | Audit only; subset is not a benchmark |
-| V413 | Full 127,200-shot 3D/calibration tensor block | Pending completion; V12 vector absent | Exploratory leave-job-out proxy |
+| V410 | IBM V29 space-time residual router | -3.556 pp vs V12 | Rejected; temporal summaries alone regressed |
+| V411 | IBM V29 strict seven-round specialist | +0.117 pp vs V12; 95% CI -0.161 to +0.407 pp | Diagnostic; not promoted |
+| V412 | Recovered IBM 3D handoff, fresh gate on 100 selected rows | -15.152 pp vs stored Transformer reference; 95% CI -42.424 to +12.121 pp | Audit only; subset is not a benchmark |
+| V413 | Full 127,200-shot 3D/calibration tensor block | Job gains -2.205 to +1.333 pp vs majority proxy | Diagnostic; V12 vector absent |
+| V414 | Full tensor block, round-sequence fallback | Job gains -2.667 to +0.263 pp vs majority proxy | Diagnostic; Wolffe replay pending |
 
 ## Recovered source evidence
 
