@@ -1,5 +1,6 @@
-# IBM QEC — complete version percentage ledger
-Percentage-only public summary. X, Z, and distance are recorded only when explicitly present in the source registry; `not recorded` means no value was inferred.
+# IBM QEC ? complete version percentage ledger
+
+Percentage-only public summary rebuilt from the local registry. Existing published values are preserved; additional values are included only when explicit numeric evidence exists. `not recorded` means no defensible value was available.
 
 | Version | X basis | Z basis | Distance | Numeric result | 95% CI | Status |
 |---|---|---|---|---|---|---|
@@ -361,40 +362,40 @@ Percentage-only public summary. X, Z, and distance are recorded only when explic
 | V356 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
 | V357 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
 | V358 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V359 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V360 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V361 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V362 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V363 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
+| V359 | not recorded | not recorded | not recorded | +0.15972pp | not reported | promoted |
+| V360 | not recorded | not recorded | not recorded | -0.0637pp | not reported | promoted |
+| V361 | not recorded | not recorded | not recorded | +0.06996pp; -0.0104pp; +0.1470pp; -0.0266pp | not reported | promoted |
+| V362 | not recorded | not recorded | not recorded | +0.05298pp; +0.1238pp | not reported | promoted |
+| V363 | not recorded | not recorded | not recorded | +0.05298pp; -0.0255pp | not reported | promoted |
 | V364 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V365 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V366 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V367 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V368 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V369 | not recorded | not recorded | not recorded | not recorded | not reported | rejected |
-| V370 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V371 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V372 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V373 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V374 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V375 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V376 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V377 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V378 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V379 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V380 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V381 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V382 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V383 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V384 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V385 | not recorded | not recorded | not recorded | not recorded | not reported | rejected |
-| V386 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V387 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
-| V388 | not recorded | not recorded | not recorded | not recorded | not reported | rejected |
-| V389 | included | included | 3, 3 | not recorded | not reported | promoted |
-| V390 | included | included | 3, 3 | not recorded | not reported | promoted |
-| V391 | included | included | 3, 3 | not recorded | not reported | promoted |
-| V392 | included | included | 3, 3 | not recorded | not reported | promoted |
+| V365 | not recorded | not recorded | not recorded | +0.06713pp; -0.05556pp; +0.01736pp; +0.11921pp; +0.07986pp; +0.18403pp; +0.09144pp; +0.00116pp; +0.14352pp | not reported | promoted |
+| V366 | not recorded | not recorded | not recorded | +0.07305pp; +0.14236pp | not reported | promoted |
+| V367 | not recorded | not recorded | not recorded | +0.06237pp; +0.14352pp | not reported | promoted |
+| V368 | not recorded | not recorded | not recorded | +0.07677pp; +0.21644pp | not reported | promoted |
+| V369 | not recorded | not recorded | not recorded | -0.01402pp; -0.08681pp | not reported | rejected |
+| V370 | not recorded | not recorded | not recorded | +0.00836pp; -0.16898pp | not reported | promoted |
+| V371 | not recorded | not recorded | not recorded | +0.01196pp; +0.03472pp | not reported | promoted |
+| V372 | not recorded | not recorded | not recorded | +0.05337pp; +0.17361pp | not reported | promoted |
+| V373 | not recorded | not recorded | not recorded | +0.01800pp; +0.04282pp | not reported | promoted |
+| V374 | not recorded | not recorded | not recorded | +0.06970pp; +0.19213pp | not reported | promoted |
+| V375 | not recorded | not recorded | not recorded | +0.02739pp; +0.18634pp | not reported | promoted |
+| V376 | not recorded | not recorded | not recorded | +0.02739pp; +0.18634pp | not reported | promoted |
+| V377 | not recorded | not recorded | not recorded | +0.01595pp; +0.18634pp | not reported | promoted |
+| V378 | not recorded | not recorded | not recorded | +0.01453pp; +0.03356pp | not reported | promoted |
+| V379 | not recorded | not recorded | not recorded | +0.01723pp; +0.09722pp | not reported | promoted |
+| V380 | not recorded | not recorded | not recorded | +0.01698pp; -0.00463pp | not reported | promoted |
+| V381 | not recorded | not recorded | not recorded | +0.02276pp; +0.06366pp | not reported | promoted |
+| V382 | not recorded | not recorded | not recorded | +0.02251pp; +0.06366pp | not reported | promoted |
+| V383 | not recorded | not recorded | not recorded | +0.00694pp; +0.03588pp | not reported | promoted |
+| V384 | not recorded | not recorded | not recorded | +0.02238pp; -0.02431pp | not reported | promoted |
+| V385 | not recorded | not recorded | not recorded | -0.00694pp; -0.09606pp | not reported | rejected |
+| V386 | not recorded | not recorded | not recorded | +0.00180pp; +0.04167pp | not reported | promoted |
+| V387 | not recorded | not recorded | not recorded | +0.01608pp; +0.06250pp | not reported | promoted |
+| V388 | not recorded | not recorded | not recorded | -0.00360pp; +0.09606pp | not reported | rejected |
+| V389 | included | included | 3, 3 | +1.7111pp | not reported | promoted |
+| V390 | included | included | 3, 3 | +0.9657pp; +0.9648pp; +0.9639pp; +0.9694pp | not reported | promoted |
+| V391 | included | included | 3, 3 | +0.9648pp | not reported | promoted |
+| V392 | included | included | 3, 3 | +0.8806pp | not reported | promoted |
 | V393 | included | included | not recorded | +0.662963 pp | not reported | promoted |
 | V394 | included | included | not recorded | +0.662963 pp; -0.124074 pp | not reported | promoted |
 | V395 | included | included | not recorded | not recorded | not reported | promoted |
@@ -409,9 +410,9 @@ Percentage-only public summary. X, Z, and distance are recorded only when explic
 | V417 | not recorded | not recorded | 3 | not recorded | not reported | promoted |
 | V418 | not recorded | not recorded | 3 | not recorded | not reported | diagnostic |
 | V419 | included | included | 3 | +0.3395 pp; +0.457 pp | not reported | rejected |
-| V420 | not recorded | not recorded | 3 | +0.1245 pp; +0.2865 pp | not reported | promoted |
+| V420 | not recorded | not recorded | 3 | +0.1245 pp; +0.2865 pp | +0.2292pp | promoted |
 | V421 | not recorded | not recorded | 3 | +0.162500 pp; +0.164583 pp; +0.155208 pp | not reported | promoted |
-| V422 | included | included | 3 | +0.659259 pp; +0.782407 pp | not reported | promoted |
+| V422 | included | included | 3 | +0.659259 pp; +0.782407 pp | +0.782407pp | promoted |
 | V423 | not recorded | included | 3, 5 | not recorded | not reported | promoted |
 | V424 | included | included | 3 | +1.0768519 pp | not reported | promoted |
 | V425 | included | included | 3 | -0.1531250 pp | not reported | promoted |
@@ -441,3 +442,7 @@ Percentage-only public summary. X, Z, and distance are recorded only when explic
 | V436 | not recorded | included | 3 | -0.0949074 pp | [-0.1319734,-0.0555266] pp | recorded |
 | V437 | included | included | 3 | -0.0768519 pp | [-0.1287037,-0.0212963] pp | rejected |
 | V438 | included | included | 3, 5 | -0.0192308 pp | [-0.1891026,+0.1378205] pp | rejected |
+| V439 | not recorded | not recorded | not recorded | not recorded | not reported | audit-only |
+| V440 | not recorded | not recorded | not recorded | not recorded | not reported | audit-only |
+| V441 | X/Z | X/Z | d=5 | not recorded | not reported | pending |
+| V442 | X/Z | X/Z | d=5 | not recorded | not reported | pending |
