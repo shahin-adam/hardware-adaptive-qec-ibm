@@ -398,7 +398,7 @@ Percentage-only public summary rebuilt from the local registry. Existing publish
 | V392 | included | included | 3, 3 | +0.8806pp | not reported | promoted |
 | V393 | included | included | not recorded | +0.662963 pp | not reported | promoted |
 | V394 | included | included | not recorded | +0.662963 pp; -0.124074 pp | not reported | promoted |
-| V395 | included | included | not recorded | not recorded | not reported | promoted |
+| V395 | included | included | 3,5 | not recorded | not reported | public Google Willow benchmark; no IBM percentage inferred |
 | V396 | not recorded | not recorded | not recorded | +0.005556 pp | not reported | promoted |
 | V410 | not recorded | not recorded | 3 | +0.000000 pp | not reported | promoted |
 | V411 | not recorded | not recorded | 3 | +0.117284 pp | not reported | promoted |
@@ -421,14 +421,14 @@ Percentage-only public summary rebuilt from the local registry. Existing publish
 | V399 | not recorded | not recorded | 3 | +0.075000 pp; +0.105556 pp | not reported | promoted |
 | V400 | not recorded | not recorded | 3 | -0.013889 pp; -0.061111 pp | not reported | rejected |
 | V401 | not recorded | not recorded | 3 | +0.066667 pp; +0.068519 pp | not reported | promoted |
-| V402 | not recorded | not recorded | 3 | -3.740000 pp | not reported | promoted |
+| V402 | -3.740000 pp (X) | not recorded | 3 | -3.740000 pp | not reported | rejected diagnostic |
 | V403 | included | included | 3 | +0.022222 pp; +0.074074 pp; +0.722222 pp | not reported | promoted |
 | V404 | included | included | 3 | not recorded | not reported | promoted |
 | V405 | not recorded | not recorded | not recorded | not recorded | not reported | diagnostic |
 | V406 | not recorded | not recorded | not recorded | not recorded | not reported | diagnostic |
-| V407 | not recorded | not recorded | 3, 5 | 12.553333 pp | not reported | promoted |
-| V408 | not recorded | not recorded | 3, 5 | 15.653333 pp | not reported | rejected |
-| V409 | not recorded | not recorded | 3, 5 | +0.006667 pp | not reported | rejected |
+| V407 | X/Z | X/Z | 3,5 | 12.553333 pp | not reported | diagnostic; source result context retained |
+| V408 | X/Z | X/Z | 3,5 | 15.653333 pp | not reported | rejected diagnostic |
+| V409 | X/Z | X/Z | 3,5 | +0.006667 pp | not reported | rejected diagnostic |
 | V426 | not recorded | not recorded | 3 | +0.2212963 pp; +0.0740741 pp | [+0.0685185,+0.3750463] pp; [-0.2222222,+0.3550926] pp | promoted |
 | V427 | not recorded | included | 3 | +0.1018519 pp | [-0.1851852,+0.3796296] pp | promoted |
 | V428 | included | included | 3 | 0.000000 pp | [0.0000,0.0000] pp | promoted |
