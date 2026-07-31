@@ -1,0 +1,128 @@
+{
+  "version": "V428",
+  "method": "nested confidence-bound validation gate",
+  "dataset": "C:\\Users\\22228049\\.codex\\qec_work\\v29_v12_new_data.npz",
+  "split_definition": "60% train, 20% validation, 20% untouched test per basis/round",
+  "policies": {
+    "0/3": {
+      "chosen": "nominal",
+      "train_gain_pp": 0.0,
+      "validation_gain_pp": 0.0,
+      "validation_ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "enabled": false
+    },
+    "0/5": {
+      "chosen": "nominal",
+      "train_gain_pp": 0.0,
+      "validation_gain_pp": 0.0,
+      "validation_ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "enabled": false
+    },
+    "0/7": {
+      "chosen": "nominal",
+      "train_gain_pp": 0.5555555555555571,
+      "validation_gain_pp": 0.19444444444443576,
+      "validation_ci95_pp": [
+        -1.0979166666666667,
+        1.3347222222222208
+      ],
+      "enabled": false
+    },
+    "1/3": {
+      "chosen": "nominal",
+      "train_gain_pp": 0.3055555555555536,
+      "validation_gain_pp": 0.1666666666666643,
+      "validation_ci95_pp": [
+        -0.3055555555555556,
+        0.6666666666666667
+      ],
+      "enabled": false
+    },
+    "1/5": {
+      "chosen": "nominal",
+      "train_gain_pp": 0.0,
+      "validation_gain_pp": 0.0,
+      "validation_ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "enabled": false
+    },
+    "1/7": {
+      "chosen": "nominal",
+      "train_gain_pp": 0.768518518518519,
+      "validation_gain_pp": 0.4166666666666714,
+      "validation_ci95_pp": [
+        -0.5145833333333333,
+        1.4312499999999992
+      ],
+      "enabled": false
+    }
+  },
+  "test": {
+    "v12_error_percent": 46.60185185185185,
+    "v428_error_percent": 46.60185185185185,
+    "gain_pp": 0.0,
+    "bootstrap_ci95_pp": [
+      0.0,
+      0.0
+    ]
+  },
+  "slices": [
+    {
+      "basis": 0,
+      "rounds": 3,
+      "shots": 3600,
+      "v12_error_percent": 49.47222222222222,
+      "v428_error_percent": 49.47222222222222,
+      "gain_pp": 0.0
+    },
+    {
+      "basis": 0,
+      "rounds": 5,
+      "shots": 3600,
+      "v12_error_percent": 49.166666666666664,
+      "v428_error_percent": 49.166666666666664,
+      "gain_pp": 0.0
+    },
+    {
+      "basis": 0,
+      "rounds": 7,
+      "shots": 3600,
+      "v12_error_percent": 52.02777777777777,
+      "v428_error_percent": 52.02777777777777,
+      "gain_pp": 0.0
+    },
+    {
+      "basis": 1,
+      "rounds": 3,
+      "shots": 3600,
+      "v12_error_percent": 32.27777777777778,
+      "v428_error_percent": 32.27777777777778,
+      "gain_pp": 0.0
+    },
+    {
+      "basis": 1,
+      "rounds": 5,
+      "shots": 3600,
+      "v12_error_percent": 47.333333333333336,
+      "v428_error_percent": 47.333333333333336,
+      "gain_pp": 0.0
+    },
+    {
+      "basis": 1,
+      "rounds": 7,
+      "shots": 3600,
+      "v12_error_percent": 49.333333333333336,
+      "v428_error_percent": 49.333333333333336,
+      "gain_pp": 0.0
+    }
+  ],
+  "gate": "diagnostic; require every untouched slice non-regressing before promotion."
+}
