@@ -15,7 +15,7 @@ Percentage-only public summary rebuilt from the local registry. Existing publish
 | V9 | not recorded | not recorded | not recorded | +1.8125 pp; 0.6493 pp | not reported | rejected |
 | V10 | not recorded | included | not recorded | +1.3600 pp | not reported | promoted |
 | V11 | not recorded | not recorded | not recorded | 1.0918 pp | not reported | rejected |
-| V12 | not recorded | included | not recorded | +1.34298 pp | not reported | promoted |
+| V12 | +1.6181/+0.3472/0.0000 pp (r3/r5/r7) | +1.3958/+1.1806/+0.7500 pp (r3/r5/r7) | 3 | +1.34298 pp pooled | not reported | promoted; basis/round values from independent second-block audit |
 | V13 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
 | V14 | not recorded | not recorded | not recorded | not recorded | not reported | recorded |
 | V15 | not recorded | not recorded | not recorded | not recorded | not reported | rejected |
