@@ -24,7 +24,7 @@ Sanitized, versioned results from the IBM-QEC decoder project. The canonical reg
 | V411 | d=3 | X/Z; specialist only r=7 | V12 | guarded specialist | +0.117 pp | diagnostic; CI ?0.161 to +0.407 pp |
 | V412 | source d=5 rows | X/Z; selected manifest | stored Transformer | stored-output gate | ?15.152 pp | audit only; 100-row subset |
 | V413 | recovered tensor block | leave-job-out; X/Z metadata | majority proxy | calibration + 3D statistics | job gains -2.205 to +1.333 pp; diagnostic; V12 vector unavailable |
-| V414 | recovered tensor block | leave-job-out; round sequence | majority proxy | sequence fallback | job gains -2.667 to +0.263 pp; diagnostic; Wolffe replay pending |
+| V414 | recovered tensor block | leave-job-out; round sequence | majority proxy | sequence fallback | Wolffe gains -0.583 to +0.564 pp; diagnostic; V12 vector unavailable |
 
 ## Recovered IBM 3D evidence
 
