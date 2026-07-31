@@ -29,3 +29,9 @@ The 15 July IBM 3D handoff contains 127,200 numerical shots with detector masks,
 - Retrospective common allow-list: +0.162500 pp (fresh) and +0.164583 pp (later) versus selected exact-circuit MWPM base.
 - Leave-one-block-out transfer: +0.052083 pp and +0.155208 pp.
 - Status: diagnostic only. The common allow-list is retrospective, only two blocks exist, and a third independent IBM block is required before promotion. Seven-round slices remain protected by the base decoder.
+
+### V422 â€” independent third-block guard (31 July 2026)
+- Frozen V421 policy evaluated without retuning on IBM Kingston D02 future block (108,000 shots).
+- Selected MWPM base 33.662963% -> guard 33.003704%; gain +0.659259 pp.
+- Paired bootstrap 95% CI: [+0.535185, +0.782407] pp. All six X/Z Ã— round slices are non-regressing; Wolffe job 64819 matches local.
+- Status: promoted only for IBM Kingston d=3 under the frozen guard. Distance-5, independent-backend, latency and cross-vendor tests remain open.
