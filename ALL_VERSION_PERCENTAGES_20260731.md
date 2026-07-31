@@ -446,3 +446,4 @@ Percentage-only public summary rebuilt from the local registry. Existing publish
 | V440 | not recorded | not recorded | not recorded | not recorded | not reported | audit-only |
 | V441 | X/Z | X/Z | d=5 | not recorded | not reported | pending |
 | V442 | X/Z | X/Z | d=5 | not recorded | not reported | pending |
+| V446 | X/Z | X/Z | 3 | +0.090667 pp | [+0.076667,+0.105333] pp | promoted limited IBM Kingston |
