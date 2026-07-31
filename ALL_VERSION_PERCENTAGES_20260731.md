@@ -440,3 +440,4 @@ Percentage-only public summary. X, Z, and distance are recorded only when explic
 | V435 | included | not recorded | 3 | +0.0405093 pp | [-0.0463252,+0.1238715] pp | recorded |
 | V436 | not recorded | included | 3 | -0.0949074 pp | [-0.1319734,-0.0555266] pp | recorded |
 | V437 | included | included | 3 | -0.0768519 pp | [-0.1287037,-0.0212963] pp | rejected |
+| V438 | included | included | 3, 5 | -0.0192308 pp | [-0.1891026,+0.1378205] pp | rejected |
