@@ -84,3 +84,6 @@ Last update: 31 July 2026 (Australia/Sydney).
 - **V432 (IBM Fez V25, d=3, untouched split 3):** V12 45.9549% error vs candidate 45.8345% (**+0.1204 pp**), paired bootstrap 95% CI **[-0.0498,+0.3033] pp**.
 - Z/3 and Z/7 regress by point estimate; aggregate and subgroup safety gates fail. **Diagnostic only; not promoted.**
 - Local and Wolffe replay matched numerically; no universal-vendor claim.
+
+
+- **V433 basis-0-only safety ablation:** +0.1829 pp on IBM Fez V25 (95% CI [+0.0509,+0.3275]) but -0.0031 pp on independent crossblock (CI [-0.0563,+0.0511]); **not promoted** because transfer safety gate fails.
