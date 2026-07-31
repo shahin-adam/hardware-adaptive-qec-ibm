@@ -77,3 +77,10 @@ Last update: 31 July 2026 (Australia/Sydney).
 - V424: frozen Kingston basis-round policy transferred to Fez V29; +1.0769 pp pooled but a Z/round-5 subgroup regressed, so diagnostic only.
 - V425: recovered Harmony-spacetime untouched Kingston confirmation; -0.1531 pp versus exact-circuit MWPM, rejected/not promoted.
 - V389-V392: recovered paired soft-observable follow-ups; pooled gains do not pass distance/basis safety gates.
+
+
+## Latest validated transfer
+
+- **V432 (IBM Fez V25, d=3, untouched split 3):** V12 45.9549% error vs candidate 45.8345% (**+0.1204 pp**), paired bootstrap 95% CI **[-0.0498,+0.3033] pp**.
+- Z/3 and Z/7 regress by point estimate; aggregate and subgroup safety gates fail. **Diagnostic only; not promoted.**
+- Local and Wolffe replay matched numerically; no universal-vendor claim.
