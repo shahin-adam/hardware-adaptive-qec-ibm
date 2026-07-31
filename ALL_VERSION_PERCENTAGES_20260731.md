@@ -13,7 +13,7 @@ Percentage-only public summary rebuilt from the local registry. Existing publish
 | V7 | not recorded | not recorded | not recorded | +1.7313 pp | not reported | promoted |
 | V8 | not recorded | not recorded | not recorded | +1.7443 pp | not reported | promoted |
 | V9 | not recorded | not recorded | not recorded | +1.8125 pp; 0.6493 pp | not reported | rejected |
-| V10 | not recorded | included | not recorded | +1.3600 pp | not reported | promoted |
+| V10 | not recorded | not recorded | 3 | +1.3600 pp first independent block; +0.7697 pp second block | not reported | confirmed pooled AI-over-MWPM result |
 | V11 | not recorded | not recorded | not recorded | 1.0918 pp | not reported | rejected |
 | V12 | +1.6181/+0.3472/0.0000 pp (r3/r5/r7) | +1.3958/+1.1806/+0.7500 pp (r3/r5/r7) | 3 | +1.34298 pp pooled | not reported | promoted; basis/round values from independent second-block audit |
 | V13 | not recorded | not recorded | not recorded | not recorded | not reported | promoted |
