@@ -71,3 +71,9 @@ Last update: 31 July 2026 (Australia/Sydney).
 - Recovered NTU standard/correlated PyMatching path ran locally on synthetic Stim d=3/d=5 controls.
 - d=3: standard 0.6000%, correlated 0.7300%; d=5: standard 0.3350%, correlated 0.2750% (20,000 shots/mode).
 - Wolffe job 64849 is an environment blocker (Slurm Python lacked NumPy); this is not an IBM result and is not promoted.
+
+## Latest recovered audits (2026-07-31)
+
+- V424: frozen Kingston basis-round policy transferred to Fez V29; +1.0769 pp pooled but a Z/round-5 subgroup regressed, so diagnostic only.
+- V425: recovered Harmony-spacetime untouched Kingston confirmation; -0.1531 pp versus exact-circuit MWPM, rejected/not promoted.
+- V389-V392: recovered paired soft-observable follow-ups; pooled gains do not pass distance/basis safety gates.
