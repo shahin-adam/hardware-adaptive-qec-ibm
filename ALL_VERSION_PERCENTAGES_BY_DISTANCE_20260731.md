@@ -16,7 +16,7 @@ Each version has explicit d=3, d=5, and d=7 rows. Values are copied only when th
 | V4 | d=3 | 0.0000 pp (r3/r5/r7) | 0.0000/0.0000/+3.9028 pp (r3/r5/r7) | +1.7396 pp development; +0.6505 pp confirmed pooled | not reported | diagnostic selective gain concentrated in Z7 |
 | V4 | d=5 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
 | V4 | d=7 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
-| V5 | d=3 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
+| V5 | d=3 | +0.000000 pp (39.789352% -> 39.789352%) | +0.000000 pp (27.310185% -> 27.310185%) | X +0.000000 pp; Z +0.000000 pp | X [+0.000000, +0.000000] pp; Z [+0.000000, +0.000000] pp | strict paired historical reconstruction V468; version-owned IBM artifact |
 | V5 | d=5 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
 | V5 | d=7 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
 | V6 | d=3 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
@@ -28,16 +28,16 @@ Each version has explicit d=3, d=5, and d=7 rows. Values are copied only when th
 | V8 | d=3 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
 | V8 | d=5 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
 | V8 | d=7 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
-| V9 | d=3 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
+| V9 | d=3 | -0.770833 pp (39.243056% -> 40.013889%) | -0.527778 pp (26.037037% -> 26.564815%) | X -0.770833 pp; Z -0.527778 pp | X [-0.965278, -0.564815] pp; Z [-0.761574, -0.303183] pp | strict paired historical reconstruction V468; version-owned IBM artifact |
 | V9 | d=5 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
 | V9 | d=7 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
-| V10 | d=3 | not recorded | not recorded | +1.3600 pp first independent block; +0.7697 pp second block | not reported | confirmed pooled AI-over-MWPM result |
+| V10 | d=3 | +0.740741 pp (40.738426% -> 39.997685%) | +1.979167 pp (29.268519% -> 27.289352%) | X +0.740741 pp; Z +1.979167 pp | X [+0.499942, +0.969965] pp; Z [+1.675868, +2.270833] pp | strict paired historical reconstruction V468; version-owned IBM artifact |
 | V10 | d=5 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
 | V10 | d=7 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
 | V11 | d=3 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
 | V11 | d=5 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
 | V11 | d=7 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
-| V12 | d=3 | +1.6181/+0.3472/0.0000 pp (r3/r5/r7) | +1.3958/+1.1806/+0.7500 pp (r3/r5/r7) | +1.34298 pp pooled | not reported | promoted; basis/round values from independent second-block audit |
+| V12 | d=3 | +0.347222 pp (48.300926% -> 47.953704%) | +0.222222 pp (42.773148% -> 42.550926%) | X +0.347222 pp; Z +0.222222 pp | X [+0.138889, +0.537037] pp; Z [-0.092593, +0.530150] pp | strict paired historical reconstruction V468; version-owned IBM artifact |
 | V12 | d=5 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
 | V12 | d=7 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
 | V13 | d=3 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
@@ -118,7 +118,7 @@ Each version has explicit d=3, d=5, and d=7 rows. Values are copied only when th
 | V38 | d=3 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
 | V38 | d=5 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
 | V38 | d=7 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
-| V39 | d=3 | +5.1875 pp (X3) | -0.9861 pp (Z3) | +0.804398 pp pooled | not reported | diagnostic; Z regression preserved |
+| V39 | d=3 | +1.690741 pp (49.490741% -> 47.800000%) | -0.157407 pp (43.422222% -> 43.579630%) | X +1.690741 pp; Z -0.157407 pp | X [+1.107407, +2.298194] pp; Z [-0.624167, +0.287037] pp | strict paired historical reconstruction V468; version-owned IBM artifact |
 | V39 | d=5 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
 | V39 | d=7 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
 | V40 | d=3 | not recorded | not recorded | not recorded | not reported | no distance-specific evidence |
