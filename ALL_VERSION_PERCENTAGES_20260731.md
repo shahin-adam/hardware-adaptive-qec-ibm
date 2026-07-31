@@ -409,9 +409,9 @@ Percentage-only public summary. X, Z, and distance are recorded only when explic
 | V417 | not recorded | not recorded | 3 | not recorded | not reported | promoted |
 | V418 | not recorded | not recorded | 3 | not recorded | not reported | diagnostic |
 | V419 | included | included | 3 | +0.3395 pp; +0.457 pp | not reported | rejected |
-| V420 | not recorded | not recorded | 3 | +0.1245 pp; +0.2865 pp | +0.0203 to +0.2292 pp | promoted |
+| V420 | not recorded | not recorded | 3 | +0.1245 pp; +0.2865 pp | not reported | promoted |
 | V421 | not recorded | not recorded | 3 | +0.162500 pp; +0.164583 pp; +0.155208 pp | not reported | promoted |
-| V422 | included | included | 3 | +0.659259 pp; +0.782407 pp | +0.535185 to +0.782407 pp | promoted |
+| V422 | included | included | 3 | +0.659259 pp; +0.782407 pp | not reported | promoted |
 | V423 | not recorded | included | 3, 5 | not recorded | not reported | promoted |
 | V424 | included | included | 3 | +1.0768519 pp | not reported | promoted |
 | V425 | included | included | 3 | -0.1531250 pp | not reported | promoted |
@@ -439,3 +439,4 @@ Percentage-only public summary. X, Z, and distance are recorded only when explic
 | V434 | not recorded | not recorded | 3 | +0.0729167 pp; -0.1885417 pp | not reported | recorded |
 | V435 | included | not recorded | 3 | +0.0405093 pp | [-0.0463252,+0.1238715] pp | recorded |
 | V436 | not recorded | included | 3 | -0.0949074 pp | [-0.1319734,-0.0555266] pp | recorded |
+| V437 | included | included | 3 | -0.0768519 pp | [-0.1287037,-0.0212963] pp | rejected |
