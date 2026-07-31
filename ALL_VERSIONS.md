@@ -383,3 +383,6 @@ These versions were produced after the 167-record ledger. They use opened retros
 V12 remains the winning validated full-coverage model: 33.67978% baseline to 32.33681% candidate error over 259,200 real-hardware shots, a 1.34298 percentage-point improvement. No post-ledger model has passed the separate X, Z, held-domain, and confidence requirements needed to replace it.
 
 Last generated: 29 July 2026, Australia/Sydney.
+
+## V422 - independent IBM third-block guard
+Frozen V421 basis/round policy on 108,000 IBM Kingston D02 shots: +0.659259 pp versus selected MWPM; paired 95% CI [+0.535185, +0.782407] pp. Promoted only for IBM Kingston d=3; no universal-vendor claim.
