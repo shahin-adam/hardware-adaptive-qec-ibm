@@ -4,7 +4,7 @@ Percentage-only public summary rebuilt from the local registry. Existing publish
 
 | Version | X basis | Z basis | Distance | Numeric result | 95% CI | Status |
 |---|---|---|---|---|---|---|
-| V1 | not recorded | not recorded | not recorded | 1.2180 pp; 0.8383 pp | not reported | promoted |
+| V1 | not recorded | not recorded | not recorded | 1.2180 pp; 0.8383 pp | not reported | historical; source artifact not uniquely reconstructable |
 | V2 | not recorded | not recorded | not recorded | +0.4750 pp; 0.1531 pp | not reported | rejected |
 | V3 | not recorded | not recorded | not recorded | +0.3281 pp; 1.9688 pp | not reported | promoted |
 | V4 | 0.0000 pp (r3/r5/r7) | 0.0000/0.0000/+3.9028 pp (r3/r5/r7) | 3 | +1.7396 pp development; +0.6505 pp confirmed pooled | not reported | diagnostic selective gain concentrated in Z7 |
