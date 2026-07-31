@@ -22,3 +22,10 @@ The 15 July IBM 3D handoff contains 127,200 numerical shots with detector masks,
 ## Audit boundary
 
 `Z:\Meetings\22-7-2026` was unavailable at audit time. `Z:\Meetings\Complete\15-7-2026` yielded 14,983 files, including 5,472 readable QEC-related candidates. Complete/22 source audit found 17,590 entries (8,872 QEC candidates); source files were not deleted.
+
+
+### V421 — cross-block basis/round guard (31 July 2026)
+- IBM Kingston exact-router replay on two untouched blocks; local and Wolffe job 64816 matched exactly.
+- Retrospective common allow-list: +0.162500 pp (fresh) and +0.164583 pp (later) versus selected exact-circuit MWPM base.
+- Leave-one-block-out transfer: +0.052083 pp and +0.155208 pp.
+- Status: diagnostic only. The common allow-list is retrospective, only two blocks exist, and a third independent IBM block is required before promotion. Seven-round slices remain protected by the base decoder.
