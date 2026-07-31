@@ -1,110 +1,49 @@
-# Hardware-Adaptive QEC Progress
+# Hardware-adaptive QEC decoder benchmark
 
-Public, sanitized progress record for a Western Sydney University quantum-error-correction research programme.
+Sanitized, versioned results from the IBM-QEC decoder project. The canonical registry is [`ALL_VERSIONS.md`](ALL_VERSIONS.md); this page is intentionally a short status view.
 
-## Project team
+## How to read the table
 
-- Principal Investigator and academic supervisor: Dr Weisheng, Western Sydney University.
-- Lead student researcher and technical implementer: Shahin Adam, Western Sydney University.
+- **Gain** is an absolute reduction in logical-error percentage points versus the stated baseline.
+- **X/Z** means the basis-specific result; **both** means pooled across bases.
+- A result is **promoted** only if held-out X, Z, distance, round and domain gates pass. Diagnostic results are not claims of universal QPU performance.
 
-## Research context
+## Validated baseline
 
-This repository records a sanitized preliminary study of approaches for reducing logical quantum-error-correction error rates across two complementary bases. We report aggregate baseline and candidate error percentages from controlled development evaluations. Dr Weisheng is the academic supervisor and Shahin Adam is the lead student researcher; all work remains subject to academic review.
+| Version | Distance | Basis | Baseline ? candidate | Gain | Evidence |
+|---|---:|---|---:|---:|---|
+| V12 | d=3 | X | 39.21682% ? 38.42284% | +0.79398 pp | repeated real IBM hardware |
+| V12 | d=3 | Z | 28.14275% ? 26.25077% | +1.89198 pp | repeated real IBM hardware |
+| V12 | d=3 | both | 33.67978% ? 32.33681% | +1.34298 pp | 259,200 shots |
 
-Only experiment identifiers, aggregate percentages, evidence level, and target status are published here. Current methods, model designs, private datasets, credentials, checkpoints, next-step hypotheses, and internal research documents are intentionally excluded while manuscript preparation is in progress.
+## Latest controlled experiments
 
-## Leading full-denominator real-hardware result
+| Version | Distance | Basis / rounds | Baseline | Candidate | Gain | Status |
+|---|---:|---|---:|---:|---:|---|
+| V410 | d=3 | both; r=3,5,7 | V12 | temporal residual router | ?3.556 pp | rejected |
+| V411 | d=3 | X/Z; specialist only r=7 | V12 | guarded specialist | +0.117 pp | diagnostic; CI ?0.161 to +0.407 pp |
+| V412 | source d=5 rows | X/Z; selected manifest | stored Transformer | stored-output gate | ?15.152 pp | audit only; 100-row subset |
+| V413 | recovered tensor block | leave-job-out; X/Z metadata | majority proxy | calibration + 3D statistics | job gains -2.205 to +1.333 pp; diagnostic; V12 vector unavailable |
+| V414 | recovered tensor block | leave-job-out; round sequence | majority proxy | sequence fallback | job gains -2.667 to +0.263 pp; diagnostic; Wolffe replay pending |
 
-| Version | X error | Z error | Pooled baseline | Pooled candidate | Improvement | Relative reduction | Coverage | Evidence |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| V12 | 38.42284% (baseline 39.21682%) | 26.25077% (baseline 28.14275%) | 33.67978% | 32.33681% | 1.34298 pp | 3.9875% | 100% (259,200 shots) | Repeated real-hardware evaluation |
+## Recovered IBM 3D evidence
 
-The X and Z columns each contain 129,600 scored shots from the same three blocks. V12 improved X by 0.79398 percentage points and Z by 1.89198 points. The below-1% full-denominator target has not been achieved.
+The 15 July handoff contains 127,200 numerical shots with 3D volumes, detector masks, 27 calibration features and job identifiers. A separate frozen source report covers 192,000 IBM Kingston shots and reports +0.124 pp versus selected single-MWPM (95% CI +0.024 to +0.223 pp), but documents seven-round regressions and incomplete historical calibration information. It is retained as diagnostic until replayed against paired V12 predictions with full gates.
 
-## Conditional real-hardware result requiring separate interpretation
+## Public cross-vendor checks
 
-| Version | Result | Coverage | Interpretation |
-|---|---:|---:|---|
-| V22 | 0.16204% conditional error | 5% selected coverage | Real-hardware postselection result; not below 1% on the full dataset |
+Google Willow d3/d5 raw detector shots and supplied DEMs are benchmarked separately. They establish DEM/MWPM portability, not IBM transfer or universal-vendor performance.
 
-This row is not ranked against the full-denominator table.
+## Open implementations reviewed
 
-## Confirmed and repeated historical improvements
+- [BP+OSD / LDPC](https://github.com/quantumgizmos/bp_osd)
+- [Google Tesseract decoder](https://github.com/quantumlib/tesseract-decoder)
+- [qLDPC toolkit](https://github.com/qLDPCOrg/qLDPC)
+- [NVIDIA Ising surface-code pre-decoder](https://huggingface.co/nvidia/Ising-Decoder-SurfaceCode-1-Accurate)
+- [PyMatching](https://github.com/quantumlib/PyMatching)
 
-| Version | Baseline error | Candidate error | Absolute improvement | Relative reduction | Evidence |
-| --- | ---: | ---: | ---: | ---: | --- |
-| V12 | 33.67978% | 32.33681% | 1.34298 percentage points | 3.9875% | Repeated across 259,200 untouched evaluation shots |
-| V38 | 35.7153% | 34.4201% | 1.29514 percentage points | 3.6265% | Independent 86,400-shot evaluation block |
-| V39 | 46.512731% | 45.708333% | 0.804398 percentage points | 1.7294% | Independent 86,400-shot evaluation block |
+## Audit boundary
 
-Results use different datasets and comparators and must not be added together.
+`Z:\Meetings\Complete\15-7-2026` yielded 14,983 files, including 5,472 readable QEC-related candidates. `Z:\Meetings\22-7-2026` was unavailable at the time of audit. Source files were not deleted.
 
-## Standard comparison fields
-
-Every new result is reported with data source, dataset/block role, full or selected denominator, coverage, X error, Z error, pooled error, matched baseline, absolute improvement, relative reduction, statistical evidence, evidence level, and below-1% status. Versions are ranked only when dataset, circuit cohort, basis, denominator, and split role match. Cross-block percentages are contextual rather than direct head-to-head comparisons.
-
-The canonical, complete registry is [ALL_VERSIONS.md](ALL_VERSIONS.md). It
-contains an explicit row for every version from V1 through V160, including
-archive gaps, null results, failed/sealed experiments, active development,
-and confirmed evidence. README tables are intentionally summaries and must
-not be interpreted as the complete version list.
-
-## Current development status
-
-V12 remains the best validated full-coverage model on its tested validation
-scope. Recent opened-domain development results and active experiments are:
-
-| Version | Best aggregate observation | Status |
-| --- | --- | --- |
-| V125 | 0.3327 pp pooled development gain | Not promoted; basis/domain gates failed |
-| V128 | 0.3725 pp pooled development gain | Not promoted; basis/domain gates failed |
-| V129 | 0.0749 pp pooled development gain | Not promoted; transfer safety gates failed |
-| V130 | 0.3242 pp pooled development gain | X +0.6485 pp, Z unchanged; worst-fold gate failed |
-| V131 | Pending | Development evaluation; no performance claim |
-| V132 | Pending | Development evaluation; no performance claim |
-| V133 | Pending | Development evaluation; no performance claim |
-| V134 | Not a decoder metric | Research audit; no performance claim |
-| V135 | Pending | Development evaluation; no performance claim |
-| V136 | Corrected smoke passed; full evaluation running | Earlier dtype implementation error repaired; no performance claim |
-| V137 | Pending | Development evaluation; no performance claim |
-| V138 | Pending | Development evaluation; no performance claim |
-| V139 | Completed metric audit | No decoder-improvement claim |
-| V140 | Pending | Development evaluation; no performance claim |
-| V141 | Pending | Development evaluation; no performance claim |
-| V142 | Pending | Development evaluation; no performance claim |
-| V143 | Completed drift audit | No decoder-improvement claim |
-| V144 | Completed algebraic audit | No decoder-improvement claim |
-| V145 | Pending | Development evaluation; no performance claim |
-| V146 | Pending | Development evaluation; no performance claim |
-| V147 | No decoder percentage | Exact mechanism-graph recovery and validation |
-| V148 | No decoder percentage | Mathematical implementation/conformance audit |
-| V149 | 46.38542% to 45.53588%; +0.84954 pp | Historical Fez development; X +1.69907 pp, Z unchanged; fresh 120,000-shot full-coverage Fez confirmation submitted and pending |
-| V150 | Best arm 46.38542% to 45.65509%; +0.73032 pp | Historical Fez development; multiscale arm failed Z safety and did not beat V149 |
-| V151 | 46.38542% to 45.65509%; +0.73032 pp | 3.68171%-intervention Pareto cascade; strong concentration but 0.11921 pp worse than V149 |
-| V152 | 46.38542% to 45.53588%; +0.84954 pp | 100%-coverage population/criticality extension made no safe Z changes and reduced exactly to V149; no incremental gain |
-| V153 | 46.38542% to 45.53588%; +0.84954 pp | 100%-coverage symbolic island-GP extension found no safe Z rule and reduced exactly to V149; no incremental gain |
-| V154 | 46.38542% to 45.53588%; +0.84954 pp | Eight exact-graph CUDA-Q BP/prior Z variants were tested across three Fez blocks; none passed the two-development-block safety rule, so V154 reduced exactly to V149 |
-| V155 | Z-only 35.49206% to 35.47388%; +0.01819 pp | Seven held-domain neural population-router test; confidence interval crossed zero |
-| V156 | Z-only 35.49206% to 35.50033%; -0.00827 pp | Configuration-specific neural router regressed; not promoted |
-| V157 | V39 Z-only 43.32407% to 43.47685%; -0.15278 pp | Deep Transformer regression; not promoted |
-| V158 | Best arm V39 Z-only 43.32407% to 43.24769%; +0.07639 pp | Scratch recurrent-Transformer result; confidence interval crossed zero |
-| V159 | Best arm V39 Z-only 43.32407% to 43.31019%; +0.01389 pp | Six-architecture comparison; no arm passed confidence gating |
-| V160 | Best arm V39 full-coverage 46.38542% to 45.57060%; +0.81481 pp | IBM-native graph-spatial recurrent decoder; X +1.62269 pp (positive CI), Z +0.00694 pp (CI crossed zero); cross-domain validation pending |
-
-These opened retrospective results are not independent confirmation evidence and do not replace V12.
-
-The V149 confirmation uses one shared untouched block for exact MWPM, V12,
-full BP-OSD and V149. All models will be scored on the same 12 circuits,
-120,000 shots and 100% denominator. No confirmation outcome or external job
-identifier is published while execution is pending.
-
-Last public update: 24 July 2026, Australia/Sydney.
-
-## Disclosure boundary
-
-This repository does not publish current research ideas or implementation details. Full reproducibility material will be considered after manuscript preparation, institutional review, and security review.
-
-
-## Latest controlled results
-
-See [LATEST_RESULTS_20260731.md](LATEST_RESULTS_20260731.md) for V410–V414 metrics, held-out confidence intervals, source-audit boundaries, and non-promotion decisions.
+Last update: 31 July 2026 (Australia/Sydney).
