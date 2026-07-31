@@ -52,3 +52,10 @@ Google Willow d3/d5 raw detector shots and supplied DEMs are benchmarked separat
 `Z:\\Meetings\\Complete\\15-7-2026` yielded 14,983 files, including 6,322 broad QEC candidates. `Z:\\Meetings\\Complete\\22-7-2026` yielded 17,590 files, including 8,872 broad QEC candidates. The literal `Z:\\Meetings\\22-7-2026` path is unavailable. Source files were not deleted.
 
 Last update: 31 July 2026 (Australia/Sydney).
+
+
+### V421 — cross-block basis/round guard (31 July 2026)
+- IBM Kingston exact-router replay on two untouched blocks; local and Wolffe job 64816 matched exactly.
+- Retrospective common allow-list: +0.162500 pp (fresh) and +0.164583 pp (later) versus selected exact-circuit MWPM base.
+- Leave-one-block-out transfer: +0.052083 pp and +0.155208 pp.
+- Status: diagnostic only. The common allow-list is retrospective, only two blocks exist, and a third independent IBM block is required before promotion. Seven-round slices remain protected by the base decoder.
