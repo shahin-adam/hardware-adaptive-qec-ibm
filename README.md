@@ -13,3 +13,5 @@ This repository publishes percentage-only decoder evaluation summaries. No raw s
 A positive point estimate is not treated as a confirmed improvement unless its confidence interval and subgroup safety gates pass.
 
 Last sanitized update: 31 July 2026 (Australia/Sydney).
+
+Full percentage ledger: [ALL_VERSION_PERCENTAGES_20260731.md](ALL_VERSION_PERCENTAGES_20260731.md)
