@@ -67,3 +67,7 @@ Last update: 31 July 2026 (Australia/Sydney).
 - Selected MWPM base 33.662963% -> guard 33.003704%; gain +0.659259 pp.
 - Paired bootstrap 95% CI: [+0.535185, +0.782407] pp. All six X/Z Ã— round slices are non-regressing; Wolffe job 64819 matches local.
 - Status: promoted only for IBM Kingston d=3 under the frozen guard. Distance-5, independent-backend, latency and cross-vendor tests remain open.
+### V423 - NTU baseline compatibility smoke
+- Recovered NTU standard/correlated PyMatching path ran locally on synthetic Stim d=3/d=5 controls.
+- d=3: standard 0.6000%, correlated 0.7300%; d=5: standard 0.3350%, correlated 0.2750% (20,000 shots/mode).
+- Wolffe job 64849 is an environment blocker (Slurm Python lacked NumPy); this is not an IBM result and is not promoted.
