@@ -451,3 +451,4 @@ Percentage-only public summary rebuilt from the local registry. Existing publish
 | V444 | X/Z | X/Z | 3 | +0.696296 pp; +0.459259 pp | not reported | diagnostic/rejected; held-out round-7 regressions |
 | V445 | X/Z | X/Z | 3 | +0.227778 pp | [+0.187037,+0.265764] pp | diagnostic; same-block only |
 | V447 | X/Z | X/Z | 3 | +0.313667 pp sweep maximum; +0.090667 pp at fixed 0.80 | not reported | exploratory same-block threshold sweep; not promoted |
+| V448 | X/Z | X/Z | 3 | +0.007292 pp; +0.019792 pp; +0.649074 pp held-out blocks | not reported | diagnostic; leave-one-block-out slice gates failed |
