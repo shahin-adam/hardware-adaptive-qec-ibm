@@ -1,0 +1,122 @@
+{
+  "version": "V427",
+  "method": "nested train/validation/test safety-gated specialist",
+  "dataset": "/home/22228049/qec_v109_open_source_20260722/qec_work/v29_v12_new_data.npz",
+  "split_definition": "60% train, 20% validation, 20% untouched test within each basis/round slice",
+  "policies": {
+    "0/3": {
+      "chosen": "nominal",
+      "train_gain_pp": 0.0,
+      "validation_gain_pp": 0.0,
+      "enabled": false,
+      "train_shots": 10800,
+      "validation_shots": 3600,
+      "test_shots": 3600
+    },
+    "0/5": {
+      "chosen": "nominal",
+      "train_gain_pp": 0.0,
+      "validation_gain_pp": 0.0,
+      "enabled": false,
+      "train_shots": 10800,
+      "validation_shots": 3600,
+      "test_shots": 3600
+    },
+    "0/7": {
+      "chosen": "density>=0.5",
+      "train_gain_pp": 0.5555555555555571,
+      "validation_gain_pp": 0.19444444444443576,
+      "enabled": true,
+      "train_shots": 10800,
+      "validation_shots": 3600,
+      "test_shots": 3600
+    },
+    "1/3": {
+      "chosen": "density>=0.9",
+      "train_gain_pp": 0.3055555555555536,
+      "validation_gain_pp": 0.1666666666666643,
+      "enabled": true,
+      "train_shots": 10800,
+      "validation_shots": 3600,
+      "test_shots": 3600
+    },
+    "1/5": {
+      "chosen": "nominal",
+      "train_gain_pp": 0.0,
+      "validation_gain_pp": 0.0,
+      "enabled": false,
+      "train_shots": 10800,
+      "validation_shots": 3600,
+      "test_shots": 3600
+    },
+    "1/7": {
+      "chosen": "always_best",
+      "train_gain_pp": 0.768518518518519,
+      "validation_gain_pp": 0.4166666666666714,
+      "enabled": true,
+      "train_shots": 10800,
+      "validation_shots": 3600,
+      "test_shots": 3600
+    }
+  },
+  "test": {
+    "v12_error_percent": 46.60185185185185,
+    "v427_error_percent": 46.5,
+    "gain_pp": 0.10185185185184764,
+    "bootstrap_ci95_pp": [
+      -0.1851851851851852,
+      0.37962962962962965
+    ]
+  },
+  "slices": [
+    {
+      "basis": 0,
+      "rounds": 3,
+      "shots": 3600,
+      "v12_error_percent": 49.47222222222222,
+      "v427_error_percent": 49.47222222222222,
+      "gain_pp": 0.0
+    },
+    {
+      "basis": 0,
+      "rounds": 5,
+      "shots": 3600,
+      "v12_error_percent": 49.166666666666664,
+      "v427_error_percent": 49.166666666666664,
+      "gain_pp": 0.0
+    },
+    {
+      "basis": 0,
+      "rounds": 7,
+      "shots": 3600,
+      "v12_error_percent": 52.02777777777777,
+      "v427_error_percent": 51.19444444444444,
+      "gain_pp": 0.8333333333333286
+    },
+    {
+      "basis": 1,
+      "rounds": 3,
+      "shots": 3600,
+      "v12_error_percent": 32.27777777777778,
+      "v427_error_percent": 32.27777777777778,
+      "gain_pp": 0.0
+    },
+    {
+      "basis": 1,
+      "rounds": 5,
+      "shots": 3600,
+      "v12_error_percent": 47.333333333333336,
+      "v427_error_percent": 47.333333333333336,
+      "gain_pp": 0.0
+    },
+    {
+      "basis": 1,
+      "rounds": 7,
+      "shots": 3600,
+      "v12_error_percent": 49.333333333333336,
+      "v427_error_percent": 49.55555555555556,
+      "gain_pp": -0.22222222222222143
+    }
+  ],
+  "gate": "diagnostic; promote only if all untouched test basis/round slices are non-regressing and CI supports the claim."
+}
