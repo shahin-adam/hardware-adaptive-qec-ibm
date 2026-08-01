@@ -4,7 +4,7 @@ Every version V1–V501 is represented once. Distance/basis cells are populated 
 
 Values marked `withdrawn` are historical logical-accuracy outputs affected by the V501 observable-map defect. Unaffected algebraic closure, routing, latency, and reproducibility facts remain in the overall-result column.
 
-| Version | d3 X | d3 Z | d5 X | d5 Z | d7 X | d7 Z | Overall QEC result | Evidence status | Notes |
+| Version | d3 X | d3 Z | d5 X | d5 Z | d7 X | d7 Z | Measured outcome | QEC conclusion | Notes |
 |---|---:|---:|---:|---:|---:|---:|---|---|---|
 | V1 | not recorded | not recorded | not recorded | not recorded | not recorded | not recorded | not recorded | no distance-specific evidence | No additional labeled mapping recorded. |
 | V2 | not recorded | not recorded | not recorded | not recorded | not recorded | not recorded | not recorded | no distance-specific evidence | No additional labeled mapping recorded. |
