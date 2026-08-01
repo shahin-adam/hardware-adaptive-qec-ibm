@@ -1,9 +1,454 @@
-| Version | Baseline error | Candidate error | Change | 95% CI |
-| --- | ---: | ---: | ---: | ---: |
-| V438 | 42.2532% | 42.2724% | -0.0192 pp | [-0.1891,+0.1378] pp |
-| V437 | 33.6630% | 33.7398% | -0.0769 pp | [-0.1287,-0.0213] pp |
-| V436 | 45.5370% | 45.6319% | -0.0949 pp | [-0.1320,-0.0555] pp |
-| V435 | 45.5370% | 45.4965% | +0.0405 pp | [-0.0463,+0.1239] pp |
-| V434 | 36.3823% | 36.5708% | -0.1885 pp | [-0.3333,-0.0521] pp |
-| V433 | 36.3823% | 36.3854% | -0.0031 pp | [-0.0563,+0.0511] pp |
-| V432 | 45.9549% | 45.8345% | +0.1204 pp | [-0.0498,+0.3033] pp |
+| Version | Percentage |
+|---|---:|
+| V1 | 1.2180 pp; 0.8383 pp |
+| V2 | +0.4750 pp; 0.1531 pp |
+| V3 | +0.3281 pp; 1.9688 pp |
+| V4 | +1.7396 pp development; +0.6505 pp confirmed pooled |
+| V5 | +1.5167 pp; 0.0000 pp |
+| V6 | +1.5906 pp development; +0.0740 pp confirmation |
+| V7 | +1.7313 pp |
+| V8 | +1.7443 pp |
+| V9 | +1.8125 pp; 0.6493 pp |
+| V10 | +1.3600 pp first independent block; +0.7697 pp second block |
+| V11 | 1.0918 pp |
+| V12 | +1.34298 pp pooled |
+| V13 | not recorded |
+| V14 | not recorded |
+| V15 | not recorded |
+| V16 | not recorded |
+| V17 | not recorded |
+| V18 | not recorded |
+| V19 | not recorded |
+| V20 | +0.05093 pp incremental; +1.24074 pp vs MWPM |
+| V21 | +0.00347 pp incremental; +1.53125 pp vs MWPM |
+| V22 | 0.16204% conditional error at 5% retained coverage |
+| V23 | +0.021219 pp |
+| V24 | +0.001157 pp |
+| V25 | +0.128472 pp |
+| V26 | not recorded |
+| V27 | 1.7222 pp; 0.9667 pp |
+| V28 | +0.2847 pp |
+| V29 | +0.9741 pp |
+| V30 | +0.07639 pp; +0.03241 pp |
+| V31 | +0.05440 pp; +0.00347 pp |
+| V32 | not recorded |
+| V33 | not recorded |
+| V34 | not recorded |
+| V35 | not recorded |
+| V36 | not recorded |
+| V37 | not recorded |
+| V38 | +1.29514 pp vs MWPM; +0.17245 pp vs V12; +0.016204 pp Fez transfer |
+| V39 | +0.804398 pp pooled |
+| V40 | +1.223380 pp |
+| V41 | not recorded |
+| V42 | not recorded |
+| V43 | not recorded |
+| V44 | not recorded |
+| V45 | not recorded |
+| V46 | not recorded |
+| V47 | not recorded |
+| V48 | not recorded |
+| V49 | not recorded |
+| V50 | not recorded |
+| V51 | not recorded |
+| V52 | not recorded |
+| V53 | not recorded |
+| V54 | not recorded |
+| V55 | not recorded |
+| V56 | not recorded |
+| V57 | not recorded |
+| V58 | not recorded |
+| V59 | not recorded |
+| V60 | not recorded |
+| V61 | not recorded |
+| V62 | not recorded |
+| V63 | not recorded |
+| V64 | not recorded |
+| V65 | not recorded |
+| V66 | not recorded |
+| V67 | not recorded |
+| V68 | not recorded |
+| V69 | not recorded |
+| V70 | not recorded |
+| V71 | not recorded |
+| V72 | not recorded |
+| V73 | not recorded |
+| V74 | not recorded |
+| V75 | not recorded |
+| V76 | not recorded |
+| V77 | not recorded |
+| V78 | not recorded |
+| V79 | not recorded |
+| V80 | not recorded |
+| V81 | not recorded |
+| V82 | not recorded |
+| V83 | not recorded |
+| V84 | not recorded |
+| V85 | not recorded |
+| V86 | not recorded |
+| V87 | not recorded |
+| V88 | not recorded |
+| V89 | not recorded |
+| V90 | not recorded |
+| V91 | not recorded |
+| V92 | not recorded |
+| V93 | not recorded |
+| V94 | not recorded |
+| V95 | not recorded |
+| V96 | not recorded |
+| V97 | not recorded |
+| V98 | not recorded |
+| V99 | not recorded |
+| V100 | not recorded |
+| V101 | not recorded |
+| V102 | not recorded |
+| V103 | not recorded |
+| V104 | not recorded |
+| V105 | not recorded |
+| V106 | not recorded |
+| V107 | +0.053755 pp |
+| V108 | not recorded |
+| V109 | not recorded |
+| V110 | +0.00077 pp; +0.00154 pp |
+| V111 | +0.02816 pp; +0.05633 pp; 0.01505 pp |
+| V112 | not recorded |
+| V113 | not recorded |
+| V114 | not recorded |
+| V115 | not recorded |
+| V116 | not recorded |
+| V117 | not recorded |
+| V118 | not recorded |
+| V119 | not recorded |
+| V120 | not recorded |
+| V121 | not recorded |
+| V122 | not recorded |
+| V123 | not recorded |
+| V124 | not recorded |
+| V125 | not recorded |
+| V126 | not recorded |
+| V127 | not recorded |
+| V128 | not recorded |
+| V129 | not recorded |
+| V130 | not recorded |
+| V131 | not recorded |
+| V132 | not recorded |
+| V133 | not recorded |
+| V134 | not recorded |
+| V135 | +0.37252 pp; +0.32424 pp |
+| V136 | not recorded |
+| V137 | not recorded |
+| V138 | not recorded |
+| V139 | not recorded |
+| V140 | not recorded |
+| V141 | not recorded |
+| V142 | not recorded |
+| V143 | not recorded |
+| V144 | not recorded |
+| V145 | not recorded |
+| V146 | not recorded |
+| V147 | not recorded |
+| V148 | not recorded |
+| V149 | not recorded |
+| V150 | not recorded |
+| V151 | 0.85818 pp |
+| V152 | not recorded |
+| V153 | not recorded |
+| V154 | 1.2180 pp; 0.8383 pp; +0.4750 pp; 0.1531 pp; +0.3281 pp; 1.9688 pp; +1.7396 pp; +0.6505 pp; +1.5167 pp; 0.0000 pp |
+| V155 | not recorded |
+| V156 | not recorded |
+| V157 | not recorded |
+| V158 | not recorded |
+| V159 | not recorded |
+| V160 | not recorded |
+| V161 | not recorded |
+| V162 | +0.72487 pp; +0.00066 pp |
+| V163 | not recorded |
+| V164 | not recorded |
+| V165 | not recorded |
+| V166 | not recorded |
+| V167 | not recorded |
+| V168 | not recorded |
+| V169 | not recorded |
+| V170 | not recorded |
+| V171 | not recorded |
+| V172 | not recorded |
+| V173 | not recorded |
+| V174 | not recorded |
+| V175 | not recorded |
+| V176 | not recorded |
+| V177 | not recorded |
+| V178 | not recorded |
+| V179 | not recorded |
+| V180 | not recorded |
+| V181 | not recorded |
+| V182 | not recorded |
+| V183 | not recorded |
+| V184 | not recorded |
+| V185 | not recorded |
+| V186 | not recorded |
+| V187 | not recorded |
+| V188 | not recorded |
+| V189 | not recorded |
+| V190 | not recorded |
+| V191 | not recorded |
+| V192 | not recorded |
+| V193 | not recorded |
+| V194 | not recorded |
+| V195 | not recorded |
+| V196 | not recorded |
+| V197 | not recorded |
+| V198 | not recorded |
+| V199 | not recorded |
+| V200 | not recorded |
+| V201 | not recorded |
+| V202 | not recorded |
+| V203 | not recorded |
+| V204 | not recorded |
+| V205 | not recorded |
+| V206 | not recorded |
+| V207 | not recorded |
+| V208 | not recorded |
+| V209 | not recorded |
+| V210 | not recorded |
+| V211 | 0.10 pp |
+| V212 | not recorded |
+| V213 | not recorded |
+| V214 | not recorded |
+| V215 | not recorded |
+| V216 | not recorded |
+| V217 | not recorded |
+| V218 | not recorded |
+| V219 | not recorded |
+| V220 | not recorded |
+| V221 | not recorded |
+| V222 | +0.01862 pp; 0.00000 pp; +0.03724 pp |
+| V223 | not recorded |
+| V224 | not recorded |
+| V225 | not recorded |
+| V226 | not recorded |
+| V227 | not recorded |
+| V228 | not recorded |
+| V229 | not recorded |
+| V230 | not recorded |
+| V231 | +0.00231 pp; +0.00000 pp |
+| V232 | not recorded |
+| V233 | -0.03704 pp; 0.00000 pp; -0.07407 pp |
+| V234 | not recorded |
+| V235 | +0.03931 pp; -0.16509 pp |
+| V236 | not recorded |
+| V237 | +0.00000 pp; -0.08648 pp |
+| V238 | +0.00786 pp; -0.28302 pp |
+| V239 | -0.36164 pp; -0.79403 pp |
+| V240 | +0.44811 pp; -3.23899 pp |
+| V241 | +0.44811 pp; 0.00000 pp; +0.22406 pp |
+| V242 | +0.18868 pp; 0.00000 pp |
+| V243 | +0.44811 pp; -3.23899 pp; 0.00000 pp; +0.18868 pp |
+| V244 | +0.22799 pp; -0.52673 pp; -0.14937 pp |
+| V245 | -0.53459 pp |
+| V246 | 0.00000 pp |
+| V247 | not recorded |
+| V248 | -0.57390 pp; -1.17925 pp; -0.87657 pp |
+| V249 | +0.22799 pp; -0.52673 pp; -0.14937 pp |
+| V250 | 0.00000 pp |
+| V251 | +0.02083 pp; -0.18056 pp; -0.07986 pp |
+| V252 | +0.00000 pp |
+| V253 | +0.04630 pp |
+| V254 | not recorded |
+| V255 | not recorded |
+| V256 | not recorded |
+| V257 | not recorded |
+| V258 | not recorded |
+| V259 | not recorded |
+| V260 | not recorded |
+| V261 | not recorded |
+| V262 | not recorded |
+| V263 | not recorded |
+| V264 | not recorded |
+| V265 | not recorded |
+| V266 | not recorded |
+| V267 | not recorded |
+| V268 | not recorded |
+| V269 | not recorded |
+| V270 | not recorded |
+| V271 | not recorded |
+| V272 | not recorded |
+| V273 | not recorded |
+| V274 | not recorded |
+| V275 | not recorded |
+| V276 | not recorded |
+| V277 | not recorded |
+| V278 | not recorded |
+| V279 | not recorded |
+| V280 | not recorded |
+| V281 | not recorded |
+| V282 | not recorded |
+| V283 | not recorded |
+| V284 | not recorded |
+| V285 | not recorded |
+| V286 | not recorded |
+| V287 | not recorded |
+| V288 | not recorded |
+| V289 | not recorded |
+| V290 | not recorded |
+| V291 | not recorded |
+| V292 | not recorded |
+| V293 | not recorded |
+| V294 | not recorded |
+| V295 | not recorded |
+| V296 | not recorded |
+| V297 | not recorded |
+| V298 | not recorded |
+| V299 | not recorded |
+| V300 | not recorded |
+| V301 | not recorded |
+| V302 | not recorded |
+| V303 | not recorded |
+| V304 | not recorded |
+| V305 | not recorded |
+| V306 | not recorded |
+| V307 | not recorded |
+| V308 | not recorded |
+| V309 | not recorded |
+| V310 | not recorded |
+| V311 | not recorded |
+| V312 | not recorded |
+| V313 | not recorded |
+| V314 | not recorded |
+| V315 | not recorded |
+| V316 | not recorded |
+| V317 | not recorded |
+| V318 | not recorded |
+| V319 | not recorded |
+| V320 | not recorded |
+| V321 | not recorded |
+| V322 | not recorded |
+| V323 | not recorded |
+| V324 | not recorded |
+| V325 | not recorded |
+| V326 | not recorded |
+| V327 | not recorded |
+| V328 | not recorded |
+| V329 | not recorded |
+| V330 | not recorded |
+| V331 | not recorded |
+| V332 | not recorded |
+| V333 | not recorded |
+| V334 | not recorded |
+| V335 | not recorded |
+| V336 | not recorded |
+| V337 | not recorded |
+| V338 | not recorded |
+| V339 | not recorded |
+| V340 | not recorded |
+| V341 | not recorded |
+| V342 | not recorded |
+| V343 | not recorded |
+| V344 | not recorded |
+| V345 | not recorded |
+| V346 | not recorded |
+| V347 | not recorded |
+| V348 | not recorded |
+| V349 | not recorded |
+| V350 | not recorded |
+| V351 | not recorded |
+| V352 | not recorded |
+| V353 | not recorded |
+| V354 | not recorded |
+| V355 | not recorded |
+| V356 | not recorded |
+| V357 | not recorded |
+| V358 | not recorded |
+| V359 | +0.15972pp |
+| V360 | -0.0637pp |
+| V361 | +0.06996pp; -0.0104pp; +0.1470pp; -0.0266pp |
+| V362 | +0.05298pp; +0.1238pp |
+| V363 | +0.05298pp; -0.0255pp |
+| V364 | not recorded |
+| V365 | +0.06713pp; -0.05556pp; +0.01736pp; +0.11921pp; +0.07986pp; +0.18403pp; +0.09144pp; +0.00116pp; +0.14352pp |
+| V366 | +0.07305pp; +0.14236pp |
+| V367 | +0.06237pp; +0.14352pp |
+| V368 | +0.07677pp; +0.21644pp |
+| V369 | -0.01402pp; -0.08681pp |
+| V370 | +0.00836pp; -0.16898pp |
+| V371 | +0.01196pp; +0.03472pp |
+| V372 | +0.05337pp; +0.17361pp |
+| V373 | +0.01800pp; +0.04282pp |
+| V374 | +0.06970pp; +0.19213pp |
+| V375 | +0.02739pp; +0.18634pp |
+| V376 | +0.02739pp; +0.18634pp |
+| V377 | +0.01595pp; +0.18634pp |
+| V378 | +0.01453pp; +0.03356pp |
+| V379 | +0.01723pp; +0.09722pp |
+| V380 | +0.01698pp; -0.00463pp |
+| V381 | +0.02276pp; +0.06366pp |
+| V382 | +0.02251pp; +0.06366pp |
+| V383 | +0.00694pp; +0.03588pp |
+| V384 | +0.02238pp; -0.02431pp |
+| V385 | -0.00694pp; -0.09606pp |
+| V386 | +0.00180pp; +0.04167pp |
+| V387 | +0.01608pp; +0.06250pp |
+| V388 | -0.00360pp; +0.09606pp |
+| V389 | +1.7111pp |
+| V390 | +0.9657pp; +0.9648pp; +0.9639pp; +0.9694pp |
+| V391 | +0.9648pp |
+| V392 | +0.8806pp |
+| V393 | +0.662963 pp |
+| V394 | +0.662963 pp; -0.124074 pp |
+| V395 | not recorded |
+| V396 | +0.005556 pp |
+| V410 | +0.000000 pp |
+| V411 | +0.117284 pp |
+| V412 | -15.151515 pp; +0.124 pp |
+| V413 | +1.333333 pp |
+| V414 | +0.262821 pp |
+| V415 | -0.186111 pp |
+| V416 | -2.6667 pp; +0.7692 pp |
+| V417 | not recorded |
+| V418 | not recorded |
+| V419 | +0.3395 pp; +0.457 pp |
+| V420 | +0.1245 pp; +0.2865 pp |
+| V421 | +0.162500 pp; +0.164583 pp; +0.155208 pp |
+| V422 | +0.659259 pp; +0.782407 pp |
+| V423 | not recorded |
+| V424 | +1.0768519 pp |
+| V425 | -0.1531250 pp |
+| V397 | +0.000000 pp; +0.000000 pp |
+| V398 | not recorded |
+| V399 | +0.075000 pp; +0.105556 pp |
+| V400 | -0.013889 pp; -0.061111 pp |
+| V401 | +0.066667 pp; +0.068519 pp |
+| V402 | -3.740000 pp |
+| V403 | +0.022222 pp; +0.074074 pp; +0.722222 pp |
+| V404 | not recorded |
+| V405 | not recorded |
+| V406 | not recorded |
+| V407 | 12.553333 pp |
+| V408 | 15.653333 pp |
+| V409 | +0.006667 pp |
+| V426 | +0.2212963 pp; +0.0740741 pp |
+| V427 | +0.1018519 pp |
+| V428 | 0.000000 pp |
+| V429 | -0.0005556 pp |
+| V430 | -0.2062500 pp |
+| V431 | +0.2650463 pp |
+| V432 | +0.1203704 pp |
+| V433 | +0.1828704 pp; -0.0031250 pp |
+| V434 | +0.0729167 pp; -0.1885417 pp |
+| V435 | +0.0405093 pp |
+| V436 | -0.0949074 pp |
+| V437 | -0.0768519 pp |
+| V438 | -0.0192308 pp |
+| V439 | not recorded |
+| V440 | not recorded |
+| V441 | not recorded |
+| V442 | not recorded |
+| V446 | +0.090667 pp |
+| V443 | +0.038462 pp; +1.256410 pp |
+| V444 | +0.696296 pp; +0.459259 pp |
+| V445 | +0.227778 pp |
+| V447 | +0.313667 pp sweep maximum; +0.090667 pp at fixed 0.80 |
+| V448 | +0.007292 pp; +0.019792 pp; +0.649074 pp held-out blocks |
+| V449 | +0.043750 pp; +0.056250 pp; +0.649074 pp held-out blocks |
+| V450 | +0.043750 pp; +0.056250 pp; +0.649074 pp |
+| V451 | +0.128125 pp; +0.151042 pp; +0.649074 pp held-out blocks |
+| V452 | +0.010417 pp; +0.016667 pp; +0.227778 pp |
