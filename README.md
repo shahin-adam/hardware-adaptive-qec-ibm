@@ -11,6 +11,10 @@ A fail-closed research programme for reliable, reproducible quantum-error-correc
 - Lead researcher: Shahin Adam
 - Academic supervisor: Dr Weisheng Si, Western Sydney University.
 
+## Full results registry
+
+See **[QEC results by distance and basis](RESULTS_BY_DISTANCE.md)** for all V1–V501 entries, with d3/d5/d7 X/Z columns, overall result, evidence status, and notes.
+
 ## Why this work matters
 
 Real-time QEC requires more than a decoder with a favorable point estimate. A trustworthy system must preserve the syndrome equation, reproduce its decisions, meet latency constraints, and demonstrate logical improvement with uncertainty that excludes a null result. This repository separates those claims so that systems performance is not mistaken for physical error suppression.
