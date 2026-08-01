@@ -13,7 +13,7 @@ A fail-closed research programme for reliable, reproducible quantum-error-correc
 
 ## Full results registry
 
-See **[QEC results by distance and basis](RESULTS_BY_DISTANCE.md)** for all V1–V501 entries, with d3/d5/d7 X/Z columns, overall result, evidence status, and notes.
+See **[QEC results by distance and basis](RESULTS_BY_DISTANCE.md)** for all V1–V501 entries, including a compact comparator-safe `MWPM Δ` column. The dedicated **[matched MWPM comparison register](MWPM_COMPARISONS.md)** gives the supported candidate and matched-control details. Values against CNN, Transformer, V12, raw readout, or other candidates are not presented as MWPM gains.
 
 ## Why this work matters
 
