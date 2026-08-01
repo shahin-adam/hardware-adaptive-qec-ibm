@@ -15,6 +15,7 @@
     "syndrome_contract": 287,
     "hyperblossom_or_alternative_matching": 26
   },
+  "source_files_inaccessible_during_resynthesis": 0,
   "extension_counts": {
     ".md": 157,
     ".json": 123,
@@ -27,9 +28,12 @@
     ".html": 2
   },
   "recovery_counts": {
-    "source_records": 2100,
-    "unique_files_copied": 1594,
-    "sensitive_files_withheld": 4
+    "complete": true,
+    "source_records": 9115,
+    "unique_files_copied": 4499,
+    "sensitive_files_withheld": 22,
+    "failure_summary": null,
+    "completion_note": null
   },
   "scientific_disposition": {
     "validated_new_result": "V497 batching: 100% closure and reproducible offline GPU replay speedup; accuracy gates null.",
