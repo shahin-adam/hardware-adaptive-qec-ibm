@@ -21,6 +21,13 @@ This report is sanitized: it records aggregate evidence, not private paths, cred
 - syndrome contract: 287 files.
 - hyperblossom or alternative matching: 26 files.
 
+## Recovery state
+
+- Complete: True.
+- Provenance records: 9115.
+- Unique files copied: 4499.
+- Sensitive/oversized sources withheld: 22.
+
 ## Scientific disposition
 
 - **Validated New Result:** V497 batching: 100% closure and reproducible offline GPU replay speedup; accuracy gates null.
