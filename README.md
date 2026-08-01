@@ -100,11 +100,11 @@ The project has a validated offline systems result and a corrected, statisticall
 
 ## Complete Version Percentage Ledger
 
-This registry preserves every public percentage string from V1 through V501 verbatim in the final column. Structured fields are populated only when their mapping is explicit in authoritative records; ambiguous basis, distance, baseline, or candidate fields remain `not recorded`.
+This registry preserves every public percentage string from V1 through V501 verbatim in the final column. Structured fields are populated only when their mapping is explicit in authoritative records; ambiguous basis, distance, baseline, or candidate fields remain `not recorded`. Improvement entries name their comparator explicitly when the source supports it; a positive value must not be read as an MWPM gain unless MWPM is named.
 
 | Version | Scope / basis / distance | Baseline | Candidate / result | Improvement | Evidence status | Interpretation / notes | Source percentage string |
 |---|---|---:|---:|---:|---|---|---|
-| V1 | not recorded | not recorded | not recorded | 1.2180 pp; 0.8383 pp | historical numeric record | Exact source percentage retained; ambiguous mapping not inferred. | 1.2180 pp; 0.8383 pp |
+| V1 | two scopes: real IBM held-out test; independent IBM confirmation; basis/distance not consistently recorded | CNN 46.4231%; frozen Transformer 44.9292% | Transformer 45.2051%; four-model ensemble 44.0908% | +1.2180 pp Transformer vs CNN; +0.8383 pp ensemble vs frozen Transformer | development: 31,200 held-out shots; confirmed: 120,000 independent-confirmation shots | Neither gain is versus MWPM. On the ensemble confirmation, phenomenological MWPM was 42.6442%, beating the 44.0908% ensemble by 1.4466 pp. Pre-versioned foundation, not a uniquely reconstructable V1 checkpoint. | 1.2180 pp; 0.8383 pp |
 | V2 | not recorded | not recorded | not recorded | +0.4750 pp; 0.1531 pp | historical numeric record | Exact source percentage retained; ambiguous mapping not inferred. | +0.4750 pp; 0.1531 pp |
 | V3 | not recorded | not recorded | not recorded | +0.3281 pp; 1.9688 pp | historical numeric record | Exact source percentage retained; ambiguous mapping not inferred. | +0.3281 pp; 1.9688 pp |
 | V4 | not recorded | not recorded | not recorded | +1.7396 pp development; +0.6505 pp confirmed pooled | historical numeric record | Exact source percentage retained; ambiguous mapping not inferred. | +1.7396 pp development; +0.6505 pp confirmed pooled |
