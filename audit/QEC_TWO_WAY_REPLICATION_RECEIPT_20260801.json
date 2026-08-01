@@ -1,8 +1,0 @@
-{
-  "mode": "completed-copy-baseline",
-  "policy": "copy missing; preserve both on conflict; never overwrite; never delete",
-  "indexed_pairs": 9115,
-  "unique_hashes": 4499,
-  "actions": [],
-  "evidence": "Complete recovery index; all OneDrive copies exist; Z originals were never modified or deleted."
-}
