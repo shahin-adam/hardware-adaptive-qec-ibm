@@ -1,0 +1,32 @@
+{
+  "objective": "Audit two meeting roots; recover QEC artifacts; controlled IBM-only improvements; Wolffe validation; V12/X/Z/domain gates; sanitized paper/GitHub archive.",
+  "checks": {
+    "both_relocated_roots_inventoried": true,
+    "plain_text_content_audited": true,
+    "pdf_bounded_audit_complete": true,
+    "office_bounded_audit_complete": true,
+    "svg_coverage_complete": true,
+    "relevant_files_copied_and_index_final": true,
+    "originals_preserved_scope_recorded": true,
+    "v497_closure_gate": true,
+    "v497_reproducible_batching_gate": true,
+    "v497_accuracy_not_promoted": true,
+    "v498_rejected": true,
+    "separate_x_z_gates_present": true,
+    "domain_gates_present": true,
+    "v12_boundary_explicit": true,
+    "paper_claim_card_archived": true,
+    "paper_recovery_decision_archived": true,
+    "sanitized_synthesis_exists": true,
+    "github_receipt_exists": true,
+    "test_receipt_exists": true,
+    "copy_only_two_way_replication_receipt": true
+  },
+  "complete": true,
+  "failed_checks": [],
+  "bounded_limitations": {
+    "pdf_timeout_20s": 5,
+    "office_extract_failed": 1,
+    "interpretation": "Explicitly bounded/audited; QEC path hits remain preserved by the copier."
+  }
+}
