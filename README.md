@@ -8,8 +8,8 @@ A fail-closed research programme for reliable, reproducible quantum-error-correc
 
 ## Project team
 
-- Lead researcher: Shahin Adam
-- Academic supervisor: Dr Weisheng Si, Western Sydney University.
+- Researcher: Shahin Adam
+- Academic supervisors: Dr Weisheng Si and Dr Quang Vinh Nguyen, Western Sydney University.
 
 ## Full results registry
 
