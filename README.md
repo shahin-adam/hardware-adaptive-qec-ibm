@@ -13,7 +13,7 @@ A fail-closed research programme for reliable, reproducible quantum-error-correc
 
 ## Full results registry
 
-See **[QEC results by distance and basis](RESULTS_BY_DISTANCE.md)** for all V1–V501 entries, including a compact comparator-safe `MWPM Δ` column. The dedicated **[matched MWPM comparison register](MWPM_COMPARISONS.md)** gives the supported candidate and matched-control details. Values against CNN, Transformer, V12, raw readout, or other candidates are not presented as MWPM gains.
+See **[QEC results by distance and basis](RESULTS_BY_DISTANCE.md)** for all V1–V501 entries, including a compact comparator-safe `MWPM delta` column. Positive means the candidate has lower LER than matched MWPM; negative means it is worse. The dedicated **[matched MWPM comparison register](MWPM_COMPARISONS.md)** gives the supported candidate and matched-control details. Values against CNN, Transformer, V12, raw readout, or other candidates are not presented as MWPM gains; V501 is explicitly not applicable because MWPM itself is the evaluated decoder.
 
 ## Why this work matters
 
