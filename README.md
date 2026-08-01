@@ -6,6 +6,11 @@
 
 A fail-closed research programme for reliable, reproducible quantum-error-correction decoding on preserved IBM hardware data. The project combines algebraic decoder validation, reproducible GPU batching, independent decoder controls, and guarded preparation for future matched hardware acquisition.
 
+## Project team
+
+- Lead researcher: Shahin Adam
+- Academic supervisor: Dr Weisheng Si, Western Sydney University.
+
 ## Why this work matters
 
 Real-time QEC requires more than a decoder with a favorable point estimate. A trustworthy system must preserve the syndrome equation, reproduce its decisions, meet latency constraints, and demonstrate logical improvement with uncertainty that excludes a null result. This repository separates those claims so that systems performance is not mistaken for physical error suppression.
