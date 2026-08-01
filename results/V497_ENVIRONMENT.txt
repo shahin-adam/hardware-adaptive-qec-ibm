@@ -1,0 +1,14 @@
+slurm_job_id=65754
+node=a30-002
+image=/bigdata/users/22228049/containers/cudaqx_20260718.sif
+image_size_bytes=3610669056
+image_mtime=2026-07-18 19:23:50.896901000 +1000
+NVIDIA A30, 595.71.05, 24576 MiB
+python=3.12.3
+cudaq-qec=NOT_RECORDED
+cuda-quantum=NOT_RECORDED
+numpy=2.4.3
+cudaq_qec.__version__=CUDA-Q QEC 0.6.0 (https://github.com/NVIDIA/cudaqx 84d18ca948a8582afe54035c85e2aceb3f3bee19)
+cudaq_qec.__file__=/opt/nvidia/cudaq/cudaq_qec/__init__.py
+cudaq.__version__=CUDA-Q Version amd64-cu13-0.14.0 (https://github.com/NVIDIA/cuda-quantum d84568366c3f9e9a33b3829ff43fb794b3a703ab)
+cudaq.__file__=/opt/nvidia/cudaq/cudaq/__init__.py
