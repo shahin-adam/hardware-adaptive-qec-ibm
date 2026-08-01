@@ -26,6 +26,9 @@ favored batching (range 1.870x--2.856x; two-sided sign-test p=1.19e-7).
 The measured median rates were 1.461 ms/shot batched and 3.435 ms/shot
 sequential. These are offline CUDA-QX replay timings on one Wolffe A30 node,
 not QPU wall-clock latency and not a demonstrated online feedback-loop deadline.
+The captured environment is NVIDIA A30 (24,576 MiB), driver 595.71.05,
+Python 3.12.3, NumPy 2.4.3, CUDA-Q QEC 0.6.0 at commit `84d18ca`, and
+CUDA-Q 0.14.0 at commit `d845683`.
 
 ## Accuracy result
 
@@ -59,9 +62,8 @@ score is calibrated on held-out data.
 
 ## Evidence required before promotion
 
-1. Hardware/software/node metadata sufficient to reproduce the timing context.
-2. Separate X/Z, distance, and backend accuracy tables remain attached; none
+1. Separate X/Z, distance, and backend accuracy tables remain attached; none
    support accuracy promotion.
-3. V12 remains a separate Kingston contract unless a matched head-to-head
+2. V12 remains a separate Kingston contract unless a matched head-to-head
    replay is available; cross-experiment percentages must not be called a direct
    V12 comparison.
