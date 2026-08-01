@@ -452,3 +452,52 @@
 | V450 | +0.043750 pp; +0.056250 pp; +0.649074 pp |
 | V451 | +0.128125 pp; +0.151042 pp; +0.649074 pp held-out blocks |
 | V452 | +0.010417 pp; +0.016667 pp; +0.227778 pp |
+| V453 | 35.4600%/46.5000%/48.9500%; 17.4000%/32.7700%/42.5800% |
+| V454 | not recorded |
+| V455 | not recorded |
+| V456 | not recorded |
+| V457 | not recorded |
+| V458 | not recorded |
+| V459 | not recorded |
+| V460 | not recorded |
+| V461 | not recorded |
+| V462 | not recorded |
+| V463 | not recorded |
+| V464 | +0.003205 pp |
+| V465 | not recorded |
+| V466 | not recorded |
+| V467 | +0.100000 pp; -0.150000 pp; +0.000000 pp; +0.250000 pp; +0.100000 pp; +0.000000 pp |
+| V468 | not recorded |
+| V469 | not recorded |
+| V470 | +0.130000 pp; +0.080000 pp; +0.090000 pp; +0.050000 pp |
+| V471 | +0.015000 pp; -0.070000 pp; +0.120000 pp; +0.075000 pp; +0.090000 pp; +0.045000 pp |
+| V472 | +0.000000 pp; +0.109000 pp; +0.102000 pp; +0.088000 pp; +0.086000 pp |
+| V473 | +0.103000 pp; +0.000000 pp; +0.109000 pp; +0.102000 pp; +0.088000 pp; +0.086000 pp |
+| V474 | +0.025157 pp; +0.000000 pp; +0.358491 pp; -1.191824 pp; -0.202044 pp pooled |
+| V475 | +0.256667 pp; +0.000000 pp; -0.426667 pp; +0.000000 pp; -0.042500 pp pooled |
+| V476 | +0.176667 pp; +0.000000 pp; +0.088333 pp pooled |
+| V477 | +0.000000 pp pooled |
+| V478 | +0.433333 pp; -0.113333 pp; -0.300000 pp; +0.046667 pp; +0.016667 pp pooled |
+| V479 | +0.305000 pp selected slice |
+| V480 | +0.442000 pp selected slice |
+| V481 | not recorded |
+| V482 | 51.822917% raw; 42.187500% raw |
+| V483 | not recorded |
+| V484 | not recorded |
+| V485 | -3.190 pp |
+| V486 | not recorded |
+| V487 | 0.700000%/1.230000%/1.600000%; 0.700000%/1.060000%/1.410000%; 0.190000%/0.270000%/0.650000%; 0.300000%/0.380000%/0.460000%; 0.070000%/0.140000%/0.190000%; 0.030000%/0.070000%/0.210000% |
+| V488 | 48.697917%/51.822917%; 41.927083%/42.187500%; 51.041667%/45.833333%; 50.520833%/48.437500%; 51.041667%/54.166667%; 51.562500%/50.520833% |
+| V489 | not recorded |
+| V490 | 100% syndrome closure; accuracy withdrawn |
+| V491 | not recorded |
+| V492 | 100% syndrome closure; accuracy withdrawn |
+| V493 | not recorded |
+| V494 | 100% syndrome closure; accuracy withdrawn |
+| V495 | 100% syndrome closure; accuracy withdrawn |
+| V496 | not recorded |
+| V497 | 100% syndrome closure; accuracy withdrawn |
+| V498 | 2.864583% fast-path coverage; 23.632812% logical disagreement; accuracy withdrawn |
+| V499 | 90.234375% same-seed route agreement; 92.708333% reverse-order route agreement |
+| V500 | 99.821% correction-bit reproducibility; accuracy withdrawn |
+| V501 | 50.390625% raw; 49.934896% decoded; +0.455729 pp |
