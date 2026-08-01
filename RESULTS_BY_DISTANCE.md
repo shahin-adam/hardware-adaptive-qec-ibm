@@ -1,12 +1,12 @@
 # QEC Results by Code Distance and Basis
 
-Every version V1–V501 is represented once. Distance/basis cells are populated only from explicitly labeled authoritative records. `not recorded` means no defensible value was available; unlabeled percentage pairs were not assigned to X, Z, d3, d5, or d7.
+Every version V1–V501 is represented once. Distance/basis cells are populated only from explicitly labeled authoritative records. `not recorded` means no defensible value was available; unlabeled percentage pairs were not assigned to X, Z, d3, d5, or d7. Measured improvements name their comparator where the source identifies it; they are not MWPM gains unless MWPM is explicitly named.
 
 Values marked `withdrawn` are historical logical-accuracy outputs affected by the V501 observable-map defect. Unaffected algebraic closure, routing, latency, and reproducibility facts remain in the overall-result column.
 
 | Version | d3 X | d3 Z | d5 X | d5 Z | d7 X | d7 Z | Measured outcome | QEC conclusion | Notes |
 |---|---:|---:|---:|---:|---:|---:|---|---|---|
-| V1 | not recorded | not recorded | not recorded | not recorded | not recorded | not recorded | not recorded | no distance-specific evidence | No additional labeled mapping recorded. |
+| V1 | not recorded | not recorded | not recorded | not recorded | not recorded | not recorded | +1.2180 pp: CNN 46.4231% -> Transformer 45.2051% on 31,200 real IBM held-out shots; +0.8383 pp: frozen Transformer 44.9292% -> four-model ensemble 44.0908% on 120,000 independent IBM confirmation shots | first comparison development; second confirmed AI-versus-AI | Neither value is an MWPM gain. On the second block, phenomenological MWPM achieved 42.6442%, 1.4466 pp better than the ensemble. Basis and distance were not consistently recorded; no d3/d5/d7 or X/Z assignment inferred. |
 | V2 | not recorded | not recorded | not recorded | not recorded | not recorded | not recorded | not recorded | no distance-specific evidence | No additional labeled mapping recorded. |
 | V3 | not recorded | not recorded | not recorded | not recorded | not recorded | not recorded | not recorded | no distance-specific evidence | No additional labeled mapping recorded. |
 | V4 | 0.0000 pp (r3/r5/r7) | 0.0000/0.0000/+3.9028 pp (r3/r5/r7) | not recorded | not recorded | not recorded | not recorded | +1.7396 pp development; +0.6505 pp confirmed pooled | diagnostic selective gain concentrated in Z7; no distance-specific evidence | No additional labeled mapping recorded. |
