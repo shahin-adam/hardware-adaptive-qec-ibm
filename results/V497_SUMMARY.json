@@ -1,0 +1,1330 @@
+{
+  "experiment": "V497_ROUTING_AND_LATENCY_ANALYSIS",
+  "closure": "100% in every V497 final correction; enforced during execution",
+  "routing": {
+    "relay_3x_pre3": {
+      "groups": {
+        "all": {
+          "shots": 1536,
+          "gain_pp": 1.5625,
+          "bootstrap_95_ci_pp": [
+            -1.953125,
+            5.078125
+          ]
+        },
+        "fast": {
+          "shots": 949,
+          "gain_pp": 2.0021074815595363,
+          "bootstrap_95_ci_pp": [
+            -2.423603793466807,
+            6.322444678609063
+          ]
+        },
+        "escalated": {
+          "shots": 587,
+          "gain_pp": 0.8517887563884157,
+          "bootstrap_95_ci_pp": [
+            -4.940374787052811,
+            6.814310051107325
+          ]
+        }
+      },
+      "strata": {
+        "basis": {
+          "x": {
+            "shots": 768,
+            "gain_pp": 1.0416666666666665,
+            "bootstrap_95_ci_pp": [
+              -4.036458333333334,
+              6.119791666666666
+            ]
+          },
+          "z": {
+            "shots": 768,
+            "gain_pp": 2.083333333333333,
+            "bootstrap_95_ci_pp": [
+              -2.7376302083333304,
+              6.901041666666667
+            ]
+          }
+        },
+        "distance": {
+          "d5": {
+            "shots": 768,
+            "gain_pp": 0.78125,
+            "bootstrap_95_ci_pp": [
+              -4.166666666666666,
+              5.729166666666666
+            ]
+          },
+          "d7": {
+            "shots": 768,
+            "gain_pp": 2.34375,
+            "bootstrap_95_ci_pp": [
+              -2.473958333333333,
+              7.291666666666667
+            ]
+          }
+        },
+        "backend": {
+          "fez": {
+            "shots": 768,
+            "gain_pp": 3.3854166666666665,
+            "bootstrap_95_ci_pp": [
+              -1.6927083333333333,
+              8.203125
+            ]
+          },
+          "marrakesh": {
+            "shots": 768,
+            "gain_pp": -0.26041666666666663,
+            "bootstrap_95_ci_pp": [
+              -5.208333333333334,
+              4.557291666666666
+            ]
+          }
+        },
+        "distance_basis": {
+          "d5_x": {
+            "shots": 384,
+            "gain_pp": -1.3020833333333335,
+            "bootstrap_95_ci_pp": [
+              -8.59375,
+              6.25
+            ]
+          },
+          "d5_z": {
+            "shots": 384,
+            "gain_pp": 2.864583333333333,
+            "bootstrap_95_ci_pp": [
+              -3.90625,
+              9.635416666666668
+            ]
+          },
+          "d7_x": {
+            "shots": 384,
+            "gain_pp": 3.3854166666666665,
+            "bootstrap_95_ci_pp": [
+              -3.3854166666666665,
+              10.15625
+            ]
+          },
+          "d7_z": {
+            "shots": 384,
+            "gain_pp": 1.3020833333333335,
+            "bootstrap_95_ci_pp": [
+              -5.46875,
+              8.333333333333332
+            ]
+          }
+        },
+        "domain": {
+          "ibm_fez_d5_x_r3": {
+            "shots": 64,
+            "gain_pp": 1.5625,
+            "bootstrap_95_ci_pp": [
+              -15.625,
+              18.75
+            ]
+          },
+          "ibm_fez_d5_x_r5": {
+            "shots": 64,
+            "gain_pp": 4.6875,
+            "bootstrap_95_ci_pp": [
+              -12.5,
+              21.875
+            ]
+          },
+          "ibm_fez_d5_x_r7": {
+            "shots": 64,
+            "gain_pp": 1.5625,
+            "bootstrap_95_ci_pp": [
+              -17.1875,
+              20.3125
+            ]
+          },
+          "ibm_fez_d5_z_r3": {
+            "shots": 64,
+            "gain_pp": 3.125,
+            "bootstrap_95_ci_pp": [
+              -12.5,
+              18.75
+            ]
+          },
+          "ibm_fez_d5_z_r5": {
+            "shots": 64,
+            "gain_pp": 4.6875,
+            "bootstrap_95_ci_pp": [
+              -10.9375,
+              20.3125
+            ]
+          },
+          "ibm_fez_d5_z_r7": {
+            "shots": 64,
+            "gain_pp": 15.625,
+            "bootstrap_95_ci_pp": [
+              -1.5625,
+              31.25
+            ]
+          },
+          "ibm_fez_d7_x_r3": {
+            "shots": 64,
+            "gain_pp": -1.5625,
+            "bootstrap_95_ci_pp": [
+              -18.75,
+              15.625
+            ]
+          },
+          "ibm_fez_d7_x_r5": {
+            "shots": 64,
+            "gain_pp": 3.125,
+            "bootstrap_95_ci_pp": [
+              -14.0625,
+              20.3125
+            ]
+          },
+          "ibm_fez_d7_x_r7": {
+            "shots": 64,
+            "gain_pp": -6.25,
+            "bootstrap_95_ci_pp": [
+              -21.875,
+              9.375
+            ]
+          },
+          "ibm_fez_d7_z_r3": {
+            "shots": 64,
+            "gain_pp": 14.0625,
+            "bootstrap_95_ci_pp": [
+              -3.125,
+              31.25
+            ]
+          },
+          "ibm_fez_d7_z_r5": {
+            "shots": 64,
+            "gain_pp": 3.125,
+            "bootstrap_95_ci_pp": [
+              -12.5,
+              20.3125
+            ]
+          },
+          "ibm_fez_d7_z_r7": {
+            "shots": 64,
+            "gain_pp": -3.125,
+            "bootstrap_95_ci_pp": [
+              -21.875,
+              15.625
+            ]
+          },
+          "ibm_marrakesh_d5_x_r3": {
+            "shots": 64,
+            "gain_pp": -7.8125,
+            "bootstrap_95_ci_pp": [
+              -25.0,
+              9.375
+            ]
+          },
+          "ibm_marrakesh_d5_x_r5": {
+            "shots": 64,
+            "gain_pp": 0.0,
+            "bootstrap_95_ci_pp": [
+              -17.1875,
+              18.75
+            ]
+          },
+          "ibm_marrakesh_d5_x_r7": {
+            "shots": 64,
+            "gain_pp": -7.8125,
+            "bootstrap_95_ci_pp": [
+              -26.5625,
+              10.9375
+            ]
+          },
+          "ibm_marrakesh_d5_z_r3": {
+            "shots": 64,
+            "gain_pp": 7.8125,
+            "bootstrap_95_ci_pp": [
+              -9.375,
+              25.0
+            ]
+          },
+          "ibm_marrakesh_d5_z_r5": {
+            "shots": 64,
+            "gain_pp": -7.8125,
+            "bootstrap_95_ci_pp": [
+              -23.4375,
+              7.8125
+            ]
+          },
+          "ibm_marrakesh_d5_z_r7": {
+            "shots": 64,
+            "gain_pp": -6.25,
+            "bootstrap_95_ci_pp": [
+              -21.914062499999964,
+              10.9375
+            ]
+          },
+          "ibm_marrakesh_d7_x_r3": {
+            "shots": 64,
+            "gain_pp": 12.5,
+            "bootstrap_95_ci_pp": [
+              -3.125,
+              28.125
+            ]
+          },
+          "ibm_marrakesh_d7_x_r5": {
+            "shots": 64,
+            "gain_pp": 4.6875,
+            "bootstrap_95_ci_pp": [
+              -12.5,
+              21.875
+            ]
+          },
+          "ibm_marrakesh_d7_x_r7": {
+            "shots": 64,
+            "gain_pp": 7.8125,
+            "bootstrap_95_ci_pp": [
+              -9.375,
+              25.0
+            ]
+          },
+          "ibm_marrakesh_d7_z_r3": {
+            "shots": 64,
+            "gain_pp": 3.125,
+            "bootstrap_95_ci_pp": [
+              -12.5,
+              18.75
+            ]
+          },
+          "ibm_marrakesh_d7_z_r5": {
+            "shots": 64,
+            "gain_pp": -4.6875,
+            "bootstrap_95_ci_pp": [
+              -20.3125,
+              10.9375
+            ]
+          },
+          "ibm_marrakesh_d7_z_r7": {
+            "shots": 64,
+            "gain_pp": -4.6875,
+            "bootstrap_95_ci_pp": [
+              -20.3125,
+              10.9375
+            ]
+          }
+        }
+      },
+      "difficulty_enrichment_pp": -2.148769528760658,
+      "difficulty_enrichment_bootstrap_95_ci_pp": [
+        -7.233113669369534,
+        2.9443707444220815
+      ]
+    },
+    "relay_3x_pre5": {
+      "groups": {
+        "all": {
+          "shots": 1536,
+          "gain_pp": 0.32552083333333337,
+          "bootstrap_95_ci_pp": [
+            -3.1901041666666665,
+            3.8411458333333335
+          ]
+        },
+        "fast": {
+          "shots": 942,
+          "gain_pp": -1.2738853503184715,
+          "bootstrap_95_ci_pp": [
+            -5.83864118895966,
+            3.397027600849257
+          ]
+        },
+        "escalated": {
+          "shots": 594,
+          "gain_pp": 2.861952861952862,
+          "bootstrap_95_ci_pp": [
+            -2.6936026936026933,
+            8.585858585858585
+          ]
+        }
+      },
+      "strata": {
+        "basis": {
+          "x": {
+            "shots": 768,
+            "gain_pp": 0.9114583333333334,
+            "bootstrap_95_ci_pp": [
+              -4.296875,
+              5.989583333333334
+            ]
+          },
+          "z": {
+            "shots": 768,
+            "gain_pp": -0.26041666666666663,
+            "bootstrap_95_ci_pp": [
+              -5.078125,
+              4.427083333333334
+            ]
+          }
+        },
+        "distance": {
+          "d5": {
+            "shots": 768,
+            "gain_pp": -0.5208333333333333,
+            "bootstrap_95_ci_pp": [
+              -5.3417968749999964,
+              4.557291666666666
+            ]
+          },
+          "d7": {
+            "shots": 768,
+            "gain_pp": 1.171875,
+            "bootstrap_95_ci_pp": [
+              -3.7760416666666665,
+              6.25
+            ]
+          }
+        },
+        "backend": {
+          "fez": {
+            "shots": 768,
+            "gain_pp": 1.3020833333333335,
+            "bootstrap_95_ci_pp": [
+              -3.6458333333333335,
+              6.380208333333333
+            ]
+          },
+          "marrakesh": {
+            "shots": 768,
+            "gain_pp": -0.6510416666666667,
+            "bootstrap_95_ci_pp": [
+              -5.729166666666666,
+              4.296875
+            ]
+          }
+        },
+        "distance_basis": {
+          "d5_x": {
+            "shots": 384,
+            "gain_pp": -0.5208333333333333,
+            "bootstrap_95_ci_pp": [
+              -7.552083333333333,
+              6.770833333333333
+            ]
+          },
+          "d5_z": {
+            "shots": 384,
+            "gain_pp": -0.5208333333333333,
+            "bootstrap_95_ci_pp": [
+              -7.552083333333333,
+              6.25
+            ]
+          },
+          "d7_x": {
+            "shots": 384,
+            "gain_pp": 2.34375,
+            "bootstrap_95_ci_pp": [
+              -4.6875,
+              9.635416666666668
+            ]
+          },
+          "d7_z": {
+            "shots": 384,
+            "gain_pp": 0.0,
+            "bootstrap_95_ci_pp": [
+              -6.770833333333333,
+              6.770833333333333
+            ]
+          }
+        },
+        "domain": {
+          "ibm_fez_d5_x_r3": {
+            "shots": 64,
+            "gain_pp": 3.125,
+            "bootstrap_95_ci_pp": [
+              -15.625,
+              21.875
+            ]
+          },
+          "ibm_fez_d5_x_r5": {
+            "shots": 64,
+            "gain_pp": 6.25,
+            "bootstrap_95_ci_pp": [
+              -10.9375,
+              23.4375
+            ]
+          },
+          "ibm_fez_d5_x_r7": {
+            "shots": 64,
+            "gain_pp": 0.0,
+            "bootstrap_95_ci_pp": [
+              -17.1875,
+              17.1875
+            ]
+          },
+          "ibm_fez_d5_z_r3": {
+            "shots": 64,
+            "gain_pp": -1.5625,
+            "bootstrap_95_ci_pp": [
+              -18.75,
+              15.625
+            ]
+          },
+          "ibm_fez_d5_z_r5": {
+            "shots": 64,
+            "gain_pp": 3.125,
+            "bootstrap_95_ci_pp": [
+              -12.5,
+              18.75
+            ]
+          },
+          "ibm_fez_d5_z_r7": {
+            "shots": 64,
+            "gain_pp": 1.5625,
+            "bootstrap_95_ci_pp": [
+              -14.0625,
+              18.75
+            ]
+          },
+          "ibm_fez_d7_x_r3": {
+            "shots": 64,
+            "gain_pp": 18.75,
+            "bootstrap_95_ci_pp": [
+              1.5625,
+              34.375
+            ]
+          },
+          "ibm_fez_d7_x_r5": {
+            "shots": 64,
+            "gain_pp": -14.0625,
+            "bootstrap_95_ci_pp": [
+              -29.726562499999964,
+              3.125
+            ]
+          },
+          "ibm_fez_d7_x_r7": {
+            "shots": 64,
+            "gain_pp": -6.25,
+            "bootstrap_95_ci_pp": [
+              -23.476562499999964,
+              10.9375
+            ]
+          },
+          "ibm_fez_d7_z_r3": {
+            "shots": 64,
+            "gain_pp": 3.125,
+            "bootstrap_95_ci_pp": [
+              -14.0625,
+              20.3125
+            ]
+          },
+          "ibm_fez_d7_z_r5": {
+            "shots": 64,
+            "gain_pp": 0.0,
+            "bootstrap_95_ci_pp": [
+              -17.1875,
+              18.75
+            ]
+          },
+          "ibm_fez_d7_z_r7": {
+            "shots": 64,
+            "gain_pp": 1.5625,
+            "bootstrap_95_ci_pp": [
+              -17.1875,
+              20.3125
+            ]
+          },
+          "ibm_marrakesh_d5_x_r3": {
+            "shots": 64,
+            "gain_pp": 0.0,
+            "bootstrap_95_ci_pp": [
+              -17.1875,
+              17.1875
+            ]
+          },
+          "ibm_marrakesh_d5_x_r5": {
+            "shots": 64,
+            "gain_pp": -4.6875,
+            "bootstrap_95_ci_pp": [
+              -21.875,
+              14.0625
+            ]
+          },
+          "ibm_marrakesh_d5_x_r7": {
+            "shots": 64,
+            "gain_pp": -7.8125,
+            "bootstrap_95_ci_pp": [
+              -25.0,
+              10.9375
+            ]
+          },
+          "ibm_marrakesh_d5_z_r3": {
+            "shots": 64,
+            "gain_pp": 4.6875,
+            "bootstrap_95_ci_pp": [
+              -12.5,
+              21.875
+            ]
+          },
+          "ibm_marrakesh_d5_z_r5": {
+            "shots": 64,
+            "gain_pp": -6.25,
+            "bootstrap_95_ci_pp": [
+              -23.4375,
+              10.9375
+            ]
+          },
+          "ibm_marrakesh_d5_z_r7": {
+            "shots": 64,
+            "gain_pp": -4.6875,
+            "bootstrap_95_ci_pp": [
+              -21.875,
+              12.5
+            ]
+          },
+          "ibm_marrakesh_d7_x_r3": {
+            "shots": 64,
+            "gain_pp": 10.9375,
+            "bootstrap_95_ci_pp": [
+              -6.25,
+              28.125
+            ]
+          },
+          "ibm_marrakesh_d7_x_r5": {
+            "shots": 64,
+            "gain_pp": -1.5625,
+            "bootstrap_95_ci_pp": [
+              -20.3125,
+              15.625
+            ]
+          },
+          "ibm_marrakesh_d7_x_r7": {
+            "shots": 64,
+            "gain_pp": 6.25,
+            "bootstrap_95_ci_pp": [
+              -12.5,
+              25.0
+            ]
+          },
+          "ibm_marrakesh_d7_z_r3": {
+            "shots": 64,
+            "gain_pp": -1.5625,
+            "bootstrap_95_ci_pp": [
+              -17.1875,
+              14.0625
+            ]
+          },
+          "ibm_marrakesh_d7_z_r5": {
+            "shots": 64,
+            "gain_pp": -3.125,
+            "bootstrap_95_ci_pp": [
+              -18.75,
+              12.5
+            ]
+          },
+          "ibm_marrakesh_d7_z_r7": {
+            "shots": 64,
+            "gain_pp": 0.0,
+            "bootstrap_95_ci_pp": [
+              -14.0625,
+              15.625
+            ]
+          }
+        }
+      },
+      "difficulty_enrichment_pp": 4.578695661498211,
+      "difficulty_enrichment_bootstrap_95_ci_pp": [
+        -0.6338062150164036,
+        9.710775483068467
+      ]
+    },
+    "relay_5x_pre5": {
+      "groups": {
+        "all": {
+          "shots": 1536,
+          "gain_pp": 0.9114583333333334,
+          "bootstrap_95_ci_pp": [
+            -2.734375,
+            4.427083333333334
+          ]
+        },
+        "fast": {
+          "shots": 1121,
+          "gain_pp": 0.535236396074933,
+          "bootstrap_95_ci_pp": [
+            -3.479036574487065,
+            4.727921498661909
+          ]
+        },
+        "escalated": {
+          "shots": 415,
+          "gain_pp": 1.9277108433734942,
+          "bootstrap_95_ci_pp": [
+            -4.819277108433735,
+            8.433734939759036
+          ]
+        }
+      },
+      "strata": {
+        "basis": {
+          "x": {
+            "shots": 768,
+            "gain_pp": 0.78125,
+            "bootstrap_95_ci_pp": [
+              -4.166666666666666,
+              5.729166666666666
+            ]
+          },
+          "z": {
+            "shots": 768,
+            "gain_pp": 1.0416666666666665,
+            "bootstrap_95_ci_pp": [
+              -3.90625,
+              5.989583333333334
+            ]
+          }
+        },
+        "distance": {
+          "d5": {
+            "shots": 768,
+            "gain_pp": 0.5208333333333333,
+            "bootstrap_95_ci_pp": [
+              -4.557291666666666,
+              5.598958333333334
+            ]
+          },
+          "d7": {
+            "shots": 768,
+            "gain_pp": 1.3020833333333335,
+            "bootstrap_95_ci_pp": [
+              -3.515625,
+              6.25
+            ]
+          }
+        },
+        "backend": {
+          "fez": {
+            "shots": 768,
+            "gain_pp": 2.083333333333333,
+            "bootstrap_95_ci_pp": [
+              -2.8678385416666634,
+              7.03125
+            ]
+          },
+          "marrakesh": {
+            "shots": 768,
+            "gain_pp": -0.26041666666666663,
+            "bootstrap_95_ci_pp": [
+              -5.338541666666666,
+              4.6875
+            ]
+          }
+        },
+        "distance_basis": {
+          "d5_x": {
+            "shots": 384,
+            "gain_pp": -1.0416666666666665,
+            "bootstrap_95_ci_pp": [
+              -8.333333333333332,
+              6.25
+            ]
+          },
+          "d5_z": {
+            "shots": 384,
+            "gain_pp": 2.083333333333333,
+            "bootstrap_95_ci_pp": [
+              -5.208333333333334,
+              9.114583333333332
+            ]
+          },
+          "d7_x": {
+            "shots": 384,
+            "gain_pp": 2.604166666666667,
+            "bootstrap_95_ci_pp": [
+              -4.166666666666666,
+              9.375
+            ]
+          },
+          "d7_z": {
+            "shots": 384,
+            "gain_pp": 0.0,
+            "bootstrap_95_ci_pp": [
+              -7.03125,
+              6.770833333333333
+            ]
+          }
+        },
+        "domain": {
+          "ibm_fez_d5_x_r3": {
+            "shots": 64,
+            "gain_pp": -9.375,
+            "bootstrap_95_ci_pp": [
+              -25.0,
+              7.8125
+            ]
+          },
+          "ibm_fez_d5_x_r5": {
+            "shots": 64,
+            "gain_pp": 10.9375,
+            "bootstrap_95_ci_pp": [
+              -6.25,
+              28.125
+            ]
+          },
+          "ibm_fez_d5_x_r7": {
+            "shots": 64,
+            "gain_pp": -1.5625,
+            "bootstrap_95_ci_pp": [
+              -18.75,
+              15.625
+            ]
+          },
+          "ibm_fez_d5_z_r3": {
+            "shots": 64,
+            "gain_pp": -6.25,
+            "bootstrap_95_ci_pp": [
+              -25.0,
+              12.5
+            ]
+          },
+          "ibm_fez_d5_z_r5": {
+            "shots": 64,
+            "gain_pp": 3.125,
+            "bootstrap_95_ci_pp": [
+              -14.0625,
+              20.3125
+            ]
+          },
+          "ibm_fez_d5_z_r7": {
+            "shots": 64,
+            "gain_pp": 12.5,
+            "bootstrap_95_ci_pp": [
+              -4.6875,
+              29.6875
+            ]
+          },
+          "ibm_fez_d7_x_r3": {
+            "shots": 64,
+            "gain_pp": 3.125,
+            "bootstrap_95_ci_pp": [
+              -10.9375,
+              17.1875
+            ]
+          },
+          "ibm_fez_d7_x_r5": {
+            "shots": 64,
+            "gain_pp": -1.5625,
+            "bootstrap_95_ci_pp": [
+              -20.3125,
+              17.1875
+            ]
+          },
+          "ibm_fez_d7_x_r7": {
+            "shots": 64,
+            "gain_pp": 3.125,
+            "bootstrap_95_ci_pp": [
+              -14.0625,
+              20.3125
+            ]
+          },
+          "ibm_fez_d7_z_r3": {
+            "shots": 64,
+            "gain_pp": 6.25,
+            "bootstrap_95_ci_pp": [
+              -12.5,
+              25.0
+            ]
+          },
+          "ibm_fez_d7_z_r5": {
+            "shots": 64,
+            "gain_pp": 1.5625,
+            "bootstrap_95_ci_pp": [
+              -15.625,
+              18.75
+            ]
+          },
+          "ibm_fez_d7_z_r7": {
+            "shots": 64,
+            "gain_pp": 3.125,
+            "bootstrap_95_ci_pp": [
+              -14.0625,
+              20.3125
+            ]
+          },
+          "ibm_marrakesh_d5_x_r3": {
+            "shots": 64,
+            "gain_pp": -6.25,
+            "bootstrap_95_ci_pp": [
+              -20.3125,
+              9.375
+            ]
+          },
+          "ibm_marrakesh_d5_x_r5": {
+            "shots": 64,
+            "gain_pp": -4.6875,
+            "bootstrap_95_ci_pp": [
+              -26.5625,
+              17.1875
+            ]
+          },
+          "ibm_marrakesh_d5_x_r7": {
+            "shots": 64,
+            "gain_pp": 4.6875,
+            "bootstrap_95_ci_pp": [
+              -14.0625,
+              21.875
+            ]
+          },
+          "ibm_marrakesh_d5_z_r3": {
+            "shots": 64,
+            "gain_pp": 10.9375,
+            "bootstrap_95_ci_pp": [
+              -7.8125,
+              29.6875
+            ]
+          },
+          "ibm_marrakesh_d5_z_r5": {
+            "shots": 64,
+            "gain_pp": 1.5625,
+            "bootstrap_95_ci_pp": [
+              -14.0625,
+              17.1875
+            ]
+          },
+          "ibm_marrakesh_d5_z_r7": {
+            "shots": 64,
+            "gain_pp": -9.375,
+            "bootstrap_95_ci_pp": [
+              -28.125,
+              7.8125
+            ]
+          },
+          "ibm_marrakesh_d7_x_r3": {
+            "shots": 64,
+            "gain_pp": 7.8125,
+            "bootstrap_95_ci_pp": [
+              -7.8125,
+              21.875
+            ]
+          },
+          "ibm_marrakesh_d7_x_r5": {
+            "shots": 64,
+            "gain_pp": 3.125,
+            "bootstrap_95_ci_pp": [
+              -15.625,
+              21.875
+            ]
+          },
+          "ibm_marrakesh_d7_x_r7": {
+            "shots": 64,
+            "gain_pp": 0.0,
+            "bootstrap_95_ci_pp": [
+              -15.625,
+              15.625
+            ]
+          },
+          "ibm_marrakesh_d7_z_r3": {
+            "shots": 64,
+            "gain_pp": 3.125,
+            "bootstrap_95_ci_pp": [
+              -12.5,
+              18.75
+            ]
+          },
+          "ibm_marrakesh_d7_z_r5": {
+            "shots": 64,
+            "gain_pp": -9.375,
+            "bootstrap_95_ci_pp": [
+              -26.5625,
+              7.8125
+            ]
+          },
+          "ibm_marrakesh_d7_z_r7": {
+            "shots": 64,
+            "gain_pp": -4.6875,
+            "bootstrap_95_ci_pp": [
+              -20.3125,
+              12.5
+            ]
+          }
+        }
+      },
+      "difficulty_enrichment_pp": 2.2712079361155544,
+      "difficulty_enrichment_bootstrap_95_ci_pp": [
+        -3.3950162827939714,
+        7.874853562331396
+      ]
+    },
+    "relay_5x_pre8": {
+      "groups": {
+        "all": {
+          "shots": 1536,
+          "gain_pp": -0.5208333333333333,
+          "bootstrap_95_ci_pp": [
+            -3.9713541666666665,
+            2.9296875
+          ]
+        },
+        "fast": {
+          "shots": 1114,
+          "gain_pp": -0.6283662477558348,
+          "bootstrap_95_ci_pp": [
+            -4.66786355475763,
+            3.500897666068223
+          ]
+        },
+        "escalated": {
+          "shots": 422,
+          "gain_pp": -0.23696682464454977,
+          "bootstrap_95_ci_pp": [
+            -6.872037914691943,
+            6.398104265402843
+          ]
+        }
+      },
+      "strata": {
+        "basis": {
+          "x": {
+            "shots": 768,
+            "gain_pp": 0.5208333333333333,
+            "bootstrap_95_ci_pp": [
+              -4.557291666666666,
+              5.46875
+            ]
+          },
+          "z": {
+            "shots": 768,
+            "gain_pp": -1.5625,
+            "bootstrap_95_ci_pp": [
+              -6.25,
+              3.2552083333333335
+            ]
+          }
+        },
+        "distance": {
+          "d5": {
+            "shots": 768,
+            "gain_pp": -1.5625,
+            "bootstrap_95_ci_pp": [
+              -6.510416666666667,
+              3.2552083333333335
+            ]
+          },
+          "d7": {
+            "shots": 768,
+            "gain_pp": 0.5208333333333333,
+            "bootstrap_95_ci_pp": [
+              -4.427083333333334,
+              5.46875
+            ]
+          }
+        },
+        "backend": {
+          "fez": {
+            "shots": 768,
+            "gain_pp": 0.13020833333333331,
+            "bootstrap_95_ci_pp": [
+              -4.817708333333334,
+              5.078125
+            ]
+          },
+          "marrakesh": {
+            "shots": 768,
+            "gain_pp": -1.171875,
+            "bootstrap_95_ci_pp": [
+              -6.119791666666666,
+              3.6458333333333335
+            ]
+          }
+        },
+        "distance_basis": {
+          "d5_x": {
+            "shots": 384,
+            "gain_pp": -2.604166666666667,
+            "bootstrap_95_ci_pp": [
+              -9.635416666666668,
+              4.427083333333334
+            ]
+          },
+          "d5_z": {
+            "shots": 384,
+            "gain_pp": -0.5208333333333333,
+            "bootstrap_95_ci_pp": [
+              -7.291666666666667,
+              6.25
+            ]
+          },
+          "d7_x": {
+            "shots": 384,
+            "gain_pp": 3.6458333333333335,
+            "bootstrap_95_ci_pp": [
+              -3.3854166666666665,
+              10.9375
+            ]
+          },
+          "d7_z": {
+            "shots": 384,
+            "gain_pp": -2.604166666666667,
+            "bootstrap_95_ci_pp": [
+              -9.635416666666668,
+              4.166666666666666
+            ]
+          }
+        },
+        "domain": {
+          "ibm_fez_d5_x_r3": {
+            "shots": 64,
+            "gain_pp": -10.9375,
+            "bootstrap_95_ci_pp": [
+              -28.125,
+              6.25
+            ]
+          },
+          "ibm_fez_d5_x_r5": {
+            "shots": 64,
+            "gain_pp": 15.625,
+            "bootstrap_95_ci_pp": [
+              -1.5625,
+              32.8125
+            ]
+          },
+          "ibm_fez_d5_x_r7": {
+            "shots": 64,
+            "gain_pp": -17.1875,
+            "bootstrap_95_ci_pp": [
+              -34.375,
+              0.0
+            ]
+          },
+          "ibm_fez_d5_z_r3": {
+            "shots": 64,
+            "gain_pp": 3.125,
+            "bootstrap_95_ci_pp": [
+              -14.0625,
+              20.3125
+            ]
+          },
+          "ibm_fez_d5_z_r5": {
+            "shots": 64,
+            "gain_pp": 0.0,
+            "bootstrap_95_ci_pp": [
+              -17.1875,
+              17.1875
+            ]
+          },
+          "ibm_fez_d5_z_r7": {
+            "shots": 64,
+            "gain_pp": 3.125,
+            "bootstrap_95_ci_pp": [
+              -12.5,
+              18.75
+            ]
+          },
+          "ibm_fez_d7_x_r3": {
+            "shots": 64,
+            "gain_pp": -3.125,
+            "bootstrap_95_ci_pp": [
+              -21.875,
+              15.625
+            ]
+          },
+          "ibm_fez_d7_x_r5": {
+            "shots": 64,
+            "gain_pp": 10.9375,
+            "bootstrap_95_ci_pp": [
+              -6.25,
+              28.125
+            ]
+          },
+          "ibm_fez_d7_x_r7": {
+            "shots": 64,
+            "gain_pp": -3.125,
+            "bootstrap_95_ci_pp": [
+              -18.75,
+              14.0625
+            ]
+          },
+          "ibm_fez_d7_z_r3": {
+            "shots": 64,
+            "gain_pp": 3.125,
+            "bootstrap_95_ci_pp": [
+              -12.5,
+              20.3125
+            ]
+          },
+          "ibm_fez_d7_z_r5": {
+            "shots": 64,
+            "gain_pp": -1.5625,
+            "bootstrap_95_ci_pp": [
+              -18.75,
+              15.625
+            ]
+          },
+          "ibm_fez_d7_z_r7": {
+            "shots": 64,
+            "gain_pp": 1.5625,
+            "bootstrap_95_ci_pp": [
+              -15.625,
+              20.3125
+            ]
+          },
+          "ibm_marrakesh_d5_x_r3": {
+            "shots": 64,
+            "gain_pp": 7.8125,
+            "bootstrap_95_ci_pp": [
+              -7.8125,
+              23.4375
+            ]
+          },
+          "ibm_marrakesh_d5_x_r5": {
+            "shots": 64,
+            "gain_pp": -10.9375,
+            "bootstrap_95_ci_pp": [
+              -29.6875,
+              7.8125
+            ]
+          },
+          "ibm_marrakesh_d5_x_r7": {
+            "shots": 64,
+            "gain_pp": 0.0,
+            "bootstrap_95_ci_pp": [
+              -15.625,
+              15.625
+            ]
+          },
+          "ibm_marrakesh_d5_z_r3": {
+            "shots": 64,
+            "gain_pp": -6.25,
+            "bootstrap_95_ci_pp": [
+              -25.0,
+              12.5
+            ]
+          },
+          "ibm_marrakesh_d5_z_r5": {
+            "shots": 64,
+            "gain_pp": -4.6875,
+            "bootstrap_95_ci_pp": [
+              -20.3125,
+              10.9375
+            ]
+          },
+          "ibm_marrakesh_d5_z_r7": {
+            "shots": 64,
+            "gain_pp": 1.5625,
+            "bootstrap_95_ci_pp": [
+              -14.0625,
+              17.1875
+            ]
+          },
+          "ibm_marrakesh_d7_x_r3": {
+            "shots": 64,
+            "gain_pp": 4.6875,
+            "bootstrap_95_ci_pp": [
+              -12.5,
+              21.875
+            ]
+          },
+          "ibm_marrakesh_d7_x_r5": {
+            "shots": 64,
+            "gain_pp": 1.5625,
+            "bootstrap_95_ci_pp": [
+              -15.625,
+              18.75
+            ]
+          },
+          "ibm_marrakesh_d7_x_r7": {
+            "shots": 64,
+            "gain_pp": 10.9375,
+            "bootstrap_95_ci_pp": [
+              -6.25,
+              28.125
+            ]
+          },
+          "ibm_marrakesh_d7_z_r3": {
+            "shots": 64,
+            "gain_pp": -1.5625,
+            "bootstrap_95_ci_pp": [
+              -18.75,
+              15.625
+            ]
+          },
+          "ibm_marrakesh_d7_z_r5": {
+            "shots": 64,
+            "gain_pp": -9.375,
+            "bootstrap_95_ci_pp": [
+              -26.5625,
+              7.8125
+            ]
+          },
+          "ibm_marrakesh_d7_z_r7": {
+            "shots": 64,
+            "gain_pp": -7.8125,
+            "bootstrap_95_ci_pp": [
+              -23.4375,
+              7.8125
+            ]
+          }
+        }
+      },
+      "difficulty_enrichment_pp": 0.768334084933675,
+      "difficulty_enrichment_bootstrap_95_ci_pp": [
+        -4.893769091357725,
+        6.297701804691686
+      ]
+    }
+  },
+  "route_agreement": [
+    {
+      "left": "relay_3x_pre3",
+      "right": "relay_3x_pre5",
+      "identical_route_fraction": 0.6803385416666666,
+      "fast_set_jaccard": 0.5877413937867338
+    },
+    {
+      "left": "relay_3x_pre3",
+      "right": "relay_5x_pre5",
+      "identical_route_fraction": 0.66015625,
+      "fast_set_jaccard": 0.5972222222222222
+    },
+    {
+      "left": "relay_3x_pre3",
+      "right": "relay_5x_pre8",
+      "identical_route_fraction": 0.6647135416666666,
+      "fast_set_jaccard": 0.6004654771140419
+    },
+    {
+      "left": "relay_3x_pre5",
+      "right": "relay_5x_pre5",
+      "identical_route_fraction": 0.6842447916666666,
+      "fast_set_jaccard": 0.619309262166405
+    },
+    {
+      "left": "relay_3x_pre5",
+      "right": "relay_5x_pre8",
+      "identical_route_fraction": 0.67578125,
+      "fast_set_jaccard": 0.6100234925606891
+    },
+    {
+      "left": "relay_5x_pre5",
+      "right": "relay_5x_pre8",
+      "identical_route_fraction": 0.720703125,
+      "fast_set_jaccard": 0.6779279279279279
+    }
+  ],
+  "timing": {
+    "contracts": 24,
+    "repeats_per_contract": 5,
+    "batched_contract_median_ms_per_shot": 1.4607510947826086,
+    "sequential_contract_median_ms_per_shot": 3.4348162971582497,
+    "median_paired_speedup": 2.252121513051224,
+    "cluster_bootstrap_95_ci_speedup": [
+      2.1346834909273626,
+      2.361682796543448
+    ],
+    "minimum_contract_median_speedup": 1.8699696975017892,
+    "maximum_contract_median_speedup": 2.855694084301223,
+    "contracts_favoring_batch": 24,
+    "two_sided_sign_test_p_all_24_favor_batch": 1.1920928955078125e-07,
+    "scope": "Offline CUDA-QX replay on one Wolffe A30 node; not QPU wall-clock or online-control latency."
+  },
+  "posthoc_oracle_ler": 0.14192708333333334,
+  "decision": "Promote the offline batching systems result with its exact scope. Do not promote accuracy. Freeze new decoder variants; routing decisions are configuration-sensitive and do not consistently enrich raw failures."
+}
