@@ -1,47 +1,76 @@
 # Learning Under Hardware Shift: Neural Decoding Across Superconducting Quantum Processors
 
-This repository accompanies the AusDM 2026 Research Track study of neural and hybrid quantum-error-correction decoders under temporal and cross-device distribution shift.
+This repository is the paper landing page for the AusDM 2026 Research Track study of neural and hybrid quantum-error-correction decoders under temporal and cross-device distribution shift.
 
-## Research question
+## Abstract
 
-Can a learned decoder improve on an exact-circuit MWPM baseline on untouched hardware blocks, and does that improvement transfer to a different superconducting processor without retuning?
+We study whether learned decoders improve on a strong exact-circuit minimum-weight perfect matching (MWPM) baseline when quantum-hardware calibration changes over time or across processors. The proposed residual decoder represents detection events as numerical `(x, y, t)` tokens and uses graph-biased multi-head attention to learn when the MWPM correction should be changed. A label-free drift guard and frozen XGBoost benefit selectors route uncertain cases to complementary analytical experts.
 
-## Core idea
+The central finding is conditional generalisation: the frozen learned policy repeatedly improves on untouched blocks from its training processor, but the gain shrinks or disappears after transfer to other processors without retuning. Backend-specific classical experts recover gains where the transferred policy fails. The study therefore supports domain-aware model selection and selective fallback rather than one universal decoder.
 
-The study represents syndrome detection events as structured spatio-temporal `(x, y, t)` tokens and uses a graph-biased residual transformer with multi-head attention to learn when the MWPM correction should be changed. A label-free drift guard detects changes in the hardware distribution. Frozen XGBoost benefit selectors route uncertain cases to complementary analytical decoders rather than forcing one learned model to handle every device.
+## Research questions
 
-## Evaluation design
+1. Can a learned residual decoder improve on exact-circuit MWPM on untouched hardware blocks?
+2. Does the improvement survive temporal calibration drift on the same processor?
+3. Does a frozen policy transfer to a different processor without retuning?
+4. Can label-free drift detection and analytical fallback reduce deployment risk?
+5. Do alternative neural architectures or a small quantum-assisted screen improve the confirmed result?
 
-- Models and policies are frozen before confirmation testing.
-- Training and validation use whole calibration domains, not random shot-level splits.
-- Confirmation uses untouched execution blocks collected later or on different IBM processors.
-- The baseline is an exact-circuit MWPM decoder whose weights are derived from the submitted circuit and calibration snapshot.
-- The study compares neural, tree-based, recurrent, convolutional, classical and quantum-assisted alternatives.
-- Results report positive, negative and null outcomes under the same pre-registered evaluation discipline.
+## Decoder framework
 
-## Main confirmed results
+The pipeline contains four components:
 
-| Evaluation | Result |
-|---|---|
-| Pooled untouched confirmation blocks | 1.34 percentage-point logical-error reduction, 4.0% relative improvement over MWPM across 259,200 shots |
-| Fourth independent block | 1.53 percentage-point reduction |
-| Within-backend generalisation | Improvement reproduced on later blocks from the training backend |
-| Cross-backend transfer | Benefit shrank on one backend and disappeared on another without retuning |
-| Hardware-specific fallback | Classical experts recovered the gain where the transferred learned policy failed |
-| Quantum-assisted screen | Did not clear the pre-registered confirmation bar and is reported as a negative result |
+- **Exact-circuit MWPM baseline:** edge weights are derived from the submitted transpiled circuit and its calibration snapshot.
+- **Residual transformer:** graph-biased attention processes detector coordinates and syndrome time, predicting when the MWPM correction should be changed.
+- **Label-free drift guard:** an unlabeled context prefix estimates whether the current hardware distribution remains within the validated training domain.
+- **Frozen benefit selectors:** XGBoost models route shots to the learned decoder or complementary analytical experts such as BP-OSD/MWPM.
 
-## Interpretation
+All learned components, thresholds and routing policies are frozen before confirmation testing.
 
-The evidence supports hardware-domain-aware model selection and selective fallback rather than one universally deployed neural decoder. A model can be useful on the hardware distribution it has learned while becoming unreliable after calibration or processor changes.
+## Evaluation protocol
 
-## Scope and limitations
+- Whole calibration domains are used for training and validation; random shot-level splits are avoided because they leak block-specific hardware information.
+- Confirmation blocks are collected later or on different IBM processors and are evaluated once after the policy is frozen.
+- Each primary block contains 108,000 shots: 21,600 for label-free context estimation and 86,400 untouched scored shots.
+- The study covers X/Z memory and 3-, 5- and 7-round syndrome cohorts at distance 3.
+- Outcomes include positive, negative and null results; no method is promoted only because it performed well during development.
 
-This repository documents a real-hardware IBM surface-code study. It does not claim a universal cross-device decoder, a live qLDPC/BB144 result, or hardware-independent logical-error improvement. The work is a reproducible study of distribution shift, model selection and risk-controlled decoder deployment.
+## Confirmed results
+
+| Test | Result | Interpretation |
+|---|---:|---|
+| Kingston K3â€“K5 pooled confirmation | **1.34 percentage-point** reduction; **4.0% relative** improvement over MWPM across **259,200 shots** | Primary within-backend result |
+| Independent Kingston K7 block | **1.53 percentage-point** reduction | Repeated confirmation on a later block |
+| Kingston cross-domain selector | **1.09â€“1.50 percentage-point** paired 95% interval; p = 3.60Ã—10â»â¶ | Frozen selector improved on untouched K6 |
+| Fez backend-specific expert | **0.97 percentage-point** improvement on F1 | Hardware-specific expert recovered a gain |
+| Fez transferred Kingston policy | Small/conditional benefit | Transfer is not uniformly reliable |
+| Marrakesh transferred policy | **0.28 percentage-point** reduction on M1 | Smaller but significant transfer |
+| Quantum-assisted/QAOA screen | Did not clear confirmation bar | Reported as a negative result |
+
+The paperâ€™s headline within-backend result is the 1.34-point reduction over 259,200 untouched Kingston shots. Cross-backend numbers are intentionally reported separately because they answer a different generalisation question.
+
+## What the results show
+
+The strongest evidence is not that one neural model wins everywhere. It is that deployment must account for hardware domain shift. A model trained on one calibration distribution can be useful there and become miscalibrated elsewhere. A label-free guard plus domain-specific analytical fallback provides a more defensible deployment strategy than unconditional neural decoding.
+
+## Negative and null results retained
+
+- A rendered 3D representation did not establish a stronger primary result than numerical detector tokens.
+- Several architecture and routing searches did not produce a confirmed improvement.
+- A local-hypergraph subsolver and hypergraph-benefit router were not promoted as universal gains.
+- The quantum-assisted/QAOA screen did not pass its pre-registered confirmation criterion.
+- No universal cross-processor decoder claim is made.
+
+## Limitations and future work
+
+The study does not claim a hardware-independent decoder, a live qLDPC/BB144 result, or a universal logical-error improvement. Complete pulse-level idle, crosstalk and leakage characterisation is unavailable from the measured interface. No external independent reproduction has yet been completed.
+
+Priority follow-up directions are backend-aware expert selection using label-free processor fingerprints, calibration-conditioned models tested on a fourth processor, more complete noise characterisation, and independent reproduction.
 
 ## Citation
 
 *Learning Under Hardware Shift: Neural Decoding Across Superconducting Quantum Processors.* AusDM 2026 Research Track submission.
 
-## Repository status
+## Repository contents
 
-The landing page contains the paper description only. Experimental data, code and supplementary materials can be added later as separate, versioned releases.
+This repository intentionally contains the paper landing page only. Code, data and supplementary artifacts can be released separately with versioned provenance and the appropriate review status.
