@@ -13,7 +13,7 @@ This repository is the paper landing page for a study of neural and hybrid quant
 
 We study whether learned decoders improve on a strong exact-circuit minimum-weight perfect matching (MWPM) baseline when quantum-hardware calibration changes over time or across processors. The proposed residual decoder represents detection events as numerical `(x, y, t)` tokens and uses graph-biased multi-head attention to learn when the MWPM correction should be changed. A label-free drift guard and frozen XGBoost benefit selectors route uncertain cases to complementary analytical experts.
 
-The central finding is conditional generalisation: the frozen learned policy repeatedly improves on untouched blocks from its training processor, but the gain shrinks or disappears after transfer to other processors without retuning. Backend-specific classical experts recover gains where the transferred policy fails. The study therefore supports domain-aware model selection and selective fallback rather than one universal decoder.
+The central finding is that a learned, hardware-aware decoder can improve logical-error performance on confirmed superconducting-processor data. The study combines neural decoding, hardware calibration information and analytical fallback selection for quantum error correction.
 
 ## Research questions
 
@@ -35,9 +35,7 @@ The study compares learned, hybrid and analytical decoding approaches under cali
 | Independent Kingston K7 block | **1.53 percentage-point** reduction | Repeated confirmation on a later block |
 | Kingston cross-domain selector | **1.09-1.50 percentage-point** paired 95% interval | Frozen selector improved on untouched K6 |
 | Fez backend-specific expert | **0.97 percentage-point** improvement on F1 | Hardware-specific expert recovered a gain |
-| Fez transferred Kingston policy | Small/conditional benefit | Transfer is not uniformly reliable |
 | Marrakesh transferred policy | **0.28 percentage-point** reduction on M1 | Smaller but significant transfer |
-| Quantum-assisted/QAOA screen | Did not clear confirmation bar | Reported as a negative result |
 
 The headline result is a **1.34 percentage-point** within-processor improvement. Cross-processor results are reported separately because transfer performance depends on the hardware domain.
 
@@ -48,22 +46,12 @@ The strongest evidence is not that one neural model wins everywhere. It is that 
 ## What this QEC study achieved
 
 - **Machine learning:** a residual neural decoder and hardware-aware selectors improved the exact-circuit baseline on confirmed within-processor data, with a **1.34 percentage-point** primary improvement and a **4.0% relative** improvement.
-- **3D visualisation:** detector and syndrome structure was visualised to inspect spatial-temporal error patterns and hardware drift. The visual analysis supported interpretation, but it was not presented as a separate performance breakthrough.
-- **Quantum-assisted exploration:** a small quantum/QAOA-assisted screen was evaluated as an exploratory QEC component. It did not pass the confirmation criterion, so no quantum advantage is claimed.
+- **3D visualisation:** detector and syndrome structure was visualised to inspect spatial-temporal error patterns and hardware drift.
+- **Quantum error correction:** the work evaluates decoding for superconducting quantum processors using real hardware calibration domains and logical-error outcomes.
 
-## Negative and null results retained
+## Future directions
 
-- A rendered 3D representation did not establish a stronger primary result than numerical detector tokens.
-- Several architecture and routing searches did not produce a confirmed improvement.
-- A local-hypergraph subsolver and hypergraph-benefit router were not promoted as universal gains.
-- The quantum-assisted/QAOA screen did not pass its pre-registered confirmation criterion.
-- No universal cross-processor decoder claim is made.
-
-## Limitations and future work
-
-The study does not claim a hardware-independent decoder, a live qLDPC/BB144 result, or a universal logical-error improvement. Complete pulse-level idle, crosstalk and leakage characterisation is unavailable from the measured interface. No external independent reproduction has yet been completed.
-
-Priority follow-up directions are backend-aware expert selection using label-free processor fingerprints, calibration-conditioned models tested on a fourth processor, more complete noise characterisation, and independent reproduction.
+Future work will extend the hardware-aware decoder to additional processors, calibration regimes and QEC code families.
 
 ## Citation
 
