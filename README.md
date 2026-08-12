@@ -1,4 +1,4 @@
-# Learning Under Hardware Shift: Neural Decoding Across Superconducting Quantum Processors
+﻿# Learning Under Hardware Shift: Neural Decoding Across Superconducting Quantum Processors
 
 This repository is the paper landing page for the AusDM 2026 Research Track study of neural and hybrid quantum-error-correction decoders under temporal and cross-device distribution shift.
 
@@ -16,38 +16,19 @@ The central finding is conditional generalisation: the frozen learned policy rep
 4. Can label-free drift detection and analytical fallback reduce deployment risk?
 5. Do alternative neural architectures or a small quantum-assisted screen improve the confirmed result?
 
-## Decoder framework
-
-The pipeline contains four components:
-
-- **Exact-circuit MWPM baseline:** edge weights are derived from the submitted transpiled circuit and its calibration snapshot.
-- **Residual transformer:** graph-biased attention processes detector coordinates and syndrome time, predicting when the MWPM correction should be changed.
-- **Label-free drift guard:** an unlabeled context prefix estimates whether the current hardware distribution remains within the validated training domain.
-- **Frozen benefit selectors:** XGBoost models route shots to the learned decoder or complementary analytical experts such as BP-OSD/MWPM.
-
-All learned components, thresholds and routing policies are frozen before confirmation testing.
-
-## Evaluation protocol
-
-- Whole calibration domains are used for training and validation; random shot-level splits are avoided because they leak block-specific hardware information.
-- Confirmation blocks are collected later or on different IBM processors and are evaluated once after the policy is frozen.
-- Each primary block contains 108,000 shots: 21,600 for label-free context estimation and 86,400 untouched scored shots.
-- The study covers X/Z memory and 3-, 5- and 7-round syndrome cohorts at distance 3.
-- Outcomes include positive, negative and null results; no method is promoted only because it performed well during development.
-
-## Confirmed results
+## Public evaluation summary`r`n`r`nThe study compares learned, hybrid and analytical decoding approaches under calibration and processor changes. Only aggregate outcomes are shown here; implementation details, raw data and internal experiment metadata are intentionally omitted.`r`n`r`n## Confirmed results
 
 | Test | Result | Interpretation |
 |---|---:|---|
-| Kingston K3â€“K5 pooled confirmation | **1.34 percentage-point** reduction; **4.0% relative** improvement over MWPM across **259,200 shots** | Primary within-backend result |
+| Kingston K3-K5 pooled confirmation | **1.34 percentage-point** reduction; **4.0% relative** improvement over MWPM across **259,200 shots** | Primary within-backend result |
 | Independent Kingston K7 block | **1.53 percentage-point** reduction | Repeated confirmation on a later block |
-| Kingston cross-domain selector | **1.09â€“1.50 percentage-point** paired 95% interval; p = 3.60Ã—10â»â¶ | Frozen selector improved on untouched K6 |
+| Kingston cross-domain selector | **1.09-1.50 percentage-point** paired 95% interval | Frozen selector improved on untouched K6 |
 | Fez backend-specific expert | **0.97 percentage-point** improvement on F1 | Hardware-specific expert recovered a gain |
 | Fez transferred Kingston policy | Small/conditional benefit | Transfer is not uniformly reliable |
 | Marrakesh transferred policy | **0.28 percentage-point** reduction on M1 | Smaller but significant transfer |
 | Quantum-assisted/QAOA screen | Did not clear confirmation bar | Reported as a negative result |
 
-The paperâ€™s headline within-backend result is the 1.34-point reduction over 259,200 untouched Kingston shots. Cross-backend numbers are intentionally reported separately because they answer a different generalisation question.
+The headline result is a **1.34 percentage-point** within-processor improvement. Cross-processor results are reported separately because transfer performance depends on the hardware domain.
 
 ## What the results show
 
@@ -71,6 +52,4 @@ Priority follow-up directions are backend-aware expert selection using label-fre
 
 *Learning Under Hardware Shift: Neural Decoding Across Superconducting Quantum Processors.* AusDM 2026 Research Track submission.
 
-## Repository contents
-
-This repository intentionally contains the paper landing page only. Code, data and supplementary artifacts can be released separately with versioned provenance and the appropriate review status.
+## Repository contents`r`n`r`nThis repository is a public paper landing page. It intentionally contains only a high-level summary and aggregate percentage results. Implementation details, raw data, credentials and private experiment metadata are not included.`r`n
