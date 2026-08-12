@@ -44,8 +44,6 @@ The strongest evidence is not that one neural model wins everywhere. It is that 
 - **3D visualisation:** detector and syndrome structure was visualised to inspect spatial-temporal error patterns and hardware drift. The visual analysis supported interpretation, but it was not presented as a separate performance breakthrough.
 - **Quantum-assisted exploration:** a small quantum/QAOA-assisted screen was evaluated as an exploratory QEC component. It did not pass the confirmation criterion, so no quantum advantage is claimed.
 
-These conclusions are intentionally limited to the public aggregate results above; the page does not disclose private code, raw data, credentials or experiment metadata.
-
 ## Negative and null results retained
 
 - A rendered 3D representation did not establish a stronger primary result than numerical detector tokens.
@@ -66,6 +64,6 @@ Priority follow-up directions are backend-aware expert selection using label-fre
 
 ## Repository contents
 
-This repository is a public paper landing page. It intentionally contains only a high-level summary and aggregate percentage results. Implementation details, raw data, credentials and private experiment metadata are not included.
+This repository contains the paper landing page and its public research summary.
 
 
