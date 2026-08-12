@@ -6,8 +6,8 @@ This repository is the paper landing page for a study of neural and hybrid quant
 
 - **Shahin Adam:** School of Computer, Data and Mathematical Sciences, Western Sydney University, Sydney, NSW, Australia. [ORCID: 0009-0000-1182-0256](https://orcid.org/0009-0000-1182-0256)
 - **Quang Vinh Nguyen:** School of Computer, Data and Mathematical Sciences, Western Sydney University, Sydney, NSW, Australia. [ORCID: 0000-0002-0815-6224](https://orcid.org/0000-0002-0815-6224)
-- **Weisheng Si:** School of Computer, Data and Mathematical Sciences, Western Sydney University, Sydney, NSW, Australia. [ORCID: 0000-0002-1239-7880](https://orcid.org/0000-0002-1239-7880)
-- **Simeon J. Simoff:** School of Computer, Data and Mathematical Sciences, Western Sydney University, Sydney, NSW, Australia. [ORCID: 0000-0001-9895-4109](https://orcid.org/0000-0001-9895-4109)
+- **A/Prof Weisheng Si:** School of Computer, Data and Mathematical Sciences, Western Sydney University, Sydney, NSW, Australia. [ORCID: 0000-0002-1239-7880](https://orcid.org/0000-0002-1239-7880)
+- **Prof Simeon J. Simoff:** School of Computer, Data and Mathematical Sciences, Western Sydney University, Sydney, NSW, Australia. [ORCID: 0000-0001-9895-4109](https://orcid.org/0000-0001-9895-4109)
 
 ## Abstract
 
