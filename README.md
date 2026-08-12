@@ -1,6 +1,13 @@
 ﻿# Learning Under Hardware Shift: Neural Decoding Across Superconducting Quantum Processors
 
-This repository is the paper landing page for the AusDM 2026 Research Track study of neural and hybrid quantum-error-correction decoders under temporal and cross-device distribution shift.
+This repository is the paper landing page for a study of neural and hybrid quantum-error-correction decoders under temporal and cross-device distribution shift.
+
+## Authors
+
+- **Shahin Adam** — School of Computer, Data and Mathematical Sciences, Western Sydney University, Sydney, NSW, Australia. [ORCID: 0009-0000-1182-0256](https://orcid.org/0009-0000-1182-0256)
+- **Quang Vinh Nguyen** — School of Computer, Data and Mathematical Sciences, Western Sydney University, Sydney, NSW, Australia. [ORCID: 0000-0002-0815-6224](https://orcid.org/0000-0002-0815-6224)
+- **Weisheng Si** — School of Computer, Data and Mathematical Sciences, Western Sydney University, Sydney, NSW, Australia. [ORCID: 0000-0002-1239-7880](https://orcid.org/0000-0002-1239-7880)
+- **Simeon J. Simoff** — School of Computer, Data and Mathematical Sciences, Western Sydney University, Sydney, NSW, Australia. [ORCID: 0000-0001-9895-4109](https://orcid.org/0000-0001-9895-4109)
 
 ## Abstract
 
@@ -60,7 +67,7 @@ Priority follow-up directions are backend-aware expert selection using label-fre
 
 ## Citation
 
-*Learning Under Hardware Shift: Neural Decoding Across Superconducting Quantum Processors.* AusDM 2026 Research Track submission.
+*Learning Under Hardware Shift: Neural Decoding Across Superconducting Quantum Processors.*
 
 ## Repository contents
 
