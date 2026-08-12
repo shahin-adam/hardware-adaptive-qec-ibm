@@ -16,11 +16,15 @@ The central finding is conditional generalisation: the frozen learned policy rep
 4. Can label-free drift detection and analytical fallback reduce deployment risk?
 5. Do alternative neural architectures or a small quantum-assisted screen improve the confirmed result?
 
-## Public evaluation summary`r`n`r`nThe study compares learned, hybrid and analytical decoding approaches under calibration and processor changes. Only aggregate outcomes are shown here; implementation details, raw data and internal experiment metadata are intentionally omitted.`r`n`r`n## Confirmed results
+## Public evaluation summary
+
+The study compares learned, hybrid and analytical decoding approaches under calibration and processor changes. Only aggregate outcomes are shown here; implementation details, raw data and internal experiment metadata are intentionally omitted.
+
+## Confirmed results
 
 | Test | Result | Interpretation |
 |---|---:|---|
-| Kingston K3-K5 pooled confirmation | **1.34 percentage-point** reduction; **4.0% relative** improvement over MWPM across **259,200 shots** | Primary within-backend result |
+| Kingston K3-K5 pooled confirmation | **1.34 percentage-point** reduction; **4.0% relative** improvement over MWPM | Primary within-backend result |
 | Independent Kingston K7 block | **1.53 percentage-point** reduction | Repeated confirmation on a later block |
 | Kingston cross-domain selector | **1.09-1.50 percentage-point** paired 95% interval | Frozen selector improved on untouched K6 |
 | Fez backend-specific expert | **0.97 percentage-point** improvement on F1 | Hardware-specific expert recovered a gain |
@@ -52,4 +56,8 @@ Priority follow-up directions are backend-aware expert selection using label-fre
 
 *Learning Under Hardware Shift: Neural Decoding Across Superconducting Quantum Processors.* AusDM 2026 Research Track submission.
 
-## Repository contents`r`n`r`nThis repository is a public paper landing page. It intentionally contains only a high-level summary and aggregate percentage results. Implementation details, raw data, credentials and private experiment metadata are not included.`r`n
+## Repository contents
+
+This repository is a public paper landing page. It intentionally contains only a high-level summary and aggregate percentage results. Implementation details, raw data, credentials and private experiment metadata are not included.
+
+
