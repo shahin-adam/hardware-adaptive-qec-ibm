@@ -1,8 +1,6 @@
 # Learning Under Hardware Shift: Neural Decoding Across Superconducting Quantum Processors
 
-This repository contains the anonymous AusDM 2026 Research Track manuscript:
 
-**[Download the paper PDF](QEC_AI_PAPER_AUSDM2026_ANONYMOUS.pdf)**
 
 ## Paper summary
 
@@ -24,8 +22,6 @@ The result supports hardware-domain-aware model selection and selective fallback
 
 ## Scope and limitations
 
-The paper is a surface-code, real-hardware IBM study. It does not claim a universal cross-device decoder, a live qLDPC/BB144 result, or a hardware-independent logical-error improvement. The manuscript is anonymous for double-blind review.
 
 ## Citation
 
-Anonymous AusDM 2026 Research Track submission, â€œLearning Under Hardware Shift: Neural Decoding Across Superconducting Quantum Processors.â€
