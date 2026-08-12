@@ -1,27 +1,47 @@
 # Learning Under Hardware Shift: Neural Decoding Across Superconducting Quantum Processors
 
+This repository accompanies the AusDM 2026 Research Track study of neural and hybrid quantum-error-correction decoders under temporal and cross-device distribution shift.
 
+## Research question
 
-## Paper summary
+Can a learned decoder improve on an exact-circuit MWPM baseline on untouched hardware blocks, and does that improvement transfer to a different superconducting processor without retuning?
 
-The paper studies supervised quantum-error-correction decoding under temporal and cross-device distribution shift. It compares a graph-biased residual transformer, classical analytical decoders, recurrent and convolutional alternatives, tree-based selectors, and a small quantum-assisted screen against an exact-circuit MWPM baseline.
+## Core idea
 
-The proposed residual decoder represents syndrome detection events as `(x, y, t)` tokens and uses graph-biased multi-head attention to learn when MWPM's correction should be changed. A label-free drift guard and XGBoost benefit selectors route uncertain cases to analytical experts.
+The study represents syndrome detection events as structured spatio-temporal `(x, y, t)` tokens and uses a graph-biased residual transformer with multi-head attention to learn when the MWPM correction should be changed. A label-free drift guard detects changes in the hardware distribution. Frozen XGBoost benefit selectors route uncertain cases to complementary analytical decoders rather than forcing one learned model to handle every device.
 
-## Main confirmed findings
+## Evaluation design
 
-- On untouched confirmation blocks from the training backend, the frozen neural decoder reduced logical error by **1.34 percentage points**, or **4.0% relative**, over the exact-circuit MWPM baseline across **259,200 shots**.
-- A fourth independent block produced a **1.53-point** reduction.
-- Transfer without retuning was conditional: the gain shrank on one additional backend and disappeared on another.
-- Backend-specific classical experts recovered the gain where the transferred learned policy failed.
-- The paper reports negative and null outcomes, including the quantum-assisted/QAOA screen, rather than selecting only favorable experiments.
+- Models and policies are frozen before confirmation testing.
+- Training and validation use whole calibration domains, not random shot-level splits.
+- Confirmation uses untouched execution blocks collected later or on different IBM processors.
+- The baseline is an exact-circuit MWPM decoder whose weights are derived from the submitted circuit and calibration snapshot.
+- The study compares neural, tree-based, recurrent, convolutional, classical and quantum-assisted alternatives.
+- Results report positive, negative and null outcomes under the same pre-registered evaluation discipline.
+
+## Main confirmed results
+
+| Evaluation | Result |
+|---|---|
+| Pooled untouched confirmation blocks | 1.34 percentage-point logical-error reduction, 4.0% relative improvement over MWPM across 259,200 shots |
+| Fourth independent block | 1.53 percentage-point reduction |
+| Within-backend generalisation | Improvement reproduced on later blocks from the training backend |
+| Cross-backend transfer | Benefit shrank on one backend and disappeared on another without retuning |
+| Hardware-specific fallback | Classical experts recovered the gain where the transferred learned policy failed |
+| Quantum-assisted screen | Did not clear the pre-registered confirmation bar and is reported as a negative result |
 
 ## Interpretation
 
-The result supports hardware-domain-aware model selection and selective fallback rather than one universally deployed neural decoder. The paperâ€™s contribution is the frozen, block-level evaluation of neural and hybrid decoders under real hardware distribution shift.
+The evidence supports hardware-domain-aware model selection and selective fallback rather than one universally deployed neural decoder. A model can be useful on the hardware distribution it has learned while becoming unreliable after calibration or processor changes.
 
 ## Scope and limitations
 
+This repository documents a real-hardware IBM surface-code study. It does not claim a universal cross-device decoder, a live qLDPC/BB144 result, or hardware-independent logical-error improvement. The work is a reproducible study of distribution shift, model selection and risk-controlled decoder deployment.
 
 ## Citation
 
+*Learning Under Hardware Shift: Neural Decoding Across Superconducting Quantum Processors.* AusDM 2026 Research Track submission.
+
+## Repository status
+
+The landing page contains the paper description only. Experimental data, code and supplementary materials can be added later as separate, versioned releases.
